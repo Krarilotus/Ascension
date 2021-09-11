@@ -1,0 +1,1778 @@
+[
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "minimap unit size",
+        "address": "0xB6FC0",
+        "size": 1,
+        "value": "0x1"
+    },
+    {
+        "description": "Jester visiting assassin",
+        "address": "0xB55924",
+        "size": 1,
+        "value": "0x0"
+    },
+    {
+        "description": "Shield Speed",
+        "address": "0x74E820",
+        "size": 4,
+        "value": "0x1"
+    },
+    {
+        "description": "Battering Ram Health",
+        "address": "0x74EBDC",
+        "size": 4,
+        "value": "0x249f0"
+    },
+    {
+        "description": "HA arrow resist",
+        "address": "0x74ED58",
+        "size": 4,
+        "value": "0x4e2"
+    },
+    {
+        "description": "Euro Archer Health",
+        "address": "0x74EB48",
+        "size": 4,
+        "value": "0x2710"
+    },
+    {
+        "description": "Euro Archer xbow dmg",
+        "address": "0x74EF08",
+        "size": 4,
+        "value": "0x3a98"
+    },
+    {
+        "description": "Arab Archer Health",
+        "address": "0x74EC08",
+        "size": 4,
+        "value": "0x2ee0"
+    },
+    {
+        "description": "Arab Archer xbow dmg",
+        "address": "0x74EFC8",
+        "size": 4,
+        "value": "0x2710"
+    },
+    {
+        "description": "speed_e_sword",
+        "address": "0x74e79c",
+        "size": 4,
+        "value": "0x4"
+    },
+    {
+        "description": "Euro Sword Health",
+        "address": "0x74EB5C",
+        "size": 4,
+        "value": "0x61a8"
+    },
+    {
+        "description": "Macemen Health",
+        "address": "0x74EB58",
+        "size": 4,
+        "value": "0x3a98"
+    },
+    {
+        "description": "Xbow dmg to Maceman",
+        "address": "0x74EF18",
+        "size": 4,
+        "value": "0x1388"
+    },
+    {
+        "description": "Pikes dmg to Knights",
+        "address": "0x750FA0",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "Pikes Health",
+        "address": "0x74EB54",
+        "size": 4,
+        "value": "0xc350"
+    },
+    {
+        "description": "Pikes dmg to HA",
+        "address": "0x751058",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "Xbow dmg to Pikes",
+        "address": "0x74ef14",
+        "size": 4,
+        "value": "0xbb8"
+    },
+    {
+        "description": "Arrow dmg to Pikes",
+        "address": "0x74ec94",
+        "size": 4,
+        "value": "0x3e8"
+    },
+    {
+        "description": "Spears dmg to Knights",
+        "address": "0x750E60",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "Spears dmg to HA",
+        "address": "0x750F18",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "Slinger dmg to Pikeman",
+        "address": "0x74EDD4",
+        "size": 4,
+        "value": "0x1f4"
+    },
+    {
+        "description": "Slinger dmg to Maceman",
+        "address": "0x74EDD8",
+        "size": 4,
+        "value": "0x1f4"
+    },
+    {
+        "description": "Slinger dmg to Swordsman",
+        "address": "0x74EDDC",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "Slinger dmg to Knight",
+        "address": "0x74EDE0",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "arabian archer cost",
+        "address": "0x12F06D",
+        "size": 1,
+        "value": "0x5"
+    },
+    {
+        "description": "arabian archer cost displaycost",
+        "address": "0x6B92CC",
+        "size": 4,
+        "value": "0x4b"
+    },
+    {
+        "description": "Knight dmg to Peasant",
+        "address": "0x7512F4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Burning Person",
+        "address": "0x7512F8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Woodcutter",
+        "address": "0x7512FC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Fletcher",
+        "address": "0x751300",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Tunneler",
+        "address": "0x751304",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Hunter",
+        "address": "0x751308",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Quarry Mason",
+        "address": "0x75130C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Quarry Worker",
+        "address": "0x751310",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Quarry Ox",
+        "address": "0x751314",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Pitchman",
+        "address": "0x751318",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Wheat Farmer",
+        "address": "0x75131C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Hops Farmer",
+        "address": "0x751320",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Apple Farmer",
+        "address": "0x751324",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Dairy Farmer",
+        "address": "0x751328",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Miller",
+        "address": "0x75132C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Baker",
+        "address": "0x751330",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Brewer",
+        "address": "0x751334",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Pole Turner",
+        "address": "0x751338",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Blacksmith",
+        "address": "0x75133C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Armorer",
+        "address": "0x751340",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Tanner",
+        "address": "0x751344",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Archer",
+        "address": "0x751348",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Crossbowman",
+        "address": "0x75134C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Spearman",
+        "address": "0x751350",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Pikeman",
+        "address": "0x751354",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Maceman",
+        "address": "0x751358",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Swordsman",
+        "address": "0x75135C",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "Knight dmg to Knight",
+        "address": "0x751360",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "Knight dmg to Ladderman",
+        "address": "0x751364",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Engineer",
+        "address": "0x751368",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Miner",
+        "address": "0x75136C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Priest",
+        "address": "0x751374",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Healer",
+        "address": "0x751378",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Drunkard",
+        "address": "0x75137C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Innkeeper",
+        "address": "0x751380",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Monk",
+        "address": "0x751384",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to ?",
+        "address": "0x751388",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Catapult",
+        "address": "0x75138C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Mangonel",
+        "address": "0x751394",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Trader",
+        "address": "0x751398",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Horse",
+        "address": "0x75139C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Deer",
+        "address": "0x7513A0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Wolf",
+        "address": "0x7513A4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Rabbit",
+        "address": "0x7513A8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Camel",
+        "address": "0x7513AC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Crow",
+        "address": "0x7513B0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Seagull",
+        "address": "0x7513B4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Cow",
+        "address": "0x7513BC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Dog",
+        "address": "0x7513C0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Fire watch",
+        "address": "0x7513C4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Lord",
+        "address": "0x7513CC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Lady",
+        "address": "0x7513D0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Jester",
+        "address": "0x7513D4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Siege Tower",
+        "address": "0x7513D8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Battering Ram",
+        "address": "0x7513DC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Portable Shield",
+        "address": "0x7513E0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Ballista",
+        "address": "0x7513E4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Chicken",
+        "address": "0x7513E8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Mother",
+        "address": "0x7513EC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Child",
+        "address": "0x7513F0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Juggler",
+        "address": "0x7513F4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Fire Eater",
+        "address": "0x7513F8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Attack Dog",
+        "address": "0x7513FC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Arab archer",
+        "address": "0x751408",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Arab slave",
+        "address": "0x75140C",
+        "size": 4,
+        "value": "0xa0"
+    },
+    {
+        "description": "Knight dmg to Arab slinger",
+        "address": "0x751410",
+        "size": 4,
+        "value": "0x78"
+    },
+    {
+        "description": "Knight dmg to Arab assassin",
+        "address": "0x751414",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Arab horse archer",
+        "address": "0x751418",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Arab swordsman",
+        "address": "0x75141C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Arab fire thrower",
+        "address": "0x751420",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Knight dmg to Arab fire ballista",
+        "address": "0x751424",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Peasant",
+        "address": "0x754B34",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Burning Person",
+        "address": "0x754B38",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Woodcutter",
+        "address": "0x754B3C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Fletcher",
+        "address": "0x754B40",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Tunneler",
+        "address": "0x754B44",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Hunter",
+        "address": "0x754B48",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Quarry Mason",
+        "address": "0x754B4C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Quarry Worker",
+        "address": "0x754B50",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Quarry Ox",
+        "address": "0x754B54",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Pitchman",
+        "address": "0x754B58",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Wheat Farmer",
+        "address": "0x754B5C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Hops Farmer",
+        "address": "0x754B60",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Apple Farmer",
+        "address": "0x754B64",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Dairy Farmer",
+        "address": "0x754B68",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Miller",
+        "address": "0x754B6C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Baker",
+        "address": "0x754B70",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Brewer",
+        "address": "0x754B74",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Pole Turner",
+        "address": "0x754B78",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Blacksmith",
+        "address": "0x754B7C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Armorer",
+        "address": "0x754B80",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Tanner",
+        "address": "0x754B84",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Archer",
+        "address": "0x754B88",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Crossbowman",
+        "address": "0x754B8C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Spearman",
+        "address": "0x754B90",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Pikeman",
+        "address": "0x754B94",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Maceman",
+        "address": "0x754B98",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Swordsman",
+        "address": "0x754B9C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Knight",
+        "address": "0x754BA0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Ladderman",
+        "address": "0x754BA4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Engineer",
+        "address": "0x754BA8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Miner",
+        "address": "0x754BAC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Priest",
+        "address": "0x754BB4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Healer",
+        "address": "0x754BB8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Drunkard",
+        "address": "0x754BBC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Innkeeper",
+        "address": "0x754BC0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Monk",
+        "address": "0x754BC4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to ?",
+        "address": "0x754BC8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Catapult",
+        "address": "0x754BCC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Trebuchet",
+        "address": "0x754BD0",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "Arab assassin dmg to Mangonel",
+        "address": "0x754BD4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Trader",
+        "address": "0x754BD8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Horse",
+        "address": "0x754BDC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Deer",
+        "address": "0x754BE0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Wolf",
+        "address": "0x754BE4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Rabbit",
+        "address": "0x754BE8",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Camel",
+        "address": "0x754BEC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Crow",
+        "address": "0x754BF0",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Seagull",
+        "address": "0x754BF4",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Cow",
+        "address": "0x754BFC",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Dog",
+        "address": "0x754C00",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Fire watch",
+        "address": "0x754C04",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Lord",
+        "address": "0x754C0C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Lady",
+        "address": "0x754C10",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Jester",
+        "address": "0x754C14",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Siege Tower",
+        "address": "0x754C18",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Battering Ram",
+        "address": "0x754C1C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Portable Shield",
+        "address": "0x754C20",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Ballista",
+        "address": "0x754C24",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Chicken",
+        "address": "0x754C28",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Mother",
+        "address": "0x754C2C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Child",
+        "address": "0x754C30",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Juggler",
+        "address": "0x754C34",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Fire Eater",
+        "address": "0x754C38",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Attack Dog",
+        "address": "0x754C3C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Arab archer",
+        "address": "0x754C48",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Arab slave",
+        "address": "0x754C4C",
+        "size": 4,
+        "value": "0xfa"
+    },
+    {
+        "description": "Arab assassin dmg to Arab slinger",
+        "address": "0x754C50",
+        "size": 4,
+        "value": "0xfa"
+    },
+    {
+        "description": "Arab assassin dmg to Arab assassin",
+        "address": "0x754C54",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Arab horse archer",
+        "address": "0x754C58",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Arab swordsman",
+        "address": "0x754C5C",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Arab fire thrower",
+        "address": "0x754C60",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab assassin dmg to Arab fire ballista",
+        "address": "0x754C64",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "Arab swordsman dmg to ",
+        "address": "0x754DB0",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "Arab swordsman dmg to Peasant",
+        "address": "0x754DB4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Burning Person",
+        "address": "0x754DB8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Woodcutter",
+        "address": "0x754DBC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Fletcher",
+        "address": "0x754DC0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Tunneler",
+        "address": "0x754DC4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Hunter",
+        "address": "0x754DC8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Quarry Mason",
+        "address": "0x754DCC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Quarry Worker",
+        "address": "0x754DD0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Quarry Ox",
+        "address": "0x754DD4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Pitchman",
+        "address": "0x754DD8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Wheat Farmer",
+        "address": "0x754DDC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Hops Farmer",
+        "address": "0x754DE0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Apple Farmer",
+        "address": "0x754DE4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Dairy Farmer",
+        "address": "0x754DE8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Miller",
+        "address": "0x754DEC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Baker",
+        "address": "0x754DF0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Brewer",
+        "address": "0x754DF4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Pole Turner",
+        "address": "0x754DF8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Blacksmith",
+        "address": "0x754DFC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Armorer",
+        "address": "0x754E00",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Tanner",
+        "address": "0x754E04",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Archer",
+        "address": "0x754E08",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Crossbowman",
+        "address": "0x754E0C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Spearman",
+        "address": "0x754E10",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Pikeman",
+        "address": "0x754E14",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Maceman",
+        "address": "0x754E18",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Swordsman",
+        "address": "0x754E1C",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "Arab swordsman dmg to Knight",
+        "address": "0x754E20",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "Arab swordsman dmg to Ladderman",
+        "address": "0x754E24",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Engineer",
+        "address": "0x754E28",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Miner",
+        "address": "0x754E2C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Priest",
+        "address": "0x754E34",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Healer",
+        "address": "0x754E38",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Drunkard",
+        "address": "0x754E3C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Innkeeper",
+        "address": "0x754E40",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Monk",
+        "address": "0x754E44",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to ?",
+        "address": "0x754E48",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Catapult",
+        "address": "0x754E4C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Mangonel",
+        "address": "0x754E54",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Trader",
+        "address": "0x754E58",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Horse",
+        "address": "0x754E5C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Deer",
+        "address": "0x754E60",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Wolf",
+        "address": "0x754E64",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Rabbit",
+        "address": "0x754E68",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Camel",
+        "address": "0x754E6C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Crow",
+        "address": "0x754E70",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Seagull",
+        "address": "0x754E74",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Cow",
+        "address": "0x754E7C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Dog",
+        "address": "0x754E80",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Fire watch",
+        "address": "0x754E84",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Lord",
+        "address": "0x754E8C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Lady",
+        "address": "0x754E90",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Jester",
+        "address": "0x754E94",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Siege Tower",
+        "address": "0x754E98",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Battering Ram",
+        "address": "0x754E9C",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Portable Shield",
+        "address": "0x754EA0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Ballista",
+        "address": "0x754EA4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Chicken",
+        "address": "0x754EA8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Mother",
+        "address": "0x754EAC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Child",
+        "address": "0x754EB0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Juggler",
+        "address": "0x754EB4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Fire Eater",
+        "address": "0x754EB8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Attack Dog",
+        "address": "0x754EBC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab archer",
+        "address": "0x754EC8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab slave",
+        "address": "0x754ECC",
+        "size": 4,
+        "value": "0xc8"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab slinger",
+        "address": "0x754ED0",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab assassin",
+        "address": "0x754ED4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab horse archer",
+        "address": "0x754ED8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab swordsman",
+        "address": "0x754EDC",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab fire thrower",
+        "address": "0x754EE0",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Arab swordsman dmg to Arab fire ballista",
+        "address": "0x754EE4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Stone-sell",
+        "address": "0x2173c8",
+        "size": 4,
+        "value": "0x23"
+    },
+    {
+        "description": "Stone-Buy",
+        "address": "0x217360",
+        "size": 4,
+        "value": "0x46"
+    },
+    {
+        "description": "Iron-sell",
+        "address": "0x2173D0",
+        "size": 4,
+        "value": "0x73"
+    },
+    {
+        "description": "Iron-Buy",
+        "address": "0x217368",
+        "size": 4,
+        "value": "0xe1"
+    },
+    {
+        "description": "Hops-sell",
+        "address": "0x2173C4",
+        "size": 4,
+        "value": "0x28"
+    },
+    {
+        "description": "Hops-Buy",
+        "address": "0x21735C",
+        "size": 4,
+        "value": "0x4b"
+    },
+    {
+        "description": "Beer-sell",
+        "address": "0x2173F0",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "Beer-Buy",
+        "address": "0x217388",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Bows-sell",
+        "address": "0x2173FC",
+        "size": 4,
+        "value": "0x4b"
+    },
+    {
+        "description": "Bows-Buy",
+        "address": "0x217394",
+        "size": 4,
+        "value": "0x9b"
+    },
+    {
+        "description": "Maces-sell",
+        "address": "0x21740C",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "Maces-Buy",
+        "address": "0x2173A4",
+        "size": 4,
+        "value": "0x122"
+    },
+    {
+        "description": "Swords-sell",
+        "address": "0x217410",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "Swords-Buy",
+        "address": "0x2173A8",
+        "size": 4,
+        "value": "0x122"
+    },
+    {
+        "description": "Armour-sell",
+        "address": "0x217418",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "Armour-Buy",
+        "address": "0x2173B0",
+        "size": 4,
+        "value": "0x122"
+    },
+    {
+        "description": "buy_spear",
+        "address": "0x21739c",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "sell_spear",
+        "address": "0x217404",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "Armourer Gold",
+        "address": "0x1c230c",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Armourer Stone",
+        "address": "0x1C2300",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "Blacksmith Gold",
+        "address": "0x1C22E4",
+        "size": 4,
+        "value": "0xc8"
+    },
+    {
+        "description": "Blacksmith Stone",
+        "address": "0x1C22D8",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "Poleturner Gold",
+        "address": "0x1C22F8",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Poleturner Stone",
+        "address": "0x1C22EC",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "Tanner Wood",
+        "address": "0x1C2310",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "Tanner Gold",
+        "address": "0x1C2320",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Tanner Stone",
+        "address": "0x1C2314",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "Inn Gold",
+        "address": "0x1C2398",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "Inn Stone",
+        "address": "0x1C238C",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "cost_chapel",
+        "address": "0x1c24a0",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0xfa"
+        ]
+    },
+    {
+        "description": "Church Gold",
+        "address": "0x1C24C4",
+        "size": 4,
+        "value": "0x1f4"
+    },
+    {
+        "description": "Church Stone",
+        "address": "0x1C24B8",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "cost_cathedral",
+        "address": "0x1c24c8",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x3e8"
+        ]
+    },
+    {
+        "description": "TunnelorGold",
+        "address": "0x1C23D4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "TunnelorStone",
+        "address": "0x1C23C8",
+        "size": 4,
+        "value": "0x0"
+    },
+    {
+        "description": "cost_stables",
+        "address": "0x1c248c",
+        "size": 4,
+        "value": [
+            "0x14",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x190"
+        ]
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin cost",
+        "address": "0x12F089",
+        "size": 1,
+        "value": "0x8d"
+    },
+    {
+        "description": "assassin displaycost",
+        "address": "0x6B92D8",
+        "size": 4,
+        "value": "0x3c"
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "firethrower",
+        "address": "0x12F0AD",
+        "size": 1,
+        "value": "0x18"
+    },
+    {
+        "description": "firethrower displaycost",
+        "address": "0x6B92E4",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "firethrower cost",
+        "address": "0x12F0AD",
+        "size": 1,
+        "value": "0x18"
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin cost2",
+        "address": "0x12F08B",
+        "size": 1,
+        "value": "0xf3"
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    }
+]

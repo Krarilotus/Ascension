@@ -1,0 +1,21 @@
+Um an Multiplayer Spielen auf Grhins or Krarilotus streams teilzunehmen, folge der Anleitung in dieser Datei!
+
+Vorbereitungen:
+I.)   Installiere Stronghold Crusader Extreme v1.41 auf deinem PC. Der Ort an dem du es installierst wird von nun an "Installationsverzeichnis" genannt.
+II.)  Solltest du eine alte Version besitzen, solltest du diesen HD-Patch installieren um auf 1.41 upzugraden:
+      http://www.strongholdcrusaderhd.com/patch.html
+III.) Stelle sicher, dass du vollen Schreibzugriff auf dein Installationsverzeichnis besitzt, ansonsten verschiebe den Installationsordner.
+      Dies bedeutet, dass du z.B das Spiel nicht unter Programme (x86) oder PorgramData liegen hast, 
+	  sondern unter z.B. D:\Stronghold Crusader HD\
+
+Installationsschritte:
+0.)   Entpacke die .zip Datei in dein Installationsverzeichnis.
+1.)   Stelle sicher, dass der Ordner UCP-BootstrapMultiplayer (oder GRhin-setup) direkt im Installationsverzeichnis von Stronghold Crusader v1.41 liegt.
+2.)   Gehe in diesen Ordner und doppelklicke auf installSetup.bat. Warte auf die schwarze Konsole, die erscheint und wieder verschwindet.
+      -> Falls das schwarze Fenster offen bleibt nachdem es einen Error zeigt, schreibe delete und drücke Enter.
+3.)   Lade GameRanger herunter, falls du es noch nicht hast und erstelle einen Account.
+4.)   Im GameRanger Hauptfenster gehe auf Edit->Options und wähle Stronghold Crusader Extreme aus.
+      Dann klicke auf Browse... und navigiere zu deinem Installationsverzeichnis, wähle Stronghold_Crusader_Extreme.exe aus.
+	 
+Viel Spaß :D Du bist jetzt in der Lage an Bootstrap-Multiplayer Spielen teilzunehmen.
+Stelle sicher, dass du das Setup updatest, wann immer ein neues erscheint. Auf gehts, suche dir einen passenden Game-Room und los!

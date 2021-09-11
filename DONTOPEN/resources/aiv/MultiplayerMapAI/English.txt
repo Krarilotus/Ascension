@@ -1,0 +1,3 @@
+Krarilotus efficient castle prototypes
+Grants the AI lords somewhat competetent but also almost cheaty castles, with higher efficiency and lower cost.
+[Created by Krarilotus](https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI)

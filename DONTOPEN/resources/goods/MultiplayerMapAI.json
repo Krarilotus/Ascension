@@ -1,0 +1,87 @@
+{
+	"description": {
+		"English"	: "This is the GRhin's stream start resource configuration.",
+		"German"	: "Dies ist die Startkonfiguration für GRhin's Stream.",
+		"Russian"	: "Это конфигурация ресурса запуска потока GRhin",
+		"Polish"	: "To jest konfiguracja zasobu początkowego strumienia GRhina.",
+		"Chinese"	: "这是GRhin的流启动资源配置."
+	},
+	"normal": {
+		"gold": {
+			"human": [1000, 300, 0, 0, 0],
+			"ai": [2000, 2000, 2000, 10000, 200000]
+		},
+		"wood": 100,
+		"hop": 0,
+		"stone": 0,
+		"iron": 0,
+		"pitch": 0,
+		"wheat": 0,
+		"bread": 50,
+		"cheese": 0,
+		"meat": 0,
+		"fruit": 0,
+		"beer": 0,
+		"flour": 0,
+		"bows": 0,
+		"crossbows": 0,
+		"spears": 0,
+		"pikes": 0,
+		"maces": 0,
+		"swords": 0,
+		"leatherarmor": 0,
+		"metalarmor": 0
+	},
+	"crusader": {
+		"gold": {
+			"human": [1000, 300, 0, 0, 0],
+			"ai": [4000, 8000, 10000, 25000, 200000]
+		},
+		"wood": 100,
+		"hop": 0,
+		"stone": 0,
+		"iron": 0,
+		"pitch": 0,
+		"wheat": 0,
+		"bread": 50,
+		"cheese": 0,
+		"meat": 0,
+		"fruit": 0,
+		"beer": 0,
+		"flour": 0,
+		"bows": 0,
+		"crossbows": 0,
+		"spears": 0,
+		"pikes": 0,
+		"maces": 0,
+		"swords": 0,
+		"leatherarmor": 0,
+		"metalarmor": 0
+	},
+	"deathmatch": {
+		"gold": {
+			"human": [8000, 4000, 2000, 1000, 0],
+			"ai": [4000, 8000, 10000, 40000, 200000]
+		},
+		"wood": 100,
+		"hop": 0,
+		"stone": 50,
+		"iron": 0,
+		"pitch": 0,
+		"wheat": 0,
+		"bread": 50,
+		"cheese": 0,
+		"meat": 0,
+		"fruit": 0,
+		"beer": 0,
+		"flour": 0,
+		"bows": 0,
+		"crossbows": 0,
+		"spears": 0,
+		"pikes": 0,
+		"maces": 0,
+		"swords": 0,
+		"leatherarmor": 0,
+		"metalarmor": 0
+	}
+}

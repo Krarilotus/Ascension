@@ -1,0 +1,76 @@
+Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
+
+#Unit Changes:
+###Slingers:
++ 30% DMG increase vs. Maceman
++ 33% DMG increase vs. Knight
++ 33% DMG increase vs. European Swordsman
++ 20% DMG increase vs. Pikeman
+###Arabian Swordsman: 
++ 40% DMG increase
+###Maceman: 
++ 33% HP increase
+###Crossbowman:
+- 20% DMG decrease vs. Maceman
+- 23.3% DMG decrease vs. European Archer
+- 5% DMG decrease vs. Arabian Archer
++ 20% DMG increase vs. Crossbowman
+###Pikeman: 
++ 20% HP increase
++ 100% DMG increase vs. Knight and Horsearcher
+###Spearman:
++ 100% DMG increase vs. Knight and Horsearcher
+###European Swordsman:
++ SPEED increase to Arab Swordsman level
++ 60% HP increase
+###European Archer:
++ 20% HP increase
++ 62.5% DMG increased vs. Horsearcher
+- 20% DMG decrease vs. Pikeman
+###Arabian Archer:
++ Pricereduction by 5 gold to 70 gold
++ 25% HP increase
++ 62.5% DMG increased vs. Horsearcher
+###Horse Archer:
+~ 62.5% DMG increased vs. Horsearcher
+###Knights:
++ 100% DMG increase
+###Assassins:
+~ Same DMG vs Slaves, Slingers, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, FireThrower
+- 37.5% DMG decrease vs. most other units
+- 37.5% DMG decrease vs. Woodcutters
+- 50% DMG decrease vs. Pikeman, Arab Swordsman, 
+- 62.5% DMG decrease vs. Swordsman, Knight
++ 500% DMG increase vs. trebuchets
++ x3 dmg multiplier vs. workers, except woodcutters
+
+#Siege Changes:
+###Battering Ram:
++ 60% HP increase
+###Shields:
+- SPEED decrease to Pikeman speed
+
+#Building changes:
+- Inn: costchanges -100 gold, +20 stone
++ Blacksmith: costchanges -125 gold, +5 stone
++ Poleturner: costchanges -50 gold, +5 stone
++ Tanner: costchanges -50 gold, +5 stone,
+- Armourer: costchanges +50 gold, +10 stone
++ Chapel: costchanges -175 gold, +10 stone
++ Church: costchanges -350 gold, +25stone
+- Cathedral: -250Gold, costchanges +40 stone
++ Tunnelers Guild: costchange -100gold, +5stone
++ Stables: -200 Gold, + 20 Stone
+
+#Resource changes:
+~ Hops - buy 120, sell 60
+~ Beer - buy 160, sell 80
+~ Stone - buy 50, sell 25
+~ Iron - buy 260, sell 130
+
+#Weapon changes:
+~ Bows: buy 180, sell 90
+~ Maces: buy 330, sell 165
+~ Swords: buy 350, sell 175
+~ Armour: buy 390, sell 190
+~ Spears: buy 90, sell 45
