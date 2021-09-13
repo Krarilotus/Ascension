@@ -1774,5 +1774,625 @@
     {
         "description": "assassin_rally_speed",
         "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "mang_dmgs_shield",
+        "address": "0x132236",
+        "size": 4,
+        "value": "0x5dc"
+    },
+    {
+        "description": "mang_dmgs_trebuchet",
+        "address": "0x132286",
+        "size": 4,
+        "value": "0x1388"
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "cost_s_shield",
+        "address": "0x1c2860",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x5"
+        ]
+    },
+    {
+        "description": "hp_s_trebuchet",
+        "address": "0x74eb90",
+        "size": 4,
+        "value": "0x2ee0"
+    },
+    {
+        "description": "cost_s_trebuchet",
+        "address": "0x1c2824",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x96"
+        ]
+    },
+    {
+        "description": "treb_dmg_building",
+        "address": "0x7CE5",
+        "size": 4,
+        "value": "0x3c"
+    },
+    {
+        "description": "treb_collatdmg_building_penalty",
+        "address": "0x7CEB",
+        "size": 1,
+        "value": "0xe2"
+    },
+    {
+        "description": "catapult_initial_stone",
+        "address": "0x13EA05",
+        "size": 2,
+        "value": "0x14"
+    },
+    {
+        "description": "cost_s_catapult",
+        "address": "0x1c2810",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x96"
+        ]
+    },
+    {
+        "description": "cost_s_siegetower",
+        "address": "0x1c284c",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x96"
+        ]
+    },
+    {
+        "description": "bal_and_fbal_dmgs_shield",
+        "address": "0x1322DF",
+        "size": 4,
+        "value": "0x1f4"
+    },
+    {
+        "description": "bal_and_fbal_dmgs_ballista",
+        "address": "0x1322EC",
+        "size": 4,
+        "value": "0x7d0"
+    },
+    {
+        "description": "bal_and_fbal_dmgs_smangonel",
+        "address": "0x132306",
+        "size": 4,
+        "value": "0x7d0"
+    },
+    {
+        "description": "bal_and_fbal_dmgs_catapult",
+        "address": "0x132313",
+        "size": 4,
+        "value": "0x9c4"
+    },
+    {
+        "description": "bal_and_fbal_dmgs_trebuchet",
+        "address": "0x132320",
+        "size": 4,
+        "value": "0xfa0"
+    },
+    {
+        "description": "bal_and_fbal dmg vs everything else, compared to siege tower, substracted from int32 max",
+        "address": "0x13233E",
+        "size": 4,
+        "value": "0xffffd8f0"
+    },
+    {
+        "description": "cost_s_fballista",
+        "address": "0x1c2608",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x96"
+        ]
+    },
+    {
+        "description": "cost_s_batteringram",
+        "address": "0x1c2838",
+        "size": 4,
+        "value": [
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x96"
+        ]
+    },
+    {
+        "description": "melee_peasant_vs_s_batteringram",
+        "address": "0x74f21c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_burningman_vs_s_batteringram",
+        "address": "0x74f35c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_woodcutter_vs_s_batteringram",
+        "address": "0x74f49c",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_fletcher_vs_s_batteringram",
+        "address": "0x74f5dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_tunneler_vs_s_batteringram",
+        "address": "0x74f71c",
+        "size": 4,
+        "value": "0x19"
+    },
+    {
+        "description": "melee_hunter_vs_s_batteringram",
+        "address": "0x74f85c",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "melee_quarry_mason_vs_s_batteringram",
+        "address": "0x74f99c",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_quarry_grunt_vs_s_batteringram",
+        "address": "0x74fadc",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_quarry_ox_vs_s_batteringram",
+        "address": "0x74fc1c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_pitchman_vs_s_batteringram",
+        "address": "0x74fd5c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_farmer_wheat_vs_s_batteringram",
+        "address": "0x74fe9c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_farmer_hops_vs_s_batteringram",
+        "address": "0x74ffdc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_farmer_apples_vs_s_batteringram",
+        "address": "0x75011c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_farmer_cattle_vs_s_batteringram",
+        "address": "0x75025c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_miller_vs_s_batteringram",
+        "address": "0x75039c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_baker_vs_s_batteringram",
+        "address": "0x7504dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_brewer_vs_s_batteringram",
+        "address": "0x75061c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_poleturner_vs_s_batteringram",
+        "address": "0x75075c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_blacksmith_vs_s_batteringram",
+        "address": "0x75089c",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_armourer_vs_s_batteringram",
+        "address": "0x7509dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_tanner_vs_s_batteringram",
+        "address": "0x750b1c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_e_archer_vs_s_batteringram",
+        "address": "0x750c5c",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "melee_e_xbow_vs_s_batteringram",
+        "address": "0x750d9c",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "melee_e_spear_vs_s_batteringram",
+        "address": "0x750edc",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_e_pike_vs_s_batteringram",
+        "address": "0x75101c",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_e_mace_vs_s_batteringram",
+        "address": "0x75115c",
+        "size": 4,
+        "value": "0x4b"
+    },
+    {
+        "description": "melee_e_sword_vs_s_batteringram",
+        "address": "0x75129c",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "melee_e_knight_vs_s_batteringram",
+        "address": "0x7513dc",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "melee_e_ladder_vs_s_batteringram",
+        "address": "0x75151c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_e_engineer_vs_s_batteringram",
+        "address": "0x75165c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_miner1_vs_s_batteringram",
+        "address": "0x75179c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_miner2_vs_s_batteringram",
+        "address": "0x7518dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_priest_vs_s_batteringram",
+        "address": "0x751a1c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_healer_vs_s_batteringram",
+        "address": "0x751b5c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_drunkard_vs_s_batteringram",
+        "address": "0x751c9c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_innkeeper_vs_s_batteringram",
+        "address": "0x751ddc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_e_monk_vs_s_batteringram",
+        "address": "0x751f1c",
+        "size": 4,
+        "value": "0x32"
+    },
+    {
+        "description": "melee_???1_vs_s_batteringram",
+        "address": "0x75205c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_catapult_vs_s_batteringram",
+        "address": "0x75219c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_trebuchet_vs_s_batteringram",
+        "address": "0x7522dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_mangonel_vs_s_batteringram",
+        "address": "0x75241c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_trader_vs_s_batteringram",
+        "address": "0x75255c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_trader_horse_vs_s_batteringram",
+        "address": "0x75269c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_deer_vs_s_batteringram",
+        "address": "0x7527dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_lion_vs_s_batteringram",
+        "address": "0x75291c",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "melee_rabbit_vs_s_batteringram",
+        "address": "0x752a5c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_camel_vs_s_batteringram",
+        "address": "0x752b9c",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "melee_crow_vs_s_batteringram",
+        "address": "0x752cdc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_seagull_vs_s_batteringram",
+        "address": "0x752e1c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_siegetent_vs_s_batteringram",
+        "address": "0x752f5c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_cow_vs_s_batteringram",
+        "address": "0x75309c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_dog_vs_s_batteringram",
+        "address": "0x7531dc",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "melee_fireman_vs_s_batteringram",
+        "address": "0x75331c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_ghost_vs_s_batteringram",
+        "address": "0x75345c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_lord_vs_s_batteringram",
+        "address": "0x75359c",
+        "size": 4,
+        "value": "0x96"
+    },
+    {
+        "description": "melee_lady_vs_s_batteringram",
+        "address": "0x7536dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_chester_vs_s_batteringram",
+        "address": "0x75381c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_tower_vs_s_batteringram",
+        "address": "0x75395c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_batteringram_vs_s_batteringram",
+        "address": "0x753a9c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_shield_vs_s_batteringram",
+        "address": "0x753bdc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_s_ballista_vs_s_batteringram",
+        "address": "0x753d1c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_chicken_vs_s_batteringram",
+        "address": "0x753e5c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_mother_vs_s_batteringram",
+        "address": "0x753f9c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_child_vs_s_batteringram",
+        "address": "0x7540dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_juggler_vs_s_batteringram",
+        "address": "0x75421c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_fireeater_vs_s_batteringram",
+        "address": "0x75435c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_???2_vs_s_batteringram",
+        "address": "0x7545dc",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_???3_vs_s_batteringram",
+        "address": "0x75471c",
+        "size": 4,
+        "value": "0x2"
+    },
+    {
+        "description": "melee_a_archer_vs_s_batteringram",
+        "address": "0x75485c",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "melee_a_slave_vs_s_batteringram",
+        "address": "0x75499c",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "melee_a_slinger_vs_s_batteringram",
+        "address": "0x754adc",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_a_assassin_vs_s_batteringram",
+        "address": "0x754c1c",
+        "size": 4,
+        "value": "0x50"
+    },
+    {
+        "description": "melee_a_harcher_vs_s_batteringram",
+        "address": "0x754d5c",
+        "size": 4,
+        "value": "0x14"
+    },
+    {
+        "description": "melee_a_sword_vs_s_batteringram",
+        "address": "0x754e9c",
+        "size": 4,
+        "value": "0x64"
+    },
+    {
+        "description": "melee_a_firethrower_vs_s_batteringram",
+        "address": "0x754fdc",
+        "size": 4,
+        "value": "0xf"
+    },
+    {
+        "description": "melee_s_fballista_vs_s_batteringram",
+        "address": "0x75511c",
+        "size": 4,
+        "value": "0xa"
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
     }
 ]

@@ -1,7 +1,7 @@
 Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 
 #Unit Changes:
-###Slingers:
+###Slinger:
 + 30% DMG increase vs. Maceman
 + 33% DMG increase vs. Knight
 + 33% DMG increase vs. European Swordsman
@@ -25,30 +25,57 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + 60% HP increase
 ###European Archer:
 + 20% HP increase
-+ 62.5% DMG increased vs. Horsearcher
++ 62.5% DMG increase vs. Horsearcher
 - 20% DMG decrease vs. Pikeman
 ###Arabian Archer:
 + Pricereduction by 5 gold to 70 gold
 + 25% HP increase
-+ 62.5% DMG increased vs. Horsearcher
++ 62.5% DMG increase vs. Horsearcher
 ###Horse Archer:
-~ 62.5% DMG increased vs. Horsearcher
-###Knights:
+~ 62.5% DMG increase vs. Horsearcher
+###Knight:
 + 100% DMG increase
-###Assassins:
-~ Same DMG vs Slaves, Slingers, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, FireThrower
+###Assassin:
+~ Same DMG vs Slaves, Slinger, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, FireThrower
 - 37.5% DMG decrease vs. most other units
-- 37.5% DMG decrease vs. Woodcutters
+- 37.5% DMG decrease vs. Woodcutter
 - 50% DMG decrease vs. Pikeman, Arab Swordsman, 
 - 62.5% DMG decrease vs. Swordsman, Knight
-+ 500% DMG increase vs. trebuchets
-+ x3 dmg multiplier vs. workers, except woodcutters
++ 500% DMG increase vs. Trebuchet
++ x3 dmg multiplier vs. Workers, except Woodcutter
 
 #Siege Changes:
 ###Battering Ram:
 + 60% HP increase
++ 1/5th DMG taken in melee combat by all units except Slave
+- 10000% DMG taken by Slave
+- costchanges +5 Iron
 ###Shields:
 - SPEED decrease to Pikeman speed
+- costchanges -5 gold, +6 wood
+###Mangonel:
+- 33% DMG decrease vs. Shield
+- 50% DMG decrease vs. Trebuchet
+###Trebuchet:
++ 25% HP increase
++ 20% DMG increase vs Building
+- start with 10 isntead of 10 initial rock ammunition
+###Catapult:
++ costchanges -50 gold, +5 stone
+- start with 10 instead of 20 initial rock ammunition
+###Siege Tower:
++ costchanges -150 gold, +50 wood
+###Tower Ballista
++ 100% DMG increase vs. Shield
++ 60% DMG increase vs. Catapult
++ 50% DMG increase vs. Trebuchet, Mangonel, Tower Ballista
++ 50% DMG increase vs. Non-Siege Units
+###Fire Ballista:
++ 100% DMG increase vs. Shield
++ 60% DMG increase vs. Catapult
++ 50% DMG increase vs. Trebuchet, Mangonel, Tower Ballista
++ 50% DMG increase vs. Non-Siege Units
+- costchanges -50 Gold, +5 Pitch
 
 #Building changes:
 - Inn: costchanges -100 gold, +20 stone

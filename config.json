@@ -24,12 +24,6 @@
         "value": 4
     },
     {
-        "description": "Battering Ram Health",
-        "address": "0x74EBDC",
-        "size": 4,
-        "value": 240000
-    },
-    {
         "description": "HA arrow resist",
         "address": "0x74ED58",
         "size": 4,
@@ -167,6 +161,253 @@
     },
 	
 	
+	
+	{
+        "description": "mang_dmgs_shield",
+        "address": "0x132236",
+        "size": 4,
+        "value": 1000
+    },
+	{
+        "description": "cost_s_shield",
+        "address": "0x1c2860",
+        "size": 4,
+        "value": [
+            6,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+	
+	
+	
+    {
+        "description": "mang_dmgs_trebuchet",
+        "address": "0x132286",
+        "size": 4,
+        "value": 2500
+    },
+	{
+        "description": "hp_s_trebuchet",
+        "address": "0x74eb90",
+        "size": 4,
+        "value": 15000
+    },
+	{
+        "description": "cost_s_trebuchet",
+        "address": "0x1c2824",
+        "size": 4,
+        "value": [
+            0,
+            10,
+            0,
+            0,
+            150
+        ]
+    },
+    {
+        "description": "treb_dmg_building",
+        "address": "0x7CE5",
+        "size": 4,
+        "value": 72
+    },
+    {
+        "description": "treb_collatdmg_building_penalty",
+        "address": "0x7CEB",
+        "size": 1,
+        "value": 220
+    },
+	
+	
+	
+	
+	{
+        "description": "catapult_initial_stone",
+        "address": "0x13EA05",
+        "size": 2,
+        "value": 10
+    },
+    {
+        "description": "cost_s_catapult",
+        "address": "0x1c2810",
+        "size": 4,
+        "value": [
+            0,
+            5,
+            0,
+            0,
+            100
+        ]
+    },
+	
+	
+	
+    {
+        "description": "cost_s_siegetower",
+        "address": "0x1c2838",
+        "size": 4,
+        "value": [
+            50,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+	
+	
+	
+    {
+        "description": "bal_and_fbal_dmgs_shield",
+        "address": "0x1322DF",
+        "size": 4,
+        "value": 1000
+    },
+    {
+        "description": "bal_and_fbal_dmgs_ballista",
+        "address": "0x1322EC",
+        "size": 4,
+        "value": 3000
+    },
+    {
+        "description": "bal_and_fbal_dmgs_smangonel",
+        "address": "0x132306",
+        "size": 4,
+        "value": 3000
+    },
+    {
+        "description": "bal_and_fbal_dmgs_catapult",
+        "address": "0x132313",
+        "size": 4,
+        "value": 4000
+    },
+    {
+        "description": "bal_and_fbal_dmgs_trebuchet",
+        "address": "0x132320",
+        "size": 4,
+        "value": 6000
+    },
+    {
+        "description": "bal_and_fbal dmg vs everything else, compared to siege tower, substracted from int32 max",
+        "address": "0x13233E",
+        "size": 4,
+        "value": 4294962296
+    },
+    {
+        "description": "cost_s_fballista",
+        "address": "0x1c2608",
+        "size": 4,
+        "value": [
+            0,
+            0,
+            0,
+            5,
+            100
+        ]
+    },
+	
+	
+	
+	
+	
+    {
+        "description": "Battering Ram Health",
+        "address": "0x74EBDC",
+        "size": 4,
+        "value": 240000
+    },
+	{
+        "description": "cost_s_batteringram",
+        "address": "0x1c284c",
+        "size": 4,
+        "value": [
+            0,
+            0,
+            5,
+            0,
+            150
+        ]
+    },
+    { "description": "melee_peasant_vs_s_batteringram", "address": "0x74f21c", "size": 4, "value": 2},
+    { "description": "melee_burningman_vs_s_batteringram", "address": "0x74f35c", "size": 4, "value": 2},
+    { "description": "melee_woodcutter_vs_s_batteringram", "address": "0x74f49c", "size": 4, "value": 4},
+    { "description": "melee_fletcher_vs_s_batteringram", "address": "0x74f5dc", "size": 4, "value": 2},
+    { "description": "melee_tunneler_vs_s_batteringram", "address": "0x74f71c", "size": 4, "value": 5},
+    { "description": "melee_hunter_vs_s_batteringram", "address": "0x74f85c", "size": 4, "value": 2},
+    { "description": "melee_quarry_mason_vs_s_batteringram", "address": "0x74f99c", "size": 4, "value": 4},
+    { "description": "melee_quarry_grunt_vs_s_batteringram", "address": "0x74fadc", "size": 4, "value": 4},
+    { "description": "melee_quarry_ox_vs_s_batteringram", "address": "0x74fc1c", "size": 4, "value": 2},
+    { "description": "melee_pitchman_vs_s_batteringram", "address": "0x74fd5c", "size": 4, "value": 2},
+    { "description": "melee_farmer_wheat_vs_s_batteringram", "address": "0x74fe9c", "size": 4, "value": 2},
+    { "description": "melee_farmer_hops_vs_s_batteringram", "address": "0x74ffdc", "size": 4, "value": 2},
+    { "description": "melee_farmer_apples_vs_s_batteringram", "address": "0x75011c", "size": 4, "value": 2},
+    { "description": "melee_farmer_cattle_vs_s_batteringram", "address": "0x75025c", "size": 4, "value": 2},
+    { "description": "melee_miller_vs_s_batteringram", "address": "0x75039c", "size": 4, "value": 2},
+    { "description": "melee_baker_vs_s_batteringram", "address": "0x7504dc", "size": 4, "value": 2},
+    { "description": "melee_brewer_vs_s_batteringram", "address": "0x75061c", "size": 4, "value": 2},
+    { "description": "melee_poleturner_vs_s_batteringram", "address": "0x75075c", "size": 4, "value": 2},
+    { "description": "melee_blacksmith_vs_s_batteringram", "address": "0x75089c", "size": 4, "value": 4},
+    { "description": "melee_armourer_vs_s_batteringram", "address": "0x7509dc", "size": 4, "value": 2},
+    { "description": "melee_tanner_vs_s_batteringram", "address": "0x750b1c", "size": 4, "value": 2},
+    { "description": "melee_e_archer_vs_s_batteringram", "address": "0x750c5c", "size": 4, "value": 2},
+    { "description": "melee_e_xbow_vs_s_batteringram", "address": "0x750d9c", "size": 4, "value": 2},
+    { "description": "melee_e_spear_vs_s_batteringram", "address": "0x750edc", "size": 4, "value": 4},
+    { "description": "melee_e_pike_vs_s_batteringram", "address": "0x75101c", "size": 4, "value": 4},
+    { "description": "melee_e_mace_vs_s_batteringram", "address": "0x75115c", "size": 4, "value": 15},
+    { "description": "melee_e_sword_vs_s_batteringram", "address": "0x75129c", "size": 4, "value": 20},
+    { "description": "melee_e_knight_vs_s_batteringram", "address": "0x7513dc", "size": 4, "value": 32},
+    { "description": "melee_e_ladder_vs_s_batteringram", "address": "0x75151c", "size": 4, "value": 2},
+    { "description": "melee_e_engineer_vs_s_batteringram", "address": "0x75165c", "size": 4, "value": 2},
+    { "description": "melee_miner1_vs_s_batteringram", "address": "0x75179c", "size": 4, "value": 2},
+    { "description": "melee_miner2_vs_s_batteringram", "address": "0x7518dc", "size": 4, "value": 2},
+    { "description": "melee_priest_vs_s_batteringram", "address": "0x751a1c", "size": 4, "value": 2},
+    { "description": "melee_healer_vs_s_batteringram", "address": "0x751b5c", "size": 4, "value": 2},
+    { "description": "melee_drunkard_vs_s_batteringram", "address": "0x751c9c", "size": 4, "value": 2},
+    { "description": "melee_innkeeper_vs_s_batteringram", "address": "0x751ddc", "size": 4, "value": 2},
+    { "description": "melee_e_monk_vs_s_batteringram", "address": "0x751f1c", "size": 4, "value": 10},
+    { "description": "melee_???1_vs_s_batteringram", "address": "0x75205c", "size": 4, "value": 2},
+    { "description": "melee_s_catapult_vs_s_batteringram", "address": "0x75219c", "size": 4, "value": 2},
+    { "description": "melee_s_trebuchet_vs_s_batteringram", "address": "0x7522dc", "size": 4, "value": 2},
+    { "description": "melee_s_mangonel_vs_s_batteringram", "address": "0x75241c", "size": 4, "value": 2},
+    { "description": "melee_trader_vs_s_batteringram", "address": "0x75255c", "size": 4, "value": 2},
+    { "description": "melee_trader_horse_vs_s_batteringram", "address": "0x75269c", "size": 4, "value": 2},
+    { "description": "melee_deer_vs_s_batteringram", "address": "0x7527dc", "size": 4, "value": 2},
+    { "description": "melee_lion_vs_s_batteringram", "address": "0x75291c", "size": 4, "value": 20},
+    { "description": "melee_rabbit_vs_s_batteringram", "address": "0x752a5c", "size": 4, "value": 2},
+    { "description": "melee_camel_vs_s_batteringram", "address": "0x752b9c", "size": 4, "value": 20},
+    { "description": "melee_crow_vs_s_batteringram", "address": "0x752cdc", "size": 4, "value": 2},
+    { "description": "melee_seagull_vs_s_batteringram", "address": "0x752e1c", "size": 4, "value": 2},
+    { "description": "melee_siegetent_vs_s_batteringram", "address": "0x752f5c", "size": 4, "value": 2},
+    { "description": "melee_cow_vs_s_batteringram", "address": "0x75309c", "size": 4, "value": 2},
+    { "description": "melee_dog_vs_s_batteringram", "address": "0x7531dc", "size": 4, "value": 2},
+    { "description": "melee_fireman_vs_s_batteringram", "address": "0x75331c", "size": 4, "value": 2},
+    { "description": "melee_ghost_vs_s_batteringram", "address": "0x75345c", "size": 4, "value": 2},
+    { "description": "melee_lord_vs_s_batteringram", "address": "0x75359c", "size": 4, "value": 30},
+    { "description": "melee_lady_vs_s_batteringram", "address": "0x7536dc", "size": 4, "value": 2},
+    { "description": "melee_chester_vs_s_batteringram", "address": "0x75381c", "size": 4, "value": 2},
+    { "description": "melee_s_tower_vs_s_batteringram", "address": "0x75395c", "size": 4, "value": 2},
+    { "description": "melee_s_batteringram_vs_s_batteringram", "address": "0x753a9c", "size": 4, "value": 2},
+    { "description": "melee_s_shield_vs_s_batteringram", "address": "0x753bdc", "size": 4, "value": 2},
+    { "description": "melee_s_ballista_vs_s_batteringram", "address": "0x753d1c", "size": 4, "value": 2},
+    { "description": "melee_chicken_vs_s_batteringram", "address": "0x753e5c", "size": 4, "value": 2},
+    { "description": "melee_mother_vs_s_batteringram", "address": "0x753f9c", "size": 4, "value": 2},
+    { "description": "melee_child_vs_s_batteringram", "address": "0x7540dc", "size": 4, "value": 2},
+    { "description": "melee_juggler_vs_s_batteringram", "address": "0x75421c", "size": 4, "value": 2},
+    { "description": "melee_fireeater_vs_s_batteringram", "address": "0x75435c", "size": 4, "value": 2},
+    { "description": "melee_dog_vs_s_batteringram", "address": "0x75449c", "size": 4, "value": 10},
+    { "description": "melee_???2_vs_s_batteringram", "address": "0x7545dc", "size": 4, "value": 2},
+    { "description": "melee_???3_vs_s_batteringram", "address": "0x75471c", "size": 4, "value": 2},
+    { "description": "melee_a_archer_vs_s_batteringram", "address": "0x75485c", "size": 4, "value": 2},
+    { "description": "melee_a_slave_vs_s_batteringram", "address": "0x75499c", "size": 4, "value": 100},
+    { "description": "melee_a_slinger_vs_s_batteringram", "address": "0x754adc", "size": 4, "value": 4},
+    { "description": "melee_a_assassin_vs_s_batteringram", "address": "0x754c1c", "size": 4, "value": 10},
+    { "description": "melee_a_harcher_vs_s_batteringram", "address": "0x754d5c", "size": 4, "value": 4},
+    { "description": "melee_a_sword_vs_s_batteringram", "address": "0x754e9c", "size": 4, "value": 28},
+    { "description": "melee_a_firethrower_vs_s_batteringram", "address": "0x754fdc", "size": 4, "value": 3},
+    { "description": "melee_s_fballista_vs_s_batteringram", "address": "0x75511c", "size": 4, "value": 2},
+
     { "description": "Knight dmg to Peasant", "address": "0x7512F4", "size": 4, "value": 160 },
     { "description": "Knight dmg to Burning Person", "address": "0x7512F8", "size": 4, "value": 160 },
     { "description": "Knight dmg to Woodcutter", "address": "0x7512FC", "size": 4, "value": 160 },
@@ -222,7 +463,6 @@
     { "description": "Knight dmg to Lady", "address": "0x7513D0", "size": 4, "value": 160 },
     { "description": "Knight dmg to Jester", "address": "0x7513D4", "size": 4, "value": 160 },
     { "description": "Knight dmg to Siege Tower", "address": "0x7513D8", "size": 4, "value": 160 },
-    { "description": "Knight dmg to Battering Ram", "address": "0x7513DC", "size": 4, "value": 160 },
     { "description": "Knight dmg to Portable Shield", "address": "0x7513E0", "size": 4, "value": 160 },
     { "description": "Knight dmg to Ballista", "address": "0x7513E4", "size": 4, "value": 160 },
     { "description": "Knight dmg to Chicken", "address": "0x7513E8", "size": 4, "value": 160 },
@@ -296,7 +536,6 @@
     { "description": "Arab assassin dmg to Lady", "address": "0x754C10", "size": 4, "value": 50 },
     { "description": "Arab assassin dmg to Jester", "address": "0x754C14", "size": 4, "value": 240 },
     { "description": "Arab assassin dmg to Siege Tower", "address": "0x754C18", "size": 4, "value": 50 },
-    { "description": "Arab assassin dmg to Battering Ram", "address": "0x754C1C", "size": 4, "value": 50 },
     { "description": "Arab assassin dmg to Portable Shield", "address": "0x754C20", "size": 4, "value": 50 },
     { "description": "Arab assassin dmg to Ballista", "address": "0x754C24", "size": 4, "value": 50 },
     { "description": "Arab assassin dmg to Chicken", "address": "0x754C28", "size": 4, "value": 50 },
@@ -370,7 +609,6 @@
     { "description": "Arab swordsman dmg to Lady", "address": "0x754E90", "size": 4, "value": 140 },
     { "description": "Arab swordsman dmg to Jester", "address": "0x754E94", "size": 4, "value": 140 },
     { "description": "Arab swordsman dmg to Siege Tower", "address": "0x754E98", "size": 4, "value": 140 },
-    { "description": "Arab swordsman dmg to Battering Ram", "address": "0x754E9C", "size": 4, "value": 140 },
     { "description": "Arab swordsman dmg to Portable Shield", "address": "0x754EA0", "size": 4, "value": 140 },
     { "description": "Arab swordsman dmg to Ballista", "address": "0x754EA4", "size": 4, "value": 140 },
     { "description": "Arab swordsman dmg to Chicken", "address": "0x754EA8", "size": 4, "value": 140 },
