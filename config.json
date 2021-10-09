@@ -47,6 +47,12 @@
         "size": 4,
         "value": 15000
     },
+	{
+        "description": "arrow_dmga_archer",
+        "address": "0x74ed48",
+        "size": 4,
+        "value": 1700
+    },
     {
         "description": "Arab Archer xbow dmg",
         "address": "0x74EFC8",
@@ -157,7 +163,7 @@
         "description": "arabian archer cost displaycost",
         "address": "0x6B92CC",
         "size": 4,
-        "value": 60
+        "value": 70
     },
 	
 	
