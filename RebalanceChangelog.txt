@@ -8,6 +8,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + 20% DMG increase vs. Pikeman
 ###Arabian Swordsman: 
 + 40% DMG increase
++ SPEED increase to Pikeman level
 ###Maceman: 
 + 33% HP increase
 ###Crossbowman:
@@ -21,14 +22,14 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 ###Spearman:
 + 100% DMG increase vs. Knight and Horsearcher
 ###European Swordsman:
-+ SPEED increase to Arab Swordsman level
++ SPEED increase to previous Arab Swordsman level
 + 60% HP increase
 ###European Archer:
 + 20% HP increase
 + 62.5% DMG increase vs. Horsearcher
 - 20% DMG decrease vs. Pikeman
 ###Arabian Archer:
-+ Pricereduction by 5 gold to 70 gold
++ Pricereduction by 15 gold to 60 gold
 + 25% HP increase
 + 62.5% DMG increase vs. Horsearcher
 ###Horse Archer:
@@ -46,10 +47,9 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 
 #Siege Changes:
 ###Battering Ram:
-+ 60% HP increase
 + 1/5th DMG taken in melee combat by all units except Slave
 - 10000% DMG taken by Slave
-- costchanges +5 Iron
+- costchanges +2 Iron, -50 gold
 ###Shields:
 - SPEED decrease to Pikeman speed
 - costchanges -5 gold, +6 wood
@@ -93,10 +93,10 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 ~ Hops - buy 120, sell 60
 ~ Beer - buy 160, sell 80
 ~ Stone - buy 50, sell 25
-~ Iron - buy 260, sell 130
+~ Iron - buy 250, sell 130
 
 #Weapon changes:
-~ Bows: buy 180, sell 90
+~ Bows: buy 150, sell 90
 ~ Maces: buy 330, sell 165
 ~ Swords: buy 350, sell 175
 ~ Armour: buy 390, sell 190

@@ -66,7 +66,7 @@
         "value": 40000
     },
     {
-        "description": "Macemen Health",
+        "description": "Maceman Health",
         "address": "0x74EB58",
         "size": 4,
         "value": 20000
@@ -151,13 +151,13 @@
         "description": "arabian archer cost",
         "address": "0x12F06D",
         "size": 1,
-        "value": 0
+        "value": -10
     },
     {
         "description": "arabian archer cost displaycost",
         "address": "0x6B92CC",
         "size": 4,
-        "value": 70
+        "value": 60
     },
 	
 	
@@ -316,7 +316,7 @@
         "description": "Battering Ram Health",
         "address": "0x74EBDC",
         "size": 4,
-        "value": 240000
+        "value": 150000
     },
 	{
         "description": "cost_s_batteringram",
@@ -325,9 +325,9 @@
         "value": [
             0,
             0,
-            5,
+            2,
             0,
-            150
+            100
         ]
     },
     { "description": "melee_peasant_vs_s_batteringram", "address": "0x74f21c", "size": 4, "value": 2},
@@ -626,7 +626,12 @@
     { "description": "Arab swordsman dmg to Arab fire thrower", "address": "0x754EE0", "size": 4, "value": 140 },
     { "description": "Arab swordsman dmg to Arab fire ballista", "address": "0x754EE4", "size": 4, "value": 140 },
     
-
+    {
+        "description": "speed_a_sword",
+        "address": "0x74e85c",
+        "size": 4,
+        "value": 2
+    },
 
 
     {
@@ -651,7 +656,7 @@
         "description": "Iron-Buy",
         "address": "0x217368",
         "size": 4,
-        "value": 260
+        "value": 250
     },
     {
         "description": "Hops-sell",
@@ -689,7 +694,7 @@
         "description": "Bows-Buy",
         "address": "0x217394",
         "size": 4,
-        "value": 180
+        "value": 150
     },
     {
         "description": "Maces-sell",
