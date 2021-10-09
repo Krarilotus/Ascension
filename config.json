@@ -151,7 +151,7 @@
         "description": "arabian archer cost",
         "address": "0x12F06D",
         "size": 1,
-        "value": -10
+        "value": 0
     },
     {
         "description": "arabian archer cost displaycost",
