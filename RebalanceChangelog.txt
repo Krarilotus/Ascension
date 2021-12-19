@@ -29,7 +29,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + 62.5% DMG increase vs. Horsearcher
 - 20% DMG decrease vs. Pikeman
 ###Arabian Archer:
-+ Pricereduction by 5 gold to 70 gold
++ Pricereduction by 10 gold to 65 gold
 + 25% HP increase
 + 62.5% DMG increase vs. Horsearcher
 + 15% DMG less taken by Arrows
