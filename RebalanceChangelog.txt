@@ -1,44 +1,41 @@
 Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 
 #Unit Changes:
-###Slinger:
-+ 30% DMG increase vs. Maceman
-+ 33% DMG increase vs. Knight
-+ 33% DMG increase vs. European Swordsman
-+ 20% DMG increase vs. Pikeman
 ###Arabian Swordsman: 
 + 40% DMG increase
 + SPEED increase to Pikeman level
 ###Maceman: 
 + 33% HP increase
+- 30% more DMG taken by Sling-Bullets
++ 20% less DMG taken by Xbow-Bolts
 ###Crossbowman:
-- 20% DMG decrease vs. Maceman
-- 23.3% DMG decrease vs. European Archer
-- 5% DMG decrease vs. Arabian Archer
-+ 20% DMG increase vs. Crossbowman
+~ 20% DMG increase vs. Crossbowman
 ###Pikeman: 
 + 20% HP increase
+- 20% more DMG taken by Sling-Bullets
 + 100% DMG increase vs. Knight and Horsearcher
 ###Spearman:
 + 100% DMG increase vs. Knight and Horsearcher
 ###European Swordsman:
 + SPEED increase to previous Arab Swordsman level
 + 60% HP increase
+- 33% more DMG taken by Sling-Bullets
 ###European Archer:
 + 20% HP increase
-+ 62.5% DMG increase vs. Horsearcher
 - 20% DMG decrease vs. Pikeman
++ 23.3% less DMG taken by Xbow-Bolts
 ###Arabian Archer:
 + Pricereduction by 10 gold to 65 gold
 + 25% HP increase
-+ 62.5% DMG increase vs. Horsearcher
-+ 15% DMG less taken by Arrows
++ 15% less DMG taken by Arrows
++ 5% less DMG taken by Xbow-Bolts
 ###Horse Archer:
-~ 62.5% DMG increase vs. Horsearcher
+- 62.5% more DMG taken by Arrows
 ###Knight:
 + 100% DMG increase
+- 33% more DMG taken by Sling-Bullets
 ###Assassin:
-~ Same DMG vs Slaves, Slinger, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, FireThrower
+~ Same DMG vs Slaves, Slinger, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, ###FireThrower
 - 37.5% DMG decrease vs. most other units
 - 37.5% DMG decrease vs. Woodcutter
 - 50% DMG decrease vs. Pikeman, Arab Swordsman, 
@@ -60,7 +57,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 ###Trebuchet:
 + 25% HP increase
 + 20% DMG increase vs Building
-- start with 10 isntead of 10 initial rock ammunition
+- start with 10 isntead of 20 initial rock ammunition
 ###Catapult:
 + costchanges -50 gold, +5 stone
 - start with 10 instead of 20 initial rock ammunition
