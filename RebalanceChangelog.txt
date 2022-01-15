@@ -2,8 +2,10 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 
 #Unit Changes:
 ###Arabian Swordsman: 
-+ 40% DMG increase
++ 30% DMG increase
 + SPEED increase to Pikeman level
++ 40% less ranged DMG taken by Crossbowman
++ 25% less ranged DMG taken by Slingers
 ###Maceman: 
 + 33% HP increase
 - 30% more DMG taken by Sling-Bullets
@@ -16,6 +18,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + 100% DMG increase vs. Knight and Horsearcher
 ###Spearman:
 + 100% DMG increase vs. Knight and Horsearcher
++ 16.6% less DMG taken by Arrows
 ###European Swordsman:
 + SPEED increase to previous Arab Swordsman level
 + 60% HP increase
@@ -41,7 +44,10 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 - 50% DMG decrease vs. Pikeman, Arab Swordsman, 
 - 62.5% DMG decrease vs. Swordsman, Knight
 + 500% DMG increase vs. Trebuchet
-+ x3 dmg multiplier vs. Workers, except Woodcutter
++ 200% DMG increase vs. Workers
+###AttackDog
++ 200% DMG increase
+
 
 #Siege Changes:
 ###Battering Ram:
@@ -85,7 +91,12 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + Church: costchanges -350 gold, +25stone
 - Cathedral: -250Gold, costchanges +40 stone
 + Tunnelers Guild: costchange -100gold, +5stone
-+ Stables: -200 Gold, + 20 Stone
++ Stables: costchange -200 Gold, + 20 Stone
+- Small Gate: costchange +5 Stone
++ Pitchrig: costchange -10 Wood
+###Round Tower 5:
+- costchange +10 Stone
++ 3000 instead of 2000 hp
 
 #Resource changes:
 ~ Hops - buy 120, sell 60
