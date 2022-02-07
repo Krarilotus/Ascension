@@ -64,12 +64,14 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 - 33% DMG decrease vs. Shield
 - 50% DMG decrease vs. Trebuchet
 ###Trebuchet:
-- costchanges +100 gold, +20 stone
 + 66% HP increase
-+ 100% DMG increase vs Building
++ 100% DMG increase vs. Building
+- costchanges +100 gold, +20 stone
 - start with 10 instead of 20 initial rock ammunition
 - get 10 instead of 20 rocks for reloading for 10 stone
 ###Catapult:
++ 50% added hp
++ 100% DMG increase vs. Buildings
 - costchanges +10 stone
 - start with 10 instead of 20 initial rock ammunition
 - get 10 instead of 20 rocks for reloading for 10 stone
