@@ -35,8 +35,11 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 ###Horse Archer:
 - 62.5% more DMG taken by Arrows
 ###Knight:
-+ 100% DMG increase
-- 33% more DMG taken by Sling-Bullets
++ 150% DMG increase
++ 70% HP increase
++ 20% less DMG taken by Arrows 
++ 20% less DMG taken by Xbow-Bolts
+
 ###Assassin:
 ~ Same DMG vs Slaves, Slinger, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, ###FireThrower
 - 37.5% DMG decrease vs. most other units
@@ -46,14 +49,14 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + 500% DMG increase vs. Trebuchet
 + 200% DMG increase vs. Workers
 ###AttackDog
-+ 200% DMG increase
++ 400% DMG increase
 
 
 #Siege Changes:
 ###Battering Ram:
-+ 1/5th DMG taken in melee combat by all units except Slave
-- 10000% DMG taken by Slave
-- costchanges +2 Iron, -50 gold
++ 1/5th DMG taken in melee combat
++ 100% HP increase
+- costchanges +5 Iron
 ###Shields:
 - SPEED decrease to Pikeman speed
 - costchanges -5 gold, +6 wood
@@ -61,12 +64,15 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 - 33% DMG decrease vs. Shield
 - 50% DMG decrease vs. Trebuchet
 ###Trebuchet:
-+ 25% HP increase
-+ 20% DMG increase vs Building
-- start with 10 isntead of 20 initial rock ammunition
-###Catapult:
-+ costchanges -50 gold, +5 stone
+- costchanges +100 gold, +20 stone
++ 66% HP increase
++ 100% DMG increase vs Building
 - start with 10 instead of 20 initial rock ammunition
+- get 10 instead of 20 rocks for reloading for 10 stone
+###Catapult:
+- costchanges +10 stone
+- start with 10 instead of 20 initial rock ammunition
+- get 10 instead of 20 rocks for reloading for 10 stone
 ###Siege Tower:
 + costchanges -150 gold, +50 wood
 ###Tower Ballista
@@ -79,7 +85,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + 60% DMG increase vs. Catapult
 + 50% DMG increase vs. Trebuchet, Mangonel, Tower Ballista
 + 50% DMG increase vs. Non-Siege Units
-- costchanges -50 Gold, +5 Pitch
+- costchanges +5 Pitch
 
 #Building changes:
 - Inn: costchanges -100 gold, +20 stone
@@ -93,7 +99,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + Tunnelers Guild: costchange -100gold, +5stone
 + Stables: costchange -200 Gold, + 20 Stone
 - Small Gate: costchange +5 Stone
-+ Pitchrig: costchange -10 Wood
++ Pitchrig: costchange -5 Wood
 ###Round Tower 5:
 - costchange +10 Stone
 + 3000 instead of 2000 hp
@@ -103,6 +109,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 ~ Beer - buy 160, sell 80
 ~ Stone - buy 50, sell 25
 ~ Iron - buy 250, sell 130
+~ Pitch - buy 180, sell 90
 
 #Weapon changes:
 ~ Bows: buy 150, sell 90
