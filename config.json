@@ -516,7 +516,7 @@
         "description": "Knight cost",
         "address": "0x6B92BC",
         "size": 4,
-        "value": 60
+        "value": 80
     },
     {
         "description": "Knight HP",
@@ -1027,11 +1027,11 @@
         "address": "0x1c248c",
         "size": 4,
         "value": [
-            40,
-            40,
+            60,
+            60,
             0,
             0,
-            400
+            600
         ]
     },
 	

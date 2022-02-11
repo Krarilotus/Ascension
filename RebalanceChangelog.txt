@@ -99,7 +99,7 @@ Rebalance Changes: + for buffs, - for nerfs, ~ for just changed
 + Church: costchanges -350 gold, +25stone
 - Cathedral: -250Gold, costchanges +40 stone
 + Tunnelers Guild: costchange -100gold, +5stone
-+ Stables: costchange -200 Gold, + 20 Stone
++ Stables: costchange +200gold, +60stone, +40wood
 - Small Gate: costchange +5 Stone
 + Pitchrig: costchange -5 Wood
 ###Round Tower 5:
