@@ -164,7 +164,7 @@ v1.8.1
 + Marketplace is now free
 ```
 
-# Building changes:
+# Trading Changes:
 ```diff
 ! Hops - buy 120, sell 60
 ! Beer - buy 160, sell 80
