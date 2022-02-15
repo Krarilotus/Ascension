@@ -35,6 +35,8 @@ v1.8.1
 ```diff
 + 20% HP increase
 - 20% more DMG taken by Sling-Bullets
+- 20% more DMG taken by Arrows
+- 20% more DMG taken by Xbow-Bolts
 + 100% DMG increase vs. Knight and Horsearcher
 ```
 ## Spearman
@@ -51,7 +53,6 @@ v1.8.1
 ## European Archer
 ```diff
 + 20% HP increase
-- 20% DMG decrease vs. Pikeman
 + 23.3% less DMG taken by Xbow-Bolts
 ```
 ## Arabian Archer
