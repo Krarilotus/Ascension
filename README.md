@@ -162,7 +162,10 @@ v1.8.1
 - Inn cost changed: -100 gold, +20 stone
 
 + Marketplace is now free
-# Trading cost changes:
+```
+
+# Building changes:
+```diff
 ! Hops - buy 120, sell 60
 ! Beer - buy 160, sell 80
 
