@@ -3,7 +3,7 @@ This is the official Repository for the Bootstrap Multiplayer Setup
 
 
 # Rebalance Changes Summary
-v1.8.2
+v1.8.3
 
 ## Legend
 ```diff
@@ -19,7 +19,6 @@ v1.8.2
 + SPEED increase to Pikeman level
 + 40% less ranged DMG taken by Crossbowman
 + 25% less ranged DMG taken by Slingers
-+ Cost changed: -10 Gold
 ```
 ## Maceman
 ```diff
