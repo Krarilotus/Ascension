@@ -4,7 +4,7 @@ This is the official Repository for the Bootstrap Multiplayer Setup
 
 # Rebalance Changes Summary
 
-v1.8.4
+v1.8.5
 
 ## Legend
 ```diff
@@ -157,7 +157,7 @@ v1.8.4
 + Tanner cost changed: -50 gold, +5 stone,
 - Armourer cost changed: +50 gold, +12 stone
 
-+ Chapel cost changed: -175 gold, +10 stone
++ Chapel cost changed: -200 gold, +5 stone
 + Church cost changed: -350 gold, +25 stone
 - Cathedral cost changed: -250Gold, +40 stone
 
