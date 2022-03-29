@@ -3,6 +3,7 @@ This is the official Repository for the Bootstrap Multiplayer Setup
 
 
 # Rebalance Changes Summary
+
 v1.8.4
 
 ## Legend
@@ -92,7 +93,7 @@ v1.8.4
 ```diff
 + 1/5th DMG taken in melee combat
 + 100% HP increase
-- Cost changed: -50 gold, +30 wood, +10 stone, +1 iron
+- Cost changed: -150 gold, +50 wood, +3 iron
 ```
 ## Shields
 ```diff
@@ -147,7 +148,7 @@ v1.8.4
 + Round Tower 5 HP increased to 3000 from 2000
 
 + Tunnelers Guild cost changed: -100gold, +5stone
-+ Stables cost changed: +200gold, +60stone, +40wood
++ Stables cost changed: +40stone, +40wood
 
 + Pitchrig cost changed: -5 Wood
 
@@ -157,7 +158,7 @@ v1.8.4
 - Armourer cost changed: +50 gold, +12 stone
 
 + Chapel cost changed: -175 gold, +10 stone
-+ Church cost changed: -350 gold, +25stone
++ Church cost changed: -350 gold, +25 stone
 - Cathedral cost changed: -250Gold, +40 stone
 
 - Inn cost changed: -100 gold, +20 stone
@@ -178,4 +179,5 @@ v1.8.4
 ! Maces: buy 330, sell 165
 ! Swords: buy 350, sell 175
 ! Armour: buy 390, sell 190
+! Spears: buy 90, sell 45
 ```

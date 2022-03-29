@@ -489,7 +489,7 @@
             0,
             250
         ]
-    },
+    },	
     {
         "description": "Siege tower cost.",
         "address": "0x1c2838",
@@ -590,11 +590,11 @@
         "address": "0x1c284c",
         "size": 4,
         "value": [
-            30,
-            10,
-            1,
+            50,
             0,
-            100
+            3,
+            0,
+            0
         ]
     },
     {
