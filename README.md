@@ -3,7 +3,8 @@ This is the official Repository for the Bootstrap Multiplayer Setup
 
 
 # Rebalance Changes Summary
-v1.8.3
+
+v1.8.4
 
 ## Legend
 ```diff
@@ -32,15 +33,15 @@ v1.8.3
 ```
 ## Pikeman
 ```diff
-+ 20% HP increase
++ 50% HP increase
 - 20% more DMG taken by Sling-Bullets
 + 20% less DMG taken by Arrows
 - 20% more DMG taken by Xbow-Bolts
-+ 100% DMG increase vs. Knight and Horsearcher
++ 200% DMG increase vs. Knight and Horsearcher
 ```
 ## Spearman
 ```diff
-+ 100% DMG increase vs. Knight and Horsearcher
++ 150% DMG increase vs. Knight and Horsearcher
 + 16.6% less DMG taken by Arrows
 ```
 ## European Swordsman
@@ -63,7 +64,7 @@ v1.8.3
 ```
 ## Horse Archer
 ```diff
-- 62.5% more DMG taken by Arrows
+- 36% more DMG taken by Arrows
 ```
 ## Knight
 ```diff
@@ -77,21 +78,22 @@ v1.8.3
 ```diff
 ! Same DMG vs Slaves, Slinger, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, FireThrower
 - 37.5% DMG decrease vs. most other units
-- 50% DMG decrease vs. Pikeman, Arab Swordsman, 
+- 50% DMG decrease vs. Pikeman, Arab Swordsman
 - 62.5% DMG decrease vs. Swordsman, Knight
 + 500% DMG increase vs. Trebuchet
 + 200% DMG increase vs. Workers, except woodcutter
 ```
 ## AttackDog
 ```diff
-+ 400% DMG increase
++ 200% DMG increase vs. Swordsman, Arab Swordsman, Knight, Pikeman, The Lord
++ 300% DMG increase vs. all other units
 ```
 # Siege Changes
 ## Battering Ram
 ```diff
 + 1/5th DMG taken in melee combat
 + 100% HP increase
-- costchanges +5 Iron
+- Cost changed: -150 gold, +50 wood, +3 iron
 ```
 ## Shields
 ```diff
@@ -108,20 +110,20 @@ v1.8.3
 + 66% HP increase
 + 100% DMG increase vs. Building
 - Cost changed: +100 gold, +20 stone
-- start with 10 instead of 20 initial rock ammunition
-- get 10 instead of 20 rocks for reloading for 10 stone
+- Start with 10 instead of 20 initial rock ammunition
+- Get 10 instead of 20 rocks for reloading for 10 stone
 ```
 ## Catapult
 ```diff
 + 50% added hp
 + 100% DMG increase vs. Buildings
 - Cost changed: +10 stone
-- start with 10 instead of 20 initial rock ammunition
-- get 10 instead of 20 rocks for reloading for 10 stone
+- Start with 10 instead of 20 initial rock ammunition
+- Get 10 instead of 20 rocks for reloading for 10 stone
 ```
 ## Siege Tower
 ```diff
-+ Cost changed: -150 gold, +50 wood
++ Cost changed: -150 gold, +30 wood
 ```
 ## Tower Ballista
 ```diff
@@ -146,17 +148,17 @@ v1.8.3
 + Round Tower 5 HP increased to 3000 from 2000
 
 + Tunnelers Guild cost changed: -100gold, +5stone
-+ Stables cost changed: +200gold, +60stone, +40wood
++ Stables cost changed: +40stone, +40wood
 
 + Pitchrig cost changed: -5 Wood
 
 + Blacksmith cost changed: -125 gold, +5 stone
-+ Poleturner cost changed: -50 gold, +5 stone
++ Poleturner cost changed: -50 gold, +3 stone
 + Tanner cost changed: -50 gold, +5 stone,
-- Armourer cost changed: +50 gold, +10 stone
+- Armourer cost changed: +50 gold, +12 stone
 
 + Chapel cost changed: -175 gold, +10 stone
-+ Church cost changed: -350 gold, +25stone
++ Church cost changed: -350 gold, +25 stone
 - Cathedral cost changed: -250Gold, +40 stone
 
 - Inn cost changed: -100 gold, +20 stone
