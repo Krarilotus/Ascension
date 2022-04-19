@@ -317,8 +317,8 @@
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Units": [],
+      "Counts": []
     },
     "crusader": {
       "Units": [ "Knight", "Swordsman", "EuropArcher" ],
@@ -336,12 +336,12 @@
       "Type": "Arab"
     },
     "normal": {
-      "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Units": [],
+      "Counts": []
     },
     "crusader": {
-      "Units": [ "ArabSwordsman", "ArabArcher" ],
-      "Counts": [ 10, 50 ]
+      "Units": [ "Knight", "Swordsman", "EuropArcher" ],
+      "Counts": [ 4, 10, 40 ]
     },
     "deathmatch": {
       "Units": [ "Spearman", "ArabArcher" ],

@@ -4,7 +4,7 @@ This is the official Repository for the Bootstrap Multiplayer Setup
 
 # Rebalance Changes Summary
 
-v1.8.9
+v1.9
 
 ## Legend
 ```diff
@@ -16,20 +16,23 @@ v1.8.9
 # Unit Changes
 ## Arabian Swordsman
 ```diff
-+ 30% DMG increase
++ 40% DMG increase
 + SPEED increase to Pikeman level
 + 40% less ranged DMG taken by Crossbowman
-+ 25% less ranged DMG taken by Slingers
++ 40% less ranged DMG taken by Slingers
 ```
 ## Maceman
 ```diff
 + 33% HP increase
++ 20% DMG increase
 - 30% more DMG taken by Sling-Bullets
 + 20% less DMG taken by Xbow-Bolts
+- Cost changed: +5 gold
 ```
 ## Crossbowman
 ```diff
 ! 20% DMG increase vs. Crossbowman
+- Cost changed: +5 gold
 ```
 ## Pikeman
 ```diff
@@ -41,19 +44,22 @@ v1.8.9
 ```
 ## Spearman
 ```diff
-+ 150% DMG increase vs. Knight and Horsearcher
++ 100% DMG increase vs. Knight and Horsearcher
 + 16.6% less DMG taken by Arrows
++ Cost changed: -3 gold
 ```
 ## European Swordsman
 ```diff
 + SPEED increase to previous Arab Swordsman level
-+ 60% HP increase
++ 100% HP increase
++ 20% DMG increase
+- Cost changed: +20 gold
 - 33% more DMG taken by Sling-Bullets
 ```
 ## European Archer
 ```diff
 + 20% HP increase
-+ 23.3% less DMG taken by Xbow-Bolts
+- 20% more DMG taken by Xbow-Bolts
 ```
 ## Arabian Archer
 ```diff
@@ -80,12 +86,17 @@ v1.8.9
 - 37.5% DMG decrease vs. most other units
 - 50% DMG decrease vs. Pikeman, Arab Swordsman
 - 62.5% DMG decrease vs. Swordsman, Knight
-+ 500% DMG increase vs. Trebuchet
-+ 200% DMG increase vs. Workers, except woodcutter
++ 900% DMG increase vs. Trebuchet
++ 200% DMG increase vs. Workers
++ always running
+```
+## Monk
+```diff
+- 50% DMG decrease vs. Swordsman
 ```
 ## AttackDog
 ```diff
-+ 200% DMG increase vs. Swordsman, Arab Swordsman, Knight, Pikeman, The Lord
++ 200% DMG increase vs. Swordsman, Arab Swordsman, Knight, Pikeman, The Lord, Battering Rams
 + 300% DMG increase vs. all other units
 ```
 # Siege Changes
@@ -123,7 +134,7 @@ v1.8.9
 ```
 ## Siege Tower
 ```diff
-+ Cost changed: -150 gold, +30 wood
++ Cost changed: -150 gold, +40 wood
 ```
 ## Tower Ballista
 ```diff
@@ -142,28 +153,36 @@ v1.8.9
 ```
 # Building changes:
 ```diff
-- Small Gatehouse cost changed: +5 Stone
+- Small Gatehouse cost changed: +5 stone
 
-- Round Tower 5 cost changed: +10 Stone
-+ Round Tower 5 HP increased to 3000 from 2000
++ Lookout tower HP: +40% increase
+- Lookout tower Cost: +5 stone
++ Defense turret HP: +66.6% increase
+- Defense turret Cost: +5 stone
++ Square tower HP: +40.625% increase
+- Square tower Cost: +10 stone
++ Round tower HP: +125% increase
+- Round tower Cost: +35 stone
 
-+ Tunnelers Guild cost changed: -100gold, +5stone
-+ Stables cost changed: +40stone, +40wood
++ Tunnelers Guild cost changed: -100 gold, +5 stone
++ Stables cost changed: +40 stone, +40 wood
 
 + Pitchrig cost changed: -5 Wood
 
-+ Blacksmith cost changed: -125 gold, +5 stone
-+ Poleturner cost changed: -50 gold, +3 stone
-+ Tanner cost changed: -50 gold, +5 stone,
-- Armourer cost changed: +50 gold, +12 stone
++ Blacksmith cost changed: -125 gold, +8 stone
++ Poleturner cost changed: -50 gold, +4 stone
++ Tanner cost changed: -50 gold, +4 stone,
+- Armourer cost changed: +50 gold, +20 stone
 
 + Chapel cost changed: -200 gold, +5 stone
 + Church cost changed: -350 gold, +25 stone
 - Cathedral cost changed: -250Gold, +40 stone
 
-- Inn cost changed: -100 gold, +20 stone
+- Inn cost changed: -100 gold, +15 stone, +10 wood
 
 + Marketplace is now free
+
++ Positive Fearfactor accounts correctly for path to resting place
 ```
 
 # Trading Changes:
@@ -176,8 +195,8 @@ v1.8.9
 ! Pitch - buy 180, sell 90
 
 ! Bows: buy 150, sell 90
-! Maces: buy 330, sell 165
-! Swords: buy 350, sell 175
-! Armour: buy 390, sell 190
-! Spears: buy 90, sell 45
+! Maces: buy 320, sell 160
+! Swords: buy 340, sell 170
+! Armour: buy 400, sell 200
+! Spears: buy 100, sell 50
 ```
