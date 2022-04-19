@@ -88,6 +88,7 @@ v1.9
 - 62.5% DMG decrease vs. Swordsman, Knight
 + 900% DMG increase vs. Trebuchet
 + 200% DMG increase vs. Workers
++ always running
 ```
 ## Monk
 ```diff
@@ -180,6 +181,8 @@ v1.9
 - Inn cost changed: -100 gold, +15 stone, +10 wood
 
 + Marketplace is now free
+
++ Positive Fearfactor accounts correctly for path to resting place
 ```
 
 # Trading Changes:
