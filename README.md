@@ -86,8 +86,8 @@ v1.9
 - 37.5% DMG decrease vs. most other units
 - 50% DMG decrease vs. Pikeman, Arab Swordsman
 - 62.5% DMG decrease vs. Swordsman, Knight
-+ 500% DMG increase vs. Trebuchet
-+ 200% DMG increase vs. Workers, except woodcutter
++ 900% DMG increase vs. Trebuchet
++ 200% DMG increase vs. Workers
 ```
 ## Monk
 ```diff
