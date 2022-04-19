@@ -95,7 +95,7 @@ v1.9
 ```
 ## AttackDog
 ```diff
-+ 200% DMG increase vs. Swordsman, Arab Swordsman, Knight, Pikeman, The Lord
++ 200% DMG increase vs. Swordsman, Arab Swordsman, Knight, Pikeman, The Lord, Battering Rams
 + 300% DMG increase vs. all other units
 ```
 # Siege Changes
