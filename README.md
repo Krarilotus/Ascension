@@ -4,7 +4,7 @@ This is the official Repository for the Bootstrap Multiplayer Setup
 
 # Rebalance Changes Summary
 
-v1.9
+v1.9.1
 
 ## Legend
 ```diff
