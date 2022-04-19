@@ -21,7 +21,7 @@
         "description": "Spearman recruit cost.",
         "address": "0x6B92AC",
         "size": 4,
-        "value": 6
+        "value": 5
     },
     {
         "description": "Arrow damage to spearmen.",
