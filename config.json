@@ -1275,8 +1275,14 @@
     },
     {
         "description": "Jester visiting assassins toggle.",
-        "address": "0x755AB8",
+        "address": "0xB55924",
         "size": 1,
         "value": 1
+    },
+    {
+        "description": "Count path to positive fearfactor twice for resting.",
+        "address": "0x00149f67",
+        "size": 1,
+        "value": 2
     }
 ]
