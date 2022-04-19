@@ -1307,5 +1307,7 @@
     { "description": "Assassin Running Speed 00j", "address": "0x174B13", "size": 1, "value": 16},
     { "description": "Assassin Running Speed 00k", "address": "0x174B14", "size": 1, "value": 0},
     { "description": "Assassin Running Speed 00l", "address": "0x174B15", "size": 1, "value": 0},
-    { "description": "Assassin Running Speed 00m", "address": "0x174B16", "size": 1, "value": 0}
+    { "description": "Assassin Running Speed 00m", "address": "0x174B16", "size": 1, "value": 0},
+    { "description": "Assassin Running Speed 00n", "address": "0x174996", "size": 1, "value": 174}	
+	
 ]
