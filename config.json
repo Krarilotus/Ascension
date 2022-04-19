@@ -1288,13 +1288,13 @@
     {
         "description": "turn off drunkards doing melee dmg.",
         "address": "0x755C9C",
-        "size": 1,
+        "size": 4,
         "value": 0
     },
     {
         "description": "turning off jester doing melee dmg.",
         "address": "0x755CF4",
-        "size": 1,
+        "size": 4,
         "value": 0
     }
 	
