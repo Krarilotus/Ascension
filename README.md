@@ -158,7 +158,7 @@ v1.9
 - Lookout tower Cost: +5 stone
 + Defense turret HP: +66.6% increase
 - Defense turret Cost: +5 stone
-+ Square tower HP: +56.25% increase
++ Square tower HP: +40.625% increase
 - Square tower Cost: +10 stone
 + Round tower HP: +125% increase
 - Round tower Cost: +35 stone
@@ -195,5 +195,5 @@ v1.9
 ! Maces: buy 320, sell 160
 ! Swords: buy 340, sell 170
 ! Armour: buy 400, sell 200
-! Spears: buy 90, sell 45
+! Spears: buy 100, sell 50
 ```
