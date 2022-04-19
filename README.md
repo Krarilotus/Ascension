@@ -46,7 +46,7 @@ v1.9
 ```diff
 + 100% DMG increase vs. Knight and Horsearcher
 + 16.6% less DMG taken by Arrows
-+ Cost changed: -2 gold
++ Cost changed: -3 gold
 ```
 ## European Swordsman
 ```diff
