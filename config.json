@@ -638,10 +638,16 @@
     },
 	{
         "description": "Shift right to multiply instruction.",
-        "address": "0x66290",
-        "size": 4,
-        "value": 9474192
+        "address": "0x66291",
+        "size": 2,
+        "value": 50825
     },
+    {
+        "description": "Shift right to multiply instruction -part2.",
+        "address": "0x66293",
+        "size": 1,
+        "value": 144
+	},
 	{
         "description": "Trebuchet health.",
         "address": "0x74eb90",
