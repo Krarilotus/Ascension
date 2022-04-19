@@ -88,7 +88,6 @@ v1.9
 - 62.5% DMG decrease vs. Swordsman, Knight
 + 900% DMG increase vs. Trebuchet
 + 200% DMG increase vs. Workers
-+ always running
 ```
 ## Monk
 ```diff
@@ -150,6 +149,11 @@ v1.9
 + 50% DMG increase vs. Trebuchet, Mangonel, Tower Ballista
 + 50% DMG increase vs. Non-Siege Units
 - Cost changed: +5 Pitch, -25 Gold
+```
+## Workers
+```
+- Drunkards & Jester don't fight anymore
++ Jester doesn't reveal assasssins
 ```
 # Building changes:
 ```diff
