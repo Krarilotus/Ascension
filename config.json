@@ -1275,7 +1275,7 @@
     },
     {
         "description": "Jester visiting assassins toggle.",
-        "address": "0xB55924",
+        "address": "0x755AB4",
         "size": 1,
         "value": 1
     },
@@ -1285,27 +1285,17 @@
         "size": 1,
         "value": 2
     },
+    {
+        "description": "turn off drunkards doing melee dmg.",
+        "address": "0x755C9C",
+        "size": 4,
+        "value": 0
+    },
+    {
+        "description": "turning off jester doing melee dmg.",
+        "address": "0x755CF4",
+        "size": 4,
+        "value": 0
+    }
 	
-    { "description": "Assassin Running Speed 001", "address": "0x174B01", "size": 1, "value": 184},
-    { "description": "Assassin Running Speed 002", "address": "0x174B02", "size": 1, "value": 1},
-    { "description": "Assassin Running Speed 003", "address": "0x174B03", "size": 1, "value": 0},
-    { "description": "Assassin Running Speed 004", "address": "0x174B04", "size": 1, "value": 0},
-    { "description": "Assassin Running Speed 005", "address": "0x174B05", "size": 1, "value": 0},
-    { "description": "Assassin Running Speed 006", "address": "0x174B06", "size": 1, "value": 102},
-    { "description": "Assassin Running Speed 007", "address": "0x174B07", "size": 1, "value": 137},
-    { "description": "Assassin Running Speed 008", "address": "0x174B08", "size": 1, "value": 134},
-    { "description": "Assassin Running Speed 009", "address": "0x174B09", "size": 1, "value": 10},
-    { "description": "Assassin Running Speed 00a", "address": "0x174B0a", "size": 1, "value": 136},
-    { "description": "Assassin Running Speed 00b", "address": "0x174B0b", "size": 1, "value": 56},
-    { "description": "Assassin Running Speed 00c", "address": "0x174B0c", "size": 1, "value": 1},
-    { "description": "Assassin Running Speed 00d", "address": "0x174B0d", "size": 1, "value": 199},
-    { "description": "Assassin Running Speed 00e", "address": "0x174B0e", "size": 1, "value": 134},
-    { "description": "Assassin Running Speed 00f", "address": "0x174B0f", "size": 1, "value": 124},
-    { "description": "Assassin Running Speed 00g", "address": "0x174B10", "size": 1, "value": 133},
-    { "description": "Assassin Running Speed 00h", "address": "0x174B11", "size": 1, "value": 56},
-    { "description": "Assassin Running Speed 00i", "address": "0x174B12", "size": 1, "value": 1},
-    { "description": "Assassin Running Speed 00j", "address": "0x174B13", "size": 1, "value": 16},
-    { "description": "Assassin Running Speed 00k", "address": "0x174B14", "size": 1, "value": 0},
-    { "description": "Assassin Running Speed 00l", "address": "0x174B15", "size": 1, "value": 0},
-    { "description": "Assassin Running Speed 00m", "address": "0x174B16", "size": 1, "value": 0}
 ]

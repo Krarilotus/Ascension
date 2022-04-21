@@ -319,8 +319,8 @@
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Units": [ ],
+      "Counts": [ ]
     },
     "crusader": {
       "Units": [ "Knight", "Swordsman", "EuropArcher" ],
@@ -338,8 +338,8 @@
       "Type": "Arab"
     },
     "normal": {
-      "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Units": [ ],
+      "Counts": [ ]
     },
     "crusader": {
       "Units": [ "ArabSwordsman", "ArabArcher" ],
