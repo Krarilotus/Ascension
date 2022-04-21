@@ -14,12 +14,6 @@ v1.9.1
 
 # Unit Changes
 
-## Workers
-```
-- Drunkards and Jesters don't fight anymore
-+ Jesters no longer reveal assasssins by following them
-```
-
 ## European Archer
 ```diff
 + 20% HP increase
@@ -117,6 +111,12 @@ v1.9.1
 ```diff
 + 200% damage increase to Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
 + 300% damage increase to all other units
+```
+
+## Workers
+```diff
+- Drunkards and Jesters don't fight anymore
++ Jesters no longer reveal assasssins by following them
 ```
 
 # Siege Changes
