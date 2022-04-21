@@ -20,8 +20,6 @@ v1.9.1
 + Jesters no longer reveal assasssins by following them
 ```
 
-## European Units - 
-
 ## European Archer
 ```diff
 + 20% HP increase
@@ -74,8 +72,6 @@ v1.9.1
 - Cost changed: 80 gold to recruit
 ```
 
-## Arabian Units - 
-
 ## Arabian Archer
 ```diff
 + 25% HP increase
@@ -111,8 +107,6 @@ v1.9.1
 + 40% damage increase
 + Speed increased to Pikeman level
 ```
-
-# Other Units - 
 
 ## Monk
 ```diff
