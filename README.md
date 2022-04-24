@@ -229,5 +229,4 @@ v1.9.1
 ! Maces: buy 320, sell 160
 ! Swords: buy 340, sell 170
 ! Armour: buy 400, sell 200
-! Spears: buy 100, sell 50
 ```
