@@ -1,6 +1,5 @@
 # BootstrapMultiplayerSetup
-This is the official Repository for the Bootstrap Multiplayer Setup
-
+This is the official repository for the Bootstrap Multiplayer Setup
 
 # Rebalance Changes Summary
 
@@ -14,183 +13,211 @@ v1.9.1
 ```
 
 # Unit Changes
-## Arabian Swordsman
-```diff
-+ 40% DMG increase
-+ SPEED increase to Pikeman level
-+ 40% less ranged DMG taken by Crossbowman
-+ 40% less ranged DMG taken by Slingers
-```
-## Maceman
-```diff
-+ 33% HP increase
-+ 20% DMG increase
-- 30% more DMG taken by Sling-Bullets
-+ 20% less DMG taken by Xbow-Bolts
-- Cost changed: +5 gold
-```
-## Crossbowman
-```diff
-! 20% DMG increase vs. Crossbowman
-- Cost changed: +5 gold
-```
-## Pikeman
-```diff
-+ 50% HP increase
-- 20% more DMG taken by Sling-Bullets
-+ 20% less DMG taken by Arrows
-- 20% more DMG taken by Xbow-Bolts
-+ 200% DMG increase vs. Knight and Horsearcher
-```
-## Spearman
-```diff
-+ 100% DMG increase vs. Knight and Horsearcher
-+ 16.6% less DMG taken by Arrows
-+ Cost changed: -3 gold
-```
-## European Swordsman
-```diff
-+ SPEED increase to previous Arab Swordsman level
-+ 100% HP increase
-+ 20% DMG increase
-- Cost changed: +20 gold
-- 33% more DMG taken by Sling-Bullets
-```
+
 ## European Archer
 ```diff
 + 20% HP increase
-- 20% more DMG taken by Xbow-Bolts
 ```
-## Arabian Archer
+
+## Spearman
 ```diff
-+ Pricereduction by 10 gold to 65 gold
-+ 25% HP increase
-+ 15% less DMG taken by Arrows
-+ 5% less DMG taken by Xbow-Bolts
++ 100% damage increase to Knights and Horse Archers
++ 16.6% less damage taken from Arrows
++ Cost changed: 5 gold to recruit
 ```
-## Horse Archer
+
+## Maceman
 ```diff
-- 36% more DMG taken by Arrows
++ 33% HP increase
++ 20% damage increase
+- Cost changed: 25 gold to recruit
 ```
+
+## Crossbowman
+```diff
+! 20% damage increase to Crossbowmen
++ 20% damage increase to European Archers and Pikemen
+- 20% damage decrease to Macemen and Knights
+- 5% damage decrease to Arabian Archers
+- 40% damage decrease to Arabian Swordsmen
+- Cost changed: 25 gold to recruit
+```
+
+## Pikeman
+```diff
++ 50% HP increase
++ 200% damage increase to Knights and Horse Archers
++ 20% less damage taken from Arrows
+```
+
+## European Swordsman
+```diff
++ 100% HP increase
++ 20% damage increase
++ Speed increased to previous Arabian Swordsman level
+- Cost changed: 60 gold to recruit
+```
+
 ## Knight
 ```diff
-+ 150% DMG increase
 + 70% HP increase
-+ 20% less DMG taken by Arrows 
-+ 20% less DMG taken by Xbow-Bolts
-- Cost changed: +40 Gold
++ 150% damage increase
++ 20% less damage taken from Arrows 
+- Cost changed: 80 gold to recruit
 ```
+
+## Arabian Archer
+```diff
++ 25% HP increase
++ 15% less damage taken from Arrows
++ Cost changed: 65 gold to recruit
+```
+
+## Slinger
+```diff
++ 30% damage increase to Macemen
++ 20% damage increase to Pikemen
++ 33% damage increase to European Swordsmen
+- 40% damage decrease to Arabian Swordsmen
+```
+
 ## Assassin
 ```diff
-! Same DMG vs Slaves, Slinger, Arab Archer, Europ Archer, Engineer, Ladderman, HorseArcher, FireThrower
-- 37.5% DMG decrease vs. most other units
-- 50% DMG decrease vs. Pikeman, Arab Swordsman
-- 62.5% DMG decrease vs. Swordsman, Knight
-+ 900% DMG increase vs. Trebuchet
-+ 200% DMG increase vs. Workers
+! Same damage to Slaves, Slingers, Arabian Archers, European Archers, Engineers, Laddermen, Horse Archers, Firethrowers
++ 900% damage increase to Trebuchets
++ 200% damage increase to Workers
+- 37.5% damage decrease to most other units
+- 50% damage decrease to Pikemen, Arabian Swordsmen
+- 62.5% damage decrease to European Swordsmen, Knights
 ```
+
+## Horse Archer
+```diff
+- 36% more damage taken from Arrows
+```
+
+## Arabian Swordsman
+```diff
++ 40% damage increase
++ Speed increased to Pikeman level
+```
+
 ## Monk
 ```diff
-- 50% DMG decrease vs. Swordsman
+- 50% damage decrease to European Swordsmen
 ```
-## AttackDog
+
+## Caged War Dog
 ```diff
-+ 200% DMG increase vs. Swordsman, Arab Swordsman, Knight, Pikeman, The Lord, Battering Rams
-+ 300% DMG increase vs. all other units
++ 200% damage increase to Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
++ 300% damage increase to all other units
 ```
+
+## Workers
+```diff
+- Drunkards and Jesters don't fight anymore
++ Jesters no longer reveal assasssins by following them
+```
+
 # Siege Changes
-## Battering Ram
+
+## Catapult
 ```diff
-+ 1/5th DMG taken in melee combat
-+ 100% HP increase
-- Cost changed: -150 gold, +50 wood, +3 iron
++ 50% HP increase
++ 100% damage increase to Buildings
+- Cost changed: 150 gold, 10 stone
+- Starts with 10 instead of 20 initial rock ammunition
+- Gets 10 instead of 20 rocks from reloading for 10 stone
 ```
-## Shields
-```diff
-- SPEED decrease to Pikeman speed
-- Cost changed: -5 gold, +6 wood
-```
-## Mangonel
-```diff
-- 33% DMG decrease vs. Shield
-- 50% DMG decrease vs. Trebuchet
-```
+
 ## Trebuchet
 ```diff
 + 66% HP increase
-+ 100% DMG increase vs. Building
-- Cost changed: +100 gold, +20 stone
-- Start with 10 instead of 20 initial rock ammunition
-- Get 10 instead of 20 rocks for reloading for 10 stone
++ 100% damage increase to Building
+- Cost changed: 250 gold, 20 stone
+- Starts with 10 instead of 20 initial rock ammunition
+- Gets 10 instead of 20 rocks from reloading for 10 stone
 ```
-## Catapult
-```diff
-+ 50% added hp
-+ 100% DMG increase vs. Buildings
-- Cost changed: +10 stone
-- Start with 10 instead of 20 initial rock ammunition
-- Get 10 instead of 20 rocks for reloading for 10 stone
-```
+
 ## Siege Tower
 ```diff
-+ Cost changed: -150 gold, +40 wood
++ Cost changed: 40 wood, no gold
 ```
-## Tower Ballista
+
+## Battering Ram
 ```diff
-+ 100% DMG increase vs. Shield
-+ 60% DMG increase vs. Catapult
-+ 50% DMG increase vs. Trebuchet, Mangonel, Tower Ballista
-+ 50% DMG increase vs. Non-Siege Units
++ 100% HP increase
++ 1/5th damage taken from all melee sources
+- Cost changed: 50 wood, 3 iron, no gold
 ```
+
+## Shields
+```diff
+- Speed decreased to Pikeman level
+- Cost changed: 6 wood, no gold
+```
+
 ## Fire Ballista
 ```diff
-+ 100% DMG increase vs. Shield
-+ 60% DMG increase vs. Catapult
-+ 50% DMG increase vs. Trebuchet, Mangonel, Tower Ballista
-+ 50% DMG increase vs. Non-Siege Units
-- Cost changed: +5 Pitch, -25 Gold
++ 100% damage increase to Shields
++ 60% damage increase to Catapults
++ 50% damage increase to Trebuchets, Mangonels, Tower Ballistas
++ 50% damage increase to all Non-Siege Units
+- Cost changed: 125 gold, 5 pitch
 ```
-## Workers
-```
-- Drunkards & Jester don't fight anymore
-+ Jester doesn't reveal assasssins
-```
-# Building changes:
+
+## Mangonel
 ```diff
-- Small Gatehouse cost changed: +5 stone
+- 33% damage decrease to Shields
+- 50% damage decrease to Trebuchets
+```
+
+## Tower Ballista
+```diff
++ 100% damage increase to Shields
++ 60% damage increase to Catapults
++ 50% damage increase to Trebuchets, Mangonels, Tower Ballistas
++ 50% damage increase to all Non-Siege Units
+```
+
+# Building Changes
+```diff
+- Small Gatehouse cost: 15 stone
 
 + Lookout tower HP: +40% increase
-- Lookout tower Cost: +5 stone
+- Lookout tower Cost: 15 stone
 + Defense turret HP: +66.6% increase
-- Defense turret Cost: +5 stone
+- Defense turret Cost: 20 stone
 + Square tower HP: +40.625% increase
-- Square tower Cost: +10 stone
+- Square tower Cost: 45 stone
 + Round tower HP: +125% increase
-- Round tower Cost: +35 stone
+- Round tower Cost: 75 stone
 
-+ Tunnelers Guild cost changed: -100 gold, +5 stone
-+ Stables cost changed: +40 stone, +40 wood
++ Tunnelers Guild cost: 10 wood, 5 stone
+- Stables cost: 400 gold, 40 wood, 40 stone
 
-+ Pitchrig cost changed: -5 Wood
++ Pitchrig cost: 15 wood
 
-+ Blacksmith cost changed: -125 gold, +8 stone
-+ Poleturner cost changed: -50 gold, +4 stone
-+ Tanner cost changed: -50 gold, +4 stone,
-- Armourer cost changed: +50 gold, +20 stone
++ Blacksmith cost: 75 gold, 20 wood, 8 stone
++ Poleturner cost: 50 gold, 10 wood, 4 stone
++ Tanner cost: 50 gold, 10 wood, 4 stone
+- Armourer cost: 150 gold, 20 wood, 20 stone
 
-+ Chapel cost changed: -200 gold, +5 stone
-+ Church cost changed: -350 gold, +25 stone
-- Cathedral cost changed: -250Gold, +40 stone
++ Chapel cost: 50 gold, 5 stone
++ Church cost: 150 gold, 20 stone
+- Cathedral cost: 750 gold, 40 stone
 
-- Inn cost changed: -100 gold, +15 stone, +10 wood
+- Inn cost: 30 wood, 15 stone, no gold
 
-+ Marketplace is now free
++ The Marketplace is now free
 
-+ Positive Fearfactor accounts correctly for path to resting place
++ Positive Fear factor accounts correctly for path to resting place
 ```
 
-# Trading Changes:
+# Trading changes
 ```diff
+! (Per 5 traded)
+
 ! Hops - buy 120, sell 60
 ! Beer - buy 160, sell 80
 
@@ -202,5 +229,4 @@ v1.9.1
 ! Maces: buy 320, sell 160
 ! Swords: buy 340, sell 170
 ! Armour: buy 400, sell 200
-! Spears: buy 100, sell 50
 ```

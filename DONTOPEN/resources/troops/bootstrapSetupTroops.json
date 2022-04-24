@@ -1,10 +1,10 @@
 {
   "description": {
-    "German": "Diese Starttruppen Einstellungen buffen alle Spieler leicht und machen sie möglichst gut kompatibel mit der Krarilotus-aggressiveAI-v1.3.",
-    "English": "This start troops configuration buffs all players slightly, while increasing compatibility to the Krarilotus-aggressiveAI-v1.3.",
-    "Polish": "Ta konfiguracja oddziałów początkowych lekko wzmacnia wszystkich graczy, jednocześnie zwiększając kompatybilność z agresywnym Krarilotus AI-v1.3.",
-    "Russian": "Эта стартовая конфигурация войск слегка усиливает действие всех игроков, увеличивая совместимость с Krarilotus-агрессивным AI-v1.3.",
-	"Chinese": "此开始部队的配置会稍微增加所有玩家的负担，同时增加与Krarilotus-aggressiveAI-v1.3的兼容性。"
+    "German": "",
+    "English": "This is the starting troops configuration for the Bootstrap Setup.",
+    "Polish": "",
+    "Russian": "",
+	"Chinese": ""
   },
   "1": {
     "Name": "Rat",

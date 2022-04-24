@@ -1,10 +1,10 @@
 {
 	"description": {
-		"English"	: "This is the GRhin's stream start resource configuration.",
-		"German"	: "Dies ist die Startkonfiguration für GRhin's Stream.",
-		"Russian"	: "Это конфигурация ресурса запуска потока GRhin",
-		"Polish"	: "To jest konfiguracja zasobu początkowego strumienia GRhina.",
-		"Chinese"	: "这是GRhin的流启动资源配置."
+		"English"	: "This is the starting goods configuration for the Bootstrap Setup.",
+		"German"	: "",
+		"Russian"	: "",
+		"Polish"	: "",
+		"Chinese"	: ""
 	},
 	"normal": {
 		"gold": {
