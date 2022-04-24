@@ -182,7 +182,7 @@ v1.9.1
 
 # Building Changes
 ```diff
-- Small Gatehouse cost changed: 15 stone
+- Small Gatehouse cost: 15 stone
 
 + Lookout tower HP: +40% increase
 - Lookout tower Cost: 15 stone
@@ -193,21 +193,21 @@ v1.9.1
 + Round tower HP: +125% increase
 - Round tower Cost: 75 stone
 
-+ Tunnelers Guild cost changed: 10 wood, 5 stone
-- Stables cost changed: 400 gold, 40 wood, 40 stone
++ Tunnelers Guild cost: 10 wood, 5 stone
+- Stables cost: 400 gold, 40 wood, 40 stone
 
-+ Pitchrig cost changed: 15 wood
++ Pitchrig cost: 15 wood
 
-+ Blacksmith cost changed: 75 gold, 20 wood, 8 stone
-+ Poleturner cost changed: 50 gold, 10 wood, 4 stone
-+ Tanner cost changed: 50 gold, 10 wood, 4 stone
-- Armourer cost changed: 150 gold, 20 wood, 20 stone
++ Blacksmith cost: 75 gold, 20 wood, 8 stone
++ Poleturner cost: 50 gold, 10 wood, 4 stone
++ Tanner cost: 50 gold, 10 wood, 4 stone
+- Armourer cost: 150 gold, 20 wood, 20 stone
 
-+ Chapel cost changed: 50 gold, 5 stone
-+ Church cost changed: 150 gold, 20 stone
-- Cathedral cost changed: 750 gold, 40 stone
++ Chapel cost: 50 gold, 5 stone
++ Church cost: 150 gold, 20 stone
+- Cathedral cost: 750 gold, 40 stone
 
-- Inn cost changed: 30 wood, 15 stone, no gold
+- Inn cost: 30 wood, 15 stone, no gold
 
 + The Marketplace is now free
 
