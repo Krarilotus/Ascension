@@ -3,7 +3,7 @@ This is the official repository for the Bootstrap Multiplayer Setup
 
 # Rebalance Changes Summary
 
-v1.9.2
+v1.9.3
 
 ## Legend
 ```diff
@@ -181,8 +181,11 @@ v1.9.2
 ```
 
 # Building Changes
+
+## Castle
 ```diff
 - Small Gatehouse cost: 15 stone
++ Drawbridge HP: from 0 to 100 increase
 
 + Lookout tower HP: +40% increase
 - Lookout tower Cost: 15 stone
@@ -194,21 +197,60 @@ v1.9.2
 - Round tower Cost: 75 stone
 
 + Tunnelers Guild cost: 10 wood, 5 stone
++ Stables HP: +166.67% increase
 - Stables cost: 400 gold, 40 wood, 40 stone
+```
 
+## Industry
+```diff
+- Woodcutter's hut HP: -50% decrease
++ Iron mine HP: +100% increase
++ Pitchrig HP: +50% increase
 + Pitchrig cost: 15 wood
+```
 
-+ Blacksmith cost: 75 gold, 20 wood, 8 stone
+## Farms
+```diff
+- Hunter's hut HP: -50% decrease
+- Apple farm HP: -50% decrease
++ Wheat farm HP: +50% increase
++ Hop farm HP: +50% increase
+```
+
+## Weapon Production
+```diff
+- Armoury HP: -40% decrease
++ Fletcher HP: +33.34% increase
 + Poleturner cost: 50 gold, 10 wood, 4 stone
++ Blacksmith HP: +33.34% increase
++ Blacksmith cost: 75 gold, 20 wood, 8 stone
 + Tanner cost: 50 gold, 10 wood, 4 stone
++ Armourer HP: +100% increase
 - Armourer cost: 150 gold, 20 wood, 20 stone
+```
 
+## Town
+```diff
+- Chapel HP: -25% decrease
 + Chapel cost: 50 gold, 5 stone
 + Church cost: 150 gold, 20 stone
++ Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
+- Well HP: -33.34% decrease
++ Water pot HP: +50% increase
+```
 
+## Food Processing
+```diff
++ Mill HP: +33.34% increase
+- Bakery HP: -33.34% decrease
+- Brewery HP: -33.34% decrease
 - Inn cost: 30 wood, 15 stone, no gold
+```
 
+## Other
+```diff
+- Marketplace HP: -66.67% decrease
 + The Marketplace is now free
 
 + Positive Fear factor accounts correctly for path to resting place
@@ -216,7 +258,7 @@ v1.9.2
 
 # Trading changes
 ```diff
-! (Per 5 traded)
+(Per 5 traded)
 
 ! Hops - buy 120, sell 60
 ! Beer - buy 160, sell 80
