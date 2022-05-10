@@ -93,6 +93,16 @@
         "Well": {
             "health": "200"
         },
+        "Oil smelter": {
+            "cost": [
+                "0",
+                "0",
+                "3",
+                "0",
+                "0"
+            ],
+            "health": "2000"
+        },
         "Wheat farm": {
             "health": "150"
         },
@@ -440,7 +450,7 @@
                 "Healer": "120",
                 "Drunkard": "120",
                 "Innkeeper": "120",
-                "Monk": "120",
+                "Monk": "200",
                 "unknown1": "120",
                 "Catapult": "120",
                 "Trebuchet": "45",
@@ -707,7 +717,6 @@
         },
         "Monk": {
             "meleeDamageVs": {
-                "European swordsman": "25",
                 "Battering ram": "10"
             }
         },
@@ -929,16 +938,10 @@
         "value": 3
     },
     {
-        "description": "European swordsman recruit cost.",
-        "address": "0x6B92B8",
-        "size": 4,
-        "value": 60
-    },
-    {
         "description": "Knight recruit cost.",
         "address": "0x6B92BC",
         "size": 4,
-        "value": 80
+        "value": 60
     },
     {
         "description": "Arabian archer recruit cost.",
