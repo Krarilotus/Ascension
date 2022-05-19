@@ -91,6 +91,13 @@
             "health": "100"
         },
         "Well": {
+            "cost": [
+                "0",
+                "3",
+                "0",
+                "0",
+                "0"
+            ],
             "health": "200"
         },
         "Oil smelter": {
@@ -171,8 +178,8 @@
                 "0",
                 "0",
                 "0",
-                "5",
-                "125"
+                "6",
+                "150"
             ]
         },
         "Water pot": {
@@ -324,6 +331,7 @@
             "xbowDamage": "3600",
             "stoneDamage": "600",
             "meleeDamageVs": {
+                "European pikeman": "30",
                 "European knight": "60",
                 "Battering ram": "4",
                 "Arabian horse archer": "60"
@@ -412,6 +420,7 @@
         },
         "European swordsman": {
             "health": "50000",
+            "xbowDamage": "2600",
             "stoneDamage": "200",
             "meleeDamageVs": {
                 "Peasant": "120",
@@ -495,7 +504,6 @@
         "European knight": {
             "health": "34000",
             "arrowDamage": "120",
-            "xbowDamage": "2000",
             "meleeDamageVs": {
                 "Peasant": "200",
                 "Burning man": "200",
