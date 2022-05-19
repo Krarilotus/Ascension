@@ -1,9 +1,19 @@
 # BootstrapMultiplayerSetup
+
 This is the official repository for the Bootstrap Multiplayer Setup
 
-# Rebalance Changes Summary
+v1.9.4
 
-v1.9.3
+The setup includes:
+
+The UCP, allowing for 0 gold start with no starting units,
+lots of bugfixes and QoL features, improved and custom AIs.
+
+More than 50 custom made maps for the Bootstrap style.
+
+A custom rebalance set, making vast majority of units and economy strategies viable.
+
+# Rebalance Changes Summary
 
 ## Legend
 ```diff
@@ -37,7 +47,8 @@ v1.9.3
 ```diff
 ! 20% damage increase to Crossbowmen
 + 20% damage increase to European Archers and Pikemen
-- 20% damage decrease to Macemen and Knights
++ 20% damage increase to European Swordsmen
+- 20% damage decrease to Macemen
 - 5% damage decrease to Arabian Archers
 - 40% damage decrease to Arabian Swordsmen
 - Cost changed: 25 gold to recruit
@@ -45,6 +56,7 @@ v1.9.3
 
 ## Pikeman
 ```diff
+! 50% damage increase to Pikemen
 + 50% HP increase
 + 200% damage increase to Knights and Horse Archers
 + 20% less damage taken from Arrows
@@ -54,8 +66,8 @@ v1.9.3
 ```diff
 + 100% HP increase
 + 20% damage increase
++ 100% damage increase to Monks
 + Speed increased to previous Arabian Swordsman level
-- Cost changed: 60 gold to recruit
 ```
 
 ## Knight
@@ -63,7 +75,7 @@ v1.9.3
 + 70% HP increase
 + 150% damage increase
 + 20% less damage taken from Arrows 
-- Cost changed: 80 gold to recruit
+- Cost changed: 60 gold to recruit
 ```
 
 ## Arabian Archer
@@ -100,11 +112,6 @@ v1.9.3
 ```diff
 + 40% damage increase
 + Speed increased to Pikeman level
-```
-
-## Monk
-```diff
-- 50% damage decrease to European Swordsmen
 ```
 
 ## Caged War Dog
@@ -163,7 +170,7 @@ v1.9.3
 + 60% damage increase to Catapults
 + 50% damage increase to Trebuchets, Mangonels, Tower Ballistas
 + 50% damage increase to all Non-Siege Units
-- Cost changed: 125 gold, 5 pitch
+- Cost changed: 150 gold, 6 pitch
 ```
 
 ## Mangonel
@@ -184,21 +191,23 @@ v1.9.3
 
 ## Castle
 ```diff
-- Small Gatehouse cost: 15 stone
-+ Drawbridge HP: from 0 to 100 increase
-
 + Lookout tower HP: +40% increase
-- Lookout tower Cost: 15 stone
+- Lookout tower cost: 15 stone
 + Defense turret HP: +66.6% increase
-- Defense turret Cost: 20 stone
+- Defense turret cost: 20 stone
 + Square tower HP: +40.625% increase
-- Square tower Cost: 45 stone
+- Square tower cost: 45 stone
 + Round tower HP: +125% increase
-- Round tower Cost: 75 stone
+- Round tower cost: 75 stone
 
 + Tunnelers Guild cost: 10 wood, 5 stone
 + Stables HP: +166.67% increase
 - Stables cost: 400 gold, 40 wood, 40 stone
++ Oil Smelter HP: +566.67%
++ Oil Smelter cost: 3 iron, no gold
+
+- Small Gatehouse cost: 15 stone
++ Drawbridge HP: from 0 to 100 increase
 ```
 
 ## Industry
@@ -207,6 +216,8 @@ v1.9.3
 + Iron mine HP: +100% increase
 + Pitchrig HP: +50% increase
 + Pitchrig cost: 15 wood
+- Marketplace HP: -66.67% decrease
++ The Marketplace is now free
 ```
 
 ## Farms
@@ -237,7 +248,9 @@ v1.9.3
 + Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
 - Well HP: -33.34% decrease
++ Well cost: 3 stone, no gold
 + Water pot HP: +50% increase
++ Positive fear factor accounts correctly for path to resting place
 ```
 
 ## Food Processing
@@ -246,14 +259,6 @@ v1.9.3
 - Bakery HP: -33.34% decrease
 - Brewery HP: -33.34% decrease
 - Inn cost: 30 wood, 15 stone, no gold
-```
-
-## Other
-```diff
-- Marketplace HP: -66.67% decrease
-+ The Marketplace is now free
-
-+ Positive Fear factor accounts correctly for path to resting place
 ```
 
 # Trading changes

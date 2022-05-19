@@ -91,7 +91,24 @@
             "health": "100"
         },
         "Well": {
+            "cost": [
+                "0",
+                "3",
+                "0",
+                "0",
+                "0"
+            ],
             "health": "200"
+        },
+        "Oil smelter": {
+            "cost": [
+                "0",
+                "0",
+                "3",
+                "0",
+                "0"
+            ],
+            "health": "2000"
         },
         "Wheat farm": {
             "health": "150"
@@ -161,8 +178,8 @@
                 "0",
                 "0",
                 "0",
-                "5",
-                "125"
+                "6",
+                "150"
             ]
         },
         "Water pot": {
@@ -314,6 +331,7 @@
             "xbowDamage": "3600",
             "stoneDamage": "600",
             "meleeDamageVs": {
+                "European pikeman": "30",
                 "European knight": "60",
                 "Battering ram": "4",
                 "Arabian horse archer": "60"
@@ -402,6 +420,7 @@
         },
         "European swordsman": {
             "health": "50000",
+            "xbowDamage": "2600",
             "stoneDamage": "200",
             "meleeDamageVs": {
                 "Peasant": "120",
@@ -440,7 +459,7 @@
                 "Healer": "120",
                 "Drunkard": "120",
                 "Innkeeper": "120",
-                "Monk": "120",
+                "Monk": "200",
                 "unknown1": "120",
                 "Catapult": "120",
                 "Trebuchet": "45",
@@ -485,7 +504,6 @@
         "European knight": {
             "health": "34000",
             "arrowDamage": "120",
-            "xbowDamage": "2000",
             "meleeDamageVs": {
                 "Peasant": "200",
                 "Burning man": "200",
@@ -707,7 +725,6 @@
         },
         "Monk": {
             "meleeDamageVs": {
-                "European swordsman": "25",
                 "Battering ram": "10"
             }
         },
@@ -929,16 +946,10 @@
         "value": 3
     },
     {
-        "description": "European swordsman recruit cost.",
-        "address": "0x6B92B8",
-        "size": 4,
-        "value": 60
-    },
-    {
         "description": "Knight recruit cost.",
         "address": "0x6B92BC",
         "size": 4,
-        "value": 80
+        "value": 60
     },
     {
         "description": "Arabian archer recruit cost.",
