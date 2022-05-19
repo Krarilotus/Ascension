@@ -47,7 +47,8 @@ A custom rebalance set, making vast majority of units and economy strategies via
 ```diff
 ! 20% damage increase to Crossbowmen
 + 20% damage increase to European Archers and Pikemen
-- 20% damage decrease to Macemen and Knights
++ 20% damage increase to European Swordsmen
+- 20% damage decrease to Macemen
 - 5% damage decrease to Arabian Archers
 - 40% damage decrease to Arabian Swordsmen
 - Cost changed: 25 gold to recruit
@@ -55,6 +56,7 @@ A custom rebalance set, making vast majority of units and economy strategies via
 
 ## Pikeman
 ```diff
+! 50% damage increase to Pikemen
 + 50% HP increase
 + 200% damage increase to Knights and Horse Archers
 + 20% less damage taken from Arrows
@@ -168,7 +170,7 @@ A custom rebalance set, making vast majority of units and economy strategies via
 + 60% damage increase to Catapults
 + 50% damage increase to Trebuchets, Mangonels, Tower Ballistas
 + 50% damage increase to all Non-Siege Units
-- Cost changed: 125 gold, 5 pitch
+- Cost changed: 150 gold, 6 pitch
 ```
 
 ## Mangonel
@@ -246,6 +248,7 @@ A custom rebalance set, making vast majority of units and economy strategies via
 + Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
 - Well HP: -33.34% decrease
++ Well cost: 3 stone, no gold
 + Water pot HP: +50% increase
 + Positive fear factor accounts correctly for path to resting place
 ```
