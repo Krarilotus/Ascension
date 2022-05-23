@@ -2,7 +2,7 @@
 
 This is the official repository for the Bootstrap Multiplayer Setup
 
-v1.9.4
+v1.9.5
 
 The setup includes:
 
@@ -116,12 +116,14 @@ A custom rebalance set, making vast majority of units and economy strategies via
 
 ## Caged War Dog
 ```diff
-+ 200% damage increase to Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
++ 200% damage increase to Macemen, Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
 + 300% damage increase to all other units
 ```
 
-## Workers
+## Workers / Other
 ```diff
+- 66.67% HP decrease of Hunter Dogs
+- 50% damage decrease of Hunter Dogs against most units
 - Drunkards and Jesters don't fight anymore
 + Jesters no longer reveal assasssins by following them
 ```
