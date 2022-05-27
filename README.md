@@ -15,13 +15,13 @@ If you don't own the game yet, you can buy the current newest version from [Stea
 
 Make sure to back up your game folder by copying it elsewhere before installing.
 
-Download the setup installer from [here](https://github.com/CIO61/SHCE_Bootstrap_Installer/releases/latest/download/BootstrapInstaller.exe), insert the installer into your game folder and run it. It will automatically download and install everything that's needed.
-The setup installer also acts as an updater - any time a new version of the setup comes out, run it and it will update your setup.
+Download the [Bootstrap Installer](https://github.com/CIO61/SHCE_Bootstrap_Installer/releases/latest/download/BootstrapInstaller.exe), insert the installer into your game folder and run it. It will automatically download and install everything that's needed.
+The installer also acts as an updater - any time a new version of the setup comes out, run it and it will update your setup.
 
 If you are intending on playing multiplayer with the setup through [GameRanger](https://www.gameranger.com/) - select the modified Extreme executable in (lobbyExplorer)/Edit/Options/Games.
 Afterwards, open an Extreme lobby and start the game like normal.
 
-If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join [our Discord server](https://discord.gg/VuVCr8H).
+If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join our [Discord server](https://discord.gg/VuVCr8H).
 
 ## Changelog
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
@@ -62,6 +62,10 @@ Below is the rebalance changelog, listing both the concrete changes and how the 
 + 20% HP increase
 ```
 
+European Archers are usually unlocked in the earlygame, acting as your primary ranged unit for both your main army and for smaller groups all around the map.
+They are perfect for countering any light units, while standing their own against medium ones as well.
+They struggle a lot against heavy armored units, thus are replaced later on by Crossbowmen.
+
 ##### Spearman
 ```diff
 + 100% damage increase to Knights and Horse Archers
@@ -70,12 +74,22 @@ Below is the rebalance changelog, listing both the concrete changes and how the 
 + Cost changed: 5 gold to recruit
 ```
 
+Spearmen are usually the first melee unit unlocked after mercenaries in the earlygame.
+They are very cheap and cost effective against most melee units, although they severely struggle against European Archers and Slingers, requiring support to be effective.
+They act as your primary melee unit, up until they are later on replaced by Macemen.
+Although, they stay viable in some capacity all the way up until the end of lategame, due to their unique ability to damage down Knights while also keeping up with them.
+
 ##### Maceman
 ```diff
 + 33% HP increase
 + 20% damage increase
 - Cost changed: 25 gold to recruit
 ```
+
+Macemen are usually unlocked after Spearmen and European Archers, marking the start of midgame.
+They are much more capable of tanking ranged shots than Spearmen, effectively countering any unsupported ranged units on field.
+They perfectly fill in the weaknesses of Spearmen and they run at the same speed, so combining them is the most common.
+They struggle a lot against European Swordsmen and Knights, thus they have to avoid such fights and they are later replaced by them.
 
 ##### Crossbowman
 ```diff
@@ -88,6 +102,10 @@ Below is the rebalance changelog, listing both the concrete changes and how the 
 - Cost changed: 25 gold to recruit
 ```
 
+Crossbowmen usually come along when European Archers fail to counter heavier melee units, towards the end of midgame.
+They are practically used in the same way as European Archers, but they are much more capable of damaging down armored units, although at the cost of lower mobility.
+They serve as your primary ranged unit up until the end of the game, later on alongside siege engines.
+
 ##### Pikeman
 ```diff
 ! 50% damage increase to Pikemen
@@ -95,6 +113,12 @@ Below is the rebalance changelog, listing both the concrete changes and how the 
 + 200% damage increase to Knights and Horse Archers
 + 20% less damage taken from Arrows
 ```
+
+Pikemen are unlocked towards the end of midgame.
+For their cost, they are the best melee unit for tanking ranged shots and an amazing support for other units in melee fights.
+They are the only unit that can effectively dig moat, walk through fire and killing pits while being shot at the entire time, and still make it to the enemy walls.
+They are also a direct counter to Knights in melee.
+They struggle heavily against any other melee units and can't take on fights alone.
 
 ##### European Swordsman
 ```diff
@@ -104,6 +128,11 @@ Below is the rebalance changelog, listing both the concrete changes and how the 
 + Speed increased to previous Arabian Swordsman level
 ```
 
+European Swordsmen usually mark the start of lategame with their appearance.
+They are standalone the most powerful melee unit in the game, capable of fighting anything in melee, while also being very effective at tanking ranged shots.
+Their slow speed makes the mostly only useful as a part of a player's main army.
+They are hindured by the requirement of an expensive weapon production chain, but still end up being a worthwhile unit.
+
 ##### Knight
 ```diff
 + 70% HP increase
@@ -111,6 +140,11 @@ Below is the rebalance changelog, listing both the concrete changes and how the 
 + 20% less damage taken from Arrows 
 - Cost changed: 60 gold to recruit
 ```
+
+Knights are generally a lategame unit, although they oftenly appear in low numbers even during midgame.
+They are the most power per melee unit you can get, combined with their fast speed, they are deadly on field and very much capable of wiping and entire army alone on high enough numbers.
+Due most of their cost lying within stables, it's usually effective to raid/make important picks with them, even for the consequence of them being lost, replacing them for relatively lower cost than the initial batch.
+They aren't completely standalone though, as they struggle against combinations of Spearmen/Pikemen/Monks with armor piercing ranged units.
 
 ##### Arabian Archer
 ```diff
