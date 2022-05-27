@@ -10,18 +10,18 @@ Not a finished product - the setup is still undergoing development.
 ### Quick Start
 The setup only works with version 1.41 of the game and modifies the Extreme executable.
 If you already own the game, you can check your version in the game's main menu, under the exit gate.
-If you happen to have an older version of the game, you can update for free using the [FireFly patch](http://www.strongholdcrusaderhd.com/patch.html) .
-If you don't own the game yet, you can buy the current newest version from [Steam](https://store.steampowered.com/app/40970/Stronghold_Crusader_HD/) .
+If you happen to have an older version of the game, you can update for free using the [FireFly patch](http://www.strongholdcrusaderhd.com/patch.html).
+If you don't own the game yet, you can buy the current newest version from [Steam](https://store.steampowered.com/app/40970/Stronghold_Crusader_HD/).
 
 Make sure to back up your game folder by copying it elsewhere before installing.
 
-Download the setup installer from [here](https://github.com/CIO61/SHCE_Bootstrap_Installer/releases/latest/download/BootstrapInstaller.exe) , insert the installer into your game folder and run it. It will automatically download and install everything that's needed.
+Download the setup installer from [here](https://github.com/CIO61/SHCE_Bootstrap_Installer/releases/latest/download/BootstrapInstaller.exe), insert the installer into your game folder and run it. It will automatically download and install everything that's needed.
 The setup installer also acts as an updater - any time a new version of the setup comes out, run it and it will update your setup.
 
 If you are intending on playing multiplayer with the setup through [GameRanger](https://www.gameranger.com/) - select the modified Extreme executable in (lobbyExplorer)/Edit/Options/Games.
 Afterwards, open an Extreme lobby and start the game like normal.
 
-If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join [our Discord server](invite link) .
+If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join [our Discord server](https://discord.gg/VuVCr8H).
 
 ## Changelog
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
