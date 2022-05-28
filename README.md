@@ -35,20 +35,24 @@ Of course, the usual ban on general bug abuses and external programs, giving the
 
 ### Starting Changes
 The vanilla game's multiplayer's biggest issue is the min. 2k gold start, either promoting early rushing or enforcing some amount of "No Rush" timer to be set - as a result of which, most people end up playing with a fully scripted economy and macro strategy, since it is the most efficient way of playing.
+
 We have gotten rid of this by changing the starting resources to 0 gold, 100 wood and 25 of each food type, as well as removing starting units, so the player can choose their own in form of mercenaries.
 The setup still has multiple starting setting choices, with reasonable resource/unit levels, for AI games or in case it's needed in general.
 The game will also default to 50 speed, as that is what most players prefer to use.
 
 ### Maps
 Another issue with vanilla multiplayer is it's maps - the vanilla ones are inherently poorly laid out and unbalanced, the custom ones being very simplictic, complimentary to the scripted style most players end up playing.
+
 We have our own map pack, consisting of over 50 custom made maps specifically for the style, varied for all kinds of playstyles.
 
 ### Bug Fixes
 Yet another issue with vanilla multiplayer, or vanilla in general is it's bugs.
+
 The setup is using the UCP, including most of it's bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
 
 ### Rebalance Changes
 Probably the most glaring issue in vanilla is it's poor unit/economy balances.
+
 The setup uses a rebalance mod with custom configuration, making vast majority of units and buildings viable, for their respective uses.
 Below is the rebalance changelog, listing both the concrete changes and how the units/buildings end up being used in the style.
 
