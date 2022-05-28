@@ -37,6 +37,7 @@ Of course, the usual ban on general bug abuses and external programs, giving the
 The vanilla game's multiplayer's biggest issue is the min. 2k gold start, either promoting early rushing or enforcing some amount of "No Rush" timer to be set - as a result of which, most people end up playing with a fully scripted economy and macro strategy, since it is the most efficient way of playing.
 We have gotten rid of this by changing the starting resources to 0 gold, 100 wood and 25 of each food type, as well as removing starting units, so the player can choose their own in form of mercenaries.
 The setup still has multiple starting setting choices, with reasonable resource/unit levels, for AI games or in case it's needed in general.
+The game will also default to 50 speed, as that is what most players prefer to use.
 
 ### Maps
 Another issue with vanilla multiplayer is it's maps - the vanilla ones are inherently poorly laid out and unbalanced, the custom ones being very simplictic, complimentary to the scripted style most players end up playing.
@@ -146,7 +147,7 @@ They are hindured by the requirement of an expensive weapon production chain, bu
 
 Knights are generally a lategame unit, although they oftenly appear in low numbers even during midgame.
 They are the most power per melee unit you can get, combined with their fast speed, they are deadly on field and very much capable of wiping an entire army alone on high enough numbers.
-Due most of their cost lying within stables, it's usually effective to raid/make important picks with them, even with the consequence of them being lost, replacing them for relatively lower cost than the initial batch.
+Due to most of their cost lying within stables, it's usually effective to raid/make important picks with them, even with the consequence of them being lost, replacing them for relatively lower cost than the initial batch.
 They aren't completely standalone though, as they struggle against combinations of Spearmen/Pikemen/Monks with armor piercing ranged units.
 
 #### Arabian Archer
@@ -202,10 +203,10 @@ They are very weak in melee, but still can pick on light ranged units, or even t
 ```
 
 Horse archers are one of the first ranged units you can get, used mostly only in earlygame.
-Their firepower is more expensive than that of Arabian archers, but their mobility easily makes up for it.
+Their firepower is more expensive than that of Arabian Archers, but their mobility easily makes up for it.
 They are used for raids and early aggressions, especially along with Slaves.
 They fall out of favor very fast once European Archers are around, and become nearly unusable around Shields.
-But, they have the unique ability to run on a ~5 tile patrol, shotting themselves while being unhitable by any ranged units further away than a few tiles.
+But, they have the unique ability to run on a ~5 tile patrol, shooting themselves while being unhitable by any ranged units further away than a few tiles.
 
 #### Arabian Swordsman
 ```diff
@@ -303,6 +304,11 @@ Although, since the player lacks control over them once placed, they can be bait
 - Gets 10 instead of 20 rocks from reloading for 10 stone
 ```
 
+Catapults are the most generalist siege engine, usually used from the end of midgame onwards.
+Their higher fire rate compared to Trebuchets makes them perfect for taking out any castle defences, as long as their line of sight is not obstructed.
+They are also useful for picking off shields, to uncover enemy units so your own ranged units can shoot them, and for firing diseased cows into crowds of enemy units.
+Although, they are highly dependant on map control due to their high stone cost, and they aren't always useful if there's too much elevation around them.
+
 #### Trebuchet
 ```diff
 + 66% HP increase
@@ -312,10 +318,18 @@ Although, since the player lacks control over them once placed, they can be bait
 - Gets 10 instead of 20 rocks from reloading for 10 stone
 ```
 
+Trebuchets are the ultimate siege engine for taking out castle defences, usually first appearing somewhere within midgame.
+They are effective regardless of elevation and much more economical than catapults, as they reload for the same cost, but their power per shot is higher.
+They are also far less likely to get destroyed, since they can be placed behind cover of cliffs or walls, and their range is superior.
+Used both offensively and defensively, they can - just like Catapults - pick on enemy shields and throw diseased cows into crowds of enemy units.
+
 #### Siege Tower
 ```diff
 + Cost changed: 40 wood, no gold
 ```
+
+Siege towers are mostly used for unlocking resources/paths on maps which have structures allowing for this.
+They are occasionally used offensively, although rather rarely, as there is far too many conditions needed for this to be practical.
 
 #### Battering Ram
 ```diff
@@ -324,11 +338,21 @@ Although, since the player lacks control over them once placed, they can be bait
 - Cost changed: 50 wood, 3 iron, no gold
 ```
 
+Battering Rams are used for sieges or small attacks, usually beginning with midgame.
+Their incredibly high health and melee resistance makes them nearly unstoppable with melee only, it usually takes a combination of all of one's melee units and ranged support to stop one.
+They are especially useful for preventing someone from repairing a tower, while damaging it down with Trebuchets/Catapults at the same time.
+They've also proven to be useful during melee fights, to hinder enemy melee units' stacking.
+All of this said, they can be tricky to acquire, as you need to have 3 iron at a time without it getting stolen by blacksmiths or armorers, and their high wood cost makes them somewhat map control dependant.
+
 #### Shields
 ```diff
 - Speed decreased to Pikeman level
 - Cost changed: 6 wood, no gold
 ```
+
+Shields are a necessity for every main army, beginning with later stages of earlygame.
+They are the only response to ranged units with highground or on towers for a long time, until other siege engines come around.
+Their wood cost makes them a lot more dependant on map control, or it forces the user to buy the wood which adds to their cost.
 
 #### Fire Ballista
 ```diff
@@ -339,11 +363,20 @@ Although, since the player lacks control over them once placed, they can be bait
 - Cost changed: 150 gold, 6 pitch
 ```
 
+Fireballistas are first used in low numbers from the start of midgame, to break shields and damage down heavier units, where even Crossbowmen fail.
+Their high damage output makes them effective even when fighting units on highground/towers.
+Though, they have many weaknesses - their pitch cost being the biggest one, requiring the user to either buy it or produce, which isn't always easy.
+They are also very slow, and thus almost unusable without support, as they would get picked on by fast melee units.
+Even when supported, they can get shot down by Catapults.
+
 #### Mangonel
 ```diff
 - 33% damage decrease to Shields
 - 50% damage decrease to Trebuchets
 ```
+
+Mangonels are situational, as the towers needed to support them are very expensive and of course, stationary.
+They are useful for damaging down large armies, before a melee fight occurs, in larger numbers they can completely cripple them.
 
 #### Tower Ballista
 ```diff
@@ -353,93 +386,45 @@ Although, since the player lacks control over them once placed, they can be bait
 + 50% damage increase to all Non-Siege Units
 ```
 
+Tower Ballistas are situational, as the towers needed to support them are very expensive and of course, stationary.
+They work very similarly to Fire Ballistas, but with the added benefit of safety on a tower, and far lower cost once the tower is built.
+They are very useful for picking off the attacker's Shields and siege engines, or generally damaging down their army, especially armored units.
+
 ### Building Changes
 
-#### Castle
+#### Raw Resource Production
 ```diff
-+ Lookout tower HP: +40% increase
-- Lookout tower cost: 15 stone
-+ Defense turret HP: +66.6% increase
-- Defense turret cost: 20 stone
-+ Square tower HP: +40.625% increase
-- Square tower cost: 45 stone
-+ Round tower HP: +125% increase
-- Round tower cost: 75 stone
 
-+ Tunnelers Guild cost: 10 wood, 5 stone
-+ Stables HP: +166.67% increase
-- Stables cost: 400 gold, 40 wood, 40 stone
-+ Oil Smelter HP: +566.67%
-+ Oil Smelter cost: 3 iron, no gold
-
-- Small Gatehouse cost: 15 stone
-+ Drawbridge HP: from 0 to 100 increase
 ```
 
-#### Industry
+#### Basic Food Production
 ```diff
-- Woodcutter's hut HP: -50% decrease
-+ Iron mine HP: +100% increase
-+ Pitchrig HP: +50% increase
-+ Pitchrig cost: 15 wood
-- Marketplace HP: -66.67% decrease
-+ The Marketplace is now free
-```
 
-#### Farms
-```diff
-- Hunter's hut HP: -50% decrease
-- Apple farm HP: -50% decrease
-+ Wheat farm HP: +50% increase
-+ Hop farm HP: +50% increase
 ```
 
 #### Weapon Production
 ```diff
-- Armoury HP: -40% decrease
-+ Fletcher HP: +33.34% increase
-+ Poleturner cost: 50 gold, 10 wood, 4 stone
-+ Blacksmith HP: +33.34% increase
-+ Blacksmith cost: 75 gold, 20 wood, 8 stone
-+ Tanner cost: 50 gold, 10 wood, 4 stone
-+ Armourer HP: +100% increase
-- Armourer cost: 150 gold, 20 wood, 20 stone
+
 ```
 
-#### Town
+#### Bread Economy
 ```diff
-- Chapel HP: -25% decrease
-+ Chapel cost: 50 gold, 5 stone
-+ Church cost: 150 gold, 20 stone
-+ Cathedral HP: +66.67% increase
-- Cathedral cost: 750 gold, 40 stone
-- Well HP: -33.34% decrease
-+ Well cost: 3 stone, no gold
-+ Water pot HP: +50% increase
-+ Positive fear factor accounts correctly for path to resting place
+
 ```
 
-#### Food Processing
+#### Beer Economy
 ```diff
-+ Mill HP: +33.34% increase
-- Bakery HP: -33.34% decrease
-- Brewery HP: -33.34% decrease
-- Inn cost: 30 wood, 15 stone, no gold
+
+```
+
+#### Castle Buildings
+```diff
+
+```
+
+#### Castle Defences
+```diff
+
 ```
 
 ### Trading Changes
-```diff
-(Per 5 traded)
-
-! Hops - buy 120, sell 60
-! Beer - buy 160, sell 80
-
-! Stone - buy 50, sell 25
-! Iron - buy 250, sell 130
-! Pitch - buy 180, sell 90
-
-! Bows: buy 150, sell 90
-! Maces: buy 320, sell 160
-! Swords: buy 340, sell 170
-! Armour: buy 400, sell 200
-```
