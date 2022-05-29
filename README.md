@@ -23,7 +23,7 @@ Afterwards, open an Extreme lobby and start the game like normal.
 
 If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join our [Discord server](https://discord.gg/VuVCr8H).
 
-## Changelog
+# Changelog
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
 - Using a custom map pack
@@ -33,39 +33,39 @@ The setup changes the gameplay to what's much more comparable to actual RTS game
 The style has only one artificial rule - no taxing on 0 popularity, because of it's potential abuse. This will be made impossible in a future update.
 Of course, the usual ban on general bug abuses and external programs, giving the player an unfair advantage, is still in place.
 
-### Starting Changes
+## Starting Changes
 The vanilla game's multiplayer's biggest issue is the min. 2k gold start, either promoting early rushing or enforcing some amount of "No Rush" timer to be set - as a result of which, most people end up playing with a fully scripted economy and macro strategy, since it is the most efficient way of playing.
 
 We have gotten rid of this by changing the starting resources to 0 gold, 100 wood and 25 of each food type, as well as removing starting units, so the player can choose their own in form of mercenaries.
 The setup still has multiple starting setting choices, with reasonable resource/unit levels, for AI games or in case it's needed in general.
 The game will also default to 50 speed, as that is what most players prefer to use.
 
-### Maps
+## Maps
 Another issue with vanilla multiplayer is it's maps - the vanilla ones are inherently poorly laid out and unbalanced, the custom ones being very simplictic, complimentary to the scripted style most players end up playing.
 
 We have our own map pack, consisting of over 50 custom made maps specifically for the style, varied for all kinds of playstyles.
 
-### Bug Fixes
+## Bug Fixes
 Yet another issue with vanilla multiplayer, or vanilla in general is it's bugs.
 
 The setup is using the UCP, including most of it's bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
 
-### Rebalance Changes
+## Rebalance Changes
 Probably the most glaring issue in vanilla is it's poor unit/economy balances.
 
 The setup uses a rebalance mod with custom configuration, making vast majority of units and buildings viable, for their respective uses.
 Below is the rebalance changelog, listing both the concrete changes and how the units/buildings end up being used in the style.
 
-#### Legend
+### Legend
 ```diff
 - for nerfs
 + for buffs
 ! for just changed
 ```
 
-### Unit Changes
+## Unit Changes
 
-#### European Archer
+### European Archer
 ```diff
 + 20% HP increase
 ```
@@ -74,7 +74,7 @@ European Archers are usually unlocked in the earlygame, acting as your primary r
 They are perfect for countering any light units, while standing their own against medium ones as well.
 They struggle a lot against heavy armored units, thus are replaced later on by Crossbowmen.
 
-#### Spearman
+### Spearman
 ```diff
 + 100% damage increase to Knights and Horse Archers
 + 16.6% less damage taken from Arrows
@@ -87,7 +87,7 @@ They are very cheap and cost effective against most melee units, although they s
 They act as your primary melee unit, up until they are later on replaced by Macemen.
 Although, they stay viable in some capacity all the way up until the end of lategame, due to their unique ability to damage down Knights while also keeping up with them.
 
-#### Maceman
+### Maceman
 ```diff
 + 33% HP increase
 + 20% damage increase
@@ -99,7 +99,7 @@ They are much more capable of tanking ranged shots than Spearmen, effectively co
 They perfectly fill in the weaknesses of Spearmen and they run at the same speed, so combining these two is the most common.
 They struggle a lot against European Swordsmen and Knights, thus they have to avoid such fights and they are later replaced by them.
 
-#### Crossbowman
+### Crossbowman
 ```diff
 ! 20% damage increase to Crossbowmen
 + 20% damage increase to European Archers and Pikemen
@@ -114,7 +114,7 @@ Crossbowmen usually come along when European Archers fail to counter heavier mel
 They are practically used in the same way as European Archers, but they are much more capable of damaging down armored units, although at the cost of lower mobility.
 They serve as your primary ranged unit up until the end of the game, later on alongside siege engines.
 
-#### Pikeman
+### Pikeman
 ```diff
 ! 50% damage increase to Pikemen
 + 50% HP increase
@@ -128,7 +128,7 @@ They are the only unit that can effectively dig moat, walk through fire and kill
 They are also a direct counter to Knights in melee.
 They struggle heavily against any other melee units and can't take on fights alone.
 
-#### European Swordsman
+### European Swordsman
 ```diff
 + 100% HP increase
 + 20% damage increase
@@ -141,7 +141,7 @@ They are standalone the most powerful melee unit in the game, capable of fightin
 Their slow speed makes the mostly only useful as a part of a player's main army.
 They are hindured by the requirement of an expensive weapon production chain, but still end up being a worthwhile unit.
 
-#### Knight
+### Knight
 ```diff
 + 70% HP increase
 + 150% damage increase
@@ -154,7 +154,7 @@ They are the most power per melee unit you can get, combined with their fast spe
 Due to most of their cost lying within stables, it's usually effective to raid/make important picks with them, even with the consequence of them being lost, replacing them for relatively lower cost than the initial batch.
 They aren't completely standalone though, as they struggle against combinations of Spearmen/Pikemen/Monks with armor piercing ranged units.
 
-#### Arabian Archer
+### Arabian Archer
 ```diff
 + 25% HP increase
 + 15% less damage taken from Arrows
@@ -164,7 +164,7 @@ They aren't completely standalone though, as they struggle against combinations 
 Arabian archers are one of the first units you can get at the start of the game.
 They are solely used as a substitute for European Archers, before they are unlocked or in case you need the extra firepower but don't have any more bows.
 
-#### Slave
+### Slave
 ```diff
 No direct stat changes
 ```
@@ -175,7 +175,7 @@ They are still the best unit to dig your own moat with, also on offense if the d
 They are unusable in the presence of enemy ranged units, namely Slingers and European Archers, unless supported.
 They struggle against all melee they can't outrun.
 
-#### Slinger
+### Slinger
 ```diff
 + 30% damage increase to Macemen
 + 20% damage increase to Pikemen
@@ -187,7 +187,7 @@ Sligners are one of the first units you get at the start of the game.
 They are the perfect defense against Slave/Assassin raids, also very powerful against Spearmen.
 Alone, they can't do much offensively as they struggle a lot against true ranged units, but they can serve as an anti-melee unit for main armies, up until large numbers of Macemen or heavier units are around.
 
-#### Assassin
+### Assassin
 ```diff
 ! Same damage to Slaves, Slingers, Arabian Archers, European Archers, Engineers, Laddermen, Horse Archers, Firethrowers
 + 900% damage increase to Trebuchets
@@ -201,7 +201,7 @@ Assassins are a much more powerful, but more expensive raid unit, compared to Sl
 Their invisibility makes them perfect for sneaking around defending units, to silently get into enemy economy before destroying it, also amplified by them nearly instakilling workers.
 They are very weak in melee, but still can pick on light ranged units, or even the Lord if one is desparate enough to try this.
 
-#### Horse Archer
+### Horse Archer
 ```diff
 - 36% more damage taken from Arrows
 ```
@@ -212,7 +212,7 @@ They are used for raids and early aggressions, especially along with Slaves.
 They fall out of favor very fast once European Archers are around, and become nearly unusable around Shields.
 But, they have the unique ability to run on a ~5 tile patrol, shooting themselves while being unhitable by any ranged units further away than a few tiles.
 
-#### Arabian Swordsman
+### Arabian Swordsman
 ```diff
 + 40% damage increase
 + Speed increased to Pikeman level
@@ -223,7 +223,7 @@ They are fairly tanky against arrows and sling shots, forcing their way through.
 However, they struggle against heavier melee units, later fully replaced by Macemen.
 They still remain as a panic option, in case one's Lord or economy is in danger.
 
-#### Monk
+### Monk
 ```diff
 No direct stat changes
 ```
@@ -233,14 +233,14 @@ They are the best unit for raw melee, but their slow speed, low ranged resistanc
 They also struggle in melee against European Swordsmen, requiring support, in form of units such as Pikemen to tank for them.
 They are mostly replaced by armored units within lategame, but stay useful in some capacity all the way until the end of the game.
 
-#### Engineer
+### Engineer
 ```diff
 No direct stat changes
 ```
 
 Engineers themselves are of course only used to construct siege engines, read the individual siege engines' descriptions for more information.
 
-#### Ladderman
+### Ladderman
 ```diff
 No direct stat changes
 ```
@@ -249,7 +249,7 @@ Laddermen are broken in concept in the vanilla game and here it's no different.
 They are usually used to get units to specific map made positions, through prebuilt climbable walls.
 Very rarely seen used offensively in the early/midgame, against player made castle defences.
 
-#### Tunneler
+### Tunneler
 ```diff
 No direct stat changes
 ```
@@ -257,7 +257,7 @@ No direct stat changes
 Tunnelers are broken in concept in the vanilla game and here it's no different.
 Their only practical use is for unlocking spefic paths on maps which have them, which no other unit can do.
 
-#### Oil Engineer
+### Oil Engineer
 ```diff
 No direct stat changes
 ```
@@ -266,7 +266,7 @@ Oil Engineers are overall a very weak, but usable unit, usually first seen durin
 The reduced cost of the Oil Smelter makes them potentially cost efficient, but still very hard and risky to use.
 They are used for holding choke points, both defensively and on field.
 
-#### The Lord
+### The Lord
 ```diff
 No direct stat changes
 ```
@@ -275,7 +275,7 @@ The Lord itself has stayed the same, but the environment around him has changed.
 Due to the low resource start, he's your most powerful melee unit for a relatively large part of earlygame.
 He's used to both defend against incoming attacks and used offensively for picking off buildings, which is very risky but can pay off.
 
-#### Caged War Dog
+### Caged War Dog
 ```diff
 + 200% damage increase to Macemen, Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
 + 300% damage increase to all other units
@@ -285,7 +285,7 @@ Caged War Dogs, as in Dog Cages, are used defensively against melee rushes all t
 They are very effective at stopping such attacks, especially when combined with other melee units and ranged support.
 Although, since the player lacks control over them once placed, they can be baited out and shot with ranged units - mainly Slingers, or destroyed with a single weaker melee unit, as that is not enough to trigger them.
 
-#### Workers / Other
+### Workers / Other
 ```diff
 - 66.67% HP decrease of Hunter Dogs
 - 50% damage decrease of Hunter Dogs against most units
@@ -297,9 +297,9 @@ Although, since the player lacks control over them once placed, they can be bait
 - Drunkards and Jesters no longer deal melee damage, this used to be an issue where they would randomly finish off or damage down raid units.
 - Your own Jester will no longer alert your opponent of incoming Assassin raids by following them.
 
-### Siege Changes
+## Siege Changes
 
-#### Catapult
+### Catapult
 ```diff
 + 50% HP increase
 + 100% damage increase to Buildings
@@ -313,7 +313,7 @@ Their higher fire rate compared to Trebuchets makes them perfect for taking out 
 They are also useful for picking off shields, to uncover enemy units so your own ranged units can shoot them, and for firing diseased cows into crowds of enemy units.
 Although, they are highly dependant on map control due to their high stone cost, and they aren't always useful if there's too much elevation around them.
 
-#### Trebuchet
+### Trebuchet
 ```diff
 + 66% HP increase
 + 100% damage increase to Building
@@ -327,7 +327,7 @@ They are effective regardless of elevation and much more economical than catapul
 They are also far less likely to get destroyed, since they can be placed behind cover of cliffs or walls, and their range is superior.
 Used both offensively and defensively, they can - just like Catapults - pick on enemy shields and throw diseased cows into crowds of enemy units.
 
-#### Siege Tower
+### Siege Tower
 ```diff
 + Cost changed: 40 wood, no gold
 ```
@@ -335,7 +335,7 @@ Used both offensively and defensively, they can - just like Catapults - pick on 
 Siege towers are mostly used for unlocking resources/paths on maps which have structures allowing for this.
 They are occasionally used offensively, although rather rarely, as there is far too many conditions needed for this to be practical.
 
-#### Battering Ram
+### Battering Ram
 ```diff
 + 100% HP increase
 + 1/5th damage taken from all melee sources
@@ -348,7 +348,7 @@ They are especially useful for preventing someone from repairing a tower, while 
 They've also proven to be useful during melee fights, to hinder enemy melee units' stacking.
 All of this said, they can be tricky to acquire, as you need to have 3 iron at a time without it getting stolen by blacksmiths or armorers, and their high wood cost makes them somewhat map control dependant.
 
-#### Shields
+### Shields
 ```diff
 - Speed decreased to Pikeman level
 - Cost changed: 6 wood, no gold
@@ -358,7 +358,7 @@ Shields are a necessity for every main army, beginning with later stages of earl
 They are the only response to ranged units with highground or on towers for a long time, until other siege engines come around.
 Their wood cost makes them a lot more dependant on map control, or it forces the user to buy the wood which adds to their cost.
 
-#### Fire Ballista
+### Fire Ballista
 ```diff
 + 100% damage increase to Shields
 + 60% damage increase to Catapults
@@ -373,7 +373,7 @@ Though, they have many weaknesses - their pitch cost being the biggest one, requ
 They are also very slow, and thus almost unusable without support, as they would get picked on by fast melee units.
 Even when supported, they can get shot down by Catapults.
 
-#### Mangonel
+### Mangonel
 ```diff
 - 33% damage decrease to Shields
 - 50% damage decrease to Trebuchets
@@ -382,7 +382,7 @@ Even when supported, they can get shot down by Catapults.
 Mangonels are situational, as the towers needed to support them are very expensive and of course, stationary.
 They are useful for damaging down large armies, before a melee fight occurs, in larger numbers they can completely cripple them.
 
-#### Tower Ballista
+### Tower Ballista
 ```diff
 + 100% damage increase to Shields
 + 60% damage increase to Catapults
@@ -394,11 +394,17 @@ Tower Ballistas are situational, as the towers needed to support them are very e
 They work very similarly to Fire Ballistas, but with the added benefit of safety on a tower, and far lower cost once the tower is built.
 They are very useful for picking off the attacker's Shields and siege engines, or generally damaging down their army, especially armored units.
 
-### Building Changes
+## Building Changes
 
 Buildings which aren't mentioned didn't recieve any changes.
 
-#### Raw Resource Production
+### Basic Food Production
+```diff
+- Hunter's hut HP: -50% decrease
+- Apple farm HP: -50% decrease
+```
+
+### Raw Resource Production
 ```diff
 - Woodcutter's hut HP: -50% decrease
 + Iron mine HP: +100% increase
@@ -406,13 +412,7 @@ Buildings which aren't mentioned didn't recieve any changes.
 + Pitchrig cost: 15 wood
 ```
 
-#### Basic Food Production
-```diff
-- Hunter's hut HP: -50% decrease
-- Apple farm HP: -50% decrease
-```
-
-#### Weapon Production
+### Weapon Production
 ```diff
 - Armoury HP: -40% decrease
 + Fletcher HP: +33.34% increase
@@ -424,21 +424,21 @@ Buildings which aren't mentioned didn't recieve any changes.
 - Armourer cost: 150 gold, 20 wood, 20 stone
 ```
 
-#### Bread Economy
+### Bread Economy
 ```diff
 + Wheat farm HP: +50% increase
 + Mill HP: +33.34% increase
 - Bakery HP: -33.34% decrease
 ```
 
-#### Beer Economy
+### Beer Economy
 ```diff
 + Hop farm HP: +50% increase
 - Brewery HP: -33.34% decrease
 - Inn cost: 30 wood, 15 stone, no gold
 ```
 
-#### Castle Buildings
+### Castle Buildings
 ```diff
 + Tunnelers Guild cost: 10 wood, 5 stone
 + Stables HP: +166.67% increase
@@ -461,7 +461,7 @@ Buildings which aren't mentioned didn't recieve any changes.
 + Positive fear factor accounts correctly for path to resting place
 ```
 
-#### Castle Defences
+### Castle Defences
 ```diff
 + Lookout tower HP: +40% increase
 - Lookout tower cost: 15 stone
@@ -476,17 +476,17 @@ Buildings which aren't mentioned didn't recieve any changes.
 + Drawbridge HP: from 0 to 100 increase
 ```
 
-#### Other
+### Other
 ```diff
 - Marketplace HP: -66.67% decrease
 + The Marketplace is now free
 ```
 
-### Resource Trading Changes
+## Resource Trading Changes
 
 The cost values are per 5 goods traded.
 
-#### Raw Resources
+### Raw Resources
 ```diff
   Wood - buy 20, sell 5
 ! Stone - buy 50, sell 25
@@ -494,7 +494,7 @@ The cost values are per 5 goods traded.
 ! Pitch - buy 180, sell 90
 ```
 
-#### Food
+### Food
 ```diff
   Meat - buy 40, sell 20
   Apples - buy 40, sell 20
@@ -506,7 +506,7 @@ The cost values are per 5 goods traded.
 ! Beer - buy 160, sell 80
 ```
 
-#### Weapons
+### Weapons
 ```diff
   Spears - buy 100, sell 50
 ! Bows - buy 150, sell 90
