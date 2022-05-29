@@ -396,39 +396,123 @@ They are very useful for picking off the attacker's Shields and siege engines, o
 
 ### Building Changes
 
+Buildings which aren't mentioned didn't recieve any changes.
+
 #### Raw Resource Production
 ```diff
-
+- Woodcutter's hut HP: -50% decrease
++ Iron mine HP: +100% increase
++ Pitchrig HP: +50% increase
++ Pitchrig cost: 15 wood
 ```
 
 #### Basic Food Production
 ```diff
-
+- Hunter's hut HP: -50% decrease
+- Apple farm HP: -50% decrease
 ```
 
 #### Weapon Production
 ```diff
-
+- Armoury HP: -40% decrease
++ Fletcher HP: +33.34% increase
++ Poleturner cost: 50 gold, 10 wood, 4 stone
++ Blacksmith HP: +33.34% increase
++ Blacksmith cost: 75 gold, 20 wood, 8 stone
++ Tanner cost: 50 gold, 10 wood, 4 stone
++ Armourer HP: +100% increase
+- Armourer cost: 150 gold, 20 wood, 20 stone
 ```
 
 #### Bread Economy
 ```diff
-
++ Wheat farm HP: +50% increase
++ Mill HP: +33.34% increase
+- Bakery HP: -33.34% decrease
 ```
 
 #### Beer Economy
 ```diff
-
++ Hop farm HP: +50% increase
+- Brewery HP: -33.34% decrease
+- Inn cost: 30 wood, 15 stone, no gold
 ```
 
 #### Castle Buildings
 ```diff
++ Tunnelers Guild cost: 10 wood, 5 stone
++ Stables HP: +166.67% increase
+- Stables cost: 400 gold, 40 wood, 40 stone
++ Oil Smelter HP: +566.67%
++ Oil Smelter cost: 3 iron, no gold
 
+- Chapel HP: -25% decrease
++ Chapel cost: 50 gold, 5 stone
++ Church cost: 150 gold, 20 stone
++ Cathedral HP: +66.67% increase
+- Cathedral cost: 750 gold, 40 stone
+
++ Apothecary's healer now seeks out and heals damaged units
+
+- Well HP: -33.34% decrease
++ Well cost: 3 stone, no gold
++ Water pot HP: +50% increase
+
++ Positive fear factor accounts correctly for path to resting place
 ```
 
 #### Castle Defences
 ```diff
++ Lookout tower HP: +40% increase
+- Lookout tower cost: 15 stone
++ Defense turret HP: +66.6% increase
+- Defense turret cost: 20 stone
++ Square tower HP: +40.625% increase
+- Square tower cost: 45 stone
++ Round tower HP: +125% increase
+- Round tower cost: 75 stone
 
+- Small Gatehouse cost: 15 stone
++ Drawbridge HP: from 0 to 100 increase
 ```
 
-### Trading Changes
+#### Other
+```diff
+- Marketplace HP: -66.67% decrease
++ The Marketplace is now free
+```
+
+### Resource Trading Changes
+
+The cost values are per 5 goods traded.
+
+#### Raw Resources
+```diff
+  Wood - buy 20, sell 5
+! Stone - buy 50, sell 25
+! Iron - buy 250, sell 130
+! Pitch - buy 180, sell 90
+```
+
+#### Food
+```diff
+  Meat - buy 40, sell 20
+  Apples - buy 40, sell 20
+  Cheese - buy 40, sell 20
+  Bread - buy 40, sell 20
+  Wheat - buy 115, sell 40
+  Flour - buy 160, sell 50
+! Hops - buy 120, sell 60
+! Beer - buy 160, sell 80
+```
+
+#### Weapons
+```diff
+  Spears - buy 100, sell 50
+! Bows - buy 150, sell 90
+! Maces - buy 320, sell 160
+  Crossbows - buy 290, sell 150
+  Pikes - buy 180, sell 90
+! Swords - buy 340, sell 170
+! Armour - buy 400, sell 200
+```
