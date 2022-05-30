@@ -152,7 +152,7 @@ They are hindered by the requirement of an expensive weapon production chain, bu
 ```
 
 Knights are generally a lategame unit, although they oftenly appear in low numbers even during midgame.
-They are the most power per melee unit you can get, combined with their fast speed, they are deadly on field and very much capable of wiping an entire army alone on high enough numbers.
+They are the most power per melee unit you can get, combined with their fast speed, they are deadly on field and very much capable of wiping out an entire army alone on high enough numbers.
 Due to most of their cost lying within stables, it's usually effective to raid/make important picks with them, even with the consequence of them being lost, replacing them for relatively lower cost than the initial batch.
 They aren't completely standalone though, as they struggle against combinations of Spearmen/Pikemen/Monks with armor piercing ranged units.
 
@@ -175,7 +175,7 @@ Slaves are a utility/raid unit, usually one of the first you get after the start
 They are perfect for picking on unprotected economy buildings, but also have the ability to burn down one's entire economy to ashes if packed along a main army attack.
 They are still the best unit to dig your own moat with, also on offense if the defenders have been cleared out already.
 They are unusable in the presence of enemy ranged units, namely Slingers and European Archers, unless supported.
-They struggle against all melee they can't outrun.
+They struggle against all melee units they can't outrun.
 
 ### Slinger
 ```diff
@@ -231,7 +231,7 @@ No direct stat changes
 ```
 
 Monks are usually first seen somewhere within midgame, due to their very high unlocking cost in form of a Cathedral.
-They are the best unit for raw melee, but their slow speed, low ranged resistances and high demands on the player's population makes them mostly supportive.
+They are the best unit for raw melee, but their slow speed, low ranged resistances and high demands on the player's population make them mostly supportive.
 They also struggle in melee against European Swordsmen, requiring support, in form of units such as Pikemen to tank for them.
 They are mostly replaced by armored units within lategame, but stay useful in some capacity all the way until the end of the game.
 
@@ -265,7 +265,7 @@ No direct stat changes
 ```
 
 Oil Engineers are overall a very weak, but usable unit, usually first seen during midgame, if ever.
-The reduced cost of the Oil Smelter makes them potentially cost efficient, but still very hard and risky to use.
+The low cost of the Oil Smelter makes them potentially cost efficient, but still very hard and risky to use.
 They are used for holding choke points, both defensively and on field.
 
 ### The Lord
@@ -416,7 +416,7 @@ Basic food production is a key to survival on most maps and is one of the first 
 It is also a great source of early gold for mercenaries or first weapon workshops.
 As the production buildings usually happen to be in the outer layer of one's economy, they oftenly require extra protection from raids.
 
-- The Granary is a practical requirement and is the first thing you should build after the game starts, ideally next to your planned food production buildings, in a safe spot as it is a very valueable raid target. It can be destroyed and moved to a more convenient location later on.
+- The Granary is a practical requirement and is the first thing you should build after the game starts, ideally next to your planned food production buildings, in a safe spot as it is a very valuable raid target. It can be destroyed and moved to a more convenient location later on.
 - Hunter's Huts are a very cheap and effective source of food income early on in the game, but they become useless when the map's deer run out, or if it doesn't have any in the first place.
 - Apple farms are cheap, effective and sustainable source of early food income, used right from start up until the player reaches too high of a population and switches to Wheat Farms and bread production.
 - Dairy farms are useful for the popularity bonus from food variety, but are more useful later on for Leather Armor production, or for Catapult/Trebuchet ammunition.
@@ -469,14 +469,14 @@ As the production buildings usually happen to be in the outer layer of one's eco
 Weapon production is required for stronger units, progressing throughout the game.
 More information to be considered is within each unit's description.
 All of the buildings should be placed close to the stockpile and each other.
-It is very important to it defend from raids, as it can easily go down with fire, and workers carrying weapons are vulnerable to Assassins.
+It is very important to defend it from raids, as it can easily go down with fire, and workers carrying weapons are vulnerable to Assassins.
 
 - The Armory should be placed near the Stockpile, for shorter worker walk times. It should be protected, as it is a high value raid target.
 - Fletchers are relatively cheap, but don't require any Stone, producing Crossbows just for sale is very profitable.
 - Poleturners are very cheap but require Stone, the Spears can be sold for fairly high profit.
 - Blacksmiths are somewhat costly and require Stone, but making produced iron into Maces/Swords for sale is very profitable.
 - Tanners are rather cheap but require Stone, buying the Leather Armor before building them is an option. Selling produced Leather Armor isn't very profitable, but still worth it considering the low investment.
-- Armorers are very expensive and require a large amount of Stone, but the Metal Armor also sells for the most of any weapon, it is even profitable to buy Iron to make it into Metal Armor for sale.
+- Armorers are very expensive and require a large amount of Stone, but the Metal Armor also sells for the most of any weapon, it is even profitable to buy Iron to be made into Metal Armor for sale.
 
 ### Bread Economy
 ```diff
@@ -490,7 +490,7 @@ It is very important to it defend from raids, as it can easily go down with fire
 ```
 
 Bread economy is difficult to start with due to it's very high Wood cost, thus should only be a followup to basic food production buildings, when the player needs the extra gold or their population becomes unsustainable using only basic food production.
-It is possible to start with, but only on maps which lack larger numbers farm spots and deer, but have one that is very safe, and have lots of trees to supply Wood early on.
+It is possible to start with, but only on maps which lack larger numbers of farm spots and deer, but have one that is very safe, and have lots of trees to supply Wood early on.
 It is very important to defend from raids, as it can very easily go down with fire, and lost workers take a lot of time to replace, which can prove fatal if the player is relying on it to keep their popularity up.
 
 Selling Bread is very profitable, selling Wheat or Flour can be done in case the gold is really needed, but it's much better to make them into Bread. Buying Wheat in fact feeds the population and even lands a small amount of profit, which can be greatly increased with Negative Fear Factor.
@@ -578,7 +578,7 @@ High Wall, Low Wall, Stairs, Perimeter Turret, Large Gatehouse, Killing Pits, Pi
 Castle defences progress throughout the game, the cheaper ones are seen right from start, while the more expensive ones come later.
 
 - Walls are generally used for blocking off paths and protecting towers. Stairs are then used to get onto said walls or towers.
-- Moat is perfect for blocking off paths and is technically free, but it takes a lot of time and effort to get up, and it is of course unusable on elevated ground.
+- Moat is perfect for blocking off paths and is technically free, but it takes a lot of time and effort to dig up, and it is of course unusable on elevated ground.
 - Pitch Ditches are deadly, they can wipe out an entire army or severly damage it, but they require a brazier to be placed near them, which - or the units using it - can be taken down by the attacker to safely pass.
 - Killing pits are very useful for weakening the attacker's army, but cost large amounts of wood and can be avoided.
 - Both gatehouse types and the drawbridge are of course used alongside walls/moat to make a passageway for the defender while disallowing the attacker to easily get in.
