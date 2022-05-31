@@ -547,10 +547,10 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 ```
 
 - Barracks, Mercenary Post, Engineer's Guild, Tunneler's Guild and Oil Smelter are only used to recruit their respective units, see their descriptions for more information. They don't need to be placed anywhere explicitely safe, but losing them does cost a small amount of resources to replace and can be annoying in a pinch.
-- Stables are very, very expensive and should be place somewhere safe, for more information, see the description of Knights.
-- The religion buildings are somewhat efficient for extra popularity income, especially Chapels. The permanent bonuses of the Church and the Cathedral are also very useful. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They should be placed somewhere relatively safe, as losing them to raids is very costly.
+- Stables are very, very expensive and need to be placed somewhere safe, for more information, see the description of Knights.
+- The religion buildings are somewhat efficient for extra popularity income, especially Chapels. The permanent bonuses of the Church and the Cathedral are also very useful. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They are usually placed somewhere relatively safe, as losing them to raids is very costly.
 - Houses are of course used to increase the player's max. population, they should be placed somewhere safe, as losing them can trigger crowding and loss of popularity.
-- The Apothecary is very useful, as the healer seeks out and heals damaged units, even the Lord. It's also useful for reducing the effects of diseased cow shots.
+- The Apothecary is very useful, as the healer seeks out and heals damaged units, even the Lord. It's also used for reducing the effects of diseased cow shots.
 - Wells and Water pots are usually only placed when the player's economy is already on fire, or shortly will be, as it is more economical to extinguish the buildings rather than destroying them.
 - Positive Fear Factor severely hurts the player's economy, but it is worth using once a large amount of army had already been acquired.
 - Negative Fear Factor greatly boosts the player's economy, but at the cost of weaker units, especially the melee ones.
@@ -577,10 +577,10 @@ High Wall, Low Wall, Stairs, Perimeter Turret, Large Gatehouse, Killing Pits, Pi
 
 Castle defences progress throughout the game, the cheaper ones are seen right from start, while the more expensive ones come later.
 
-- Walls are generally used for blocking off paths and protecting towers. Stairs are then used to get onto said walls or towers.
+- Walls are generally used for blocking off paths and protecting towers. Stairs are then used to get onto said walls or towers, they can also be used for unlocking specific map made paths.
 - Moat is perfect for blocking off paths and is technically free, but it takes a lot of time and effort to dig up, and it is of course unusable on elevated ground.
 - Pitch Ditches are deadly, they can wipe out an entire army or severly damage it, but they require a brazier to be placed near them, which - or the units using it - can be taken down by the attacker to safely pass.
-- Killing pits are very useful for weakening the attacker's army, but cost large amounts of wood and can be avoided.
+- Killing pits are very useful for weakening the attacker's army, but cost large amounts of wood and can be avoided, they are mostly used as a last resort option.
 - Both gatehouse types and the drawbridge are of course used alongside walls/moat to make a passageway for the defender while disallowing the attacker to easily get in.
 - All tower types are used for highground, safety of ranged unit and the larger ones to support tower siege engines. Which one is used depends on the economy level and needs of the player.
 
@@ -592,5 +592,5 @@ The Stockpile remains unchanged.
 + The Marketplace is now free
 ```
 
-- The Stockpile is free, the only cost is the space it takes up. It should be destroyed at start after the starting resources are spent, and placed wherever the player plans on basing their economy, ideally next to farms/other resources with distance falloff.
+- The Stockpile is free, the only cost is the space it takes up. It is usually destroyed at start after the starting resources are spent, and placed wherever the player plans on basing their economy, ideally next to farms/other resources with distance falloff.
 - The Marketplace is of course a necessity for playing efficiently. It is free and can be placed anywhere.
