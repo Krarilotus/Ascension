@@ -48,7 +48,7 @@ We have our own map pack, consisting of over 50 custom made maps specifically fo
 ## Bug Fixes
 Yet another issue with vanilla multiplayer, or vanilla in general is it's bugs.
 
-The setup is using the UCP, including most of it's bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
+The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including most of it's bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
 
 ## Rebalance Changes
 Probably the most glaring issue in vanilla is it's poor unit/economy balances.
@@ -472,7 +472,7 @@ All of the buildings should be placed close to the stockpile and each other.
 It is very important to defend it from raids, as it can easily go down with fire, and workers carrying weapons are vulnerable to Assassins.
 
 - The Armory should be placed near the Stockpile, for shorter worker walk times. It should be protected, as it is a high value raid target.
-- Fletchers are relatively cheap, but don't require any Stone, producing Crossbows just for sale is very profitable.
+- Fletchers are relatively cheap and don't require any Stone, producing Crossbows just for sale is very profitable.
 - Poleturners are very cheap but require Stone, the Spears can be sold for fairly high profit.
 - Blacksmiths are somewhat costly and require Stone, but making produced iron into Maces/Swords for sale is very profitable.
 - Tanners are rather cheap but require Stone, buying the Leather Armor before building them is an option. Selling produced Leather Armor isn't very profitable, but still worth it considering the low investment.
