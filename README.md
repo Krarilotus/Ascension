@@ -18,7 +18,7 @@ Make sure to back up your game folder by copying it elsewhere before installing.
 Download the [Bootstrap Installer](https://github.com/CIO61/SHCE_Bootstrap_Installer/releases/latest/download/BootstrapInstaller.exe), insert the installer into your game folder and run it. It will automatically download and install everything that's needed.
 The installer also acts as an updater - any time a new version of the setup comes out, run it and it will update your setup.
 
-If you are intending on playing multiplayer with the setup through [GameRanger](https://www.gameranger.com/) - select the modified Extreme executable in (lobbyExplorer)/Edit/Options/Games.
+If you intend on playing multiplayer with the setup through [GameRanger](https://www.gameranger.com/) - select the modified Extreme executable in (lobbyExplorer)/Edit/Options/Games.
 Afterwards, open an Extreme lobby and start the game like normal.
 
 If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join our [Discord server](https://discord.gg/VuVCr8H).
@@ -412,11 +412,11 @@ Dairy farm and the Granary remain unchanged.
   Cheese - buy 40, sell 20
 ```
 
-Basic food production is a key to survival on most maps and is one of the first things the player should build.
+Basic food production is a key to survival on most maps and is one of the first things the player builds.
 It is also a great source of early gold for mercenaries or first weapon workshops.
 As the production buildings usually happen to be in the outer layer of one's economy, they oftenly require extra protection from raids.
 
-- The Granary is a practical requirement and is the first thing you should build after the game starts, ideally next to your planned food production buildings, in a safe spot as it is a very valuable raid target. It can be destroyed and moved to a more convenient location later on.
+- The Granary is a practical requirement and is the first thing built after the game starts, ideally next to your planned food production buildings, in a safe spot as it is a very valuable raid target. It can be destroyed and moved to a more convenient location later on.
 - Hunter's Huts are a very cheap and effective source of food income early on in the game, but they become useless when the map's deer run out, or if it doesn't have any in the first place.
 - Apple farms are cheap, effective and sustainable source of early food income, used right from start up until the player reaches too high of a population and switches to Wheat Farms and bread production.
 - Dairy farms are useful for the popularity bonus from food variety, but are more useful later on for Leather Armor production, or for Catapult/Trebuchet ammunition.
@@ -436,7 +436,7 @@ Quarry and Ox Tether remain unchanged.
 ! Pitch - buy 180, sell 90
 ```
 
-Raw resource production is a necessity for economy progression and sustainability, one of the first things the player should build.
+Raw resource production is a necessity for economy progression and sustainability, one of the first things the player builds.
 All raw resources are a great source of early gold - except Wood, which is in almost all cases better invested into more economy.
 As the production buildings usually happen to be in the outer layer of one's economy, they oftenly require extra protection from raids.
 
@@ -468,10 +468,10 @@ As the production buildings usually happen to be in the outer layer of one's eco
 
 Weapon production is required for stronger units, progressing throughout the game.
 More information to be considered is within each unit's description.
-All of the buildings should be placed close to the stockpile and each other.
+All of the buildings are usually placed close to the stockpile and each other.
 It is very important to defend it from raids, as it can easily go down with fire, and workers carrying weapons are vulnerable to Assassins.
 
-- The Armory should be placed near the Stockpile, for shorter worker walk times. It should be protected, as it is a high value raid target.
+- The Armory is usually placed near the Stockpile, for shorter worker walk times. It needs to be protected, as it is a high value raid target.
 - Fletchers are relatively cheap and don't require any Stone, producing Crossbows just for sale is very profitable.
 - Poleturners are very cheap but require Stone, the Spears can be sold for fairly high profit.
 - Blacksmiths are somewhat costly and require Stone, but making produced iron into Maces/Swords for sale is very profitable.
@@ -489,14 +489,14 @@ It is very important to defend it from raids, as it can easily go down with fire
   Flour - buy 160, sell 50
 ```
 
-Bread economy is difficult to start with due to it's very high Wood cost, thus should only be a followup to basic food production buildings, when the player needs the extra gold or their population becomes unsustainable using only basic food production.
+Bread economy is difficult to start with due to it's very high Wood cost, thus is usually only be a followup to basic food production buildings, when the player needs the extra gold or their population becomes unsustainable using only basic food production.
 It is possible to start with, but only on maps which lack larger numbers of farm spots and deer, but have one that is very safe, and have lots of trees to supply Wood early on.
 It is very important to defend from raids, as it can very easily go down with fire, and lost workers take a lot of time to replace, which can prove fatal if the player is relying on it to keep their popularity up.
 
 Selling Bread is very profitable, selling Wheat or Flour can be done in case the gold is really needed, but it's much better to make them into Bread. Buying Wheat in fact feeds the population and even lands a small amount of profit, which can be greatly increased with Negative Fear Factor.
 Buying 5 Wheat to kickstart production right before, or a short while after placing a Wheat farm is very common.
 
-- Wheat farms should be placed as close to the stockpile as possible, due to their high production falloff over distance.
+- Wheat farms are usually placed as close to the stockpile as possible, due to their high production falloff over distance.
 - Mills can be placed anywhere around the stockpile, as they are cheap and don't suffer too much from falloff, due to the workers' high walking speed.
 - Bakeries can be played anywhere around the stockpile or the granary, as they are very cheap, and profitable practically no matter the distance.
 
@@ -512,10 +512,10 @@ Buying 5 Wheat to kickstart production right before, or a short while after plac
 
 Beer is very profitable for taxing and can even be used to sustain the player's popularity.
 It's rather high Stone investment cost makes it impractical early on.
-Inns and Hop farms should be protected from raids, as they are high value targets.
+Inns and Hop farms need to be protected from raids, as they are high value targets.
 
 It is profitable to buy Hops to tax or keep your popularity up, but they are better produced.
-Buying Beer is also an option, but should only be done if the player is at risk of losing their popularity.
+Buying Beer is also an option, but is only done if the player is at risk of losing their popularity.
 
 - Hop farms are very effective, they suffer from large falloff, but even at moderate distances, a single farm can produce enough Hops to sustain Beer production for 4 or more Inns.
 - Breweries are very cheap, they can be placed anywhere around the stockpile.
@@ -549,7 +549,7 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 - Barracks, Mercenary Post, Engineer's Guild, Tunneler's Guild and Oil Smelter are only used to recruit their respective units, see their descriptions for more information. They don't need to be placed anywhere explicitely safe, but losing them does cost a small amount of resources to replace and can be annoying in a pinch.
 - Stables are very, very expensive and need to be placed somewhere safe, for more information, see the description of Knights.
 - The religion buildings are somewhat efficient for extra popularity income, especially Chapels. The permanent bonuses of the Church and the Cathedral are also very useful. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They are usually placed somewhere relatively safe, as losing them to raids is very costly.
-- Houses are of course used to increase the player's max. population, they should be placed somewhere safe, as losing them can trigger crowding and loss of popularity.
+- Houses are of course used to increase the player's max. population, they are usually placed somewhere safe, as losing them can trigger crowding and loss of popularity.
 - The Apothecary is very useful, as the healer seeks out and heals damaged units, even the Lord. It's also used for reducing the effects of diseased cow shots.
 - Wells and Water pots are usually only placed when the player's economy is already on fire, or shortly will be, as it is more economical to extinguish the buildings rather than destroying them.
 - Positive Fear Factor severely hurts the player's economy, but it is worth using once a large amount of army had already been acquired.
