@@ -1,3 +1,7 @@
+# Bootstrap Tutorial
+
+Made for v1.9.5 of the setup.
+
 The tutorial assumes that the reader has at least basic knowledge of the vanilla game.
 
 The tutorial also assumes that the official setup with it's default settings is being played.
@@ -7,7 +11,7 @@ Don't forget that the best way to learn the game is still just by playing it, or
 
 You can read the Bootstrap Changelog for more information about specific units and buildings.
 
-### Start of the game
+## Start of the game
 
 You start the game with no gold, 100 wood, 25 of each food type (100 total) and no starting units - only your lord.
 
@@ -78,7 +82,7 @@ All of the above usually happens in under 2 minutes and it's important that you 
 
 Assuming you have survived the initial skirmishes, are doing fine or even got a lead on your opponent...
 
-### Earlygame
+## Earlygame
 
 Spending your first resource deliveries - 
 
@@ -154,7 +158,7 @@ You can situationally delay getting some of these, but generally you shouldn't, 
 
 Assuming you haven't yet won or lost the game completely...
 
-### Middlegame
+## Middlegame
 
 Larger scale, sometimes even game deciding fights will occur from this point on.
 Make sure you take up as much of the map for yourself as possible, keep up the pressure with raids on your enemy's economy and organize full on main army attacks.
@@ -213,7 +217,7 @@ Knights and all the religion buildings are rather optional at this point of the 
 
 Assuming you still haven't won or lost the game by this point...
 
-### Lategame
+## Lategame
 
 Slowly start switching your entire weapon production to put out swordsmen and knights instead of macemen, invest into stables if possible.
 Knights on larger numbers can completely control the field and kill anything that doesn't directly counter them.
@@ -241,7 +245,7 @@ If you are attacking, build trebuchets and/or catapults, combined with rams to t
 Trebuchets and catapults can also be used defensively.
 Whichever side of the siege you are on, the game will most likely end with it.
 
-### General advice
+## General advice
 
 - At all times, no matter what, be careful about your lord. After all, killing him is the only objective of the game. Assassin sneaks or melee rushes on him are far from uncommon.
 - Have respect for highground - never take a melee fight uphill unless you have far more units, same way never fight ranged units which are uphill or on walls/towers unless you have shields.
