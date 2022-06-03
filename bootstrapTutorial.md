@@ -1,4 +1,4 @@
-# Bootstrap Tutorial
+# Bootstrap Gameplay Tutorial
 
 Made for v1.9.5 of the setup.
 
