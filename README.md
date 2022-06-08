@@ -505,11 +505,12 @@ Buying 5 Wheat to kickstart production right before, or a short while after plac
 ### Beer Economy
 ```diff
 + Hop farm HP: +50% increase
++ Hop farm cost: 10 wood
 - Brewery HP: -33.34% decrease
 - Inn cost: 30 wood, 15 stone, no gold
 
-! Hops - buy 120, sell 60
-! Beer - buy 160, sell 80
+! Hops - buy 150, sell 75
+! Beer - buy 200, sell 100
 ```
 
 Beer is very profitable for taxing and can even be used to sustain the player's popularity.
