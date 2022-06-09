@@ -149,6 +149,8 @@ They are hindered by the requirement of an expensive weapon production chain, bu
 ```diff
 + 70% HP increase
 + 150% damage increase
++ 166.67% damage increase to towers and gates
++ 14% damage increase to regular buildings
 + 20% less damage taken from Arrows 
 - Cost changed: 60 gold to recruit
 ```
@@ -219,6 +221,8 @@ But, they have the unique ability to run on a ~5 tile patrol, shooting themselve
 ### Arabian Swordsman
 ```diff
 + 40% damage increase
++ 166.67% damage increase to towers and gates
++ 14% damage increase to regular buildings
 + Speed increased to Pikeman level
 ```
 
@@ -255,11 +259,13 @@ Very rarely seen used offensively in the early/midgame, against player made cast
 
 ### Tunneler
 ```diff
-No direct stat changes
++ 750% damage increase to towers and gates
++ 150% damage increase to regular buildings
 ```
 
-Tunnelers are broken in concept in the vanilla game and here it's no different.
-Their only practical use is for unlocking spefic paths on maps which have them, which no other unit can do.
+Tunnelers are usually first seen during the earlygame.
+Their main strength lies in their very high damage to buildings, they are a very powerful raid unit and support for sieges.
+They also have the unique ability to one-shot lookout towers, perimeter turrets and defense turrets with their tunnel attack - though this can be easily defended against with a preventive wall in front of the tower.
 
 ### Oil Engineer
 ```diff

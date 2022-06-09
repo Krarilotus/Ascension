@@ -9,6 +9,8 @@ The tutorial also assumes that the official setup with it's default settings is 
 The tutorial gets more and more generic and unhelpful the further the game has progressed, this is unavoidable as there is increasingly more opportunities to deviate from it while still playing just as effectively.
 Don't forget that the best way to learn the game is still just by playing it, or watching how more experienced players play it.
 
+The tutorial is expected to be deviated from, as the player should create their own playstyle which fits them the best.
+
 You can read the Bootstrap Changelog for more information about specific units and buildings.
 
 ## Start of the game
