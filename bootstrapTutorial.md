@@ -33,24 +33,21 @@ First, get some food production going. Spending 25 to 40 wood on it is generally
 Most of the time, you should start with more basic food production buildings - being apple farms and hunters.
 Make sure to season your apple farms if you use them - place half of them, do something else until the trees turn green, then place the rest.
 Hunters initially outproduce apple farms, but when deer run out, they're useless. Be careful to place them at least 15 tiles (~1 Cathedral) away from deer, as otherwise they bug out and go for a different group.
-You may start with a wheat farm, if you are met with the following conditions:
-- The map has little food sources, or mainly deer (which you should hunt anyways)
-- Farmland viable for wheat farms is easy to protect and defend and is also close to a good stockpile location for rest of the map
-- You have at least some other means to get by and give you popularity while you master the transitional period of about half an ingame year, before the bread production kicks in
+You can start with a wheat farm, if the following conditions are fulfilled:
+- The map has very little farm spots/safe ones, and deer (otherwise, you will get outproduced and be in a disadvantage)
+- You have a very safe spot for the wheat farm, can place the granary and the stockpile next to it and it is not too far away from the keep
+- There is some small amount of deer/few very easy to get spots for apple farms (to keep you alive before the first wheat comes in)
 
 Next, get a quarry and one ox tether if possible.
 It's a great source of early gold and later on you will need the stone to progress your economy.
 
-Use up the rest of your wood on woodcutters - prioritize placing them next to trees in areas which you can easily defend at first. On Resource rich maps, you might prioritize woodcutters over other wood costing buildings and get a good amount of at least 10 to 15.
+Use up the rest of your wood on woodcutters - prioritize placing them next to trees in areas which you can easily defend at first.
 
-After spending the last wood, you want to delete and reposition your stockpile to a new safe location in the center of your economy. Consider these factors for your choice:
-- Do you want to reposition it again? If yes, place it lose to wood and spend the first deliveries before replacing (considering the other factors)
-- Are your wheatfarms producing at maximum efficiency? They are often the bottleneck to your later economy and a cheap and easy source for early gold through selling bread
-- Do your ironmines and pitchrigs produce at a good efficiency? 
-- Do you have good expandability and room for more economy?
-- Can you defend your Main Economy situated around your stockpile in early, mid and lategame? Is it potentially in range of possible blindspots for Trebuchet Harass from your enemy?
-
-You want to at least build 3 stockpiles and leave some room for expanding it in the future. The Stockpile choice is critical to your entire gameplan, that's why it is often good to already figure out good placements during a potential viewing round of the map.
+Delete you starting stockpile to move it elsewhere.
+If you went for a wheat farm, place it right next to it.
+Otherwise, place it anywhere safe near your resource production, but not too far away from the keep.
+Ideally, next to a farm spot which can support a wheat farm, as you will want to switch to bread production eventually.
+3 to 5 stockpiles is ideal, the only cost to it is the space it takes up and can be expanded later if needed.
 
 Build a market (it's free), sell some of the food - prioritize selling those types which you are about to produce. Keep about 20 to 50 of it, depending on how much food production you just built.
 Don't forget to lower your taxes to -2 now, if you set up -4 initially.
