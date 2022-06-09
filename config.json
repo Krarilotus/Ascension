@@ -114,6 +114,13 @@
             "health": "150"
         },
         "Hop farm": {
+            "cost": [
+                "10",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
             "health": "150"
         },
         "Apple farm": {
@@ -273,8 +280,8 @@
     },
     "resources": {
         "Hop": {
-            "buy": "120",
-            "sell": "60"
+            "buy": "150",
+            "sell": "75"
         },
         "Stone": {
             "buy": "50",
@@ -289,8 +296,8 @@
             "sell": "90"
         },
         "Beer": {
-            "buy": "160",
-            "sell": "80"
+            "buy": "200",
+            "sell": "100"
         },
         "Bow": {
             "buy": "150",
@@ -589,6 +596,86 @@
         "Trebuchet": {
             "health": "20000"
         },
+        "Hunter dog": {
+            "health": "1000",
+            "meleeDamageVs": {
+                "Peasant": "5",
+                "Burning man": "5",
+                "Woodcutter": "5",
+                "Fletcher": "5",
+                "Tunneler": "5",
+                "Hunter": "5",
+                "Quarry mason": "5",
+                "Quarry grunt": "5",
+                "Quarry ox": "5",
+                "Pitch worker": "5",
+                "Wheat farmer": "5",
+                "Hops farmer": "5",
+                "Apple farmer": "5",
+                "Dairy farmer": "5",
+                "Miller": "5",
+                "Baker": "5",
+                "Brewer": "5",
+                "Poleturner": "5",
+                "Blacksmith": "5",
+                "Armourer": "5",
+                "Tanner": "5",
+                "European archer": "5",
+                "European crossbowman": "5",
+                "European spearman": "5",
+                "European pikeman": "5",
+                "European maceman": "5",
+                "European swordsman": "5",
+                "European knight": "5",
+                "Ladderman": "5",
+                "Engineer": "5",
+                "Iron miner1": "5",
+                "Iron miner2": "5",
+                "Priest": "5",
+                "Healer": "5",
+                "Drunkard": "5",
+                "Innkeeper": "5",
+                "Monk": "5",
+                "unknown1": "5",
+                "Catapult": "5",
+                "Trebuchet": "5",
+                "Mangonel": "5",
+                "Trader": "5",
+                "Trader horse": "5",
+                "Deer": "5",
+                "Lion": "5",
+                "Camel": "5",
+                "Crow": "5",
+                "Seagull": "5",
+                "Cow": "5",
+                "Hunter dog": "5",
+                "Fireman": "5",
+                "Ghost": "5",
+                "Lord": "5",
+                "Lady": "5",
+                "Jester": "5",
+                "Siege tower": "5",
+                "Battering ram": "1",
+                "Portable shield": "5",
+                "Tower ballista": "5",
+                "Chicken": "5",
+                "Mother": "5",
+                "Child": "5",
+                "Juggler": "5",
+                "Fireeater": "5",
+                "Dog": "5",
+                "unknown2": "5",
+                "unknown3": "5",
+                "Arabian archer": "5",
+                "Arabian slave": "5",
+                "Arabian slinger": "5",
+                "Arabian assassin": "5",
+                "Arabian horse archer": "5",
+                "Arabian swordsman": "5",
+                "Arabian firethrower": "5",
+                "Fire ballista": "5"
+            }
+        },
         "Battering ram": {
             "health": "300000"
         },
@@ -738,11 +825,6 @@
                 "Battering ram": "20"
             }
         },
-        "Hunter dog": {
-            "meleeDamageVs": {
-                "Battering ram": "2"
-            }
-        },
         "Lord": {
             "meleeDamageVs": {
                 "Battering ram": "30"
@@ -775,7 +857,7 @@
                 "European crossbowman": "200",
                 "European spearman": "200",
                 "European pikeman": "150",
-                "European maceman": "200",
+                "European maceman": "150",
                 "European swordsman": "150",
                 "European knight": "150",
                 "Ladderman": "200",
@@ -946,6 +1028,12 @@
         "value": 3
     },
     {
+        "description": "Knight damage to buildings base.",
+        "address": "0x1633FD",
+        "size": 1,
+        "value": 80
+    },
+    {
         "description": "Knight recruit cost.",
         "address": "0x6B92BC",
         "size": 4,
@@ -964,10 +1052,22 @@
         "value": 65
     },
     {
+        "description": "Arabian swordsman damage to buildings base.",
+        "address": "0x176550",
+        "size": 1,
+        "value": 80
+    },
+    {
         "description": "Arabian swordsman speed.",
         "address": "0x74e85c",
         "size": 4,
         "value": 2
+    },
+    {
+        "description": "Tunneler damage to buildings base.",
+        "address": "0x14F73D",
+        "size": 1,
+        "value": 50
     },
 	{
         "description": "Catapult damage to buildings.",
