@@ -1,15 +1,15 @@
-# Bootstrap Gameplay Tutorial
+# Bootstrap Gameplay Guide
 
 Made for v1.9.5 of the setup.
 
-The tutorial assumes that the reader has at least basic knowledge of the vanilla game.
+The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
-The tutorial also assumes that the official setup with it's default settings is being played.
+The guide also assumes that the official setup with it's default settings is being played.
 
-The tutorial gets more and more generic and unhelpful the further the game has progressed, this is unavoidable as there is increasingly more opportunities to deviate from it while still playing just as effectively.
+The guide gets more and more generic and unhelpful the further the game has progressed, this is unavoidable as there is increasingly more opportunities to deviate from it while still playing just as effectively.
 Don't forget that the best way to learn the game is still just by playing it, or watching how more experienced players play it.
 
-The tutorial is expected to be deviated from, as the player should create their own playstyle which fits them the best.
+The guide is expected to be deviated from, as the player should create their own playstyle which fits them the best.
 
 You can read the Bootstrap Changelog for more information about specific units and buildings.
 
@@ -35,18 +35,20 @@ Make sure to season your apple farms if you use them - place half of them, do so
 Hunters initially outproduce apple farms, but when deer run out, they're useless. Be careful to place them at least 15 tiles (~1 Cathedral) away from deer, as otherwise they bug out and go for a different group.
 You can start with a wheat farm, if the following conditions are fulfilled:
 - The map has very little farm spots/safe ones, and deer (otherwise, you will get outproduced and be in a disadvantage)
-- You have a very safe spot for the wheat farm, can place the granary and the stockpile next to it and it is not too far away from the keep
-- There is some small amount of deer/few very easy to get spots for apple farms (to keep you alive before the first wheat comes in)
+- You have a very safe spot for the wheat farm, which you can place your granary and the stockpile next to
+- There is some small amount of deer/few very easy to get spots for apple farms (to supply food for keeping your popularity up, before you can start producing bread)
 
 Next, get a quarry and one ox tether if possible.
 It's a great source of early gold and later on you will need the stone to progress your economy.
 
 Use up the rest of your wood on woodcutters - prioritize placing them next to trees in areas which you can easily defend at first.
+On resource rich maps, you should prioritize getting 10 to 15 woodcutters for faster later economy expansion.
 
 Delete you starting stockpile to move it elsewhere.
 If you went for a wheat farm, place it right next to it.
 Otherwise, place it anywhere safe near your resource production, but not too far away from the keep.
-Ideally, next to a farm spot which can support a wheat farm, as you will want to switch to bread production eventually.
+Ideally, close to a farm spot which can support a wheat farm, as you will want to switch to bread production eventually.
+Take in count all resources with falloff which you may later want to capture, namely farms, iron mines and pitch rigs.
 3 to 5 stockpiles is ideal, the only cost to it is the space it takes up and can be expanded later if needed.
 
 Build a market (it's free), sell some of the food - prioritize selling those types which you are about to produce. Keep about 20 to 50 of it, depending on how much food production you just built.
