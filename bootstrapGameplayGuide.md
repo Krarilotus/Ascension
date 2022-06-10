@@ -101,6 +101,7 @@ Buy all the wood needed to expand and run your economy, if your production doesn
 From this point onwards, think twice before selling any stone - it could be better used for weapon production, beer coverage and religion buildings.
 
 Keep getting mercenaries to fend off attacks and raid enemy economy.
+Consider getting the tunneler's guild from your first stone delivery - tunnelers are very powerful for destroying outer economy buildings when facing little to no resistance or when supported by other units.
 Do not overspend on them though - having an army of mercenaries is nice, but not when you will die later on since you fell behind in economy because of it.
 
 If it seems like a good idea - you can use arabian swordsmen to push important map control points. They are especially powerful when rallypointed.
@@ -252,7 +253,9 @@ Whichever side of the siege you are on, the game will most likely end with it.
 ## General advice
 
 - At all times, no matter what, be careful about your lord. After all, killing him is the only objective of the game. Assassin sneaks or melee rushes on him are far from uncommon.
+- Keep applying pressure on your opponent whenever possible, the time they spend defending is time they can't spend on expanding their economy, getting more army or attacking you.
 - Have respect for highground - never take a melee fight uphill unless you have far more units, same way never fight ranged units which are uphill or on walls/towers unless you have shields.
+- Use all the defender's advantages if you find yourself on defense, especially in your build range - namely highground, towers, pitch ditches and dog cages.
 - Use water pots and wells to extinguish fires instead of deleting buildings, unless deleting them is necessary or more practical.
 - Make sure to delete unnecessary hunters and woodcutters, so they don't just keep walking into enemy ranged units - losing large amounts of population at an unfotunate moment can cost you the game.
 - Use unit rallypoints, either to have them all rally in a convenient spot or for movement benefits - all units ignore ground type slowdowns when rallypointed.
