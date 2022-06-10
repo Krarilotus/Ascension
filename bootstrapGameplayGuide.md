@@ -32,7 +32,7 @@ Next up - spending your starting wood.
 First, get some food production going. Spending 25 to 40 wood on it is generally ideal.
 Most of the time, you should start with more basic food production buildings - being apple farms and hunters.
 Make sure to season your apple farms if you use them - place half of them, do something else until the trees turn green, then place the rest.
-Hunters initially outproduce apple farms, but when deer run out, they're useless. Be careful to place them at least 15 tiles (~1 Cathedral) away from deer, as otherwise they bug out and go for a different group.
+Hunters initially outproduce apple farms, but when deer run out, they're useless. Be careful to place them at least 15 tiles (~1 Cathedral) away from deer and closer to the intended deer group than other - even inaccessbiles ones - as otherwise the will bug out and go for another group or won't hunt at all.
 You can start with a wheat farm, if the following conditions are fulfilled:
 - The map has very little farm spots/safe ones, and deer (otherwise, you will get outproduced and be in a disadvantage)
 - You have a very safe spot for the wheat farm, which you can place your granary and the stockpile next to
