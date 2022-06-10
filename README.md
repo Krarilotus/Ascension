@@ -21,7 +21,7 @@ The installer also acts as an updater - any time a new version of the setup come
 If you intend on playing multiplayer with the setup through [GameRanger](https://www.gameranger.com/) - select the modified Extreme executable in (lobbyExplorer)/Edit/Options/Games.
 Afterwards, open an Extreme lobby and start the game like normal.
 
-You can read the [Gameplay Tutorial](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapTutorial.md) for basic information on how to play the style.
+You can read the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for basic information on how to play the style.
 
 If you want to get in touch with the Bootstrap community or need help troubleshooting the installment, join our [Discord server](https://discord.gg/VuVCr8H).
 
@@ -542,7 +542,7 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 
 - Chapel HP: -25% decrease
 + Chapel cost: 50 gold, 5 stone
-+ Church cost: 150 gold, 20 stone
++ Church cost: 150 gold, 25 stone
 + Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
 
