@@ -101,7 +101,7 @@ Buy all the wood needed to expand and run your economy, if your production doesn
 From this point onwards, think twice before selling any stone - it could be better used for weapon production, beer coverage and religion buildings.
 
 Keep getting mercenaries to fend off attacks and raid enemy economy.
-Consider getting the tunneler's guild from your first stone delivery - tunnelers are very powerful for destroying outer economy buildings when facing little to no resistance or when supported by other units.
+Consider building the tunneler's guild - tunnelers are very powerful for destroying outer economy buildings when facing little to no resistance or when supported by other units.
 Do not overspend on them though - having an army of mercenaries is nice, but not when you will die later on since you fell behind in economy because of it.
 
 If it seems like a good idea - you can use arabian swordsmen to push important map control points. They are especially powerful when rallypointed.
