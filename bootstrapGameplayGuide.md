@@ -107,6 +107,8 @@ Do not overspend on them though - having an army of mercenaries is nice, but not
 If it seems like a good idea - you can use arabian swordsmen to push important map control points. They are especially powerful when rallypointed.
 They are also really good as a panic option, in case your lord or economy is in danger and you don't have any weapons, all throughout the game.
 
+Firethrowers can be used from this point onwards to fight lots of melee units, although be careful as they are a risky investment and need a lot of support to be effective.
+
 Some maps also have breakable structures through which you can unlock more resources, some only destructible by tunnelers - consider opening these.
 
 Next up, set up basic weapon production. You can do it straight away if you have resources left over, or you can wait for the next few deliveries.
@@ -178,7 +180,7 @@ You should slowly start adjusting the ratio of spearmen to macemen in your army,
 You can also start using fireballistas if you have the pitch needed for them, they are great both offensively and defensively to break enemy shields or pick on their units.
 
 By this time you should also have the resources to use some of the more expensive towers along with tower siege engines, if you find yourself defending.
-Firethrowers and oil pot engineers can be used defensively or for holding down control points, sort of as mobile pitch ditches.
+Oil pot engineers can be used defensively or for holding down control points, sort of as mobile pitch ditches.
 
 To take castle defences down on offense, you should primarily use trebuchets hidden behind cover and protected by your main army.
 You can also use them to destroy the defender's inside economy, so they will struggle to put out more units.
