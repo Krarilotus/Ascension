@@ -3,7 +3,7 @@ This is the official repository for the Bootstrap Multiplayer Setup.
 
 This setup aims to fix all issues with Stronghold Crusader multiplayer, via game modifications.
 
-v1.9.5
+v1.9.6
 
 Not a finished product - the setup is still undergoing development.
 
@@ -105,12 +105,14 @@ They struggle a lot against European Swordsmen and Knights, thus they have to av
 
 ### Crossbowman
 ```diff
-! 20% damage increase to Crossbowmen
-+ 20% damage increase to European Archers and Pikemen
-+ 20% damage increase to European Swordsmen
-- 20% damage decrease to Macemen
-- 5% damage decrease to Arabian Archers
-- 40% damage decrease to Arabian Swordsmen
+! 20% ranged damage increase to Crossbowmen
++ 20% ranged damage increase to European Archers and Pikemen
++ 20% ranged damage increase to European Swordsmen
+- 20% ranged damage decrease to Macemen
+- 5% ranged damage decrease to Arabian Archers
+- 40% ranged damage decrease to Arabian Swordsmen
+- 25% ranged damage decrease to Firethrowers
+- 50% ranged damage decrease to Tunnelers
 - Cost changed: 25 gold to recruit
 ```
 
@@ -183,10 +185,10 @@ They struggle against all melee units they can't outrun.
 
 ### Slinger
 ```diff
-+ 30% damage increase to Macemen
-+ 20% damage increase to Pikemen
-+ 33% damage increase to European Swordsmen
-- 40% damage decrease to Arabian Swordsmen
++ 30% ranged damage increase to Macemen
++ 20% ranged damage increase to Pikemen
++ 33% ranged damage increase to European Swordsmen
+- 50% ranged damage decrease to Arabian Swordsmen
 ```
 
 Slingers are one of the first units you get at the start of the game.
@@ -231,6 +233,19 @@ They are fairly tanky against arrows and sling shots, forcing their way through.
 However, they struggle against heavier melee units, later fully replaced by Macemen.
 They still remain as a panic option, in case one's Lord or economy is in danger.
 
+### Firethrower
+```diff
++ 330% HP increase
++ 20% less damage taken from arrows
++ 233.33% melee damage increase to most units
++ 100% melee damage increase to European Swordsmen, Knights
+```
+
+Firethrowers are usable all the way since the start of the game and stay viable up until the end.
+They mainly act as an anti-melee unit, generally used for holding points rather than pushing.
+They stand their own in melee fights, but aren't very cost effective for it.
+They are relatively tanky against ranged shots, although heavier ranged units, such as Crossbowmen and Fireballistas still pose a serious threat to them.
+
 ### Monk
 ```diff
 No direct stat changes
@@ -259,6 +274,8 @@ Very rarely seen used offensively in the early/midgame, against player made cast
 
 ### Tunneler
 ```diff
++ 50% HP increase
++ 50% less damage taken from arrows
 + 750% damage increase to towers and gates
 + 150% damage increase to regular buildings
 ```
@@ -457,7 +474,7 @@ As the production buildings usually happen to be in the outer layer of one's eco
 ```diff
 - The Armory HP: -40% decrease
 + Fletcher HP: +33.34% increase
-+ Poleturner cost: 50 gold, 10 wood, 4 stone
++ Poleturner cost: 50 gold, 10 wood, 6 stone
 + Blacksmith HP: +33.34% increase
 + Blacksmith cost: 75 gold, 20 wood, 8 stone
 + Tanner cost: 50 gold, 10 wood, 4 stone
@@ -515,8 +532,8 @@ Buying 5 Wheat to kickstart production right before, or a short while after plac
 - Brewery HP: -33.34% decrease
 - Inn cost: 30 wood, 15 stone, no gold
 
-! Hops - buy 150, sell 75
-! Beer - buy 200, sell 100
+! Hops - buy 200, sell 100
+! Beer - buy 250, sell 125
 ```
 
 Beer is very profitable for taxing and can even be used to sustain the player's popularity.
@@ -534,7 +551,7 @@ Buying Beer is also an option, but is only done if the player is at risk of losi
 ```diff
 Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remain unchanged.
 
-+ Tunneler's Guild cost: 10 wood, 5 stone, no gold
++ Tunneler's Guild cost: 15 wood, no gold
 + Stables HP: +166.67% increase
 - Stables cost: 400 gold, 40 wood, 40 stone
 + Oil Smelter HP: +566.67%
@@ -546,6 +563,7 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 + Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
 
++ Apothecary HP: +66.67% increase
 + Apothecary's healer now seeks out and heals damaged units
 
 - Well HP: -33.34% decrease
