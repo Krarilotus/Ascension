@@ -533,7 +533,7 @@ Buying 5 Wheat to kickstart production right before, or a short while after plac
 - Inn cost: 30 wood, 15 stone, no gold
 
 ! Hops - buy 200, sell 100
-! Beer - buy 250, sell 125
+! Beer - buy 280, sell 140
 ```
 
 Beer is very profitable for taxing and can even be used to sustain the player's popularity.
