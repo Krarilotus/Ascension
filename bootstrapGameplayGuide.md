@@ -1,6 +1,6 @@
 # Bootstrap Gameplay Guide
 
-Made for v1.9.6 of the setup.
+v1.9.6
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
