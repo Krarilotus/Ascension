@@ -1222,6 +1222,12 @@
         "value": 196
     },
     {
+        "description": "Battering ram damage to buildings.",
+        "address": "0x14666D",
+        "size": 1,
+        "value": 100
+    },
+    {
         "description": "Shield speed.",
         "address": "0x74E820",
         "size": 4,
