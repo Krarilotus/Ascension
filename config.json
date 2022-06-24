@@ -284,8 +284,8 @@
     },
     "resources": {
         "Hop": {
-            "buy": "200",
-            "sell": "100"
+            "buy": "210",
+            "sell": "105"
         },
         "Stone": {
             "buy": "50",
@@ -1114,10 +1114,22 @@
         "value": 3
     },
     {
-        "description": "Knight damage to buildings base.",
+        "description": "Knight melee damage to buildings.",
         "address": "0x1633FD",
         "size": 1,
-        "value": 80
+        "value": 105
+    },
+    {
+        "description": "Knight melee damage to towers and gates offset.",
+        "address": "0x1633FA",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "Knight melee damage to walls.",
+        "address": "0x1633BD",
+        "size": 4,
+        "value": 20
     },
     {
         "description": "Knight recruit cost.",
@@ -1138,10 +1150,22 @@
         "value": 65
     },
     {
-        "description": "Arabian swordsman damage to buildings base.",
+        "description": "Arabian swordsman melee damage to buildings.",
         "address": "0x176550",
         "size": 1,
-        "value": 80
+        "value": 105
+    },
+    {
+        "description": "Arabian swordsman melee damage to towers and gates offset.",
+        "address": "0x17654D",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "Arabian swordsman melee damage to walls.",
+        "address": "0x176510",
+        "size": 4,
+        "value": 20
     },
     {
         "description": "Arabian swordsman speed.",
@@ -1150,10 +1174,22 @@
         "value": 2
     },
     {
-        "description": "Tunneler damage to buildings base.",
+        "description": "Tunneler melee damage to buildings.",
         "address": "0x14F73D",
         "size": 1,
         "value": 50
+    },
+    {
+        "description": "Tunneler melee damage to towers and gates offset.",
+        "address": "0x14F73A",
+        "size": 1,
+        "value": 0
+    },
+    {
+        "description": "Tunneler melee damage to walls.",
+        "address": "0x14F6FF",
+        "size": 4,
+        "value": 24
     },
 	{
         "description": "Catapult damage to buildings.",
