@@ -365,6 +365,7 @@ They are occasionally used offensively, although rather rarely, as there is far 
 ### Battering Ram
 ```diff
 + 100% HP increase
++ 100% damage increase to Buildings
 + 1/5th damage taken from all melee sources
 - Cost changed: 50 wood, 3 iron, no gold
 ```
