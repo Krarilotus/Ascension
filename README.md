@@ -26,7 +26,7 @@ You should read the [Changelog](https://github.com/Krarilotus/BootstrapMultiplay
 
 You can read the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for basic information on how to play the style.
 
-You can use our [Improved Graphics Pack](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/customGraphics.zip) to enhance your gameplay. It consists of a few changes to units, giving them more color based on the player and bugfixes.
+You can use our [Improved Graphics Pack](https://github.com/Krarilotus/BootstrapMultiplayerSetup/raw/main/customGraphics.zip) to enhance your gameplay. It consists of a few changes to units, giving them more color based on the player and bugfixes.
 To install it - download and open the .zip file, then copy the .gm1 files to your "gm" folder in your game folder, replacing the vanilla files.
 
 If you are experiencing FPS/scrolling speed drops in game, you should consider using [DDraw Compat](https://github.com/narzoul/DDrawCompat) or other rendering mods.
