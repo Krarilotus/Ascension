@@ -115,6 +115,9 @@ They struggle heavily against any other melee units and can't take on fights alo
 + 100% HP increase
 + 20% damage increase
 + 100% damage increase to Monks
++ 100% damage increase to walls
++ 100% damage increase to towers and gates
++ 50% damage increase to regular buildings
 + Speed increased to previous Arabian Swordsman level
 ```
 
@@ -143,6 +146,9 @@ They aren't completely standalone though, as they struggle against combinations 
 ```diff
 + 25% HP increase
 + 15% less damage taken from Arrows
++ 200% melee damage increase to walls
++ 200% melee damage increase to towers and gates
++ 100% melee damage increase to regular buildings
 + Cost changed: 65 gold to recruit
 ```
 
@@ -165,7 +171,11 @@ They struggle against all melee units they can't outrun.
 + 30% ranged damage increase to Macemen
 + 20% ranged damage increase to Pikemen
 + 33% ranged damage increase to European Swordsmen
++ 200% melee damage increase to walls
++ 200% melee damage increase to towers and gates
++ 100% melee damage increase to regular buildings
 - 50% ranged damage decrease to Arabian Swordsmen
+- 64% ranged damage decrease to Tunnelers
 ```
 
 Slingers are one of the first units you get at the start of the game.
@@ -188,6 +198,9 @@ They are very weak in melee, but still can pick on light ranged units, or even t
 
 ### Horse Archer
 ```diff
++ 200% melee damage increase to walls
++ 200% melee damage increase to towers and gates
++ 100% melee damage increase to regular buildings
 - 36% more damage taken from Arrows
 ```
 
@@ -204,6 +217,7 @@ But, they have the unique ability to run on a ~5 tile patrol, shooting themselve
 + 100% damage increase to towers and gates
 + 50% damage increase to regular buildings
 + Speed increased to Pikeman level
++ Faster damage interval to buildings
 ```
 
 Arabian Swordsmen are mainly used in the earlygame, for pushing important map control points or enemy towers.
@@ -217,6 +231,9 @@ They still remain as a panic option, in case one's Lord or economy is in danger.
 + 20% less damage taken from arrows
 + 233.33% melee damage increase to most units
 + 100% melee damage increase to European Swordsmen, Knights
++ 200% melee damage increase to walls
++ 200% melee damage increase to towers and gates
++ 100% melee damage increase to regular buildings
 ```
 
 Firethrowers are usable all the way since the start of the game and stay viable up until the end.
@@ -253,7 +270,8 @@ Very rarely seen used offensively in the early/midgame, against player made cast
 ### Tunneler
 ```diff
 + 50% HP increase
-+ 50% less damage taken from arrows
++ 40% less damage taken from arrows
+- 20% damage decrease
 + 500% damage increase to walls
 + 1150% damage increase to towers and gates
 + 150% damage increase to regular buildings
@@ -274,12 +292,13 @@ They are used for holding choke points, both defensively and on field.
 
 ### The Lord
 ```diff
-No direct stat changes
++ 100% damage increase to walls
++ 100% damage increase to towers and gates
++ 50% damage increase to regular buildings
 ```
 
-The Lord itself has stayed the same, but the environment around him has changed.
-Due to the low resource start, he's your most powerful melee unit for a relatively large part of earlygame.
-He's used to both defend against incoming attacks and used offensively for picking off buildings, which is very risky but can pay off.
+Due to the low resource start, the Lord is your most powerful melee force for a relatively large part of earlygame.
+He's used to both defend against incoming attacks and offensively for picking off buildings, which is very risky but can pay off.
 
 ### Caged War Dog
 ```diff
