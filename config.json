@@ -323,11 +323,86 @@
     "units": {
         "Tunneler": {
             "health": "15000",
-            "arrowDamage": "2500",
+            "arrowDamage": "3000",
             "xbowDamage": "10000",
-            "stoneDamage": "1500",
+            "stoneDamage": "1800",
             "meleeDamageVs": {
-                "Battering ram": "5"
+                "Peasant": "20",
+                "Burning man": "20",
+                "Woodcutter": "20",
+                "Fletcher": "20",
+                "Tunneler": "20",
+                "Hunter": "20",
+                "Quarry mason": "20",
+                "Quarry grunt": "20",
+                "Quarry ox": "20",
+                "Pitch worker": "20",
+                "Wheat farmer": "20",
+                "Hops farmer": "20",
+                "Apple farmer": "20",
+                "Dairy farmer": "20",
+                "Miller": "20",
+                "Baker": "20",
+                "Brewer": "20",
+                "Poleturner": "20",
+                "Blacksmith": "20",
+                "Armourer": "20",
+                "Tanner": "20",
+                "European archer": "20",
+                "European crossbowman": "20",
+                "European spearman": "20",
+                "European pikeman": "20",
+                "European maceman": "20",
+                "European swordsman": "20",
+                "European knight": "20",
+                "Ladderman": "20",
+                "Engineer": "20",
+                "Iron miner1": "20",
+                "Iron miner2": "20",
+                "Priest": "20",
+                "Healer": "20",
+                "Drunkard": "20",
+                "Innkeeper": "20",
+                "Monk": "20",
+                "unknown1": "20",
+                "Catapult": "20",
+                "Trebuchet": "20",
+                "Mangonel": "20",
+                "Trader": "20",
+                "Trader horse": "20",
+                "Deer": "20",
+                "Lion": "20",
+                "Rabbit": "20",
+                "Camel": "20",
+                "Crow": "20",
+                "Seagull": "20",
+                "Cow": "20",
+                "Hunter dog": "20",
+                "Fireman": "20",
+                "Ghost": "20",
+                "Lord": "20",
+                "Lady": "20",
+                "Jester": "20",
+                "Siege tower": "20",
+                "Battering ram": "4",
+                "Portable shield": "20",
+                "Tower ballista": "20",
+                "Chicken": "20",
+                "Mother": "20",
+                "Child": "20",
+                "Juggler": "20",
+                "Fireeater": "20",
+                "Dog": "20",
+                "unknown2": "20",
+                "unknown3": "20",
+                "Arabian archer": "20",
+                "Arabian slave": "35",
+                "Arabian slinger": "24",
+                "Arabian assassin": "20",
+                "Arabian horse archer": "20",
+                "Arabian swordsman": "20",
+                "Arabian firethrower": "20",
+                "Fire ballista": "20"
             }
         },
         "European archer": {
@@ -1107,6 +1182,24 @@
         "size": 4,
         "value": 25
     },
+    {
+        "description": "European swordsman melee damage to buildings.",
+        "address": "0x16250E",
+        "size": 1,
+        "value": 105
+    },
+    {
+        "description": "European swordsman melee damage to towers and gates offset.",
+        "address": "0x16250B",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "European swordsman melee damage to walls.",
+        "address": "0x1624CE",
+        "size": 4,
+        "value": 20
+    },
 	{
         "description": "European swordsman speed.",
         "address": "0x74e79c",
@@ -1138,6 +1231,24 @@
         "value": 60
     },
     {
+        "description": "Arabian archer damage to buildings.",
+        "address": "0x170F86",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Arabian archer damage to towers and gates offset.",
+        "address": "0x170F83",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Arabian archer damage to walls.",
+        "address": "0x170f51",
+        "size": 4,
+        "value": 6
+    },
+    {
         "description": "Arabian archer recruit cost.",
         "address": "0x12F06D",
         "size": 1,
@@ -1148,6 +1259,42 @@
         "address": "0x6B92CC",
         "size": 4,
         "value": 65
+    },
+    {
+        "description": "Slinger melee damage to buildings.",
+        "address": "0x17391C",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Slinger melee damage to towers and gates offset.",
+        "address": "0x173919",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Horse archer melee damage to walls.",
+        "address": "0x1738DE",
+        "size": 4,
+        "value": 6
+    },
+    {
+        "description": "Horse archer melee damage to buildings.",
+        "address": "0x17B607",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Horse archer melee damage to towers and gates offset.",
+        "address": "0x17B604",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Horse archer melee damage to walls.",
+        "address": "0x17B5D7",
+        "size": 4,
+        "value": 6
     },
     {
         "description": "Arabian swordsman melee damage to buildings.",
@@ -1174,6 +1321,24 @@
         "value": 2
     },
     {
+        "description": "Firethrower melee damage to buildings.",
+        "address": "0x17743C",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Firethrower melee damage to towers and gates offset.",
+        "address": "0x177439",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Firethrower melee damage to walls.",
+        "address": "0x1773FE",
+        "size": 4,
+        "value": 6
+    },
+    {
         "description": "Tunneler melee damage to buildings.",
         "address": "0x14F73D",
         "size": 1,
@@ -1190,6 +1355,24 @@
         "address": "0x14F6FF",
         "size": 4,
         "value": 24
+    },
+    {
+        "description": "The lord's melee damage to buildings.",
+        "address": "0x16DAE4",
+        "size": 1,
+        "value": 105
+    },
+    {
+        "description": "The lord's melee damage to towers and gates offset.",
+        "address": "0x16DAE1",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "The lord's damage to walls.",
+        "address": "0x16DA99",
+        "size": 4,
+        "value": 20
     },
 	{
         "description": "Catapult damage to buildings.",
