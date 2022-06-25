@@ -32,9 +32,9 @@ Next up - spending your starting wood.
 First, get some food production going. Spending 25 to 40 wood on it is generally ideal.
 Most of the time, you should start with more basic food production buildings - being apple farms and hunters.
 Make sure to season your apple farms if you use them - place half of them, do something else until the trees turn green, then place the rest.
-Hunters initially outproduce apple farms, but when deer run out, they're useless. Be careful to place them at least 15 tiles (~1 Cathedral) away from the deer group they should hunt, and closer to it than to possibly other inaccessible groups - as otherwise they will bug out and go for another group or won't hunt at all.
+Hunters initially outproduce apple farms, but when deer run out, they're useless. Be careful to place them at least 15 tiles (~1 Cathedral) away from the deer group they are supposed to hunt, and closer to it than to other inaccessible groups - as otherwise they will bug out and go for another group or won't hunt at all.
 You can start with a wheat farm, if the following conditions are fulfilled:
-- The map has very little farm spots/safe ones, and deer (otherwise, you will get out produced and be in a disadvantage)
+- The map has very little farm spots/safe ones, and deer (otherwise, you will get outproduced and be in a disadvantage)
 - You have a very safe spot for the wheat farm, which you can place your granary and the stockpile next to
 - There is some small amount of deer/few very easy to get spots for apple farms (to supply food for keeping your popularity up, before you can start producing bread)
 
@@ -44,14 +44,13 @@ It's a great source of early gold and later on you will need the stone to progre
 Use up the rest of your wood on woodcutters - prioritize placing them next to trees in areas which you can easily defend at first.
 On resource rich maps, you should prioritize getting 10 to 15 woodcutters for faster later economic expansion.
 
-After spending the last wood, you want to delete and reposition your stockpile to a new safe location in the center of your future economy. Consider these factors for your choice:
-- Do you want to reposition it again? If yes, place it close to wood and spend the first deliveries before replacing (considering the other factors)
+After spending all of your starting wood, delete and reposition your stockpile to a new safe location in the center of your future economy. Consider these factors for your choice:
 - Are your wheat farms producing at maximum efficiency? They are often the bottleneck to your later economy and a cheap and easy source for early gold through selling bread
-- Do your ironmines and pitch rigs produce at a good efficiency? 
+- Do your iron mines and pitch rigs produce at a good efficiency? 
 - Do you have good options to expand and enough room for more economy?
-- Can you defend your Main Economy situated around your stockpile in early, mid and lategame? Is it potentially in range of possible blindspots for Trebuchet Harass from your enemy?
+- Can you defend your main economy situated around your stockpile all throughout the game? Is it potentially in range of possible blindspots for tebuchet harassment from your enemy?
 
-You want to at least build 3 stockpiles and leave some room for expanding it in the future. The Stockpile choice is critical to your entire gameplan, that's why it is often good to already figure out good placements during a potential viewing round of the map.
+You need at least 3 stockpiles, leaving some room for expanding it in the future. The stockpile placement is critical to your entire gameplan - preferably figure one out during a viewing round of the map.
 
 Build a market (it's free), sell some of the food - prioritize selling those types which you are about to produce. Keep about 20 to 50 of it, depending on how much food production you just built.
 Don't forget to lower your taxes to -2 now, if you set up -4 initially.
@@ -63,7 +62,7 @@ Place them near your economy buildings or on choke points, oftenly it is practic
 
 Slaves, in case you see an opening to your opponent's economy which you can take advantage of.
 Any economy building is a good target for slaves if undefended.
-You can also use them to dig moat straight from the start, as moat palcement comes with no added costs.
+You can also use them to dig moat straight from the start, as moat placement comes with no added costs.
 
 Horse archers, usually just one for early ranged aggressions or to support your slaves against enemy ranged units.
 They can distract or kill your opponent's ranged units, making an opening for your slaves.
@@ -106,7 +105,7 @@ Keep getting mercenaries to fend off attacks and raid the enemy economy.
 Consider building the tunneler's guild - tunnelers are very powerful for destroying outer economy buildings when facing little to no resistance or when supported by other units.
 Do not overspend on them though - having an army of mercenaries is nice, but not when you will die later on since you fell behind in economy because of it.
 
-If it seems like a good idea - you can use Arabian swordsmen to push important map control points. They are especially powerful when sent with the rallypoint flag.
+If it seems like a good idea - you can use arabian swordsmen to push important map control points. They are especially powerful when sent with the rallypoint flag.
 They are also really good as a panic option, in case your lord or economy is in danger and you don't have any weapons, all throughout the game.
 
 Firethrowers can be used from this point onwards to fight lots of melee units, although be careful as they are a risky investment and need a lot of support to be effective.
@@ -114,11 +113,11 @@ Firethrowers can be used from this point onwards to fight lots of melee units, a
 Some maps also have breakable structures through which you can unlock more resources, some only destructible by tunnelers - consider opening these.
 
 Next up, set up basic weapon production. You can do it straight away if you have resources left over, or you can wait for the next few deliveries.
-Set up one fletcher, one poleturner and the armory next to your stockpile. If you have the resources for it, you can get up to 5 of each in the early game - prioritize doing this.
+Set up one fletcher, one poleturner and the armory next to your stockpile. If you have the resources for it, you can get up to 5 of each within the earlygame - prioritize doing this.
 The weapons can be sold for extra gold as well, but are generally better used for recruiting an army.
-If you at any point overflow with bows and couldn't use more archers effectively, switch some of your fletchers to produce crossbows and sell them for a bigger profit.
+If you at any point overflow with bows and can't use more archers effectively, switch some of your fletchers to produce crossbows to sell them for a bigger profit than bows.
 
-Build the barracks and start recruiting your European archers and spearmen - use them to take control over important points of the map before your opponent does.
+Build the barracks and start recruiting your european archers and spearmen - use them to take control over important points of the map before your opponent does.
 You should also send a few units to cover all entry points to your main economy.
 If you failed to do so, use your units to hold whatever part of the map is still under your control.
 
@@ -148,7 +147,9 @@ You should also highly consider getting shields if both sides have a larger numb
 There is also a chance that the map has ran out of deer by this point, you can delete the hunters if that's the case, or at least remember to do so in the future.
 
 Next up is upgrading your weapon production - build 1 to 3 blacksmiths, depending on how much iron the map has - no need to cover all of your iron production yet, set them to produce maces.
-Now, maces can be sold for huge amounts of gold if needed, but you are better off using them for macemen. Set up one dairy farm and add a few tanners as well, they are cheap but take a long time to ramp up production. One farm usually supports about 8 of them. It is also good to buy the first leather armor and get macemen before your production kicks in.
+Now, maces can be sold for huge amounts of gold if needed, but you are better off using them for macemen.
+Set up one dairy farm and build a few tanners, they are cheap but take a long time to ramp up their production. One farm usually supports about 8 of them.
+It is also good to buy the first leather armor and get macemen before your production kicks in.
 
 Macemen counter all melee units up to this point and are far better at tanking arrows and sling shots than spearmen.
 Combine the macemen with your spearmen, your army is now much more capable of pushing enemy control points and raiding. You should make full use of it.
@@ -203,10 +204,10 @@ You can also pair them with chapels for an even larger popularity boost, althoug
 The cathedral also allows you to recruit monks, which you can mass recruit to give yourself an edge in main army melee fights.
 They are amazing for fighting anything in melee at this point of the game, but you have to heavily support them as they die to ranged units like nothing.
 
-When european archers use up to many peasants or you start facing armored melee units, start switching your fletchers to produce crossbows and start putting out crossbowmen to replace them.
-Crossbowmen serve basically the exact same purpose as European archers, just having more power per unit and far better damage to armored units.
+When european archers start taking up too many peasants or you start facing armored melee units, start switching your fletchers to produce crossbows and start putting out crossbowmen to replace them.
+Crossbowmen serve basically the exact same purpose as european archers, just having more power per unit and far better damage to armored units.
 
-Next up you should start switching some of your blacksmiths to produce swords and build armorers to put out european swordsmen. This also frees up leather for more crossbowmen.
+Next up you should start switching some of your blacksmiths to produce swords and build armorers to put out european swordsmen. This also frees up leather armor for more crossbowmen.
 Swords, and especially metal armor can both be sold for large amounts of gold if needed.
 Swordsmen are great against absolutely everything in melee, even monks, while also capable of tanking ranged shots from anything short of a fireballista.
 
@@ -239,18 +240,20 @@ Pikemen are incredibly good at this point of the game, as they are the most tank
 You can sometimes use them to walk up to enemy walls or towers and start taking them down, as they are nearly invincible against arrows and take relatively low damage from fire and killing pits.
 Still, you need to be careful about crossbowmen and fireballistas.
 
-Don't be afraid to buy iron to produce metal armor if you need more of it but have too many blacksmiths eating up your iron supplies already, it is worth it for the units, and even lands a small profit if the armor is sold. You can also add more fletchers, if there aren't any more lucrative options left to boost your economy. You then want to buy wood and sell crossbows.
+Don't be afraid to buy iron to produce metal armor if you need more of it but have too many blacksmiths eating up your iron supplies already, it is worth it for the units, and even lands a small profit if the armor is sold.
+You can also build more fletchers if there aren't any more lucrative options left to boost your economy. You then want to buy wood and sell crossbows for profit.
 
 Make sure you have all the paths secured by walls, gates and moat by this point, so no rushing can happen.
 
 Once there is seemingly no way to progress your economy, start getting your final army.
 Lategame armies are really varying, make sure to put together whatever seems to work on the spot.
 
-Combinations of macemen, spearmen and monks can still be effective, but you should primarily focus on siege engines like fireballistas and catapults as well as a good ground army of mainly monks, a few swordsmen and plenty of pikemen. If your economy allows for it, dominate the fields with a few knight squads that threaten larger damage if your oppoent splits their army or descides to push out and leave their back unprotected.
-Your army should then be supported by alarge amount of crossbowmen with shields, to counter enemy ranged units.
-Fireballistas are also very generalist for this.
+Combinations of macemen, spearmen and monks can still be effective, but you should primarily focus on siege engines like fireballistas and catapults, as well as a good melee army of mainly monks, a few swordsmen and plenty of pikemen.
+If your economy allows for it, dominate the fields with a few knight squads that threaten larger damage if your oppoent splits their army or decides to push out and leave their back unprotected.
+Your army should then be supported by a large amount of crossbowmen with shields, to counter enemy ranged units.
 
-If you are attacking, build trebuchets and/or catapults, combined with rams to take down any castle defenses in your path. You might want to also expand your stockpile and stock up on rocks in advance so you don't run out of ammunition, as reloading stone is less costly than building new catapults.
+If you are attacking, build trebuchets and/or catapults, combined with rams to take down any castle defenses in your path.
+You might want to also expand your stockpile and stock up on stone in advance, so you don't run out of ammunition, as reloading stone is less costly than building new catapults.
 Trebuchets and catapults can also be used defensively.
 Whichever side of the siege you are on, the game will most likely end with it.
 
@@ -263,4 +266,4 @@ Whichever side of the siege you are on, the game will most likely end with it.
 - Use water pots and wells to extinguish fires instead of deleting buildings, unless deleting them is necessary or more practical.
 - Make sure to delete unnecessary hunters and woodcutters, so they don't just keep walking into enemy ranged units - losing large amounts of population at an unfortunate moment can cost you the game.
 - Use unit rallypoints, either to have them all rally in a convenient spot or for movement benefits - all units ignore ground type slowdowns when sent to their rally flag.
-- learn the basic hotkeys, you can combine them with the ctrl key to not move your screen, if you are selecting buildings with them. The most common ones are m for market, n for mercenaries, b for barracks and the number keys for unit groups.
+- Learn the basic hotkeys, you can combine them with the CTRL key to not move your screen, if you are selecting buildings with them. The most common ones are M for market, N for mercenary post, B for barracks and the number keys for unit groups.
