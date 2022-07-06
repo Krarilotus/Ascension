@@ -325,7 +325,7 @@
             "health": "15000",
             "arrowDamage": "3000",
             "xbowDamage": "10000",
-            "stoneDamage": "1800",
+            "stoneDamage": "1500",
             "meleeDamageVs": {
                 "Peasant": "20",
                 "Burning man": "20",
@@ -597,7 +597,7 @@
             }
         },
         "European knight": {
-            "health": "34000",
+            "health": "37500",
             "arrowDamage": "120",
             "meleeDamageVs": {
                 "Peasant": "200",
@@ -765,7 +765,10 @@
             }
         },
         "Battering ram": {
-            "health": "300000"
+            "health": "300000",
+            "arrowDamage": "1500",
+            "xbowDamage": "4000",
+            "stoneDamage": "1000"
         },
         "Arabian archer": {
             "health": "15000",
@@ -808,7 +811,7 @@
                 "Tanner": "150",
                 "European archer": "150",
                 "European crossbowman": "150",
-                "European spearman": "150",
+                "European spearman": "200",
                 "European pikeman": "150",
                 "European maceman": "150",
                 "European swordsman": "75",
