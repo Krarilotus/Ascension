@@ -3,7 +3,7 @@ This is the official repository for the Bootstrap Multiplayer Setup.
 
 This setup aims to fix all issues with Stronghold Crusader multiplayer, via game modifications.
 
-v1.9.6
+v1.9.7
 
 Not a finished product - the setup is still undergoing development.
 
@@ -18,6 +18,8 @@ Make sure to back up your game folder by copying it elsewhere before installing.
 Download the [Bootstrap Installer](https://github.com/CIO61/SHCE_Bootstrap_Installer/releases/latest/download/BootstrapInstaller.exe), insert the installer into your game folder and run it. It will automatically download and install everything that's needed.
 The installer also acts as an updater - any time a new version of the setup comes out, run it and it will update your setup.
 
+After the installation is done, you can use the graphics configurator created in the game folder to install some of our custom graphics - but this is optional.
+
 If you intend on playing multiplayer with the setup through [GameRanger](https://www.gameranger.com/) - select the modified Extreme executable in (lobbyExplorer)/Edit/Options/Games.
 Afterwards, open an Extreme lobby and start the game like normal.
 
@@ -25,9 +27,6 @@ Afterwards, open an Extreme lobby and start the game like normal.
 You should read the [Changelog](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapChangelog.md), there you will find information about all the changes the setup makes to the game.
 
 You can read the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for basic information on how to play the style.
-
-You can use our [Improved Graphics Pack](https://github.com/Krarilotus/BootstrapMultiplayerSetup/raw/main/customGraphics.zip) to enhance your gameplay. It consists of a few changes to units, giving them more color based on the player and bugfixes.
-To install it - download and open the .zip file, then copy the .gm1 files to your "gm" folder in your game folder, replacing the vanilla files.
 
 If you are experiencing FPS/scrolling speed drops in game, you should consider using [DDraw Compat](https://github.com/narzoul/DDrawCompat) or other rendering mods.
 
