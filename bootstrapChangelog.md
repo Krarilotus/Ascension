@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.6
+v1.9.7
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -27,6 +27,11 @@ We have our own map pack, consisting of over 50 custom made maps specifically fo
 Yet another issue with vanilla multiplayer, or vanilla in general is it's bugs.
 
 The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including most of it's bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
+
+## Custom Graphics
+The vanilla game has a few issues and bugs in it's graphics.
+
+The setup includes a custom graphics pack with bugfixes and improvements, which can optionally be installed after the main setup.
 
 ## Rebalance Changes
 Probably the most glaring issue in vanilla is it's poor unit/economy balances.
@@ -89,6 +94,7 @@ They struggle a lot against European Swordsmen and Knights, thus they have to av
 - 40% ranged damage decrease to Arabian Swordsmen
 - 25% ranged damage decrease to Firethrowers
 - 50% ranged damage decrease to Tunnelers
+- 50% ranged damage decrease to Rams
 - Cost changed: 25 gold to recruit
 ```
 
@@ -128,7 +134,7 @@ They are hindered by the requirement of an expensive weapon production chain, bu
 
 ### Knight
 ```diff
-+ 70% HP increase
++ 87.5% HP increase
 + 150% damage increase
 + 100% damage increase to walls
 + 100% damage increase to towers and gates
@@ -175,7 +181,8 @@ They struggle against all melee units they can't outrun.
 + 200% melee damage increase to towers and gates
 + 100% melee damage increase to regular buildings
 - 50% ranged damage decrease to Arabian Swordsmen
-- 64% ranged damage decrease to Tunnelers
+- 70% ranged damage decrease to Tunnelers
+- 50% ranged damage decrease to Rams
 ```
 
 Slingers are one of the first units you get at the start of the game.
@@ -212,7 +219,8 @@ But, they have the unique ability to run on a ~5 tile patrol, shooting themselve
 
 ### Arabian Swordsman
 ```diff
-+ 40% damage increase
++ 50% damage increase
++ 100% damage increase to Spearmen
 + 100% damage increase to walls
 + 100% damage increase to towers and gates
 + 50% damage increase to regular buildings
@@ -364,7 +372,8 @@ They are occasionally used offensively, although rather rarely, as there is far 
 ```diff
 + 100% HP increase
 + 100% damage increase to Buildings
-+ 1/5th damage taken from all melee sources
++ 80% less damage taken from all melee sources
++ 50% less damage taken from arrows
 - Cost changed: 50 wood, 3 iron, no gold
 ```
 
