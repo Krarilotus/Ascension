@@ -30,4 +30,4 @@ You can read the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultipl
 
 If you are experiencing FPS/scrolling speed drops in game, you should consider using [DDraw Compat](https://github.com/narzoul/DDrawCompat) or other rendering mods.
 
-If you want to get in touch with the Bootstrap community, join our [Discord server](https://discord.gg/VuVCr8H).
+If you want to get in touch with the Bootstrap community, join our [Discord server](https://discord.gg/SaAx3RubHF).
