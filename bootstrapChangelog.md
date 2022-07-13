@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.7
+v1.9.8
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -487,7 +487,7 @@ As the production buildings usually happen to be in the outer layer of one's eco
 + Blacksmith cost: 75 gold, 20 wood, 8 stone
 + Tanner cost: 50 gold, 10 wood, 4 stone
 + Armorer HP: +100% increase
-- Armorer cost: 150 gold, 20 wood, 20 stone
+- Armorer cost: 150 gold, 20 wood, 16 stone
 
   Spears - buy 100, sell 50
 ! Bows - buy 150, sell 90
