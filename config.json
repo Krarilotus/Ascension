@@ -6,10 +6,6 @@
         "value": 2
     },
 	{
-	    "description": "tax_reset",
-        "value": 1
-    },
-	{
         "description": "speed_priest",
         "address": "0x74e7b4",
         "size": 4,
