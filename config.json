@@ -7,7 +7,7 @@
     },
 	{
 	    "description": "tax_reset",
-        "value": "True"
+        "value": 1
     },
 	{
         "description": "speed_priest",
