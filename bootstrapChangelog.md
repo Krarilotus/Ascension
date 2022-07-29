@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.8
+v1.9.9
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -61,7 +61,8 @@ They struggle a lot against heavy armored units, thus are replaced later on by C
 
 ### Spearman
 ```diff
-+ 100% damage increase to Knights and Horse Archers
++ 50% damage increase to Knights 
++ 100% damage increase to Horse Archers
 + 16.6% less damage taken from Arrows
 + Speed increased, always running instead of walking
 + Cost changed: 5 gold to recruit
@@ -89,6 +90,7 @@ They struggle a lot against European Swordsmen and Knights, thus they have to av
 ! 20% ranged damage increase to Crossbowmen
 + 20% ranged damage increase to European Archers and Pikemen
 + 20% ranged damage increase to European Swordsmen
+- 20% ranged damage decrease to Knights 
 - 20% ranged damage decrease to Macemen
 - 5% ranged damage decrease to Arabian Archers
 - 40% ranged damage decrease to Arabian Swordsmen
@@ -191,12 +193,13 @@ Alone, they can't do much offensively as they struggle a lot against true ranged
 
 ### Assassin
 ```diff
-! Same damage to Slaves, Slingers, Arabian Archers, European Archers, Engineers, Laddermen, Horse Archers, Firethrowers
+! Same damage to Assassins, Slaves, Slingers, Arabian Archers, European Archers, Spearman, Crossbowman, Engineers, Laddermen, Horse Archers, Firethrowers
 + 900% damage increase to Trebuchets
-+ 200% damage increase to Workers
-- 37.5% damage decrease to most other units
-- 50% damage decrease to Pikemen, Arabian Swordsmen
-- 62.5% damage decrease to European Swordsmen, Knights
++ 400% damage increase to Workers
+- 25% damage decrease to most other units
+- 37.5% damage decrease to Pikemen, Arabian Swordsmen
+- 50% damage decrease to European Swordsmen, Knights
+- removed speedboost from their recruitment rallypoint
 ```
 
 Assassins are a much more powerful, but more expensive raid unit, compared to Slaves, they are seen at any point of the game straight from start.
@@ -310,7 +313,8 @@ He's used to both defend against incoming attacks and offensively for picking of
 
 ### Caged War Dog
 ```diff
-+ 200% damage increase to Macemen, Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
++ 200% damage increase to Pikemen, European Swordsmen, Knights, Arabian Swordsmen, Lords, Battering Rams
++ 250% damage increase to Macemen
 + 300% damage increase to all other units
 ```
 
@@ -399,7 +403,7 @@ Their wood cost makes them a lot more dependant on map control, or it forces the
 + 60% damage increase to Catapults
 + 50% damage increase to Trebuchets, Mangonels, Tower Ballistas
 + 50% damage increase to all Non-Siege Units
-- Cost changed: 150 gold, 6 pitch
+- Cost changed: 150 gold, 5 pitch
 ```
 
 Fireballistas are first used in low numbers from the start of midgame, to break shields and damage down heavier units, where even Crossbowmen fail.
@@ -570,6 +574,7 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 + Church cost: 150 gold, 25 stone
 + Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
++ Priests speed increased
 
 + Apothecary HP: +66.67% increase
 + Apothecary's healer now seeks out and heals damaged units
@@ -625,7 +630,9 @@ The Stockpile remains unchanged.
 
 - Marketplace HP: -66.67% decrease
 + The Marketplace is now free
+- Taxation no longer gives you money, when on 0 popularity
 ```
 
 - The Stockpile is free, the only cost is the space it takes up. It is usually destroyed at start after the starting resources are spent, and placed wherever the player plans on basing their economy, ideally next to farms/other resources with distance falloff.
 - The Marketplace is of course a necessity for playing efficiently. It is free and can be placed anywhere.
+- Taxation is a very powerful mechanic for generating gold. However, peasants can really get fed up, and won't pay anything if keep them on 0 popularity.
