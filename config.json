@@ -1172,10 +1172,6 @@
     },
 	"other": [
 	{
-	    "description": "tax_reset",
-        "value": 1
-    },
-	{
         "description": "speed_priest",
         "address": "0x74e7b4",
         "size": 4,
@@ -1524,6 +1520,10 @@
         "description": "Jester visiting assassins toggle.",
         "address": "0x755AB4",
         "size": 1,
+        "value": 1
+    },
+    {
+	    "description": "tax_reset",
         "value": 1
     }
 	]
