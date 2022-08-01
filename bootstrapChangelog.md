@@ -200,7 +200,7 @@ Alone, they can't do much offensively as they struggle a lot against true ranged
 - 25% damage decrease to most other units
 - 37.5% damage decrease to Pikemen, Arabian Swordsmen
 - 50% damage decrease to European Swordsmen, Knights
-- removed speedboost from their recruitment rallypoint
+- Removed speed boost from their recruitment rallypoint
 ```
 
 Assassins are a much more powerful, but more expensive raid unit, compared to Slaves, they are seen at any point of the game straight from start.
@@ -588,7 +588,7 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 
 - Barracks, Mercenary Post, Engineer's Guild, Tunneler's Guild and Oil Smelter are only used to recruit their respective units, see their descriptions for more information. They don't need to be placed anywhere explicitely safe, but losing them does cost a small amount of resources to replace and can be annoying in a pinch.
 - Stables are very, very expensive and need to be placed somewhere safe, for more information, see the description of Knights.
-- The religion buildings are somewhat efficient for extra popularity income, due to the speed increase for priests. Especially Chapels cost very little and give a consistant bonus. The permanent bonuses of the Church and the Cathedral are also very useful later on. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They are usually placed somewhere relatively safe, as losing them to raids is very costly.
+- The religion buildings are somewhat efficient for extra popularity income, due to the speed increase for priests. Especially Chapels cost very little and give a consistent bonus. The permanent bonuses of the Church and the Cathedral are also very useful later on. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They are usually placed somewhere relatively safe, as losing them to raids is very costly.
 - Houses are of course used to increase the player's max. population, they are usually placed somewhere safe, as losing them can trigger crowding and loss of popularity.
 - The Apothecary is very useful, as the healer seeks out and heals damaged units, even the Lord. It's also used for reducing the effects of diseased cow shots.
 - Wells and Water pots are usually only placed when the player's economy is already on fire, or shortly will be, as it is more economical to extinguish the buildings rather than destroying them.
