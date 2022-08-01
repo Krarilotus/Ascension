@@ -1,362 +1,4 @@
 {
-
-	"other": [
-	{
-        "description": "assassin_rally_speed",
-        "value": 2
-    },
-	{
-	    "description": "tax_reset",
-        "value": 1
-    },
-	{
-        "description": "speed_priest",
-        "address": "0x74e7b4",
-        "size": 4,
-        "value": 1
-    },
-	{
-        "description": "Spearman recruit cost.",
-        "address": "0x6B92AC",
-        "size": 4,
-        "value": 5
-    },
-    {
-        "description": "Maceman recruit cost.",
-        "address": "0x6B92B4",
-        "size": 4,
-        "value": 25
-    },
-    {
-        "description": "Crossbowman recruit cost.",
-        "address": "0x6B92A8",
-        "size": 4,
-        "value": 25
-    },
-    {
-        "description": "European swordsman melee damage to buildings.",
-        "address": "0x16250E",
-        "size": 1,
-        "value": 105
-    },
-    {
-        "description": "European swordsman melee damage to towers and gates offset.",
-        "address": "0x16250B",
-        "size": 1,
-        "value": 163
-    },
-    {
-        "description": "European swordsman melee damage to walls.",
-        "address": "0x1624CE",
-        "size": 4,
-        "value": 20
-    },
-	{
-        "description": "European swordsman speed.",
-        "address": "0x74e79c",
-        "size": 4,
-        "value": 3
-    },
-    {
-        "description": "Knight melee damage to buildings.",
-        "address": "0x1633FD",
-        "size": 1,
-        "value": 105
-    },
-    {
-        "description": "Knight melee damage to towers and gates offset.",
-        "address": "0x1633FA",
-        "size": 1,
-        "value": 163
-    },
-    {
-        "description": "Knight melee damage to walls.",
-        "address": "0x1633BD",
-        "size": 4,
-        "value": 20
-    },
-    {
-        "description": "Knight recruit cost.",
-        "address": "0x6B92BC",
-        "size": 4,
-        "value": 60
-    },
-    {
-        "description": "Arabian archer damage to buildings.",
-        "address": "0x170F86",
-        "size": 1,
-        "value": 8
-    },
-    {
-        "description": "Arabian archer damage to towers and gates offset.",
-        "address": "0x170F83",
-        "size": 1,
-        "value": 251
-    },
-    {
-        "description": "Arabian archer damage to walls.",
-        "address": "0x170f51",
-        "size": 4,
-        "value": 6
-    },
-    {
-        "description": "Arabian archer recruit cost.",
-        "address": "0x12F06D",
-        "size": 1,
-        "value": 246
-    },
-    {
-        "description": "Arabian archer display recruit cost.",
-        "address": "0x6B92CC",
-        "size": 4,
-        "value": 65
-    },
-    {
-        "description": "Slinger melee damage to buildings.",
-        "address": "0x17391C",
-        "size": 1,
-        "value": 8
-    },
-    {
-        "description": "Slinger melee damage to towers and gates offset.",
-        "address": "0x173919",
-        "size": 1,
-        "value": 251
-    },
-    {
-        "description": "Horse archer melee damage to walls.",
-        "address": "0x1738DE",
-        "size": 4,
-        "value": 6
-    },
-    {
-        "description": "Horse archer melee damage to buildings.",
-        "address": "0x17B607",
-        "size": 1,
-        "value": 8
-    },
-    {
-        "description": "Horse archer melee damage to towers and gates offset.",
-        "address": "0x17B604",
-        "size": 1,
-        "value": 251
-    },
-    {
-        "description": "Horse archer melee damage to walls.",
-        "address": "0x17B5D7",
-        "size": 4,
-        "value": 6
-    },
-    {
-        "description": "Arabian swordsman melee damage to buildings.",
-        "address": "0x176550",
-        "size": 1,
-        "value": 105
-    },
-    {
-        "description": "Arabian swordsman melee damage to towers and gates offset.",
-        "address": "0x17654D",
-        "size": 1,
-        "value": 163
-    },
-    {
-        "description": "Arabian swordsman melee damage to walls.",
-        "address": "0x176510",
-        "size": 4,
-        "value": 20
-    },
-    {
-        "description": "Arabian swordsman speed.",
-        "address": "0x74e85c",
-        "size": 4,
-        "value": 2
-    },
-    {
-        "description": "Firethrower melee damage to buildings.",
-        "address": "0x17743C",
-        "size": 1,
-        "value": 8
-    },
-    {
-        "description": "Firethrower melee damage to towers and gates offset.",
-        "address": "0x177439",
-        "size": 1,
-        "value": 251
-    },
-    {
-        "description": "Firethrower melee damage to walls.",
-        "address": "0x1773FE",
-        "size": 4,
-        "value": 6
-    },
-    {
-        "description": "Tunneler melee damage to buildings.",
-        "address": "0x14F73D",
-        "size": 1,
-        "value": 50
-    },
-    {
-        "description": "Tunneler melee damage to towers and gates offset.",
-        "address": "0x14F73A",
-        "size": 1,
-        "value": 0
-    },
-    {
-        "description": "Tunneler melee damage to walls.",
-        "address": "0x14F6FF",
-        "size": 4,
-        "value": 24
-    },
-    {
-        "description": "The lord's melee damage to buildings.",
-        "address": "0x16DAE4",
-        "size": 1,
-        "value": 105
-    },
-    {
-        "description": "The lord's melee damage to towers and gates offset.",
-        "address": "0x16DAE1",
-        "size": 1,
-        "value": 163
-    },
-    {
-        "description": "The lord's damage to walls.",
-        "address": "0x16DA99",
-        "size": 4,
-        "value": 20
-    },
-	{
-        "description": "Catapult damage to buildings.",
-        "address": "0x7CF5",
-        "size": 4,
-        "value": 40
-    },
-    {
-        "description": "Catapult collateral damage.",
-        "address": "0x7AA6",
-        "size": 4,
-        "value": 20
-    },
-	{
-        "description": "Catapult initial stone.",
-        "address": "0x13EA05",
-        "size": 2,
-        "value": 10
-    },
-	{
-        "description": "Catapult stone reload amount.",
-        "address": "0x6616A",
-        "size": 1,
-        "value": 10
-    },	
-	{
-        "description": "Default max. ammunition amount.",
-        "address": "0x66220",
-        "size": 1,
-        "value": 10
-    },
-	{
-        "description": "Rounding extra stone cost.",
-        "address": "0x6622C",
-        "size": 1,
-        "value": 0
-    },
-	{
-        "description": "Shift left to divide instruction.",
-        "address": "0x66238",
-        "size": 2,
-        "value": 37008
-    },
-	{
-        "description": "Shift right to multiply instruction.",
-        "address": "0x66291",
-        "size": 2,
-        "value": 50825
-    },
-    {
-        "description": "Shift right to multiply instruction -part2.",
-        "address": "0x66293",
-        "size": 1,
-        "value": 144
-	},
-    {
-        "description": "Trebuchet damage to buildings.",
-        "address": "0x7CE5",
-        "size": 4,
-        "value": 120
-    },
-    {
-        "description": "Trebuchet collateral damage penalty.",
-        "address": "0x7CEB",
-        "size": 1,
-        "value": 196
-    },
-    {
-        "description": "Battering ram damage to buildings.",
-        "address": "0x14666D",
-        "size": 1,
-        "value": 100
-    },
-    {
-        "description": "Shield speed.",
-        "address": "0x74E820",
-        "size": 4,
-        "value": 4
-    },
-    { "description": "Ballista and fireballista damage to shields.", "address": "0x1322DF", "size": 4, "value": 1000 },
-    { "description": "Ballista and fireballista damage to ballistas.", "address": "0x1322EC", "size": 4, "value": 3000 },
-    { "description": "Ballista and fireballista damage to mangonels.", "address": "0x132306", "size": 4, "value": 3000 },
-    { "description": "Ballista and fireballista damage to catapults.", "address": "0x132313", "size": 4, "value": 4000 },
-    { "description": "Ballista and fireballista damage to trebuchets.", "address": "0x132320", "size": 4, "value": 6000 },
-    {
-        "description": "Ballista and fireballista damage to everything else, compared to siege tower, substracted from int32 max.",
-        "address": "0x13233E",
-        "size": 4,
-        "value": 4294962296
-    },
-    {
-        "description": "Mangonel damage to trebuchets.",
-        "address": "0x132286",
-        "size": 4,
-        "value": 2500
-    },
-	{
-        "description": "Mangonel damage to shields.",
-        "address": "0x132236",
-        "size": 4,
-        "value": 1000
-    },
-	{
-        "description": "Minimap unit size.",
-        "address": "0xB6FC0",
-        "size": 1,
-        "value": 4
-    },
-    {
-        "description": "Count path to positive fearfactor twice for resting.",
-        "address": "0x00149f67",
-        "size": 1,
-        "value": 2
-    },
-    {
-        "description": "Drunkards melee damage toggle.",
-        "address": "0x755C9C",
-        "size": 4,
-        "value": 0
-    },
-    {
-        "description": "Jester melee damage toggle.",
-        "address": "0x755CF4",
-        "size": 4,
-        "value": 0
-    },
-    {
-        "description": "Jester visiting assassins toggle.",
-        "address": "0x755AB4",
-        "size": 1,
-        "value": 1
-    }
-	],
     "buildings": {
         "Woodcutter hut": {
             "health": "50"
@@ -504,17 +146,17 @@
         "Chapel": {
             "cost": [
                 "0",
-                "5",
+                "8",
                 "0",
                 "0",
-                "50"
+                "80"
             ],
             "health": "300"
         },
         "Church": {
             "cost": [
                 "0",
-                "25",
+                "24",
                 "0",
                 "0",
                 "150"
@@ -683,7 +325,7 @@
             "health": "15000",
             "arrowDamage": "3000",
             "xbowDamage": "10000",
-            "stoneDamage": "1500",
+            "stoneDamage": "1000",
             "meleeDamageVs": {
                 "Peasant": "20",
                 "Burning man": "20",
@@ -775,7 +417,7 @@
             "meleeDamageVs": {
                 "European knight": "30",
                 "Battering ram": "4",
-                "Arabian horse archer": "40"
+                "Arabian horse archer": "50"
             }
         },
         "European pikeman": {
@@ -1138,7 +780,6 @@
             }
         },
         "Arabian horse archer": {
-            "arrowDamage": "1700",
             "meleeDamageVs": {
                 "Battering ram": "4"
             }
@@ -1471,6 +1112,8 @@
                 "Blacksmith": "400",
                 "Armourer": "400",
                 "Tanner": "400",
+                "European archer": "120",
+                "European crossbowman": "120",
                 "European pikeman": "50",
                 "European maceman": "60",
                 "European swordsman": "40",
@@ -1513,7 +1156,11 @@
                 "Dog": "60",
                 "unknown2": "60",
                 "unknown3": "60",
+                "Arabian archer": "120",
+                "Arabian slinger": "375",
+                "Arabian horse archer": "120",
                 "Arabian swordsman": "50",
+                "Arabian firethrower": "120",
                 "Fire ballista": "60"
             }
         },
@@ -1522,5 +1169,362 @@
                 "Battering ram": "2"
             }
         }
+    },
+	"other": [
+	{
+	    "description": "tax_reset",
+        "value": 1
+    },
+	{
+        "description": "speed_priest",
+        "address": "0x74e7b4",
+        "size": 4,
+        "value": 1
+    },
+	{
+        "description": "Spearman recruit cost.",
+        "address": "0x6B92AC",
+        "size": 4,
+        "value": 5
+    },
+    {
+        "description": "Maceman recruit cost.",
+        "address": "0x6B92B4",
+        "size": 4,
+        "value": 25
+    },
+    {
+        "description": "Crossbowman recruit cost.",
+        "address": "0x6B92A8",
+        "size": 4,
+        "value": 25
+    },
+    {
+        "description": "European swordsman melee damage to buildings.",
+        "address": "0x16250E",
+        "size": 1,
+        "value": 105
+    },
+    {
+        "description": "European swordsman melee damage to towers and gates offset.",
+        "address": "0x16250B",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "European swordsman melee damage to walls.",
+        "address": "0x1624CE",
+        "size": 4,
+        "value": 20
+    },
+	{
+        "description": "European swordsman speed.",
+        "address": "0x74e79c",
+        "size": 4,
+        "value": 3
+    },
+    {
+        "description": "Knight melee damage to buildings.",
+        "address": "0x1633FD",
+        "size": 1,
+        "value": 105
+    },
+    {
+        "description": "Knight melee damage to towers and gates offset.",
+        "address": "0x1633FA",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "Knight melee damage to walls.",
+        "address": "0x1633BD",
+        "size": 4,
+        "value": 20
+    },
+    {
+        "description": "Knight recruit cost.",
+        "address": "0x6B92BC",
+        "size": 4,
+        "value": 60
+    },
+    {
+        "description": "Arabian archer damage to buildings.",
+        "address": "0x170F86",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Arabian archer damage to towers and gates offset.",
+        "address": "0x170F83",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Arabian archer damage to walls.",
+        "address": "0x170f51",
+        "size": 4,
+        "value": 6
+    },
+    {
+        "description": "Arabian archer recruit cost.",
+        "address": "0x12F06D",
+        "size": 1,
+        "value": 246
+    },
+    {
+        "description": "Arabian archer display recruit cost.",
+        "address": "0x6B92CC",
+        "size": 4,
+        "value": 65
+    },
+    {
+        "description": "Slinger melee damage to buildings.",
+        "address": "0x17391C",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Slinger melee damage to towers and gates offset.",
+        "address": "0x173919",
+        "size": 1,
+        "value": 251
+    },
+	{
+        "description": "assassin_rally_speed",
+        "value": 2
+    },
+    {
+        "description": "Horse archer melee damage to walls.",
+        "address": "0x1738DE",
+        "size": 4,
+        "value": 6
+    },
+    {
+        "description": "Horse archer melee damage to buildings.",
+        "address": "0x17B607",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Horse archer melee damage to towers and gates offset.",
+        "address": "0x17B604",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Horse archer melee damage to walls.",
+        "address": "0x17B5D7",
+        "size": 4,
+        "value": 6
+    },
+    {
+        "description": "Arabian swordsman melee damage to buildings.",
+        "address": "0x176550",
+        "size": 1,
+        "value": 105
+    },
+    {
+        "description": "Arabian swordsman melee damage to towers and gates offset.",
+        "address": "0x17654D",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "Arabian swordsman melee damage to walls.",
+        "address": "0x176510",
+        "size": 4,
+        "value": 20
+    },
+    {
+        "description": "Arabian swordsman speed.",
+        "address": "0x74e85c",
+        "size": 4,
+        "value": 2
+    },
+    {
+        "description": "Firethrower melee damage to buildings.",
+        "address": "0x17743C",
+        "size": 1,
+        "value": 8
+    },
+    {
+        "description": "Firethrower melee damage to towers and gates offset.",
+        "address": "0x177439",
+        "size": 1,
+        "value": 251
+    },
+    {
+        "description": "Firethrower melee damage to walls.",
+        "address": "0x1773FE",
+        "size": 4,
+        "value": 6
+    },
+    {
+        "description": "Tunneler melee damage to buildings.",
+        "address": "0x14F73D",
+        "size": 1,
+        "value": 50
+    },
+    {
+        "description": "Tunneler melee damage to towers and gates offset.",
+        "address": "0x14F73A",
+        "size": 1,
+        "value": 0
+    },
+    {
+        "description": "Tunneler melee damage to walls.",
+        "address": "0x14F6FF",
+        "size": 4,
+        "value": 24
+    },
+    {
+        "description": "The lord's melee damage to buildings.",
+        "address": "0x16DAE4",
+        "size": 1,
+        "value": 105
+    },
+    {
+        "description": "The lord's melee damage to towers and gates offset.",
+        "address": "0x16DAE1",
+        "size": 1,
+        "value": 163
+    },
+    {
+        "description": "The lord's damage to walls.",
+        "address": "0x16DA99",
+        "size": 4,
+        "value": 20
+    },
+	{
+        "description": "Catapult damage to buildings.",
+        "address": "0x7CF5",
+        "size": 4,
+        "value": 40
+    },
+    {
+        "description": "Catapult collateral damage.",
+        "address": "0x7AA6",
+        "size": 4,
+        "value": 20
+    },
+	{
+        "description": "Catapult initial stone.",
+        "address": "0x13EA05",
+        "size": 2,
+        "value": 10
+    },
+	{
+        "description": "Catapult stone reload amount.",
+        "address": "0x6616A",
+        "size": 1,
+        "value": 10
+    },	
+	{
+        "description": "Default max. ammunition amount.",
+        "address": "0x66220",
+        "size": 1,
+        "value": 10
+    },
+	{
+        "description": "Rounding extra stone cost.",
+        "address": "0x6622C",
+        "size": 1,
+        "value": 0
+    },
+	{
+        "description": "Shift left to divide instruction.",
+        "address": "0x66238",
+        "size": 2,
+        "value": 37008
+    },
+	{
+        "description": "Shift right to multiply instruction.",
+        "address": "0x66291",
+        "size": 2,
+        "value": 50825
+    },
+    {
+        "description": "Shift right to multiply instruction -part2.",
+        "address": "0x66293",
+        "size": 1,
+        "value": 144
+	},
+    {
+        "description": "Trebuchet damage to buildings.",
+        "address": "0x7CE5",
+        "size": 4,
+        "value": 120
+    },
+    {
+        "description": "Trebuchet collateral damage penalty.",
+        "address": "0x7CEB",
+        "size": 1,
+        "value": 196
+    },
+    {
+        "description": "Battering ram damage to buildings.",
+        "address": "0x14666D",
+        "size": 1,
+        "value": 100
+    },
+    {
+        "description": "Shield speed.",
+        "address": "0x74E820",
+        "size": 4,
+        "value": 4
+    },
+    { "description": "Ballista and fireballista damage to shields.", "address": "0x1322DF", "size": 4, "value": 1000 },
+    { "description": "Ballista and fireballista damage to ballistas.", "address": "0x1322EC", "size": 4, "value": 3000 },
+    { "description": "Ballista and fireballista damage to mangonels.", "address": "0x132306", "size": 4, "value": 3000 },
+    { "description": "Ballista and fireballista damage to catapults.", "address": "0x132313", "size": 4, "value": 4000 },
+    { "description": "Ballista and fireballista damage to trebuchets.", "address": "0x132320", "size": 4, "value": 6000 },
+    {
+        "description": "Ballista and fireballista damage to everything else, compared to siege tower, substracted from int32 max.",
+        "address": "0x13233E",
+        "size": 4,
+        "value": 4294962296
+    },
+    {
+        "description": "Mangonel damage to trebuchets.",
+        "address": "0x132286",
+        "size": 4,
+        "value": 2500
+    },
+	{
+        "description": "Mangonel damage to shields.",
+        "address": "0x132236",
+        "size": 4,
+        "value": 1000
+    },
+	{
+        "description": "Minimap unit size.",
+        "address": "0xB6FC0",
+        "size": 1,
+        "value": 4
+    },
+    {
+        "description": "Count path to positive fearfactor twice for resting.",
+        "address": "0x00149f67",
+        "size": 1,
+        "value": 2
+    },
+    {
+        "description": "Drunkards melee damage toggle.",
+        "address": "0x755C9C",
+        "size": 4,
+        "value": 0
+    },
+    {
+        "description": "Jester melee damage toggle.",
+        "address": "0x755CF4",
+        "size": 4,
+        "value": 0
+    },
+    {
+        "description": "Jester visiting assassins toggle.",
+        "address": "0x755AB4",
+        "size": 1,
+        "value": 1
     }
+	]
 }

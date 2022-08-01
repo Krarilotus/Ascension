@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.9
+v1.9.9a
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -62,7 +62,7 @@ They struggle a lot against heavy armored units, thus are replaced later on by C
 ### Spearman
 ```diff
 + 50% damage increase to Knights 
-+ 100% damage increase to Horse Archers
++ 150% damage increase to Horse Archers
 + 16.6% less damage taken from Arrows
 + Speed increased, always running instead of walking
 + Cost changed: 5 gold to recruit
@@ -183,7 +183,7 @@ They struggle against all melee units they can't outrun.
 + 200% melee damage increase to towers and gates
 + 100% melee damage increase to regular buildings
 - 50% ranged damage decrease to Arabian Swordsmen
-- 70% ranged damage decrease to Tunnelers
+- 80% ranged damage decrease to Tunnelers
 - 50% ranged damage decrease to Rams
 ```
 
@@ -193,9 +193,10 @@ Alone, they can't do much offensively as they struggle a lot against true ranged
 
 ### Assassin
 ```diff
-! Same damage to Assassins, Slaves, Slingers, Arabian Archers, European Archers, Spearman, Crossbowman, Engineers, Laddermen, Horse Archers, Firethrowers
+! Same damage to Assassins, Slaves, Spearman, Engineers, Laddermen
 + 900% damage increase to Trebuchets
 + 400% damage increase to Workers
++ 50% damage increase to ranged units (not siege)
 - 25% damage decrease to most other units
 - 37.5% damage decrease to Pikemen, Arabian Swordsmen
 - 50% damage decrease to European Swordsmen, Knights
@@ -211,13 +212,12 @@ They are very weak in melee, but still can pick on light ranged units, or even t
 + 200% melee damage increase to walls
 + 200% melee damage increase to towers and gates
 + 100% melee damage increase to regular buildings
-- 36% more damage taken from Arrows
 ```
 
 Horse archers are one of the first ranged units you can get, used mostly only in earlygame.
 Their firepower is more expensive than that of Arabian Archers, but their mobility easily makes up for it.
 They are used for raids and early aggressions, especially along with Slaves.
-They fall out of favor very fast once European Archers are around, and become nearly unusable around Shields.
+They become nearly unusable around Shields.
 But, they have the unique ability to run on a ~5 tile patrol, shooting themselves while being unhitable by any ranged units further away than a few tiles.
 
 ### Arabian Swordsman
@@ -570,8 +570,8 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 + Oil Smelter cost: 3 iron, no gold
 
 - Chapel HP: -25% decrease
-+ Chapel cost: 50 gold, 5 stone
-+ Church cost: 150 gold, 25 stone
++ Chapel cost: 80 gold, 8 stone
++ Church cost: 150 gold, 24 stone
 + Cathedral HP: +66.67% increase
 - Cathedral cost: 750 gold, 40 stone
 + Priests speed increased
@@ -588,7 +588,7 @@ Barracks, Mercenary Post, Engineer's Guild, House and Negative Fear Factor remai
 
 - Barracks, Mercenary Post, Engineer's Guild, Tunneler's Guild and Oil Smelter are only used to recruit their respective units, see their descriptions for more information. They don't need to be placed anywhere explicitely safe, but losing them does cost a small amount of resources to replace and can be annoying in a pinch.
 - Stables are very, very expensive and need to be placed somewhere safe, for more information, see the description of Knights.
-- The religion buildings are somewhat efficient for extra popularity income, especially Chapels. The permanent bonuses of the Church and the Cathedral are also very useful. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They are usually placed somewhere relatively safe, as losing them to raids is very costly.
+- The religion buildings are somewhat efficient for extra popularity income, due to the speed increase for priests. Especially Chapels cost very little and give a consistant bonus. The permanent bonuses of the Church and the Cathedral are also very useful later on. The Cathedral of course allows the player to recruit Monks, see their descriptions for more information. They are usually placed somewhere relatively safe, as losing them to raids is very costly.
 - Houses are of course used to increase the player's max. population, they are usually placed somewhere safe, as losing them can trigger crowding and loss of popularity.
 - The Apothecary is very useful, as the healer seeks out and heals damaged units, even the Lord. It's also used for reducing the effects of diseased cow shots.
 - Wells and Water pots are usually only placed when the player's economy is already on fire, or shortly will be, as it is more economical to extinguish the buildings rather than destroying them.
