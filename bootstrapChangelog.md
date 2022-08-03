@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.9a
+v1.9.9b
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -141,7 +141,7 @@ They are hindered by the requirement of an expensive weapon production chain, bu
 + 100% damage increase to walls
 + 100% damage increase to towers and gates
 + 50% damage increase to regular buildings
-+ 20% less damage taken from Arrows 
++ 20% less damage taken from Arrows
 - Cost changed: 60 gold to recruit
 ```
 
@@ -282,6 +282,7 @@ Very rarely seen used offensively in the early/midgame, against player made cast
 ```diff
 + 50% HP increase
 + 40% less damage taken from arrows
++ 300% damage increase to workers
 - 20% damage decrease
 + 500% damage increase to walls
 + 1150% damage increase to towers and gates
