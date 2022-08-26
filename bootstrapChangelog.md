@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.9c tournament version
+v1.9.9d tournament version
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions

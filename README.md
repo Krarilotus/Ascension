@@ -3,7 +3,7 @@ This is the official repository for the Bootstrap Multiplayer Setup.
 
 This setup aims to fix all issues with Stronghold Crusader multiplayer, via game modifications.
 
-v1.9.9c tournament version
+v1.9.9d tournament version
 
 Not a finished product - the setup is still undergoing development.
 
