@@ -1,6 +1,6 @@
 # Changelog
 
-v1.9.9d tournament version
+v1.9.9e
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -87,10 +87,11 @@ They struggle a lot against European Swordsmen and Knights, thus they have to av
 
 ### Crossbowman
 ```diff
-! 20% ranged damage increase to Crossbowmen
++ 16.67% HP increase
 + 20% ranged damage increase to European Archers and Pikemen
+! 20% ranged damage increase to Crossbowmen
 + 20% ranged damage increase to European Swordsmen
-- 20% ranged damage decrease to Knights 
++ 66.67% ranged damage increase to the Lord
 - 20% ranged damage decrease to Macemen
 - 5% ranged damage decrease to Arabian Archers
 - 40% ranged damage decrease to Arabian Swordsmen
@@ -106,10 +107,11 @@ They serve as your primary ranged unit up until the end of the game, later on al
 
 ### Pikeman
 ```diff
-! 50% damage increase to Pikemen
 + 50% HP increase
++ 50% damage increase
 + 200% damage increase to Knights and Horse Archers
 + 20% less damage taken from Arrows
+- Cost changed: 30 gold to recruit
 ```
 
 Pikemen are unlocked towards the end of midgame.
@@ -157,7 +159,7 @@ They aren't completely standalone though, as they struggle against combinations 
 + 200% melee damage increase to walls
 + 200% melee damage increase to towers and gates
 + 100% melee damage increase to regular buildings
-+ Cost changed: 65 gold to recruit
++ Cost changed: 60 gold to recruit
 ```
 
 Arabian archers are one of the first units you can get at the start of the game.
@@ -184,6 +186,7 @@ They struggle against all melee units they can't outrun.
 + 100% melee damage increase to regular buildings
 - 50% ranged damage decrease to Arabian Swordsmen
 - 80% ranged damage decrease to Tunnelers
+- 50% ranged damage decrease to the Lord
 - 50% ranged damage decrease to Rams
 ```
 
@@ -193,10 +196,11 @@ Alone, they can't do much offensively as they struggle a lot against true ranged
 
 ### Assassin
 ```diff
-! Same damage to Assassins, Slaves, Spearman, Engineers, Laddermen
+! Same damage to Assassins, Slaves, Engineers, Laddermen
 + 900% damage increase to Trebuchets
 + 400% damage increase to Workers
 + 50% damage increase to ranged units (not siege)
+- 12.5% damage decrease to Spearmen
 - 25% damage decrease to most other units
 - 37.5% damage decrease to Pikemen, Arabian Swordsmen
 - 50% damage decrease to European Swordsmen, Knights
@@ -282,7 +286,7 @@ Very rarely seen used offensively in the early/midgame, against player made cast
 ```diff
 + 50% HP increase
 + 40% less damage taken from arrows
-+ 300% damage increase to workers
++ 100% damage increase to workers
 - 20% damage decrease
 + 500% damage increase to walls
 + 1150% damage increase to towers and gates
@@ -340,8 +344,8 @@ Although, since the player lacks control over them once placed, they can be bait
 ### Catapult
 ```diff
 + 50% HP increase
-+ 100% damage increase to Buildings
-- Cost changed: 150 gold, 10 stone
++ 200% damage increase to Buildings
+- Cost changed: 200 gold, 15 stone
 - Starts with 10 instead of 20 initial rock ammunition
 - Gets 10 instead of 20 rocks from reloading for 10 stone
 ```
@@ -379,7 +383,7 @@ They are occasionally used offensively, although rather rarely, as there is far 
 + 100% damage increase to Buildings
 + 80% less damage taken from all melee sources
 + 50% less damage taken from arrows
-- Cost changed: 50 wood, 3 iron, no gold
+- Cost changed: 50 wood, 1 iron, no gold
 ```
 
 Battering Rams are used for sieges or small attacks, usually beginning with midgame.
@@ -497,9 +501,9 @@ As the production buildings usually happen to be in the outer layer of one's eco
   Spears - buy 100, sell 50
 ! Bows - buy 150, sell 90
 ! Maces - buy 320, sell 160
-  Leather Armor - buy 125, sell 60
+! Leather Armor - buy 180, sell 90
   Crossbows - buy 290, sell 150
-  Pikes - buy 180, sell 90
+! Pikes - buy 200, sell 100
 ! Swords - buy 340, sell 170
 ! Metal Armor - buy 400, sell 200
 ```
