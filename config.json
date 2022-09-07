@@ -239,10 +239,10 @@
         "Catapult": {
             "cost": [
                 "0",
-                "10",
+                "15",
                 "0",
                 "0",
-                "150"
+                "200"
             ]
         },
         "Trebuchet": {
@@ -267,7 +267,7 @@
             "cost": [
                 "50",
                 "0",
-                "3",
+                "1",
                 "0",
                 "0"
             ]
@@ -283,6 +283,9 @@
         }
     },
     "resources": {
+        "Wood": {
+            "sell": "10"
+        },
         "Hop": {
             "buy": "210",
             "sell": "105"
@@ -307,6 +310,10 @@
             "buy": "150",
             "sell": "90"
         },
+        "Pike": {
+            "buy": "200",
+            "sell": "100"
+        },
         "Mace": {
             "buy": "320",
             "sell": "160"
@@ -314,6 +321,10 @@
         "Sword": {
             "buy": "340",
             "sell": "170"
+        },
+        "Leather": {
+            "buy": "180",
+            "sell": "90"
         },
         "Armor": {
             "buy": "400",
@@ -327,27 +338,27 @@
             "xbowDamage": "10000",
             "stoneDamage": "1000",
             "meleeDamageVs": {
-                "Peasant": "100",
-                "Burning man": "100",
-                "Woodcutter": "100",
-                "Fletcher": "100",
+                "Peasant": "50",
+                "Burning man": "50",
+                "Woodcutter": "50",
+                "Fletcher": "50",
                 "Tunneler": "20",
-                "Hunter": "100",
-                "Quarry mason": "100",
-                "Quarry grunt": "100",
-                "Quarry ox": "100",
-                "Pitch worker": "100",
-                "Wheat farmer": "100",
-                "Hops farmer": "100",
-                "Apple farmer": "100",
-                "Dairy farmer": "100",
-                "Miller": "100",
-                "Baker": "100",
-                "Brewer": "100",
-                "Poleturner": "100",
-                "Blacksmith": "100",
-                "Armourer": "100",
-                "Tanner": "100",
+                "Hunter": "50",
+                "Quarry mason": "50",
+                "Quarry grunt": "50",
+                "Quarry ox": "50",
+                "Pitch worker": "50",
+                "Wheat farmer": "50",
+                "Hops farmer": "50",
+                "Apple farmer": "50",
+                "Dairy farmer": "50",
+                "Miller": "50",
+                "Baker": "50",
+                "Brewer": "50",
+                "Poleturner": "50",
+                "Blacksmith": "50",
+                "Armourer": "50",
+                "Tanner": "50",
                 "European archer": "20",
                 "European crossbowman": "20",
                 "European spearman": "20",
@@ -357,47 +368,45 @@
                 "European knight": "20",
                 "Ladderman": "20",
                 "Engineer": "20",
-                "Iron miner1": "100",
-                "Iron miner2": "100",
-                "Priest": "100",
-                "Healer": "100",
-                "Drunkard": "100",
-                "Innkeeper": "100",
+                "Iron miner1": "50",
+                "Iron miner2": "50",
+                "Priest": "50",
+                "Healer": "50",
+                "Drunkard": "50",
+                "Innkeeper": "50",
                 "Monk": "20",
-                "unknown1": "100",
+                "unknown1": "50",
                 "Catapult": "20",
                 "Trebuchet": "20",
                 "Mangonel": "20",
-                "Trader": "100",
-                "Trader horse": "100",
+                "Trader": "50",
+                "Trader horse": "50",
                 "Deer": "20",
                 "Lion": "20",
                 "Rabbit": "20",
                 "Camel": "20",
                 "Crow": "20",
                 "Seagull": "20",
-                "Cow": "100",
-                "Hunter dog": "100",
-                "Fireman": "100",
-                "Ghost": "100",
+                "Cow": "20",
+                "Hunter dog": "50",
+                "Fireman": "50",
+                "Ghost": "50",
                 "Lord": "20",
-                "Lady": "100",
-                "Jester": "100",
+                "Lady": "20",
+                "Jester": "50",
                 "Siege tower": "20",
                 "Battering ram": "4",
                 "Portable shield": "20",
                 "Tower ballista": "20",
-                "Chicken": "100",
-                "Mother": "100",
-                "Child": "100",
-                "Juggler": "100",
-                "Fireeater": "100",
+                "Chicken": "20",
+                "Mother": "50",
+                "Child": "50",
+                "Juggler": "50",
+                "Fireeater": "50",
                 "Dog": "20",
-                "unknown2": "100",
-                "unknown3": "100",
+                "unknown2": "20",
+                "unknown3": "20",
                 "Arabian archer": "20",
-                "Arabian slave": "35",
-                "Arabian slinger": "24",
                 "Arabian assassin": "20",
                 "Arabian horse archer": "20",
                 "Arabian swordsman": "20",
@@ -408,6 +417,13 @@
         "European archer": {
             "health": "12000",
             "xbowDamage": "18000",
+            "meleeDamageVs": {
+                "Battering ram": "2"
+            }
+        },
+        "European crossbowman": {
+            "health": "17500",
+            "xbowDamage": "6000",
             "meleeDamageVs": {
                 "Battering ram": "2"
             }
@@ -426,10 +442,81 @@
             "xbowDamage": "3600",
             "stoneDamage": "600",
             "meleeDamageVs": {
+                "Peasant": "30",
+                "Burning man": "30",
+                "Woodcutter": "30",
+                "Fletcher": "30",
+                "Tunneler": "30",
+                "Hunter": "30",
+                "Quarry mason": "30",
+                "Quarry grunt": "30",
+                "Quarry ox": "30",
+                "Pitch worker": "30",
+                "Hops farmer": "30",
+                "Apple farmer": "30",
+                "Dairy farmer": "30",
+                "Miller": "30",
+                "Baker": "30",
+                "Brewer": "30",
+                "Poleturner": "30",
+                "Blacksmith": "30",
+                "Armourer": "30",
+                "Tanner": "30",
+                "European archer": "30",
+                "European crossbowman": "30",
+                "European spearman": "30",
                 "European pikeman": "30",
+                "European maceman": "30",
+                "European swordsman": "30",
                 "European knight": "60",
-                "Battering ram": "4",
-                "Arabian horse archer": "60"
+                "Ladderman": "150",
+                "Engineer": "30",
+                "Iron miner1": "30",
+                "Iron miner2": "30",
+                "Priest": "30",
+                "Healer": "30",
+                "Drunkard": "30",
+                "Innkeeper": "30",
+                "Monk": "30",
+                "unknown1": "30",
+                "Catapult": "30",
+                "Trebuchet": "20",
+                "Mangonel": "30",
+                "Trader": "30",
+                "Trader horse": "30",
+                "Deer": "30",
+                "Lion": "30",
+                "Rabbit": "30",
+                "Camel": "30",
+                "Crow": "30",
+                "Seagull": "30",
+                "Cow": "30",
+                "Hunter dog": "30",
+                "Fireman": "30",
+                "Ghost": "30",
+                "Lord": "30",
+                "Lady": "30",
+                "Jester": "30",
+                "Siege tower": "30",
+                "Battering ram": "6",
+                "Portable shield": "30",
+                "Tower ballista": "30",
+                "Chicken": "30",
+                "Mother": "30",
+                "Child": "30",
+                "Juggler": "30",
+                "Fireeater": "30",
+                "Dog": "30",
+                "unknown2": "30",
+                "unknown3": "30",
+                "Arabian archer": "30",
+                "Arabian slave": "60",
+                "Arabian slinger": "60",
+                "Arabian assassin": "30",
+                "Arabian horse archer": "60",
+                "Arabian swordsman": "30",
+                "Arabian firethrower": "30",
+                "Fire ballista": "30"
             }
         },
         "European maceman": {
@@ -599,7 +686,6 @@
         "European knight": {
             "health": "37500",
             "arrowDamage": "120",
-			"xbowDamage": "2000",
             "meleeDamageVs": {
                 "Peasant": "200",
                 "Burning man": "200",
@@ -765,6 +851,13 @@
                 "Fire ballista": "5"
             }
         },
+        "Lord": {
+            "xbowDamage": "250",
+            "stoneDamage": "50",
+            "meleeDamageVs": {
+                "Battering ram": "30"
+            }
+        },
         "Battering ram": {
             "health": "300000",
             "arrowDamage": "1500",
@@ -777,11 +870,6 @@
             "xbowDamage": "9500",
             "meleeDamageVs": {
                 "Battering ram": "2"
-            }
-        },
-        "Arabian horse archer": {
-            "meleeDamageVs": {
-                "Battering ram": "4"
             }
         },
         "Arabian swordsman": {
@@ -974,11 +1062,6 @@
                 "Battering ram": "4"
             }
         },
-        "European crossbowman": {
-            "meleeDamageVs": {
-                "Battering ram": "2"
-            }
-        },
         "Monk": {
             "meleeDamageVs": {
                 "Battering ram": "10"
@@ -992,11 +1075,6 @@
         "Camel": {
             "meleeDamageVs": {
                 "Battering ram": "20"
-            }
-        },
-        "Lord": {
-            "meleeDamageVs": {
-                "Battering ram": "30"
             }
         },
         "Dog": {
@@ -1114,6 +1192,7 @@
                 "Tanner": "400",
                 "European archer": "120",
                 "European crossbowman": "120",
+                "European spearman": "70",
                 "European pikeman": "50",
                 "European maceman": "60",
                 "European swordsman": "40",
@@ -1125,19 +1204,18 @@
                 "Drunkard": "400",
                 "Innkeeper": "400",
                 "Monk": "60",
-                "unknown1": "60",
                 "Catapult": "60",
                 "Trebuchet": "60",
                 "Mangonel": "60",
                 "Trader": "400",
                 "Trader horse": "400",
-                "Deer": "60",
-                "Lion": "60",
-                "Rabbit": "60",
-                "Camel": "60",
-                "Crow": "60",
-                "Seagull": "60",
-                "Cow": "60",
+                "Deer": "240",
+                "Lion": "240",
+                "Rabbit": "240",
+                "Camel": "240",
+                "Crow": "240",
+                "Seagull": "240",
+                "Cow": "240",
                 "Hunter dog": "400",
                 "Fireman": "400",
                 "Ghost": "400",
@@ -1154,14 +1232,19 @@
                 "Juggler": "400",
                 "Fireeater": "400",
                 "Dog": "60",
-                "unknown2": "60",
-                "unknown3": "60",
+                "unknown2": "80",
+                "unknown3": "80",
                 "Arabian archer": "120",
                 "Arabian slinger": "375",
                 "Arabian horse archer": "120",
                 "Arabian swordsman": "50",
                 "Arabian firethrower": "120",
                 "Fire ballista": "60"
+            }
+        },
+        "Arabian horse archer": {
+            "meleeDamageVs": {
+                "Battering ram": "4"
             }
         },
         "Fire ballista": {
@@ -1171,12 +1254,6 @@
         }
     },
 	"other": [
-	{
-        "description": "speed_priest",
-        "address": "0x74e7b4",
-        "size": 4,
-        "value": 1
-    },
 	{
         "description": "Spearman recruit cost.",
         "address": "0x6B92AC",
@@ -1194,6 +1271,12 @@
         "address": "0x6B92A8",
         "size": 4,
         "value": 25
+    },
+    {
+        "description": "Pikeman recruit cost.",
+        "address": "0x6B92B0",
+        "size": 4,
+        "value": 30
     },
     {
         "description": "European swordsman melee damage to buildings.",
@@ -1271,7 +1354,7 @@
         "description": "Arabian archer display recruit cost.",
         "address": "0x6B92CC",
         "size": 4,
-        "value": 65
+        "value": 60
     },
     {
         "description": "Slinger melee damage to buildings.",
@@ -1395,13 +1478,13 @@
         "description": "Catapult damage to buildings.",
         "address": "0x7CF5",
         "size": 4,
-        "value": 40
+        "value": 60
     },
     {
         "description": "Catapult collateral damage.",
         "address": "0x7AA6",
         "size": 4,
-        "value": 20
+        "value": 30
     },
 	{
         "description": "Catapult initial stone.",
@@ -1492,17 +1575,17 @@
         "size": 4,
         "value": 1000
     },
-	{
-        "description": "Minimap unit size.",
-        "address": "0xB6FC0",
-        "size": 1,
-        "value": 4
-    },
     {
         "description": "Count path to positive fearfactor twice for resting.",
         "address": "0x00149f67",
         "size": 1,
         "value": 2
+    },
+	{
+        "description": "Priest speed.",
+        "address": "0x74e7b4",
+        "size": 4,
+        "value": 1
     },
     {
         "description": "Drunkards melee damage toggle.",
@@ -1521,6 +1604,12 @@
         "address": "0x755AB4",
         "size": 1,
         "value": 1
+    },
+	{
+        "description": "Minimap unit size.",
+        "address": "0xB6FC0",
+        "size": 1,
+        "value": 4
     },
     {
 	    "description": "tax_reset",
