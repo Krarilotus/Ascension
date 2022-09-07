@@ -1,6 +1,6 @@
 # Bootstrap Gameplay Guide
 
-v1.9.9d tournament version
+v1.9.9e
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
