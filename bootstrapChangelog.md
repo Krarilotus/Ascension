@@ -8,7 +8,7 @@ The setup changes the gameplay to what's much more comparable to actual RTS game
 - Fixing tons of bugs and adding QoL features
 - Revamping the balances to what seemed to be FireFly's original intentions
 
-The style has only one artificial rule - no taxing on 0 popularity, because of it's potential abuse. This will be made impossible in a future update.
+The style has only one artificial rule - no taxing on 0 popularity, because of it's potential abuse. This has already been made nearly impossible to do, though.
 Of course, the usual ban on general bug abuses and external programs, giving the player an unfair advantage, is still in place.
 
 ## Starting Changes
@@ -87,17 +87,15 @@ They struggle a lot against European Swordsmen and Knights, thus they have to av
 
 ### Crossbowman
 ```diff
-+ 16.67% HP increase
-+ 20% ranged damage increase to European Archers and Pikemen
 ! 20% ranged damage increase to Crossbowmen
-+ 20% ranged damage increase to European Swordsmen
++ 16.67% HP increase
++ 20% ranged damage increase to European Archers, Pikemen and European Swordsmen
 + 66.67% ranged damage increase to the Lord
 - 20% ranged damage decrease to Macemen
 - 5% ranged damage decrease to Arabian Archers
-- 40% ranged damage decrease to Arabian Swordsmen
+- 56.25% ranged damage decrease to Arabian Swordsmen
 - 25% ranged damage decrease to Firethrowers
-- 50% ranged damage decrease to Tunnelers
-- 50% ranged damage decrease to Rams
+- 50% ranged damage decrease to Tunnelers and Rams
 - Cost changed: 25 gold to recruit
 ```
 
@@ -108,7 +106,7 @@ They serve as your primary ranged unit up until the end of the game, later on al
 ### Pikeman
 ```diff
 + 50% HP increase
-+ 50% damage increase
++ 50% damage increase to all units, except European Swordsmen
 + 200% damage increase to Knights and Horse Archers
 + 20% less damage taken from Arrows
 - Cost changed: 30 gold to recruit
@@ -196,10 +194,12 @@ Alone, they can't do much offensively as they struggle a lot against true ranged
 
 ### Assassin
 ```diff
-! Same damage to Assassins, Slaves, Engineers, Laddermen
+Same damage to Assassins, Slaves, Engineers and Laddermen.
+
 + 900% damage increase to Trebuchets
 + 400% damage increase to Workers
-+ 50% damage increase to ranged units (not siege)
++ 200% damage increase to animals
++ 50% damage increase to ranged units (non-siege)
 - 12.5% damage decrease to Spearmen
 - 25% damage decrease to most other units
 - 37.5% damage decrease to Pikemen, Arabian Swordsmen
@@ -419,8 +419,8 @@ Even when supported, they can get shot down by Catapults.
 
 ### Mangonel
 ```diff
-- 33% damage decrease to Shields
-- 50% damage decrease to Trebuchets
++ 100% damage increase
+- Cost changed: 300 gold
 ```
 
 Mangonels are situational, as the towers needed to support them are very expensive and of course, stationary.
@@ -432,6 +432,7 @@ They are useful for damaging down large armies, before a melee fight occurs, in 
 + 60% damage increase to Catapults
 + 50% damage increase to Trebuchets, Mangonels, Tower Ballistas
 + 50% damage increase to all Non-Siege Units
+- Cost changed: 100 gold
 ```
 
 Tower Ballistas are situational, as the towers needed to support them are very expensive and of course, stationary.
@@ -611,7 +612,7 @@ High Wall, Low Wall, Stairs, Perimeter Turret, Large Gatehouse, Killing Pits, Pi
 - Defense Turret cost: 20 stone
 
 + Square Tower HP: +40.625% increase
-- Square Tower cost: 45 stone
+- Square Tower cost: 40 stone
 
 + Round Tower HP: +125% increase
 - Round Tower cost: 75 stone
