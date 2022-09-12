@@ -219,7 +219,7 @@
         "Tower four": {
             "cost": [
                 "0",
-                "45",
+                "40",
                 "0",
                 "0",
                 "0"
@@ -279,6 +279,24 @@
                 "0",
                 "0",
                 "0"
+            ]
+        },
+        "Mangonel": {
+            "cost": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "300"
+            ]
+        },
+        "Tower Ballista": {
+            "cost": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "100"
             ]
         }
     },
@@ -467,7 +485,6 @@
                 "European spearman": "30",
                 "European pikeman": "30",
                 "European maceman": "30",
-                "European swordsman": "30",
                 "European knight": "60",
                 "Ladderman": "150",
                 "Engineer": "30",
@@ -873,7 +890,7 @@
             }
         },
         "Arabian swordsman": {
-            "xbowDamage": "4800",
+            "xbowDamage": "3500",
             "stoneDamage": "100",
             "meleeDamageVs": {
                 "Peasant": "150",
@@ -1563,18 +1580,16 @@
         "size": 4,
         "value": 4294962296
     },
-    {
-        "description": "Mangonel damage to trebuchets.",
-        "address": "0x132286",
-        "size": 4,
-        "value": 2500
-    },
-	{
-        "description": "Mangonel damage to shields.",
-        "address": "0x132236",
-        "size": 4,
-        "value": 1000
-    },
+    { "description": "Mangonel damage to the lord.", "address": "0x132226", "size": 4, "value": 100 },
+    { "description": "Mangonel damage to shields.", "address": "0x132236", "size": 4, "value": 3000 },
+    { "description": "Mangonel damage to ballistas.", "address": "0x132246", "size": 4, "value": 2000 },
+    { "description": "Mangonel damage to fireballistas.", "address": "0x132256", "size": 4, "value": 2000 },
+    { "description": "Mangonel damage to mangonels.", "address": "0x132266", "size": 4, "value": 1000 },
+    { "description": "Mangonel damage to catapults.", "address": "0x132276", "size": 4, "value": 10000 },
+    { "description": "Mangonel damage to trebuchets.", "address": "0x132286", "size": 4, "value": 10000 },
+    { "description": "Mangonel damage to battering rams.", "address": "0x132296", "size": 4, "value": 20000 },
+    { "description": "Mangonel damage to seige towers.", "address": "0x1322B0", "size": 4, "value": 20000 },
+    { "description": "Mangonel damage to everything else + 10,000.", "address": "0x1322B0", "size": 4, "value": 30000 },
     {
         "description": "Count path to positive fearfactor twice for resting.",
         "address": "0x00149f67",
