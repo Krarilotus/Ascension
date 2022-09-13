@@ -419,7 +419,7 @@ Even when supported, they can get shot down by Catapults.
 
 ### Mangonel
 ```diff
-+ 100% damage increase
++ 100% damage increase to all units, except Catapults, Trebuchets and Shields
 - Cost changed: 300 gold
 ```
 
