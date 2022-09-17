@@ -88,7 +88,7 @@ They struggle a lot against European Swordsmen and Knights, thus they have to av
 ### Crossbowman
 ```diff
 ! 20% ranged damage increase to Crossbowmen
-+ 16.67% HP increase
++ 20% HP increase
 + 20% ranged damage increase to European Archers, Pikemen and European Swordsmen
 + 66.67% ranged damage increase to the Lord
 - 20% ranged damage decrease to Macemen
@@ -197,7 +197,8 @@ Alone, they can't do much offensively as they struggle a lot against true ranged
 Same damage to Assassins, Slaves, Engineers and Laddermen.
 
 + 900% damage increase to Trebuchets
-+ 400% damage increase to Workers
++ 400% damage increase to fighting workers
++ 200% damage increase to non-fighting workers
 + 200% damage increase to animals
 + 50% damage increase to ranged units (non-siege)
 - 12.5% damage decrease to Spearmen
