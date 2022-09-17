@@ -1,6 +1,6 @@
 # Bootstrap Gameplay Guide
 
-v1.9.9e
+v1.9.10
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
