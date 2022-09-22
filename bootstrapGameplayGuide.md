@@ -1,6 +1,6 @@
 # Bootstrap Gameplay Guide
 
-v1.9.9d tournament version
+v1.10
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
@@ -10,8 +10,6 @@ The guide gets more and more generic and unhelpful the further the game has prog
 Don't forget that the best way to learn the game is still just by playing it, or watching how more experienced players play it.
 
 The guide is expected to be deviated from, as the player should create their own playstyle which fits them the best.
-
-You can read the Bootstrap Changelog for more information about specific units and buildings.
 
 ## Start of the game
 
@@ -182,6 +180,9 @@ Make sure to keep growing your army - keep adding more european archers, spearme
 You should slowly start adjusting the ratio of spearmen to macemen in your army, until it's about 1 to 1. You can sell the excess spears for gold.
 You can also start using fireballistas if you have the pitch needed for them, they are great both offensively and defensively to break enemy shields or pick on their units.
 
+Consider switching some of your poleturners to produce pikes and build an armorer.
+Pikemen can turn melee fights around with their ability to tank melee damage, and are all around a great support for any army even in smaller numbers.
+
 By this time you should also have the resources to use some of the more expensive towers along with tower siege engines, if you find yourself defending.
 Oil pot engineers can be used defensively or for holding down control points, sort of as mobile pitch ditches.
 
@@ -194,12 +195,12 @@ At the same time, you should also cut off their outside stone supplies (and anyt
 
 You can set up stables along with sword/metal armor production at this point, knights are very powerful for raiding outside economy.
 They can also snowball their value as most of their cost lies within the stables, you can repeatedly take on melee fights with them and replace them for relatively lower cost when they die.
-Avoid spearmen as those are far too cost effective against them, instead target macemen/ranged units, along with enemy economy of course.
+Avoid spearmen, pikemen and monks, as these are far too cost efficient against them, instead target macemen/ranged units, along with enemy economy of course.
 If you find yourself defending against knights, use spearmen to cover any entrance points they could have to your economy.
 
 Around this time, you can consider getting the church and the cathedral.
 Both provide a permanent popularity boost, which you can use to offset half rations/increase your taxes/generally boost your popularity if you are still struggling with it.
-You can also pair them with chapels for an even larger popularity boost, although this is unreliable and not very effective if you have most of your population still running outside of your main economy.
+You can also pair them with chapels for an even larger popularity boost.
 
 The cathedral also allows you to recruit monks, which you can mass recruit to give yourself an edge in main army melee fights.
 They are amazing for fighting anything in melee at this point of the game, but you have to heavily support them as they die to ranged units like nothing.
@@ -235,7 +236,7 @@ Their direct counters are spearmen, pikemen and monks, although not so much on s
 You can use their fast movement speed to stack them very quickly, get a few kills and then click them out of combat, repeating this to pick off smaller numbers of units at once, disallowing any stacking from happening with enemy units.
 They still struggle against larger numbers of crossbowmen and fireballistas.
 
-Switch some of your poleturners to produce pikes.
+Switch most of your poleturners to produce pikes.
 Pikemen are incredibly good at this point of the game, as they are the most tanky melee unit in the game, great as support for your other melee units, and they directly counter knights in melee.
 You can sometimes use them to walk up to enemy walls or towers and start taking them down, as they are nearly invincible against arrows and take relatively low damage from fire and killing pits.
 Still, you need to be careful about crossbowmen and fireballistas.
@@ -246,7 +247,7 @@ You can also build more fletchers if there aren't any more lucrative options lef
 Make sure you have all the paths secured by walls, gates and moat by this point, so no rushing can happen.
 
 Once there is seemingly no way to progress your economy, start getting your final army.
-Lategame armies are really varying, make sure to put together whatever seems to work on the spot.
+Lategame armies vary a lot, make sure to put together whatever seems to work on the spot.
 
 Combinations of macemen, spearmen and monks can still be effective, but you should primarily focus on siege engines like fireballistas and catapults, as well as a good melee army of mainly monks, a few swordsmen and plenty of pikemen.
 If your economy allows for it, dominate the fields with a few knight squads that threaten larger damage if your oppoent splits their army or decides to push out and leave their back unprotected.
