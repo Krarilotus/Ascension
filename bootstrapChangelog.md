@@ -1,6 +1,6 @@
 # Changelog
 
-v1.10
+v1.10.1
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
