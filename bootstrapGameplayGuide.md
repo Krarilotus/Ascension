@@ -1,6 +1,6 @@
 # Bootstrap Gameplay Guide
 
-v1.10.1
+v1.10.2
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
@@ -242,7 +242,7 @@ You can sometimes use them to walk up to enemy walls or towers and start taking 
 Still, you need to be careful about crossbowmen and fireballistas.
 
 Don't be afraid to buy iron to produce metal armor if you need more of it but have too many blacksmiths eating up your iron supplies already, it is worth it for the units, and even lands a small profit if the armor is sold.
-You can also build more fletchers if there aren't any more lucrative options left to boost your economy. You then want to buy wood and sell crossbows for profit.
+You can also build more fletchers to produce crossbows for sale if there aren't any more lucrative options left to boost your economy.
 
 Make sure you have all the paths secured by walls, gates and moat by this point, so no rushing can happen.
 
@@ -254,7 +254,7 @@ If your economy allows for it, dominate the fields with a few knight squads that
 Your army should then be supported by a large amount of crossbowmen with shields, to counter enemy ranged units.
 
 If you are attacking, build trebuchets and/or catapults, combined with rams to take down any castle defenses in your path.
-You might want to also expand your stockpile and stock up on stone in advance, so you don't run out of ammunition, as reloading stone is less costly than building new catapults.
+You might want to also expand your stockpile and stock up on stone in advance, so you don't run out of ammunition, as reloading using stone is less costly than building new siege engines.
 Trebuchets and catapults can also be used defensively.
 Whichever side of the siege you are on, the game will most likely end with it.
 
