@@ -1,6 +1,6 @@
 # Changelog
 
-v1.10.2
+v1.10.3
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -42,7 +42,7 @@ The text changelog is discontinued, soon to be replaced with an incremental one.
 
 [SHC Vanilla Stats](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
 
-[SHC Bootstrap Stats](https://docs.google.com/spreadsheets/d/1G0C9DovbV3-v_O2oVxacR4UzTDlEWWdAtxzJv8_sbVA/edit?usp=sharing)
+[SHC Bootstrap Stats](https://docs.google.com/spreadsheets/d/1sO1c6lcdb_25jUxy2ILwsm8F2xw8WAME65dGqoZ4vHg/edit?usp=sharing)
 
 Outdated!
 [v1.9.9d Changelog](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapChangelog-1.9.9d.md)
