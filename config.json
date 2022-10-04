@@ -1391,7 +1391,7 @@
         "size": 4,
         "value": 2
     },
-	{
+    {
         "description": "Spearman recruit cost.",
         "address": "0x6B92AC",
         "size": 4,
@@ -1439,7 +1439,7 @@
         "size": 1,
         "value": 163
     },
-	{
+    {
         "description": "European swordsman speed.",
         "address": "0x74E79C",
         "size": 4,
@@ -1505,7 +1505,7 @@
         "size": 4,
         "value": 5
     },
-	{
+    {
         "description": "assassin_rally_speed",
         "value": 2
     },
@@ -1587,7 +1587,7 @@
         "size": 1,
         "value": 163
     },
-	{
+    {
         "description": "Catapult damage to buildings.",
         "address": "0x7CF5",
         "size": 4,
@@ -1599,37 +1599,37 @@
         "size": 4,
         "value": 30
     },
-	{
+    {
         "description": "Catapult/Trebuchet initial stone.",
         "address": "0x13EA05",
         "size": 2,
         "value": 10
     },
-	{
+    {
         "description": "Catapult stone reload amount.",
         "address": "0x6616A",
         "size": 1,
         "value": 10
     },	
-	{
+    {
         "description": "Default max. ammunition amount.",
         "address": "0x66220",
         "size": 1,
         "value": 10
     },
-	{
+    {
         "description": "Rounding extra stone cost.",
         "address": "0x6622C",
         "size": 1,
         "value": 0
     },
-	{
+    {
         "description": "Shift left to divide instruction.",
         "address": "0x66238",
         "size": 2,
         "value": 37008
     },
-	{
+    {
         "description": "Shift right to multiply instruction.",
         "address": "0x66291",
         "size": 2,
@@ -1640,7 +1640,7 @@
         "address": "0x66293",
         "size": 1,
         "value": 144
-	},
+    },
     {
         "description": "Trebuchet damage to buildings.",
         "address": "0x7CE5",
@@ -1680,7 +1680,7 @@
     },
     { "description": "Mangonel damage to trebuchets.", "address": "0x132286", "size": 4,"value": 15000 },
     { "description": "Mangonel damage to battering rams.", "address": "0x132296", "size": 4,"value": 40000 },
-	{ "description": "Mangonel damage to shields.", "address": "0x132236", "size": 4,"value": 1000 },
+    { "description": "Mangonel damage to shields.", "address": "0x132236", "size": 4,"value": 1000 },
     { "description": "Mangonel damage to fireballistas.", "address": "0x132256", "size": 4,"value": 2000 },
     {
         "description": "Drunkards melee damage toggle.",
@@ -1700,7 +1700,7 @@
         "size": 1,
         "value": 1
     },
-	{
+    {
         "description": "Priest speed.",
         "address": "0x74E7B4",
         "size": 4,
@@ -1712,7 +1712,7 @@
         "size": 1,
         "value": 2
     },
-	{
+    {
         "description": "Minimap unit size.",
         "address": "0xB6FC0",
         "size": 1,
@@ -1722,5 +1722,5 @@
 	    "description": "tax_reset",
         "value": 1
     }
-	]
+    ]
 }
