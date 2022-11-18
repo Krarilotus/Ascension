@@ -45,7 +45,7 @@
             "cost": [
                 "20",
                 "10",
-                "1",
+                "3",
                 "0",
                 "0"
             ],
@@ -64,7 +64,7 @@
             "cost": [
                 "20",
                 "15",
-                "3",
+                "5",
                 "0",
                 "0"
             ],
@@ -891,8 +891,8 @@
                 "unknown2": "120",
                 "unknown3": "120",
                 "Arabian archer": "120",
-                "Arabian slave": "120",
-                "Arabian slinger": "120",
+                "Arabian slave": "180",
+                "Arabian slinger": "180",
                 "Arabian assassin": "120",
                 "Arabian horse archer": "120",
                 "Arabian swordsman": "120",
