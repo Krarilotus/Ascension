@@ -14,7 +14,7 @@ Of course, the usual ban on general bug abuses and external programs, giving the
 ## Starting Changes
 The vanilla game's multiplayer's biggest issue is the min. 2k gold start, either promoting early rushing or enforcing some amount of "No Rush" timer to be set - as a result of which, most people end up playing with a fully scripted economy and macro strategy, since it is the most efficient way of playing.
 
-We have gotten rid of this by changing the starting resources to 0 gold, 100 wood and 80 bread, as well as removing starting units, so the player can choose their own in form of mercenaries.
+We have gotten rid of this by changing the starting resources to 0 gold, 100 wood and 100 bread, as well as removing starting units, so the player can choose their own in form of mercenaries.
 The setup still has multiple starting setting choices, with reasonable resource/unit levels, for AI games or in case it's needed in general.
 The game will also default to 50 speed, as that is what most players prefer to use.
 
