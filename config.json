@@ -133,11 +133,11 @@
             "cost": [
                 "0",
                 "0",
-                "3",
+                "1",
                 "0",
                 "0"
             ],
-            "health": "2000"
+            "health": "500"
         },
         "Wheat farm": {
             "health": "150"
@@ -185,7 +185,8 @@
                 "0",
                 "0",
                 "150"
-            ]
+            ],
+            "health": "1000"
         },
         "Cathedral": {
             "cost": [
@@ -496,7 +497,7 @@
             "sell": "10"
         },
         "Hop": {
-            "buy": "220",
+            "buy": "200",
             "sell": "100"
         },
         "Stone": {
@@ -508,8 +509,8 @@
             "sell": "150"
         },
         "Pitch": {
-            "buy": "180",
-            "sell": "90"
+            "buy": "200",
+            "sell": "100"
         },
         "Wheat": {
             "buy": "100",
@@ -517,7 +518,7 @@
         },
         "Beer": {
             "buy": "300",
-            "sell": "120"
+            "sell": "150"
         },
         "Flour": {
             "buy": "150",
@@ -525,7 +526,7 @@
         },
         "Bow": {
             "buy": "150",
-            "sell": "90"
+            "sell": "100"
         },
         "Xbow": {
             "buy": "300"
@@ -1848,7 +1849,7 @@
         "description": "Battering ram damage to buildings.",
         "address": "0x14666D",
         "size": 1,
-        "value": 100
+        "value": 200
     },
     {
         "description": "Shield speed.",
