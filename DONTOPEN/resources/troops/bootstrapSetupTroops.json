@@ -1,9 +1,9 @@
 {
   "description": {
+    "English": "This is the starting troops configuration of the Bootstrap Setup.",
     "German": "",
-    "English": "This is the starting troops configuration for the Bootstrap Setup.",
-    "Polish": "",
     "Russian": "",
+    "Polish": "",
 	"Chinese": ""
   },
   "1": {
@@ -323,12 +323,12 @@
       "Counts": [ ]
     },
     "crusader": {
-      "Units": [ "Knight", "Swordsman", "EuropArcher" ],
-      "Counts": [ 4, 10, 40 ]
+      "Units": [ "Spearman", "ArabArcher" ],
+      "Counts": [ 7, 4 ]
     },
     "deathmatch": {
       "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Counts": [ 5, 3 ]
     }
   },
   "18": {
@@ -342,12 +342,12 @@
       "Counts": [ ]
     },
     "crusader": {
-      "Units": [ "ArabSwordsman", "ArabArcher" ],
-      "Counts": [ 10, 50 ]
+      "Units": [ "Spearman", "ArabArcher" ],
+      "Counts": [ 7, 4 ]
     },
     "deathmatch": {
       "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Counts": [ 5, 3 ]
     }
   }
 }
