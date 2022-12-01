@@ -1174,8 +1174,8 @@
         },
         "Arabian slave": {
             "health": "3000",
-            "arrowDamage": "3500",
-            "xbowDamage": "3000",
+            "arrowDamage": "4000",
+            "xbowDamage": "4000",
             "stoneDamage": "2000",
             "meleeDamageVs": {
                 "Trebuchet": "10",
@@ -1184,10 +1184,10 @@
             }
         },
         "Arabian slinger": {
-            "health": "6000",
-            "arrowDamage": "2000",
-            "xbowDamage": "5000",
-            "stoneDamage": "2000",
+            "health": "7500",
+            "arrowDamage": "2500",
+            "xbowDamage": "6000",
+            "stoneDamage": "2500",
             "meleeDamageVs": {
                 "Trebuchet": "20",
                 "Arabian slave": "20",
@@ -1572,6 +1572,12 @@
     },
 	"other": [
     {
+        "description": "European archer recruit cost.",
+        "address": "0x6B92A4",
+        "size": 4,
+        "value": 10
+    },
+    {
         "description": "Spearman melee damage to walls.",
         "address": "0x15E7C4",
         "size": 4,
@@ -1684,6 +1690,18 @@
         "address": "0x173919",
         "size": 1,
         "value": 251
+    },
+    {
+        "description": "Slinger recruit cost.",
+        "address": "0x12F081",
+        "size": 1,
+        "value": 199
+    },
+    {
+        "description": "Slinger display recruit cost.",
+        "address": "0x6B92D4",
+        "size": 4,
+        "value": 15
     },
     {
         "description": "Assassin melee damage to walls.",
