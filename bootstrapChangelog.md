@@ -19,22 +19,22 @@ The setup still has multiple starting setting choices, with reasonable resource/
 The game will also default to 50 speed, as that is what most players prefer to use.
 
 ## Maps
-Another issue with vanilla multiplayer is it's maps - the vanilla ones are inherently poorly laid out and unbalanced, the custom ones being very simplictic, complimentary to the scripted style most players end up playing.
+Another issue with vanilla multiplayer is its maps - the vanilla ones are inherently poorly laid out and unbalanced, the custom ones being very simplictic, complimentary to the scripted style most players end up playing.
 
 We have our own map pack, consisting of over 50 custom made maps specifically for the style, varied for all kinds of playstyles.
 
 ## Bug Fixes
-Yet another issue with vanilla multiplayer, or vanilla in general is it's bugs.
+Yet another issue with vanilla multiplayer, or vanilla in general is its bugs.
 
-The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including most of it's bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
+The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including most of its bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
 
 ## Custom Graphics
-The vanilla game has a few issues and bugs in it's graphics.
+The vanilla game has a few issues and bugs in its graphics.
 
 The setup includes a custom graphics pack with bugfixes and improvements, which can optionally be installed after the main setup.
 
 ## Rebalance Changes
-Probably the most glaring issue in vanilla is it's poor unit/economy balances.
+Probably the most glaring issue in vanilla is its poor unit/economy balances.
 
 The setup uses a rebalance mod with custom configuration, making vast majority of units and buildings viable, for their respective uses.
 Below you can find spreadsheets, comparing vanilla and Bootstrap stats.
@@ -45,4 +45,5 @@ The text changelog is discontinued, soon to be replaced with an incremental one.
 [SHC Bootstrap Stats](https://docs.google.com/spreadsheets/d/1sO1c6lcdb_25jUxy2ILwsm8F2xw8WAME65dGqoZ4vHg/edit?usp=sharing)
 
 Outdated!
+
 [v1.9.9d Changelog](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapChangelog-1.9.9d.md)
