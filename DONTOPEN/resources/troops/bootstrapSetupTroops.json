@@ -30,20 +30,22 @@
   "2": {
     "Name": "Snake",
     "Lord": {
-      "StrengthMultiplier": 0.9,
+      "StrengthMultiplier": 2.0,
+      "DotCount": 5,
+      "DotColour": "Blue",
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "EuropArcher", "Slinger", "Assassin", "ArabArcher" ],
-      "Counts": [ 5, 3, 3, 4 ]
+      "Units": [ "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 10 ]
     },
     "crusader": {
-      "Units": [ "Assassin", "Spearman", "EuropArcher", "Slinger", "ArabArcher" ],
-      "Counts": [ 9, 12, 24, 18, 36 ]
+      "Units": [ "ArabArcher", "Slinger" ],
+      "Counts": [ 50, 50 ]
     },
     "deathmatch": {
-      "Units": [ "EuropArcher", "Slinger", "Assassin", "ArabArcher" ],
-      "Counts": [ 5, 3, 3, 4 ]
+      "Units": [ "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 10 ]
     }
   },
   "3": {
