@@ -6,6 +6,7 @@ The setup changes the gameplay to what's much more comparable to actual RTS game
 - Vastly changing the starting conditions
 - Using a custom map pack
 - Fixing tons of bugs and adding QoL features
+- Adding custom graphics and training AIs
 - Revamping the balances to what seemed to be FireFly's original intentions
 
 The style has no artificial rules.
@@ -32,6 +33,11 @@ The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including 
 The vanilla game has a few issues and bugs in its graphics.
 
 The setup includes a custom graphics pack with bugfixes and improvements, which can optionally be installed after the main setup.
+
+## Training AIs
+The setup includes custom AIs, which are somewhat capable of playing the game, for basic training for new players or as an occasional replacement for a player in online games.
+
+Read the "Training AI" paragraph in the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for more information.
 
 ## Rebalance Changes
 Probably the most glaring issue in vanilla is its poor unit/economy balances.
