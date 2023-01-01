@@ -140,6 +140,7 @@ If you placed your granary far away from your stockpile and need to move it - se
 If you started with a wheat farm, simply continue growing your bread production.
 
 You should also highly consider getting shields if both sides have a larger number of archers, they basically render all ranged units attacking them useless.
+Make sure to use one unit group for the shields and another for your ranged units, then move them using the two keys. This ensures that the shields perfectly cover the ranged units.
 
 There is also a chance that the map has ran out of deer by this point, you can delete the hunters if that's the case, or at least remember to do so in the future.
 
@@ -262,20 +263,30 @@ Whichever side of the siege you are on, the game will most likely end with it.
 - At all times, no matter what, be careful about your lord. After all, killing him is the only objective of the game. Assassin sneaks or melee rushes on him are far from uncommon.
 - Keep applying pressure on your opponent whenever possible, the time they spend defending is time they can't spend on expanding their economy, getting more army or attacking you.
 - Have respect for highground - never take a melee fight uphill unless you have far more units, same way never fight ranged units which are uphill or on walls/towers unless you have shields.
-- Use all the defender's advantages if you find yourself on defense, especially in your build range - namely highground, towers, pitch ditches and dog cages.
+- Use all the defender's advantages if you find yourself on defense, especially in your build range - namely highground, towers, walls, pitch ditches, dog cages and healers.
 - Use water pots and wells to extinguish fires instead of deleting buildings, unless deleting them is necessary or more practical.
 - Make sure to delete unnecessary hunters and woodcutters, so they don't just keep walking into enemy ranged units - losing large amounts of population at an unfortunate moment can cost you the game.
 - Use unit rallypoints, either to have them all rally in a convenient spot or for movement benefits - all units ignore ground type slowdowns when sent to their rally flag.
-- Learn the basic hotkeys, you can combine them with the CTRL key to not move your screen, if you are selecting buildings with them. The most common ones are M for market, N for mercenary post, B for barracks and the number keys for unit groups.
+- Use unit grouping, while you have units selected - press CTRL + a number key (1-9 on top of your keyboard). Afterwards, you can press the number key alone to quickly select the same units.
+- Learn the basic hotkeys, you can combine them with the CTRL key to not move your screen, if you are selecting buildings with them. The most common ones are M for market, N for mercenary post and B for barracks.
 
 ### Practice against AIs
 
-The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "~vsAIBootstrap~")
-
-- The Rat is an inactive AI, you can use it if you want to practice economy uninterrupted
-- The Snake is optimized to work on almost any map, including the regular ones, but is relatively weak post-earlygame
-- The Pig is omptimized to work on most maps and is the most versatile, strong in both earlygame and midgame
-- The Wolf works almost exclusively on the dedicated AI maps, but is very strong in midgame and lategame
+The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "~vsAIBootstrap~").
 
 Consider practicing against these AIs if you struggle with the basics in online multiplayer.
+
+- The Rat is an inactive AI, you can use it if you want to practice economy uninterrupted
+- The Snake is optimized to work on almost any map, including the regular ones, he is the strongest during earlygame
+- The Pig is optimized to work on most maps and is the most versatile, his strength ramps up during midgame
+- The Wolf works primarily on the dedicated AI maps, but he is very strong throughout lategame
+
+All the other AIs are using Krarilotus' aggresive set and are not optimized to play Bootstrap.
+
 Make sure the AI your are using is actually capable of playing the map first, as their limited framework can cause them to break on maps for human players.
+
+For an AI to work on a map, it needs enough space around its keep to build its castle, and at least a small amount of trees, farm, iron and quarry spots it can utilize.
+Examples of human player maps which do work for the AIs are "Split Fronts", "Soulless Divide" and "The Match".
+
+Make sure to play on normal mode. To increase the difficulty for yourself, you can select either the small or large advantage option for the AI, or play against multiple, teamed-up AIs at once.
+When the difficulty doesn't suffice or you feel like you have learnt the basics - switch to playing online, as that is the mode's intention in the end.
