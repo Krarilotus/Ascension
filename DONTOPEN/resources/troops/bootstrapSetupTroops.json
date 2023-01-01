@@ -51,39 +51,43 @@
   "3": {
     "Name": "Pig",
     "Lord": {
-      "StrengthMultiplier": 1.2,
+      "StrengthMultiplier": 2.0,
+      "DotCount": 5,
+      "DotColour": "Blue",
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Crossbowman", "Maceman" ],
-      "Counts": [ 8, 6 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 5, 10 ]
     },
     "crusader": {
-      "Units": [ "Crossbowman", "Maceman" ],
-      "Counts": [ 48, 15 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
+      "Counts": [ 40, 20, 40 ]
     },
     "deathmatch": {
-      "Units": [ "Crossbowman", "Maceman" ],
-      "Counts": [ 8, 6 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 5, 10 ]
     }
   },
   "4": {
     "Name": "Wolf",
     "Lord": {
-      "StrengthMultiplier": 2.4,
+      "StrengthMultiplier": 2.0,
+      "DotCount": 5,
+      "DotColour": "Blue",
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Swordsman", "Pikeman", "EuropArcher", "ArabArcher", "Crossbowman" ],
-      "Counts": [ 4, 2, 4, 2, 8 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 5, 10 ]
     },
     "crusader": {
-      "Units": [ "Swordsman", "Pikeman", "EuropArcher", "Crossbowman", "ArabArcher", "FireThrower" ],
-      "Counts": [ 12, 8, 12, 40, 12, 6 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
+      "Counts": [ 40, 20, 40 ]
     },
     "deathmatch": {
-      "Units": [ "Swordsman", "Pikeman", "EuropArcher", "ArabArcher", "Crossbowman" ],
-      "Counts": [ 4, 2, 4, 2, 8 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 5, 10 ]
     }
   },
   "5": {
