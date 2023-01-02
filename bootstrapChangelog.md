@@ -27,7 +27,7 @@ We have our own map pack, consisting of over 50 custom made maps specifically fo
 ## Bug Fixes
 Yet another issue with vanilla multiplayer, or vanilla in general is its bugs.
 
-The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including most of its bugfixes, QoL features and a custom AI pack, making them much stronger and allowing for map specific uses.
+The setup uses the [UCP](https://unofficialcrusaderpatch.github.io/), including most of its bugfixes and QoL features.
 
 ## Custom Graphics
 The vanilla game has a few issues and bugs in its graphics.
@@ -35,7 +35,7 @@ The vanilla game has a few issues and bugs in its graphics.
 The setup includes a custom graphics pack with bugfixes and improvements, which can optionally be installed after the main setup.
 
 ## Training AIs
-The setup includes custom AIs, which are somewhat capable of playing the game, for basic training for new players or as an occasional replacement for a player in online games.
+The setup includes custom AIs, which are capable of playing the style, for basic training for new players or as an occasional replacement for a player in online games.
 
 Read the "Training AI" paragraph in the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for more information.
 
