@@ -270,9 +270,9 @@ Whichever side of the siege you are on, the game will most likely end with it.
 - Use unit grouping, while you have units selected - press CTRL + a number key (1-9 on top of your keyboard). Afterwards, you can press the number key alone to quickly select the same units.
 - Learn the basic hotkeys, you can combine them with the CTRL key to not move your screen, if you are selecting buildings with them. The most common ones are M for market, N for mercenary post and B for barracks.
 
-### Practice against AIs
+## Practice against AIs
 
-The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "~vsAIBootstrap~").
+The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "vsAIBootstrap").
 
 Consider practicing against these AIs if you struggle with the basics in online multiplayer.
 
