@@ -37,7 +37,7 @@ The setup includes a custom graphics pack with bugfixes and improvements, which 
 ## Training AIs
 The setup includes custom AIs, which are capable of playing the style, for basic training for new players or as an occasional replacement for a player in online games.
 
-Read the "Training AI" paragraph in the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for more information.
+Read the "Practice against AIs" paragraph in the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for more information.
 
 ## Rebalance Changes
 Probably the most glaring issue in vanilla is its poor unit/economy balances.
