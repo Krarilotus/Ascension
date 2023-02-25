@@ -41,7 +41,7 @@
     },
     "crusader": {
       "Units": [ "ArabArcher", "Slinger" ],
-      "Counts": [ 50, 50 ]
+      "Counts": [ 40, 40 ]
     },
     "deathmatch": {
       "Units": [ "ArabArcher", "Slinger" ],
@@ -57,16 +57,16 @@
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
-      "Counts": [ 10, 5, 10 ]
+      "Units": [ "EuropArcher", "Spearman", "Slinger" ],
+      "Counts": [ 10, 10, 10 ]
     },
     "crusader": {
-      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
-      "Counts": [ 40, 20, 40 ]
+      "Units": [ "EuropArcher", "Spearman", "Slinger" ],
+      "Counts": [ 40, 40, 40 ]
     },
     "deathmatch": {
-      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
-      "Counts": [ 10, 5, 10 ]
+      "Units": [ "EuropArcher", "Spearman", "Slinger" ],
+      "Counts": [ 10, 10, 10 ]
     }
   },
   "4": {
@@ -78,16 +78,16 @@
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
-      "Counts": [ 10, 5, 10 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger", "FireThrower" ],
+      "Counts": [ 10, 10, 10, 10 ]
     },
     "crusader": {
-      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
-      "Counts": [ 40, 20, 40 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger", "FireThrower" ],
+      "Counts": [ 40, 40, 40, 40 ]
     },
     "deathmatch": {
-      "Units": [ "Crossbowman", "ArabArcher", "Slinger" ],
-      "Counts": [ 10, 5, 10 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger", "FireThrower" ],
+      "Counts": [ 10, 10, 10, 10 ]
     }
   },
   "5": {
