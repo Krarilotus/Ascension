@@ -276,17 +276,17 @@ The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (pre
 
 Consider practicing against these AIs if you struggle with the basics in online multiplayer.
 
-- The Rat is an inactive AI, you can use it if you want to practice economy uninterrupted
-- The Snake is optimized to work on almost any map, including the regular ones, he is the strongest during earlygame
-- The Pig is optimized to work on most maps and is the most versatile, his strength ramps up during midgame
-- The Wolf works primarily on the dedicated AI maps, but he is very strong throughout lategame
+- The Rat is an inactive AI, you can use him if you want to practice economy uninterrupted
+- The Snake is optimized to work on almost any map, he is an earlygame rusher, use him if you want to generally practice the game
+- The Pig is optimized to work on most maps and is the most versatile, he is very economy/offense focused, use him if you want to practice economy and defense
+- The Wolf works primarily on the dedicated AI maps, he is extremely defense focused, use him if you want to practice economy and sieging strategies
 
 All the other AIs are using Krarilotus' aggresive set and are not optimized to play Bootstrap.
 
 Make sure the AI your are using is actually capable of playing the map first, as their limited framework can cause them to break on maps for human players.
 
 For an AI to work on a map, it needs enough space around its keep to build its castle, and at least a small amount of trees, farm, iron and quarry spots it can utilize.
-Examples of human player maps which do work for the AIs are "Split Fronts", "Soulless Divide" and "The Match".
+Examples of human player maps which do work for the AIs are "Split Fronts", "Soulless Divide" and "Canyon".
 
 Make sure to play on normal mode. To increase the difficulty for yourself, you can select either the small or large advantage option for the AI, or play against multiple, teamed-up AIs at once.
 When the difficulty doesn't suffice or you feel like you have learnt the basics - switch to playing online, as that is the mode's intention in the end.
