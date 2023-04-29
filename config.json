@@ -1376,7 +1376,7 @@
             }
         },
         "Arabian archer": {
-            "health": "15000",
+            "health": "20000",
             "arrowDamage": "1700",
             "meleeDamageVs": {
                 "Peasant": "20",
@@ -1465,10 +1465,10 @@
             }
         },
         "Arabian slinger": {
-            "health": "7500",
-            "arrowDamage": "2500",
-            "xbowDamage": "6000",
-            "stoneDamage": "2500",
+            "health": "6000",
+            "arrowDamage": "2000",
+            "xbowDamage": "5000",
+            "stoneDamage": "2000",
             "meleeDamageVs": {
                 "European swordsman": "10",
                 "European knight": "10",
@@ -1931,34 +1931,10 @@
         "value": 252
     },
     {
-        "description": "Arabian archer recruit cost.",
-        "address": "0x12F06D",
-        "size": 1,
-        "value": 246
-    },
-    {
-        "description": "Arabian archer display recruit cost.",
-        "address": "0x6B92CC",
-        "size": 4,
-        "value": 60
-    },
-    {
         "description": "Slave melee damage to buildings.",
         "address": "0x1727BD",
         "size": 1,
         "value": 1
-    },
-    {
-        "description": "Slave recruit cost.",
-        "address": "0x12F077",
-        "size": 1,
-        "value": 195
-    },
-    {
-        "description": "Slave display recruit cost.",
-        "address": "0x6B92D0",
-        "size": 4,
-        "value": 10
     },
     {
         "description": "Slinger melee damage to buildings.",
@@ -1971,18 +1947,6 @@
         "address": "0x173919",
         "size": 1,
         "value": 252
-    },
-    {
-        "description": "Slinger recruit cost.",
-        "address": "0x12F081",
-        "size": 1,
-        "value": 199
-    },
-    {
-        "description": "Slinger display recruit cost.",
-        "address": "0x6B92D4",
-        "size": 4,
-        "value": 15
     },
     {
         "description": "Assassin melee damage to buildings.",
@@ -2001,10 +1965,6 @@
         "address": "0x174EBA",
         "size": 4,
         "value": 3
-    },
-    {
-        "description": "assassin_rally_speed",
-        "value": 2
     },
     {
         "description": "Horse archer melee damage to buildings.",
