@@ -1376,8 +1376,8 @@
             }
         },
         "Arabian archer": {
-            "health": "20000",
-            "arrowDamage": "1700",
+            "health": "15000",
+            "arrowDamage": "1200",
             "meleeDamageVs": {
                 "Peasant": "20",
                 "Burning man": "20",
@@ -1465,7 +1465,7 @@
             }
         },
         "Arabian slinger": {
-            "health": "6000",
+            "health": "5000",
             "arrowDamage": "2000",
             "xbowDamage": "5000",
             "stoneDamage": "2000",
@@ -1656,7 +1656,7 @@
             }
         },
         "Arabian firethrower": {
-            "health": "12500",
+            "health": "20000",
             "arrowDamage": "1000",
             "xbowDamage": "6000",
             "stoneDamage": "500",
@@ -2013,18 +2013,6 @@
         "address": "0x74E860",
         "size": 4,
         "value": 1
-    },
-    {
-        "description": "Firethrower recruit cost.",
-        "address": "0x12F0AD",
-        "size": 1,
-        "value": 230
-    },
-    {
-        "description": "Firethrower display recruit cost.",
-        "address": "0x6B92E4",
-        "size": 4,
-        "value": 50
     },
     {
         "description": "Monk melee damage to walls.",
