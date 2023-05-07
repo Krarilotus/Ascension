@@ -197,10 +197,10 @@
         "Cathedral": {
             "cost": [
                 "0",
-                "30",
+                "50",
                 "0",
                 "0",
-                "300"
+                "500"
             ],
             "health": "2000"
         },
@@ -1453,9 +1453,9 @@
         },
         "Arabian slave": {
             "health": "5000",
-            "arrowDamage": "7500",
+            "arrowDamage": "4000",
             "xbowDamage": "7500",
-            "stoneDamage": "3000",
+            "stoneDamage": "2000",
             "meleeDamageVs": {
                 "European swordsman": "5",
                 "European knight": "5",
@@ -1576,7 +1576,7 @@
             "health": "25000",
             "arrowDamage": "350",
             "xbowDamage": "4000",
-            "stoneDamage": "125",
+            "stoneDamage": "140",
             "meleeDamageVs": {
                 "Peasant": "150",
                 "Burning man": "150",
@@ -2071,12 +2071,6 @@
         "address": "0x167F7C",
         "size": 4,
         "value": 2
-    },
-    {
-        "description": "Monk recruit cost.",
-        "address": "0x12F063",
-        "size": 1,
-        "value": 244
     },
     {
         "description": "Tunneler melee damage to buildings.",
