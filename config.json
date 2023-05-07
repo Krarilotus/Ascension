@@ -1377,7 +1377,7 @@
         },
         "Arabian archer": {
             "health": "15000",
-            "arrowDamage": "1200",
+            "arrowDamage": "1700",
             "meleeDamageVs": {
                 "Peasant": "20",
                 "Burning man": "20",
@@ -1453,9 +1453,9 @@
         },
         "Arabian slave": {
             "health": "5000",
-            "arrowDamage": "7500",
+            "arrowDamage": "4000",
             "xbowDamage": "7500",
-            "stoneDamage": "3000",
+            "stoneDamage": "2000",
             "meleeDamageVs": {
                 "European swordsman": "5",
                 "European knight": "5",
@@ -1465,10 +1465,10 @@
             }
         },
         "Arabian slinger": {
-            "health": "5000",
-            "arrowDamage": "2000",
-            "xbowDamage": "5000",
-            "stoneDamage": "2000",
+            "health": "7500",
+            "arrowDamage": "2500",
+            "xbowDamage": "6000",
+            "stoneDamage": "2500",
             "meleeDamageVs": {
                 "European swordsman": "10",
                 "European knight": "10",
@@ -1504,9 +1504,9 @@
                 "Tanner": "250",
                 "European archer": "150",
                 "European crossbowman": "150",
-                "European spearman": "50",
+                "European spearman": "75",
                 "European pikeman": "50",
-                "European maceman": "50",
+                "European maceman": "75",
                 "European swordsman": "50",
                 "European knight": "50",
                 "Ladderman": "100",
@@ -1576,7 +1576,7 @@
             "health": "25000",
             "arrowDamage": "350",
             "xbowDamage": "4000",
-            "stoneDamage": "125",
+            "stoneDamage": "140",
             "meleeDamageVs": {
                 "Peasant": "150",
                 "Burning man": "150",
@@ -1656,7 +1656,7 @@
             }
         },
         "Arabian firethrower": {
-            "health": "20000",
+            "health": "12500",
             "arrowDamage": "1000",
             "xbowDamage": "6000",
             "stoneDamage": "500",
@@ -1931,10 +1931,34 @@
         "value": 252
     },
     {
+        "description": "Arabian archer recruit cost.",
+        "address": "0x12F06D",
+        "size": 1,
+        "value": 246
+    },
+    {
+        "description": "Arabian archer display recruit cost.",
+        "address": "0x6B92CC",
+        "size": 4,
+        "value": 60
+    },
+    {
         "description": "Slave melee damage to buildings.",
         "address": "0x1727BD",
         "size": 1,
         "value": 1
+    },
+    {
+        "description": "Slave recruit cost.",
+        "address": "0x12F077",
+        "size": 1,
+        "value": 195
+    },
+    {
+        "description": "Slave display recruit cost.",
+        "address": "0x6B92D0",
+        "size": 4,
+        "value": 10
     },
     {
         "description": "Slinger melee damage to buildings.",
@@ -1947,6 +1971,18 @@
         "address": "0x173919",
         "size": 1,
         "value": 252
+    },
+    {
+        "description": "Slinger recruit cost.",
+        "address": "0x12F081",
+        "size": 1,
+        "value": 199
+    },
+    {
+        "description": "Slinger display recruit cost.",
+        "address": "0x6B92D4",
+        "size": 4,
+        "value": 15
     },
     {
         "description": "Assassin melee damage to buildings.",
@@ -1965,6 +2001,10 @@
         "address": "0x174EBA",
         "size": 4,
         "value": 3
+    },
+    {
+        "description": "assassin_rally_speed",
+        "value": 2
     },
     {
         "description": "Horse archer melee damage to buildings.",
@@ -2013,6 +2053,18 @@
         "address": "0x74E860",
         "size": 4,
         "value": 1
+    },
+    {
+        "description": "Firethrower recruit cost.",
+        "address": "0x12F0AD",
+        "size": 1,
+        "value": 230
+    },
+    {
+        "description": "Firethrower display recruit cost.",
+        "address": "0x6B92E4",
+        "size": 4,
+        "value": 50
     },
     {
         "description": "Monk melee damage to walls.",
