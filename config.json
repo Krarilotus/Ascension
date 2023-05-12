@@ -469,7 +469,7 @@
         },
         "Dog cage": {
             "cost": [
-                "25",
+                "20",
                 "0",
                 "0",
                 "0",
@@ -815,7 +815,7 @@
                 "Arabian archer": "25",
                 "Arabian slave": "25",
                 "Arabian assassin": "25",
-                "Arabian horse archer": "25",
+                "Arabian horse archer": "50",
                 "Arabian swordsman": "25",
                 "Arabian firethrower": "25",
                 "Fire ballista": "25"
@@ -897,7 +897,7 @@
                 "Arabian slave": "30",
                 "Arabian slinger": "30",
                 "Arabian assassin": "30",
-                "Arabian horse archer": "45",
+                "Arabian horse archer": "60",
                 "Arabian swordsman": "30",
                 "Arabian firethrower": "30",
                 "Fire ballista": "30"
@@ -1292,7 +1292,7 @@
             "stoneDamage": "500"
         },
         "Dog": {
-            "health": "7500",
+            "health": "10000",
             "arrowDamage": "5000",
             "xbowDamage": "15000",
             "stoneDamage": "2500",
@@ -1321,7 +1321,7 @@
                 "European archer": "150",
                 "European crossbowman": "150",
                 "European spearman": "150",
-                "European pikeman": "100",
+                "European pikeman": "150",
                 "European maceman": "150",
                 "European swordsman": "75",
                 "European knight": "75",
@@ -1350,7 +1350,7 @@
                 "Hunter dog": "150",
                 "Fireman": "150",
                 "Ghost": "150",
-                "Lord": "100",
+                "Lord": "75",
                 "Lady": "150",
                 "Jester": "150",
                 "Siege tower": "150",
