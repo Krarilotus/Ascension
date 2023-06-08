@@ -433,9 +433,9 @@
                 "0",
                 "0",
                 "0",
-                "20"
+                "30"
             ],
-            "health": "50"
+            "health": "75"
         },
         "Stretching rack": {
             "cost": [
@@ -463,9 +463,9 @@
                 "0",
                 "0",
                 "0",
-                "20"
+                "30"
             ],
-            "health": "50"
+            "health": "75"
         },
         "Dog cage": {
             "cost": [
@@ -988,7 +988,7 @@
         "European swordsman": {
             "health": "50000",
             "arrowDamage": "200",
-            "xbowDamage": "3000",
+            "xbowDamage": "3500",
             "stoneDamage": "200",
             "meleeDamageVs": {
                 "Peasant": "150",
