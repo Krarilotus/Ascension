@@ -1,6 +1,6 @@
 # Bootstrap Gameplay Guide
 
-v1.10.2
+v1.10.3
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
@@ -13,7 +13,7 @@ The guide is expected to be deviated from, as the player should create their own
 
 ## Start of the game
 
-You start the game with no gold, 100 wood, 25 of each food type (100 total) and no starting units - only your lord.
+You start the game with no gold, 100 wood, 100 bread and no starting units - only your lord.
 
 The first thing you want to do, no matter what, is place a granary.
 Any spot near your planned food production is good.
@@ -22,8 +22,7 @@ Whichever spot you pick - it needs to be easily defendable from raids, as the gr
 
 Make sure to send your lord out, either to defend the granary or some planned economy/important map control point.
 
-Afterwards, you can set -2 taxes, as the bonus from food variety will cover it.
-You can also set -4 taxes, reducing them later when you get to selling some of the food.
+Afterwards, you can set -2 taxes, as it gives you a small amount of gold, essentially for free.
 
 Next up - spending your starting wood.
 
@@ -40,7 +39,7 @@ Next, get a quarry and one ox tether if possible.
 It's a great source of early gold and later on you will need the stone to progress your economy.
 
 Use up the rest of your wood on woodcutters - prioritize placing them next to trees in areas which you can easily defend at first.
-On resource rich maps, you should prioritize getting 10 to 15 woodcutters for faster later economic expansion.
+On resource rich maps, you should prioritize getting 10 to 15 woodcutters for faster economic expansion.
 
 After spending all of your starting wood, delete and reposition your stockpile to a new safe location in the center of your future economy. Consider these factors for your choice:
 - Are your wheat farms producing at maximum efficiency? They are often the bottleneck to your later economy and a cheap and easy source for early gold through selling bread
@@ -50,13 +49,13 @@ After spending all of your starting wood, delete and reposition your stockpile t
 
 You need at least 3 stockpiles, leaving some room for expanding it in the future. The stockpile placement is critical to your entire gameplan - preferably figure one out during a viewing round of the map.
 
-Build a market (it's free), sell some of the food - prioritize selling those types which you are about to produce. Keep about 20 to 50 of it, depending on how much food production you just built.
-Don't forget to lower your taxes to -2 now, if you set up -4 initially.
+Build a market (it's free), sell some of the starting food. Keep about 10 to 30 of it, depending on how much food production you just built.
+Don't forget to watch your popularity if you set -2 taxes initially, going below 90 can be dangerous due to the slower peasant respawn rate.
 
 Buy 10 wood, build a mercenary post, get some units - 
 
 Slingers first, about 10 to 20, depending on how open the map is, to defend your economy from slave/assassin raids.
-Place them near your economy buildings or on choke points, oftenly it is practical to use one large group in combination with singular spotters to cover a larger area.
+Place them near your economy buildings or on choke points, often it is practical to use one large group in combination with singular spotters to cover a larger area.
 
 Slaves, in case you see an opening to your opponent's economy which you can take advantage of.
 Any economy building is a good target for slaves if undefended.
@@ -97,7 +96,7 @@ If you already have a wheat farm and got your first wheat deliveries in, build a
 
 You can keep selling food for gold, but be careful to not overdo it and lose your popularity.
 Buy all the wood needed to expand and run your economy, if your production doesn't suffice.
-From this point onwards, think twice before selling any stone - it could be better used for weapon production, beer coverage and religious buildings.
+From this point onwards, think twice before selling any stone - it could be better used for weapon production, beer coverage and religion buildings.
 
 Keep getting mercenaries to fend off attacks and raid the enemy economy.
 Consider building the tunneler's guild - tunnelers are very powerful for destroying outer economy buildings when facing little to no resistance or when supported by other units.
@@ -126,7 +125,7 @@ Do not forget lord safety - placing him on your keep, beside your unit rallypoin
 If your lord has lost any health or you used him to fight off melee units, you can heal him up with an apothecary.
 Apothecaries are also useful to generally heal up your army after a fight, later on you can also use them to reduce damage taken from diseased cow shots.
 
-Some maps have unlockable resources or highground positions which you can access with siege towers/laddermen, consider doing this as they oftenly give you a large advantage.
+Some maps have unlockable resources or highground positions which you can access with siege towers/laddermen, consider doing this as they often give you a large advantage.
 
 At this point, you can start using the cheaper towers, gates, walls and moat to your advantage if needed.
 Pitch ditch and dog cages are also very useful for defending melee attacks if needed, beginning with this point up until the end of the game.
@@ -141,6 +140,7 @@ If you placed your granary far away from your stockpile and need to move it - se
 If you started with a wheat farm, simply continue growing your bread production.
 
 You should also highly consider getting shields if both sides have a larger number of archers, they basically render all ranged units attacking them useless.
+Make sure to use one unit group for the shields and another for your ranged units, then move them using the two keys. This ensures that the shields perfectly cover the ranged units.
 
 There is also a chance that the map has ran out of deer by this point, you can delete the hunters if that's the case, or at least remember to do so in the future.
 
@@ -241,7 +241,7 @@ Pikemen are incredibly good at this point of the game, as they are the most tank
 You can sometimes use them to walk up to enemy walls or towers and start taking them down, as they are nearly invincible against arrows and take relatively low damage from fire and killing pits.
 Still, you need to be careful about crossbowmen and fireballistas.
 
-Don't be afraid to buy iron to produce metal armor if you need more of it but have too many blacksmiths eating up your iron supplies already, it is worth it for the units, and even lands a small profit if the armor is sold.
+Don't be afraid to buy iron to produce metal armor if you need more of it but have too many blacksmiths eating up your iron supplies already, it is worth it for the units, and even lands a small profit if the weapons are sold.
 You can also build more fletchers to produce crossbows for sale if there aren't any more lucrative options left to boost your economy.
 
 Make sure you have all the paths secured by walls, gates and moat by this point, so no rushing can happen.
@@ -263,8 +263,30 @@ Whichever side of the siege you are on, the game will most likely end with it.
 - At all times, no matter what, be careful about your lord. After all, killing him is the only objective of the game. Assassin sneaks or melee rushes on him are far from uncommon.
 - Keep applying pressure on your opponent whenever possible, the time they spend defending is time they can't spend on expanding their economy, getting more army or attacking you.
 - Have respect for highground - never take a melee fight uphill unless you have far more units, same way never fight ranged units which are uphill or on walls/towers unless you have shields.
-- Use all the defender's advantages if you find yourself on defense, especially in your build range - namely highground, towers, pitch ditches and dog cages.
+- Use all the defender's advantages if you find yourself on defense, especially in your build range - namely highground, towers, walls, pitch ditches, dog cages and healers.
 - Use water pots and wells to extinguish fires instead of deleting buildings, unless deleting them is necessary or more practical.
 - Make sure to delete unnecessary hunters and woodcutters, so they don't just keep walking into enemy ranged units - losing large amounts of population at an unfortunate moment can cost you the game.
 - Use unit rallypoints, either to have them all rally in a convenient spot or for movement benefits - all units ignore ground type slowdowns when sent to their rally flag.
-- Learn the basic hotkeys, you can combine them with the CTRL key to not move your screen, if you are selecting buildings with them. The most common ones are M for market, N for mercenary post, B for barracks and the number keys for unit groups.
+- Use unit grouping, while you have units selected - press CTRL + a number key (1-9 on top of your keyboard). Afterwards, you can press the number key alone to quickly select the same units.
+- Learn the basic hotkeys, you can combine them with the CTRL key to not move your screen, if you are selecting buildings with them. The most common ones are M for market, N for mercenary post and B for barracks.
+
+## Practice against AIs
+
+The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "vsAIBootstrap").
+
+Consider practicing against these AIs if you struggle with the basics in online multiplayer.
+
+- The Rat is an inactive AI, you can use him if you want to practice economy uninterrupted
+- The Snake is optimized to work on almost any map, he is an earlygame rusher, use him if you want to generally practice the game
+- The Pig is optimized to work on most maps and is the most versatile, he is very economy/offense focused, use him if you want to practice economy and defense
+- The Wolf works primarily on the dedicated AI maps, he is extremely defense focused, use him if you want to practice economy and sieging strategies
+
+All the other AIs are using Krarilotus' aggresive set and are not optimized to play Bootstrap.
+
+Make sure the AI your are using is actually capable of playing the map first, as their limited framework can cause them to break on maps for human players.
+
+For an AI to work on a map, it needs enough space around its keep to build its castle, and at least a small amount of trees, farm, iron and quarry spots it can utilize.
+Examples of human player maps which do work for the AIs are "Split Fronts", "Soulless Divide" and "Canyon".
+
+Make sure to play on normal mode. To increase the difficulty for yourself, you can select either the small or large advantage option for the AI, or play against multiple, teamed-up AIs at once.
+When the difficulty doesn't suffice or you feel like you have learnt the basics - switch to playing online, as that is the mode's intention in the end.

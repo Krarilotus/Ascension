@@ -1,9 +1,9 @@
 {
   "description": {
+    "English": "This is the starting troops configuration of the Bootstrap Setup.",
     "German": "",
-    "English": "This is the starting troops configuration for the Bootstrap Setup.",
-    "Polish": "",
     "Russian": "",
+    "Polish": "",
 	"Chinese": ""
   },
   "1": {
@@ -30,58 +30,64 @@
   "2": {
     "Name": "Snake",
     "Lord": {
-      "StrengthMultiplier": 0.9,
+      "StrengthMultiplier": 2.0,
+      "DotCount": 5,
+      "DotColour": "Blue",
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "EuropArcher", "Slinger", "Assassin", "ArabArcher" ],
-      "Counts": [ 5, 3, 3, 4 ]
+      "Units": [ "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 10 ]
     },
     "crusader": {
-      "Units": [ "Assassin", "Spearman", "EuropArcher", "Slinger", "ArabArcher" ],
-      "Counts": [ 9, 12, 24, 18, 36 ]
+      "Units": [ "ArabArcher", "Slinger" ],
+      "Counts": [ 40, 40 ]
     },
     "deathmatch": {
-      "Units": [ "EuropArcher", "Slinger", "Assassin", "ArabArcher" ],
-      "Counts": [ 5, 3, 3, 4 ]
+      "Units": [ "ArabArcher", "Slinger" ],
+      "Counts": [ 10, 10 ]
     }
   },
   "3": {
     "Name": "Pig",
     "Lord": {
-      "StrengthMultiplier": 1.2,
+      "StrengthMultiplier": 2.0,
+      "DotCount": 5,
+      "DotColour": "Blue",
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Crossbowman", "Maceman" ],
-      "Counts": [ 8, 6 ]
+      "Units": [ "EuropArcher", "Spearman", "Slinger" ],
+      "Counts": [ 10, 10, 10 ]
     },
     "crusader": {
-      "Units": [ "Crossbowman", "Maceman" ],
-      "Counts": [ 48, 15 ]
+      "Units": [ "EuropArcher", "Spearman", "Slinger" ],
+      "Counts": [ 40, 40, 40 ]
     },
     "deathmatch": {
-      "Units": [ "Crossbowman", "Maceman" ],
-      "Counts": [ 8, 6 ]
+      "Units": [ "EuropArcher", "Spearman", "Slinger" ],
+      "Counts": [ 10, 10, 10 ]
     }
   },
   "4": {
     "Name": "Wolf",
     "Lord": {
-      "StrengthMultiplier": 2.4,
+      "StrengthMultiplier": 2.0,
+      "DotCount": 5,
+      "DotColour": "Blue",
       "Type": "Europ"
     },
     "normal": {
-      "Units": [ "Swordsman", "Pikeman", "EuropArcher", "ArabArcher", "Crossbowman" ],
-      "Counts": [ 4, 2, 4, 2, 8 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger", "FireThrower" ],
+      "Counts": [ 10, 10, 10, 10 ]
     },
     "crusader": {
-      "Units": [ "Swordsman", "Pikeman", "EuropArcher", "Crossbowman", "ArabArcher", "FireThrower" ],
-      "Counts": [ 12, 8, 12, 40, 12, 6 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger", "FireThrower" ],
+      "Counts": [ 40, 40, 40, 40 ]
     },
     "deathmatch": {
-      "Units": [ "Swordsman", "Pikeman", "EuropArcher", "ArabArcher", "Crossbowman" ],
-      "Counts": [ 4, 2, 4, 2, 8 ]
+      "Units": [ "Crossbowman", "ArabArcher", "Slinger", "FireThrower" ],
+      "Counts": [ 10, 10, 10, 10 ]
     }
   },
   "5": {
@@ -323,12 +329,12 @@
       "Counts": [ ]
     },
     "crusader": {
-      "Units": [ "Knight", "Swordsman", "EuropArcher" ],
-      "Counts": [ 4, 10, 40 ]
+      "Units": [ "Spearman", "ArabArcher" ],
+      "Counts": [ 7, 4 ]
     },
     "deathmatch": {
       "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Counts": [ 5, 3 ]
     }
   },
   "18": {
@@ -342,12 +348,12 @@
       "Counts": [ ]
     },
     "crusader": {
-      "Units": [ "ArabSwordsman", "ArabArcher" ],
-      "Counts": [ 10, 50 ]
+      "Units": [ "Spearman", "ArabArcher" ],
+      "Counts": [ 7, 4 ]
     },
     "deathmatch": {
       "Units": [ "Spearman", "ArabArcher" ],
-      "Counts": [ 7, 4 ]
+      "Counts": [ 5, 3 ]
     }
   }
 }

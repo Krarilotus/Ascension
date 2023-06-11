@@ -1,6 +1,6 @@
 {
 	"description": {
-		"English"	: "This is the starting goods configuration for the Bootstrap Setup.",
+		"English"	: "This is the starting goods configuration of the Bootstrap Setup.",
 		"German"	: "",
 		"Russian"	: "",
 		"Polish"	: "",
@@ -8,8 +8,8 @@
 	},
 	"normal": {
 		"gold": {
-			"human": [0, 0, 0, 250, 500],
-			"ai": [0, 250, 500, 1000, 4000]
+			"human": [0, 0, 0, 0, 0],
+			"ai": [0, 500, 1000, 2000, 4000]
 		},
 		"wood": 100,
 		"hop": 0,
@@ -17,10 +17,10 @@
 		"iron": 0,
 		"pitch": 0,
 		"wheat": 0,
-		"bread": 25,
-		"cheese": 25,
-		"meat": 25,
-		"fruit": 25,
+		"bread": 100,
+		"cheese": 0,
+		"meat": 0,
+		"fruit": 0,
 		"beer": 0,
 		"flour": 0,
 		"bows": 0,
@@ -34,8 +34,8 @@
 	},
 	"crusader": {
 		"gold": {
-			"human": [8000, 4000, 2000, 3000, 10000],
-			"ai": [8000, 8000, 8000, 8000, 100000]
+			"human": [8000, 4000, 2000, 2000, 2000],
+			"ai": [10000, 10000, 10000, 20000, 40000]
 		},
 		"wood": 100,
 		"hop": 0,
@@ -43,7 +43,7 @@
 		"iron": 0,
 		"pitch": 0,
 		"wheat": 0,
-		"bread": 60,
+		"bread": 50,
 		"cheese": 0,
 		"meat": 0,
 		"fruit": 0,
@@ -60,21 +60,21 @@
 	},
 	"deathmatch": {
 		"gold": {
-			"human": [1000, 750, 500, 750, 1000],
+			"human": [100000, 1000, 500, 1000, 1000],
 			"ai": [5000, 5000, 5000, 10000, 20000]
 		},
 		"wood": 100,
-		"hop": 4,
-		"stone": 20,
-		"iron": 5,
-		"pitch": 5,
+		"hop": 10,
+		"stone": 50,
+		"iron": 10,
+		"pitch": 10,
 		"wheat": 10,
-		"bread": 25,
-		"cheese": 20,
-		"meat": 10,
-		"fruit": 5,
-		"beer": 2,
-		"flour": 0,
+		"bread": 50,
+		"cheese": 50,
+		"meat": 50,
+		"fruit": 50,
+		"beer": 10,
+		"flour": 10,
 		"bows": 0,
 		"crossbows": 0,
 		"spears": 0,
