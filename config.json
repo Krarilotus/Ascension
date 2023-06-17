@@ -1279,9 +1279,10 @@
             "stoneDamage": "1000"
         },
         "Battering ram": {
-            "health": "1000000",
-            "arrowDamage": "4000",
-            "xbowDamage": "12000"
+            "health": "750000",
+            "arrowDamage": "3000",
+            "xbowDamage": "9000",
+            "stoneDamage": "1500"
         },
         "Portable shield": {
             "stoneDamage": "25"
@@ -1479,7 +1480,8 @@
         },
         "Arabian assassin": {
             "xbowDamage": "7500",
-            "stoneDamage": "600",
+            "stoneDamage": "450",
+            "arrowDamage": "1200",
             "meleeDamageVs": {
                 "Peasant": "250",
                 "Burning man": "250",
@@ -2004,7 +2006,7 @@
     },
     {
         "description": "assassin_rally_speed",
-        "value": 2
+        "value": 6
     },
     {
         "description": "Horse archer melee damage to buildings.",
