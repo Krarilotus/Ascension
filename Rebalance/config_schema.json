@@ -265,6 +265,7 @@
           "properties": {
             "cost": {
               "type": "array",
+              "description": "In order: Wood, Stone, Iron, Pitch, Gold",
               "maxItems": 5,
               "minItems": 5,
               "items": {
@@ -363,6 +364,25 @@
           "size",
           "value"
         ]
+      }
+    },
+    "population": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "patternProperties": {
+            "": {
+              "type": "integer"
+            }
+          },
+          "propertyNames": {
+            "$ref": "#/$defs/popularity_threshold"
+          }
+        }
+      },
+      "propertyNames": {
+        "enum": ["Skirmish", "Scenario_lt_100", "Scenario_gt_100"]
       }
     },
     "special": {
