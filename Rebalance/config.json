@@ -2313,11 +2313,7 @@
     {"description":"3 Types Bonus - Actual Pop", "address": "0x5BBC3", "size":1, "value": 75},
     {"description":"4 Types Bonus - Actual Pop", "address": "0x5BB4D", "size":1, "value": 125},
 
-
     {"description": "Cheese Delivery Base", "address": "0x154D44", "size":1, "value": 4},
-
-    {"description": "Fear Factor - Troop Combat Bonus - unsigned divide by 2^n following magic number multipliciation", "address": "0x131639", "size":1, "value": 30},
-
     {"description": "Fear Factor - Positive happiness per FF level", "address": "0x3F664", "size":1, "value": 50},
     {"description": "Fear Factor - Negative happiness per FF level", "address": "0x3F66E", "size":1, "value": 50},
 
@@ -2480,6 +2476,7 @@
     "special": {
         "tax_reset": {"value": 1},
         "custom_taxation": {"table": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "3.60"]},
-        "assassin_rally_speed": {"value": 5}
+        "assassin_rally_speed": {"value": 5},
+        "custom_combat_bonus": {"table": [80, 84, 88, 92, 96, 100, 112, 124, 136, 148, 160]}
     }
 }

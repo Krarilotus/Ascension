@@ -415,6 +415,20 @@
             }
           }
         },
+        "custom_combat_bonus": {
+          "type": "object",
+          "description": "List of combat bonus percentages, from -5 fear factor to +5 fear factor, including neutral fear factor",
+          "properties": {
+            "table": {
+              "type": "array",
+              "maxItems": 11,
+              "minItems": 11,
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        },
         "assassin_rally_speed": {
           "type": "object",
           "description": "Assassin speed when moving with the rally point from mercenary post",
