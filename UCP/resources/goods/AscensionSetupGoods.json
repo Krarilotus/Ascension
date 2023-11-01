@@ -1,0 +1,87 @@
+{
+	"description": {
+		"English"	: "This is the starting goods configuration of the Ascension Rebalance Multiplayer Setup.",
+		"German"	: "Dies ist die Startgüterkonfiguration des Ascension Rebalance Multiplayer-Setups.",
+		"Russian"	: "Это начальная конфигурация товаров для многопользовательской настройки Ascension Rebalance.",
+		"Polish"	: "To jest początkowa konfiguracja towarów w trybie wieloosobowym Ascension Rebalance.",
+		"Chinese"	: "这是Ascension Rebalance多人游戏设置的起始货物配置。"
+	},
+	"normal": {
+		"gold": {
+			"human": [0, 0, 0, 0, 0],
+			"ai": [0, 500, 1000, 2000, 4000]
+		},
+		"wood": 100,
+		"hop": 0,
+		"stone": 0,
+		"iron": 0,
+		"pitch": 0,
+		"wheat": 0,
+		"bread": 25,
+		"cheese": 25,
+		"meat": 25,
+		"fruit": 25,
+		"beer": 0,
+		"flour": 0,
+		"bows": 0,
+		"crossbows": 0,
+		"spears": 0,
+		"pikes": 0,
+		"maces": 0,
+		"swords": 0,
+		"leatherarmor": 0,
+		"metalarmor": 0
+	},
+	"crusader": {
+		"gold": {
+			"human": [8000, 4000, 2000, 2000, 2000],
+			"ai": [10000, 10000, 10000, 20000, 40000]
+		},
+		"wood": 100,
+		"hop": 0,
+		"stone": 50,
+		"iron": 0,
+		"pitch": 0,
+		"wheat": 0,
+		"bread": 50,
+		"cheese": 0,
+		"meat": 0,
+		"fruit": 0,
+		"beer": 0,
+		"flour": 0,
+		"bows": 0,
+		"crossbows": 0,
+		"spears": 0,
+		"pikes": 0,
+		"maces": 0,
+		"swords": 0,
+		"leatherarmor": 0,
+		"metalarmor": 0
+	},
+	"deathmatch": {
+		"gold": {
+			"human": [100000, 1000, 500, 1000, 1000],
+			"ai": [5000, 5000, 5000, 10000, 20000]
+		},
+		"wood": 100,
+		"hop": 10,
+		"stone": 50,
+		"iron": 10,
+		"pitch": 10,
+		"wheat": 10,
+		"bread": 50,
+		"cheese": 50,
+		"meat": 50,
+		"fruit": 50,
+		"beer": 10,
+		"flour": 10,
+		"bows": 0,
+		"crossbows": 0,
+		"spears": 0,
+		"pikes": 0,
+		"maces": 0,
+		"swords": 0,
+		"leatherarmor": 0,
+		"metalarmor": 0
+	}
+}

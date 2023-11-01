@@ -1,0 +1,444 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "minimod_config_schema",
+  "title": "Config schema for SHCMiniMod",
+  "description": "Config schema for SHCMiniMod",
+  "type": "object",
+  "$defs": {
+    "unit_name": {
+      "type": "string",
+      "enum": [
+        "Peasant",
+        "Burning man",
+        "Woodcutter",
+        "Fletcher",
+        "Tunneler",
+        "Hunter",
+        "Quarry mason",
+        "Quarry grunt",
+        "Quarry ox",
+        "Pitch worker",
+        "Wheat farmer",
+        "Hops farmer",
+        "Apple farmer",
+        "Dairy farmer",
+        "Miller",
+        "Baker",
+        "Brewer",
+        "Poleturner",
+        "Blacksmith",
+        "Armourer",
+        "Tanner",
+        "European archer",
+        "European crossbowman",
+        "European spearman",
+        "European pikeman",
+        "European maceman",
+        "European swordsman",
+        "European knight",
+        "Ladderman",
+        "Engineer",
+        "Iron miner1",
+        "Iron miner2",
+        "Priest",
+        "Healer",
+        "Drunkard",
+        "Innkeeper",
+        "Monk",
+        "unknown1",
+        "Catapult",
+        "Trebuchet",
+        "Mangonel",
+        "Trader",
+        "Trader horse",
+        "Deer",
+        "Lion",
+        "Rabbit",
+        "Camel",
+        "Crow",
+        "Seagull",
+        "Siege tent",
+        "Cow",
+        "Hunter dog",
+        "Fireman",
+        "Ghost",
+        "Lord",
+        "Lady",
+        "Jester",
+        "Siege tower",
+        "Battering ram",
+        "Portable shield",
+        "Tower ballista",
+        "Chicken",
+        "Mother",
+        "Child",
+        "Juggler",
+        "Fireeater",
+        "Dog",
+        "unknown2",
+        "unknown3",
+        "Arabian archer",
+        "Arabian slave",
+        "Arabian slinger",
+        "Arabian assassin",
+        "Arabian horse archer",
+        "Arabian swordsman",
+        "Arabian firethrower",
+        "Fire ballista"
+      ]
+    },
+    "building_name": {
+      "enum": [
+        "Hovel",
+        "House",
+        "Woodcutter hut",
+        "Ox tether",
+        "Iron mine",
+        "Pitch rig",
+        "Hunters hut",
+        "Mercenary post",
+        "Barracks",
+        "Stockpile",
+        "Armory",
+        "Fletcher",
+        "Blacksmith",
+        "Poleturner",
+        "Armourer",
+        "Tanner",
+        "Bakery",
+        "Brewery",
+        "Granary",
+        "Quarry",
+        "Quarrypile",
+        "Inn",
+        "Apothecary",
+        "Engineers guild",
+        "Tunnelers guild",
+        "Marketplace",
+        "Well",
+        "Oil smelter",
+        "Siege tent",
+        "Wheat farm",
+        "Hop farm",
+        "Apple farm",
+        "Dairy farm",
+        "Mill",
+        "Stables",
+        "Chapel",
+        "Church",
+        "Cathedral",
+        "Ruins",
+        "Keep one",
+        "Keep two",
+        "Keep three",
+        "Keep four",
+        "Keep five",
+        "Large gatehouse",
+        "Small gatehouse",
+        "Main wood",
+        "Postern gate",
+        "Drawbridge",
+        "Tunnel",
+        "Campfire",
+        "Signpost",
+        "Parade ground",
+        "Fire ballista",
+        "Campground",
+        "Parade ground1",
+        "Parade ground2",
+        "Parade ground3",
+        "Parade ground4",
+        "Gatehouse",
+        "Tower",
+        "Gallows",
+        "Stocks",
+        "Witch hoist",
+        "Maypole",
+        "Garden",
+        "Killing pit",
+        "Pitch ditch",
+        "unused",
+        "Water pot",
+        "Keepdoor left",
+        "Keepdoor right",
+        "Keepdoor",
+        "Tower one",
+        "Tower two",
+        "Tower three",
+        "Tower four",
+        "Tower five",
+        "unused2",
+        "Catapult",
+        "Trebuchet",
+        "Siege tower",
+        "Battering ram",
+        "Portable shield",
+        "unused3",
+        "Mangonel",
+        "Tower Ballista",
+        "unused4",
+        "unused5",
+        "unused6",
+        "Cesspit",
+        "Burning stake",
+        "Gibbet",
+        "Dungeon",
+        "Stretching rack",
+        "Flogging rack",
+        "Chopping block",
+        "Dunking stool",
+        "Dog cage",
+        "Statue",
+        "Shrine",
+        "Bee hive",
+        "Dancing bear",
+        "Pond",
+        "Bear cave",
+        "European Outpost",
+        "Mercenary Outpost"
+      ]
+    },
+    "resource_name": {
+      "enum": [
+        "Wood",
+        "Hop",
+        "Stone",
+        "Blank1",
+        "Iron",
+        "Pitch",
+        "Blank2",
+        "Wheat",
+        "Bread",
+        "Cheese",
+        "Meat",
+        "Fruit",
+        "Beer",
+        "Blank3",
+        "Flour",
+        "Bow",
+        "Xbow",
+        "Spear",
+        "Pike",
+        "Mace",
+        "Sword",
+        "Leather",
+        "Armor"
+      ]
+    },
+    "popularity_threshold": {
+      "enum": [
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25",
+        "30",
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100"
+      ]
+    },
+    "numeric_string": {
+      "type": "string",
+      "pattern": "^\\d+"
+    }
+  },
+  "properties": {
+    "buildings": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "description": "Building Attributes",
+          "properties": {
+            "cost": {
+              "type": "array",
+              "description": "In order: Wood, Stone, Iron, Pitch, Gold",
+              "maxItems": 5,
+              "minItems": 5,
+              "items": {
+                "$ref": "#/$defs/numeric_string"
+              }
+            },
+            "health": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "population": {
+              "$ref": "#/$defs/numeric_string"
+            }
+          }
+        }
+      },
+      "propertyNames": {
+        "$ref": "#/$defs/building_name"
+      }
+    },
+    "resources": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "properties": {
+            "buy": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "sell": {
+              "$ref": "#/$defs/numeric_string"
+            }
+          }
+        }
+      },
+      "propertyNames": {
+        "$ref": "#/$defs/resource_name"
+      }
+    },
+    "units": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "properties": {
+            "health": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "arrowDamage": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "xbowDamage": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "stoneDamage": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "meleeDamageVs": {
+              "type": "object",
+              "patternProperties": {
+                "": {
+                  "$ref": "#/$defs/numeric_string"
+                }
+              },
+              "propertyNames": {
+                "$ref": "#/$defs/unit_name"
+              }
+            }
+          }
+        }
+      },
+      "propertyNames": {
+        "$ref": "#/$defs/unit_name"
+      }
+    },
+    "other": {
+      "type": "array",
+      "description": "Custom change format; address, type, value required for each entry.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "size": {
+            "type": "integer"
+          },
+          "value": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "address",
+          "size",
+          "value"
+        ]
+      }
+    },
+    "population": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "patternProperties": {
+            "": {
+              "type": "integer"
+            }
+          },
+          "propertyNames": {
+            "$ref": "#/$defs/popularity_threshold"
+          }
+        }
+      },
+      "propertyNames": {
+        "enum": ["Skirmish", "Scenario_lt_100", "Scenario_gt_100"]
+      }
+    },
+    "special": {
+      "type": "object",
+      "properties": {
+        "tax_reset": {
+          "type": "object",
+          "description": "Automatic tax reset when popularity is 0, tax level is set to specified value.",
+          "properties": {
+            "value": {
+              "type": "integer"
+            }
+          }
+        },
+        "custom_taxation": {
+          "type": "object",
+          "description": "List of taxation values. All taxation values must be a multiple of 0.05 in string format. Must contain one entry with exact value of \"0.00\" Note: You still need to explicitly set the zero-taxation level related addresses in the other section!",
+          "properties": {
+            "table": {
+              "type": "array",
+              "maxItems": 12,
+              "minItems": 12,
+              "items": {
+                "type": "string",
+                "pattern": "\\d\\.\\d[05]"
+              },
+              "contains": {
+                "const": "0.00"
+              }
+            }
+          }
+        },
+        "custom_combat_bonus": {
+          "type": "object",
+          "description": "List of combat bonus percentages, from -5 fear factor to +5 fear factor, including neutral fear factor",
+          "properties": {
+            "table": {
+              "type": "array",
+              "maxItems": 11,
+              "minItems": 11,
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "assassin_rally_speed": {
+          "type": "object",
+          "description": "Assassin speed when moving with the rally point from mercenary post",
+          "properties": {
+            "value": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}
