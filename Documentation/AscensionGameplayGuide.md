@@ -1,6 +1,6 @@
-# Bootstrap Gameplay Guide
+# Ascension Gameplay Guide
 
-v1.10.5T
+v2.0.0
 
 The guide assumes that the reader has at least basic knowledge of the vanilla game.
 
@@ -272,7 +272,7 @@ Whichever side of the siege you are on, the game will most likely end with it.
 
 ## Practice against AIs
 
-The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "vsAIBootstrap").
+The setup includes 4 practice AIs (Rat, Snake, Pig, Wolf) and maps for them (prefix "vsAIAscension").
 
 Consider practicing against these AIs if you struggle with the basics in online multiplayer.
 
@@ -281,7 +281,7 @@ Consider practicing against these AIs if you struggle with the basics in online 
 - The Pig is optimized to work on most maps and is the most versatile, he is very economy/offense focused, use him if you want to practice economy and defense
 - The Wolf works primarily on the dedicated AI maps, he is extremely defense focused, use him if you want to practice economy and sieging strategies
 
-All the other AIs are using Krarilotus' aggresive set and are not optimized to play Bootstrap.
+All the other AIs are using Krarilotus' aggresive set and are not optimized to play Ascension.
 
 Make sure the AI your are using is actually capable of playing the map first, as their limited framework can cause them to break on maps for human players.
 
