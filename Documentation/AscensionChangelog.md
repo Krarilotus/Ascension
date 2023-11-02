@@ -1,6 +1,6 @@
 # Changelog
 
-v1.10.5T
+v2.0.0
 
 The setup changes the gameplay to what's much more comparable to actual RTS games, with the idea of gradual unit/economy progression, by:
 - Vastly changing the starting conditions
@@ -37,7 +37,7 @@ The setup includes a custom graphics pack with bugfixes and improvements, which 
 ## Training AIs
 The setup includes custom AIs, which are capable of playing the style, for basic training for new players or as an occasional replacement for a player in online games.
 
-Read the "Practice against AIs" paragraph in the [Gameplay Guide](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapGameplayGuide.md) for more information.
+Read the "Practice against AIs" paragraph in the [Gameplay Guide](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionGameplayGuide.md) for more information.
 
 ## Rebalance Changes
 Probably the most glaring issue in vanilla is its poor unit/economy balances.
@@ -48,8 +48,8 @@ The text changelog is discontinued, soon to be replaced with an incremental one.
 
 [SHC Vanilla Stats](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
 
-[SHC Bootstrap Stats](https://docs.google.com/spreadsheets/d/1sO1c6lcdb_25jUxy2ILwsm8F2xw8WAME65dGqoZ4vHg/edit?usp=sharing)
+[SHC Ascension Stats](https://docs.google.com/spreadsheets/d/1T1fL5BTnvbZoO3EIIa-uT5fa8t21MAED6bT9jbcGGaw/edit?usp=sharing)
 
 Outdated!
 
-[v1.9.9d Changelog](https://github.com/Krarilotus/BootstrapMultiplayerSetup/blob/main/bootstrapChangelog-1.9.9d.md)
+[v1.9.9d Changelog](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionChangelog-1.9.9d.md)
