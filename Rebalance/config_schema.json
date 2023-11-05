@@ -253,6 +253,14 @@
     "numeric_string": {
       "type": "string",
       "pattern": "^\\d+"
+    },
+    "4_step_coverage_threshold_or_bonus_value": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "integer"
+      }
     }
   },
   "properties": {
@@ -275,7 +283,8 @@
             "health": {
               "$ref": "#/$defs/numeric_string"
             },
-            "population": {
+            "housing": {
+              "description": "Housing provided by this building",
               "$ref": "#/$defs/numeric_string"
             }
           }
@@ -302,6 +311,61 @@
       },
       "propertyNames": {
         "$ref": "#/$defs/resource_name"
+      }
+    },
+    "religion": {
+      "type": "object",
+      "properties": {
+        "thresholds": {
+          "description": "Thresholds for unlocking each coverage level of religion",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "bonuses": {
+          "description": "Popularity bonus for each coverage level of religion",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "cathedral_bonus": {
+          "description": "Popularity bonus for building cathedral, multiplied by 25",
+          "type": "integer"
+        },
+        "church_bonus": {
+          "description": "Popularity bonus for building church, multiplied by 25",
+          "type": "integer"
+        }
+      }
+    },
+    "beer": {
+      "type": "object",
+      "properties": {
+        "thresholds": {
+          "description": "Thresholds for unlocking each coverage level of beer",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "bonuses": {
+          "description": "Popularity bonus for each coverage level of beer",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "coverage_per_inn": {
+          "type": "integer"
+        }
+      }
+    },
+    "food": {
+      "type": "object",
+      "properties": {
+        "ration_bonuses": {
+          "description": "Popularity effect for: No Food / Half Rations / Extra Rations / Double Rations",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "variety_bonuses": {
+          "description": "Popularity effect multiple food types: 2/3/4 in order.",
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "integer"
+          }
+        }
       }
     },
     "units": {
