@@ -979,11 +979,13 @@
     "popularity_per_good_level": 50,
     "popularity_per_bad_level": 50,
     "productivity": [180, 164, 148, 132, 116, 100, 92, 84, 76, 68, 60],
+    "combat_bonus": [80, 84, 88, 92, 96, 100, 108, 116, 124, 132, 140],
     "coverage": 4
   },
   "taxation": {
     "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -350, -500, -750, -875],
     "neutral_tax_level": 2,
+    "gold": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "3.60"],
     "advantage_multiplier": {
       "human_big_ai_medium": 150,
       "ai_big": 250
@@ -1029,7 +1031,6 @@
     "church_bonus": 30
   },
   "special": {
-    "custom_taxation": {"table": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "3.60"]},
     "assassin_rally_speed": {"value": 5},
     "custom_combat_bonus": {"table": [80, 84, 88, 92, 96, 100, 108, 116, 124, 132, 140]}
   },
