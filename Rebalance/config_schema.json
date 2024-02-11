@@ -305,6 +305,12 @@
             },
             "sell": {
               "$ref": "#/$defs/numeric_string"
+            },
+            "baseDelivery": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "skirmishBonus": {
+              "type": "boolean"
             }
           }
         }
@@ -330,6 +336,47 @@
         },
         "church_bonus": {
           "description": "Popularity bonus for building church, multiplied by 25",
+          "type": "integer"
+        }
+      }
+    },
+    "fear_factor": {
+      "type": "object",
+      "properties": {
+        "popularity_per_good_level": {
+          "type": "integer"
+        },
+        "popularity_per_bad_level":{
+          "type": "integer"
+        },
+        "productivity": {
+          "type": "array",
+          "description": "Productivity bonuses, from -5 fear factor to +5 fear factor",
+          "minItems": 11,
+          "maxItems": 11,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "coverage":{
+          "type": "integer",
+          "description": "2^X people per fear factor building requirement to increase. Example: 4 means 2^4=16 means by 16 population, player would require one additional fear factor building per level."
+        }
+      }
+    },
+    "taxation": {
+      "type": "object",
+      "properties": {
+        "popularity": {
+          "type": "array",
+          "description": "Popularity effects per taxation level",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "neutral_tax_level":{
           "type": "integer"
         }
       }
@@ -386,6 +433,9 @@
             "stoneDamage": {
               "$ref": "#/$defs/numeric_string"
             },
+            "baseMeleeDamage": {
+              "$ref": "#/$defs/numeric_string"
+            },
             "meleeDamageVs": {
               "type": "object",
               "patternProperties": {
@@ -430,8 +480,9 @@
         ]
       }
     },
-    "population": {
+    "population_gathering_rate": {
       "type": "object",
+      "description": "Population gathering rates, Calculation is as follows: 2000/(value*game speed)",
       "patternProperties": {
         "": {
           "type": "object",
@@ -451,6 +502,7 @@
     },
     "special": {
       "type": "object",
+      "description": "items under this section does not simply change numbers, but implement additional logic or override existing game logic.",
       "properties": {
         "tax_reset": {
           "type": "object",
