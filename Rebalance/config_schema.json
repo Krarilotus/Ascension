@@ -385,17 +385,14 @@
             "type": "integer"
           }
         },
-        "neutral_tax_level":{
-          "type": "integer"
-        },
         "gold": {
           "type": "array",
-          "description": "List of taxation values. All taxation values must be a multiple of 0.05 in string format. Must contain one entry with exact value of \\\"0.00\\\" Note: You still need to explicitly set the zero-taxation level!",
+          "description": "List of taxation values. All taxation values must be a multiple of 0.05 in string format. Must contain one entry with exact value of \\\"0.00\\\", which determines the neutral tax level.",
           "maxItems": 12,
           "minItems": 12,
           "items": {
             "type": "string",
-            "pattern": "\\d\\.\\d[05]"
+            "pattern": "\\d\\.\\d{2}"
           },
           "contains": {
             "const": "0.00"
