@@ -1224,6 +1224,8 @@
 
     {"description": "Projectile Range - cow", "address": "0x1B63B4", "size":4, "value": 60},
     {"description": "Manual Control Range - Catapult, Cow Throw", "address": "0x3597C", "size":4, "value": 3600},
-    {"description": "Manual Control Range 2 - Catapult, Cow Throw", "address": "0x36358", "size":4, "value": 3600}
+    {"description": "Manual Control Range 2 - Catapult, Cow Throw", "address": "0x36358", "size":4, "value": 3600},
+  
+    {"description": "Disable starting stockpile. EB 0F [jump over 15 bytes]", "address": "0x115136", "size": 1, "value": [235, 15]}
   ]
 }
