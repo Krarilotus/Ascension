@@ -557,7 +557,9 @@
       "sell": "30"
     },
     "Iron": {
-      "sell": "150"
+      "sell": "150",
+      "baseDelivery": "2",
+      "skirmishBonus": false
     },
     "Pitch": {
       "buy": "200",
@@ -1221,6 +1223,9 @@
     {"description": "Mangonel control range 7.","address": "0x36ADD","size":4,"value":2916},
     {"description": "Mangonel projectile velocity.","address": "0x1B6508","size":4,"value":15},
     {"description": "Mangonel projectile arch type.","address": "0x1B6438","size":4,"value":1},
+
+    {"description": "Iron mine, double pickup code 83 B8 EC 8A F9 00 01 0F 9E C1 90", "address": "0x166556", "size": 1, "value": [131, 184, 236, 138, 249, 0, 1, 15, 158, 193, 144]},
+    {"description": "Iron mine double pickup - subtract amount from ironmine", "address": "0x166724", "size":1, "value": -2},
 
     {"description": "Projectile Range - cow", "address": "0x1B63B4", "size":4, "value": 60},
     {"description": "Manual Control Range - Catapult, Cow Throw", "address": "0x3597C", "size":4, "value": 3600},
