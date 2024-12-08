@@ -1,0 +1,1427 @@
+config-sparse:
+  modules:
+    graphicsApiReplacer:
+      config:
+        graphic:
+          filterLinear:
+            contents:
+              suggested-value: true
+          vsync:
+            contents:
+              suggested-value: false
+        window:
+          continueOutOfFocus:
+            contents:
+              suggested-value: pause
+    ucp2-legacy:
+      config:
+        ai_access:
+          enabled:
+            contents:
+              required-value: true
+        ai_assaultswitch:
+          enabled:
+            contents:
+              required-value: true
+        ai_buywood:
+          enabled:
+            contents:
+              required-value: true
+        ai_defense:
+          enabled:
+            contents:
+              required-value: true
+        ai_fix_crusader_archers_pitch:
+          enabled:
+            contents:
+              required-value: true
+        ai_fix_laddermen_with_enclosed_keep:
+          enabled:
+            contents:
+              required-value: true
+        ai_nosleep:
+          enabled:
+            contents:
+              required-value: true
+        ai_rebuild:
+          enabled:
+            contents:
+              required-value: true
+        ai_tethers:
+          enabled:
+            contents:
+              required-value: true
+        ai_towerengines:
+          enabled:
+            contents:
+              required-value: true
+        ai_housing:
+          build_housing:
+            contents:
+              required-value:
+                enabled: true
+                sliderValue: 5
+          campfire_housing:
+            contents:
+              required-value:
+                enabled: true
+                sliderValue: 8
+          delete_housing:
+            enabled:
+              contents:
+                required-value: true
+        ai_resources_rebuy:
+          flour:
+            contents:
+              required-value:
+                enabled: true
+                sliderValue: 2
+          iron:
+            contents:
+              required-value:
+                enabled: true
+                sliderValue: 2
+          wood:
+            contents:
+              required-value:
+                enabled: true
+                sliderValue: 2
+        ai_demolish:
+          ai_demolish_walls:
+            enabled:
+              contents:
+                required-value: true
+          ai_demolish_trapped:
+            enabled:
+              contents:
+                required-value: true
+          ai_demolish_eco:
+            enabled:
+              contents:
+                required-value: true
+        ai_addattack:
+          contents:
+            required-value:
+              enabled: true
+              choice: relative
+              choices:
+                absolute:
+                  slider: 5
+                relative:
+                  slider: 0.7
+        ai_attacklimit:
+          contents:
+            required-value:
+              enabled: true
+              sliderValue: 3000
+        ai_attacktarget:
+          contents:
+            required-value:
+              enabled: false
+              choice: ""
+        ai_attackwave:
+          contents:
+            required-value:
+              enabled: true
+              sliderValue: 7
+        ai_recruitinterval:
+          enabled:
+            contents:
+              required-value: false
+        ai_recruitstate_initialtimer:
+          contents:
+            required-value:
+              enabled: true
+              sliderValue: 0
+        fix_apple_orchard_build_size:
+          enabled:
+            contents:
+              required-value: true
+        o_firecooldown:
+          contents:
+            required-value:
+              enabled: false
+              sliderValue: 2000
+        o_healer:
+          enabled:
+            contents:
+              required-value: true
+        o_responsivegates:
+          enabled:
+            contents:
+              required-value: true
+        o_shfy:
+          o_shfy_beer:
+            enabled:
+              contents:
+                required-value: false
+          o_shfy_religion:
+            enabled:
+              contents:
+                required-value: false
+          o_shfy_peasantspawnrate:
+            enabled:
+              contents:
+                required-value: false
+          o_shfy_resourcequantity:
+            enabled:
+              contents:
+                required-value: false
+        u_arabwall:
+          enabled:
+            contents:
+              required-value: true
+        u_spearmen_run:
+          enabled:
+            contents:
+              required-value: true
+        o_fix_map_sending:
+          enabled:
+            contents:
+              required-value: true
+        o_fix_rapid_deletion_bug:
+          enabled:
+            contents:
+              required-value: true
+        o_fix_baker_disappear:
+          enabled:
+            contents:
+              required-value: true
+        o_fix_fletcher_bug:
+          enabled:
+            contents:
+              required-value: true
+        o_fix_ladderclimb:
+          enabled:
+            contents:
+              required-value: true
+        o_fix_moat_digging_unit_disappearing:
+          enabled:
+            contents:
+              required-value: true
+        o_restore_arabian_engineer_speech:
+          enabled:
+            contents:
+              required-value: false
+        u_fireballistafix:
+          enabled:
+            contents:
+              required-value: true
+        u_fix_applefarm_blocking:
+          enabled:
+            contents:
+              required-value: true
+        u_fix_lord_animation_stuck_movement:
+          enabled:
+            contents:
+              suggested-value: true
+        u_tanner_fix:
+          enabled:
+            contents:
+              required-value: true
+        o_change_siege_engine_spawn_position_catapult:
+          enabled:
+            contents:
+              required-value: false
+        o_increase_path_update_tick_rate:
+          enabled:
+            contents:
+              required-value: true
+        o_onlyai:
+          enabled:
+            contents:
+              required-value: false
+        o_override_identity_menu:
+          enabled:
+            contents:
+              required-value: false
+        o_playercolor:
+          contents:
+            required-value:
+              enabled: false
+              choice: red
+        o_stop_player_keep_rotation:
+          enabled:
+            contents:
+              required-value: false
+        o_xtreme:
+          enabled:
+            contents:
+              required-value: true
+        o_fast_placing:
+          enabled:
+            contents:
+              suggested-value: true
+        o_default_multiplayer_speed:
+          contents:
+            required-value:
+              enabled: true
+              sliderValue: 50
+        o_engineertent:
+          enabled:
+            contents:
+              suggested-value: true
+        o_gamespeed:
+          enabled:
+            contents:
+              suggested-value: true
+        o_moatvisibility:
+          enabled:
+            contents:
+              suggested-value: true
+    aiSwapper:
+      config:
+        menu:
+          contents:
+            suggested-value:
+              rat:
+                - name: Ascension Rat
+                  root: ucp/plugins/Ascension-AI/resources/ai/Rat/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              snake:
+                - name: Ascension Snake
+                  root: ucp/plugins/Ascension-AI/resources/ai/Snake/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              pig:
+                - name: Ascension Pig
+                  root: ucp/plugins/Ascension-AI/resources/ai/Pig/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              wolf:
+                - name: Ascension Wolf
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wolf/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              saladin:
+                - name: Ascension Saladin
+                  root: ucp/plugins/Ascension-AI/resources/ai/Saladin/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              caliph:
+                - name: Ascension Caliph
+                  root: ucp/plugins/Ascension-AI/resources/ai/Caliph/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              sultan:
+                - name: Ascension Sultan
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sultan/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              richard:
+                - name: Ascension Richard
+                  root: ucp/plugins/Ascension-AI/resources/ai/Richard/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              frederick:
+                - name: Ascension Frederick
+                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              phillip:
+                - name: Ascension Phillip
+                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              wazir:
+                - name: Ascension Wazir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              emir:
+                - name: Ascension Emir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              nizar:
+                - name: Ascension Nizar
+                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              sheriff:
+                - name: Ascension Sheriff
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              marshal:
+                - name: Ascension Marshal
+                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              abbot:
+                - name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+        defaultLanguage:
+          contents:
+            suggested-value: null
+        ai:
+          rat:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Rat
+                  root: ucp/plugins/Ascension-AI/resources/ai/Rat/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Rat
+                  root: ucp/plugins/Ascension-AI/resources/ai/Rat/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Rat
+                  root: ucp/plugins/Ascension-AI/resources/ai/Rat/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Rat
+                  root: ucp/plugins/Ascension-AI/resources/ai/Rat/
+                  active: true
+          snake:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Snake
+                  root: ucp/plugins/Ascension-AI/resources/ai/Snake/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Snake
+                  root: ucp/plugins/Ascension-AI/resources/ai/Snake/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Snake
+                  root: ucp/plugins/Ascension-AI/resources/ai/Snake/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Snake
+                  root: ucp/plugins/Ascension-AI/resources/ai/Snake/
+                  active: true
+          pig:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Pig
+                  root: ucp/plugins/Ascension-AI/resources/ai/Pig/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Pig
+                  root: ucp/plugins/Ascension-AI/resources/ai/Pig/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Pig
+                  root: ucp/plugins/Ascension-AI/resources/ai/Pig/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Pig
+                  root: ucp/plugins/Ascension-AI/resources/ai/Pig/
+                  active: true
+          wolf:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Wolf
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wolf/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Wolf
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wolf/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Wolf
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wolf/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Wolf
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wolf/
+                  active: true
+          saladin:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Saladin
+                  root: ucp/plugins/Ascension-AI/resources/ai/Saladin/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Saladin
+                  root: ucp/plugins/Ascension-AI/resources/ai/Saladin/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Saladin
+                  root: ucp/plugins/Ascension-AI/resources/ai/Saladin/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Saladin
+                  root: ucp/plugins/Ascension-AI/resources/ai/Saladin/
+                  active: true
+          caliph:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Caliph
+                  root: ucp/plugins/Ascension-AI/resources/ai/Caliph/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Caliph
+                  root: ucp/plugins/Ascension-AI/resources/ai/Caliph/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Caliph
+                  root: ucp/plugins/Ascension-AI/resources/ai/Caliph/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Caliph
+                  root: ucp/plugins/Ascension-AI/resources/ai/Caliph/
+                  active: true
+          sultan:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Sultan
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sultan/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Sultan
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sultan/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Sultan
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sultan/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Sultan
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sultan/
+                  active: true
+          richard:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Richard
+                  root: ucp/plugins/Ascension-AI/resources/ai/Richard/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Richard
+                  root: ucp/plugins/Ascension-AI/resources/ai/Richard/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Richard
+                  root: ucp/plugins/Ascension-AI/resources/ai/Richard/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Richard
+                  root: ucp/plugins/Ascension-AI/resources/ai/Richard/
+                  active: true
+          frederick:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Frederick
+                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Frederick
+                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Frederick
+                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Frederick
+                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  active: true
+          phillip:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Phillip
+                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Phillip
+                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Phillip
+                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Phillip
+                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  active: true
+          wazir:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Wazir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Wazir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Wazir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Wazir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  active: true
+          emir:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Emir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Emir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Emir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Emir
+                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  active: true
+          nizar:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Nizar
+                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Nizar
+                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Nizar
+                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Nizar
+                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  active: true
+          sheriff:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Sheriff
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Sheriff
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Sheriff
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Sheriff
+                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  active: true
+          marshal:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension Marshal
+                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension Marshal
+                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension Marshal
+                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension Marshal
+                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  active: true
+          abbot:
+            aic:
+              contents:
+                suggested-value:
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  active: true
+    startResources:
+      config:
+        startGold:
+          normal:
+            majorHumanAdvantage:
+              human:
+                contents:
+                  required-value: 0
+              computer:
+                contents:
+                  required-value: 0
+            minorHumanAdvantage:
+              human:
+                contents:
+                  required-value: 0
+              computer:
+                contents:
+                  required-value: 500
+            noAdvantage:
+              human:
+                contents:
+                  required-value: 0
+              computer:
+                contents:
+                  required-value: 1000
+            minorComputerAdvantage:
+              human:
+                contents:
+                  required-value: 0
+              computer:
+                contents:
+                  required-value: 2000
+            majorComputerAdvantage:
+              human:
+                contents:
+                  required-value: 0
+              computer:
+                contents:
+                  required-value: 4000
+          crusader:
+            majorHumanAdvantage:
+              computer:
+                contents:
+                  required-value: 10000
+              human:
+                contents:
+                  required-value: 8000
+            minorHumanAdvantage:
+              computer:
+                contents:
+                  required-value: 10000
+              human:
+                contents:
+                  required-value: 4000
+            noAdvantage:
+              computer:
+                contents:
+                  required-value: 10000
+              human:
+                contents:
+                  required-value: 2000
+            minorComputerAdvantage:
+              computer:
+                contents:
+                  required-value: 20000
+              human:
+                contents:
+                  required-value: 2000
+            majorComputerAdvantage:
+              computer:
+                contents:
+                  required-value: 40000
+              human:
+                contents:
+                  required-value: 2000
+          deathmatch:
+            majorHumanAdvantage:
+              human:
+                contents:
+                  required-value: 100000
+              computer:
+                contents:
+                  required-value: 5000
+            minorHumanAdvantage:
+              human:
+                contents:
+                  required-value: 1000
+              computer:
+                contents:
+                  required-value: 5000
+            noAdvantage:
+              human:
+                contents:
+                  required-value: 500
+              computer:
+                contents:
+                  required-value: 5000
+            minorComputerAdvantage:
+              human:
+                contents:
+                  required-value: 1000
+              computer:
+                contents:
+                  required-value: 10000
+            majorComputerAdvantage:
+              human:
+                contents:
+                  required-value: 1000
+              computer:
+                contents:
+                  required-value: 20000
+        startGoods:
+          normal:
+            wood:
+              contents:
+                required-value: 100
+            hop:
+              contents:
+                required-value: 0
+            stone:
+              contents:
+                required-value: 10
+            iron:
+              contents:
+                required-value: 0
+            pitch:
+              contents:
+                required-value: 0
+            wheat:
+              contents:
+                required-value: 0
+            bread:
+              contents:
+                required-value: 30
+            cheese:
+              contents:
+                required-value: 10
+            meat:
+              contents:
+                required-value: 10
+            fruit:
+              contents:
+                required-value: 10
+            beer:
+              contents:
+                required-value: 0
+            flour:
+              contents:
+                required-value: 0
+            bows:
+              contents:
+                required-value: 0
+            crossbows:
+              contents:
+                required-value: 0
+            spears:
+              contents:
+                required-value: 0
+            pikes:
+              contents:
+                required-value: 0
+            maces:
+              contents:
+                required-value: 0
+            swords:
+              contents:
+                required-value: 0
+            leatherarmor:
+              contents:
+                required-value: 0
+            metalarmor:
+              contents:
+                required-value: 0
+          crusader:
+            iron:
+              contents:
+                required-value: 10
+            cheese:
+              contents:
+                required-value: 20
+            meat:
+              contents:
+                required-value: 20
+            fruit:
+              contents:
+                required-value: 20
+            wood:
+              contents:
+                required-value: 100
+            hop:
+              contents:
+                required-value: 0
+            stone:
+              contents:
+                required-value: 50
+            pitch:
+              contents:
+                required-value: 0
+            wheat:
+              contents:
+                required-value: 0
+            bread:
+              contents:
+                required-value: 60
+            beer:
+              contents:
+                required-value: 0
+            flour:
+              contents:
+                required-value: 0
+            bows:
+              contents:
+                required-value: 0
+            crossbows:
+              contents:
+                required-value: 0
+            spears:
+              contents:
+                required-value: 0
+            pikes:
+              contents:
+                required-value: 0
+            maces:
+              contents:
+                required-value: 0
+            swords:
+              contents:
+                required-value: 0
+            leatherarmor:
+              contents:
+                required-value: 0
+            metalarmor:
+              contents:
+                required-value: 0
+          deathmatch:
+            wood:
+              contents:
+                required-value: 150
+            hop:
+              contents:
+                required-value: 20
+            stone:
+              contents:
+                required-value: 150
+            iron:
+              contents:
+                required-value: 25
+            pitch:
+              contents:
+                required-value: 48
+            wheat:
+              contents:
+                required-value: 25
+            bread:
+              contents:
+                required-value: 200
+            cheese:
+              contents:
+                required-value: 0
+            meat:
+              contents:
+                required-value: 0
+            fruit:
+              contents:
+                required-value: 0
+            beer:
+              contents:
+                required-value: 10
+            flour:
+              contents:
+                required-value: 0
+            bows:
+              contents:
+                required-value: 0
+            crossbows:
+              contents:
+                required-value: 0
+            spears:
+              contents:
+                required-value: 0
+            pikes:
+              contents:
+                required-value: 0
+            maces:
+              contents:
+                required-value: 0
+            swords:
+              contents:
+                required-value: 0
+            leatherarmor:
+              contents:
+                required-value: 0
+            metalarmor:
+              contents:
+                required-value: 0
+        startTroops:
+          crusader:
+            normal:
+              EuropArcher:
+                contents:
+                  required-value: 0
+              Spearman:
+                contents:
+                  required-value: 0
+              Crossbowman:
+                contents:
+                  required-value: 0
+              Pikeman:
+                contents:
+                  required-value: 0
+              Maceman:
+                contents:
+                  required-value: 0
+              Swordsman:
+                contents:
+                  required-value: 0
+              Knight:
+                contents:
+                  required-value: 0
+              Engineer:
+                contents:
+                  required-value: 0
+              Monk:
+                contents:
+                  required-value: 0
+              ArabArcher:
+                contents:
+                  required-value: 2
+              Slave:
+                contents:
+                  required-value: 0
+              Slinger:
+                contents:
+                  required-value: 2
+              ArabSwordsman:
+                contents:
+                  required-value: 1
+              Assassin:
+                contents:
+                  required-value: 0
+              HorseArcher:
+                contents:
+                  required-value: 0
+              FireThrower:
+                contents:
+                  required-value: 0
+              FireBallista:
+                contents:
+                  required-value: 0
+            crusader:
+              EuropArcher:
+                contents:
+                  required-value: 30
+              Crossbowman:
+                contents:
+                  required-value: 10
+              Spearman:
+                contents:
+                  required-value: 0
+              Pikeman:
+                contents:
+                  required-value: 0
+              Maceman:
+                contents:
+                  required-value: 0
+              Knight:
+                contents:
+                  required-value: .nan
+              Swordsman:
+                contents:
+                  required-value: 10
+              Engineer:
+                contents:
+                  required-value: 0
+              Monk:
+                contents:
+                  required-value: 0
+              ArabArcher:
+                contents:
+                  required-value: 0
+              Slave:
+                contents:
+                  required-value: 0
+              Slinger:
+                contents:
+                  required-value: 0
+              Assassin:
+                contents:
+                  required-value: 0
+              HorseArcher:
+                contents:
+                  required-value: 0
+              ArabSwordsman:
+                contents:
+                  required-value: 0
+              FireThrower:
+                contents:
+                  required-value: 0
+              FireBallista:
+                contents:
+                  required-value: 0
+            deathmatch:
+              EuropArcher:
+                contents:
+                  required-value: 10
+              Spearman:
+                contents:
+                  required-value: 10
+              Crossbowman:
+                contents:
+                  required-value: 0
+              Pikeman:
+                contents:
+                  required-value: 0
+              Maceman:
+                contents:
+                  required-value: 0
+              Swordsman:
+                contents:
+                  required-value: 0
+              Knight:
+                contents:
+                  required-value: 0
+              Engineer:
+                contents:
+                  required-value: 0
+              Monk:
+                contents:
+                  required-value: 0
+              ArabArcher:
+                contents:
+                  required-value: 0
+              Slave:
+                contents:
+                  required-value: 0
+              Slinger:
+                contents:
+                  required-value: 0
+              Assassin:
+                contents:
+                  required-value: 0
+              HorseArcher:
+                contents:
+                  required-value: 0
+              ArabSwordsman:
+                contents:
+                  required-value: 0
+              FireThrower:
+                contents:
+                  required-value: 0
+              FireBallista:
+                contents:
+                  required-value: 0
+          arabian:
+            normal:
+              EuropArcher:
+                contents:
+                  required-value: 0
+              Crossbowman:
+                contents:
+                  required-value: 0
+              Spearman:
+                contents:
+                  required-value: 0
+              Pikeman:
+                contents:
+                  required-value: 0
+              Maceman:
+                contents:
+                  required-value: 0
+              Swordsman:
+                contents:
+                  required-value: 0
+              Knight:
+                contents:
+                  required-value: 0
+              Engineer:
+                contents:
+                  required-value: 0
+              Monk:
+                contents:
+                  required-value: 0
+              ArabArcher:
+                contents:
+                  required-value: 2
+              Slave:
+                contents:
+                  required-value: 0
+              Slinger:
+                contents:
+                  required-value: 2
+              ArabSwordsman:
+                contents:
+                  required-value: 1
+              HorseArcher:
+                contents:
+                  required-value: 0
+              Assassin:
+                contents:
+                  required-value: 0
+              FireThrower:
+                contents:
+                  required-value: 0
+              FireBallista:
+                contents:
+                  required-value: 0
+            crusader:
+              EuropArcher:
+                contents:
+                  required-value: 0
+              Crossbowman:
+                contents:
+                  required-value: 0
+              Spearman:
+                contents:
+                  required-value: 0
+              Pikeman:
+                contents:
+                  required-value: 0
+              Maceman:
+                contents:
+                  required-value: 0
+              Swordsman:
+                contents:
+                  required-value: 0
+              Knight:
+                contents:
+                  required-value: 0
+              Engineer:
+                contents:
+                  required-value: 0
+              Monk:
+                contents:
+                  required-value: 0
+              ArabArcher:
+                contents:
+                  required-value: 30
+              Slave:
+                contents:
+                  required-value: 0
+              Slinger:
+                contents:
+                  required-value: 0
+              Assassin:
+                contents:
+                  required-value: 0
+              HorseArcher:
+                contents:
+                  required-value: 10
+              ArabSwordsman:
+                contents:
+                  required-value: 10
+              FireThrower:
+                contents:
+                  required-value: 5
+              FireBallista:
+                contents:
+                  required-value: 0
+            deathmatch:
+              EuropArcher:
+                contents:
+                  required-value: 0
+              Crossbowman:
+                contents:
+                  required-value: 0
+              Spearman:
+                contents:
+                  required-value: 0
+              Pikeman:
+                contents:
+                  required-value: 0
+              Maceman:
+                contents:
+                  required-value: 0
+              Swordsman:
+                contents:
+                  required-value: 0
+              Knight:
+                contents:
+                  required-value: 0
+              Engineer:
+                contents:
+                  required-value: 0
+              Monk:
+                contents:
+                  required-value: 0
+              ArabArcher:
+                contents:
+                  required-value: 6
+              Slave:
+                contents:
+                  required-value: 6
+              Slinger:
+                contents:
+                  required-value: 0
+              Assassin:
+                contents:
+                  required-value: 0
+              HorseArcher:
+                contents:
+                  required-value: 0
+              ArabSwordsman:
+                contents:
+                  required-value: 0
+              FireThrower:
+                contents:
+                  required-value: 0
+              FireBallista:
+                contents:
+                  required-value: 0
+  plugins:
+    Ascension-Maps:
+      config: {}
+    Ascension-Balance:
+      config: {}
+    Ascension-AI:
+      config: {}
+meta:
+  version: 1.0.0

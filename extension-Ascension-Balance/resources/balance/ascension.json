@@ -594,7 +594,8 @@
     },
     "Stone": {
       "buy": 90,
-      "sell": 40
+      "sell": 40,
+      "skirmishBonus": false
     },
     "Iron": {
       "buy": 270,

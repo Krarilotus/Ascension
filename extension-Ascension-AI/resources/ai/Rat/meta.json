@@ -1,0 +1,19 @@
+{
+  "name": "Ascension Rat",
+  "description": "This is Ascension Rat",
+  "author": "Krarilotus",
+  "link": "https://github.com/Krarilotus/Vanilla-Retraced",
+  "version": "1.4.0",
+  "defaultLang": "de",
+  "supportedLang": ["de", "en"],
+  "switched": {
+    "binks": false,
+    "speech": false,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": false,
+    "portrait": false
+  }
+}

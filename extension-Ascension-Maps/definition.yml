@@ -3,5 +3,6 @@ author: Ascension Group
 version: 1.0.0
 dependencies:
   files: ^1.2.0
-  framework: ">=3.0.5"
-  frontend: ">=1.0.9"
+  maploader: ^1.0.0
+type: plugin
+display-name: Ascension-Maps

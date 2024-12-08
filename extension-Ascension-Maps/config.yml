@@ -1,0 +1,12 @@
+config-sparse:
+  modules:
+    maploader:
+      config:
+        extra-map-extreme-directory:
+          contents:
+            suggested-value: ucp/plugins/Ascension-Maps-*/resources/mapsExtreme
+    files:
+      config: {}
+  plugins: {}
+meta:
+  version: 1.0.0
