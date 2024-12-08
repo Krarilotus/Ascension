@@ -1,0 +1,10 @@
+config-sparse:
+  modules:
+    rebalancer:
+      config:
+        balance_config_file_selector:
+          contents:
+            suggested-value: ucp/plugins/Ascension-Balance-*/resources/balance/ascension.json
+  plugins: {}
+meta:
+  version: 1.0.0

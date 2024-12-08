@@ -1,0 +1,1 @@
+This is the maps plugin for the Ascension Multiplayer Mod.

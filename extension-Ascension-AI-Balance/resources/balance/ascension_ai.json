@@ -1,0 +1,1252 @@
+{
+  "$schema": "config_schema.json",
+  "buildings": {
+    "Barracks": {
+      "cost": [
+        "0",
+        "10",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "Hovel": {
+      "cost": [
+        "5",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "Woodcutter hut": {
+      "cost": [
+        "5",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 60
+    },
+    "Ox tether": {
+      "cost": [
+        "8",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 60
+    },
+    "Iron mine": {
+      "cost": [
+        "40",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 350
+    },
+    "Quarry": {
+      "cost": [
+        "25",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 350
+    },
+    "Pitch rig": {
+      "cost": [
+        "25",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 200
+    },
+    "Hunters hut": {
+      "cost": [
+        "8",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 60
+    },
+    "Mercenary post": {
+      "cost": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "50"
+      ],
+      "health": 150
+    },
+    "Engineers guild": {
+      "cost": [
+        "10",
+        "0",
+        "0",
+        "0",
+        "50"
+      ]
+    },
+    "Armory": {
+      "health": 300
+    },
+    "Fletcher": {
+      "health": 400
+    },
+    "Blacksmith": {
+      "cost": [
+        "20",
+        "6",
+        "2",
+        "0",
+        "0"
+      ],
+      "health": 400
+    },
+    "Poleturner": {
+      "cost": [
+        "10",
+        "3",
+        "0",
+        "0",
+        "50"
+      ]
+    },
+    "Armourer": {
+      "cost": [
+        "20",
+        "12",
+        "6",
+        "0",
+        "0"
+      ],
+      "health": 600
+    },
+    "Tanner": {
+      "cost": [
+        "10",
+        "0",
+        "0",
+        "0",
+        "50"
+      ],
+      "health": 200
+    },
+    "Bakery": {
+      "cost": [
+        "12",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 200
+    },
+    "Brewery": {
+      "cost": [
+        "16",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 200
+    },
+    "Inn": {
+      "cost": [
+        "16",
+        "8",
+        "0",
+        "0",
+        "50"
+      ]
+    },
+    "Apothecary": {
+      "cost": [
+        "30",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "health": 500
+    },
+    "Tunnelers guild": {
+      "cost": [
+        "15",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 300
+    },
+    "Marketplace": {
+      "cost": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 1
+    },
+    "Well": {
+      "cost": [
+        "0",
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 200
+    },
+    "Oil smelter": {
+      "cost": [
+        "0",
+        "0",
+        "8",
+        "0",
+        "100"
+      ],
+      "health": 1000
+    },
+    "Wheat farm": {
+      "cost": [
+        "18",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 200
+    },
+    "Hop farm": {
+      "cost": [
+        "15",
+        "0",
+        "0",
+        "0",
+        "20"
+      ],
+      "health": 250,
+      "housing": 1
+    },
+    "Apple farm": {
+      "cost": [
+        "8",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 60
+    },
+    "Dairy farm": {
+      "cost": [
+        "12",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "Mill": {"cost": [
+        "18",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 400
+    },
+    "Stables": {
+      "cost": [
+        "50",
+        "36",
+        "0",
+        "0",
+        "500"
+      ],
+      "health": 800
+    },
+    "Chapel": {
+      "cost": [
+        "0",
+        "8",
+        "0",
+        "0",
+        "75"
+      ],
+      "health": 300
+    },
+    "Church": {
+      "cost": [
+        "0",
+        "18",
+        "0",
+        "0",
+        "150"
+      ],
+      "health": 1000
+    },
+    "Cathedral": {
+      "cost": [
+        "0",
+        "36",
+        "0",
+        "0",
+        "500"
+      ],
+      "health": 2000
+    },
+    "Keep two": {
+      "housing": 10
+    },
+    "Large gatehouse": {
+      "cost": [
+        "0",
+        "18",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 3000
+    },
+    "Small gatehouse": {
+      "cost": [
+        "0",
+        "10",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 1500
+    },
+    "Drawbridge": {
+      "health": 100
+    },
+    "Fire ballista": {
+      "cost": [
+        "0",
+        "0",
+        "0",
+        "5",
+        "120"
+      ],
+      "health": 600
+    },
+    "Gallows": {
+      "cost": [
+        "35",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 75
+    },
+    "Stocks": {
+      "cost": [
+        "15",
+        "0",
+        "0",
+        "0",
+        "45"
+      ],
+      "health": 50
+    },
+    "Maypole": {
+      "cost": [
+        "15",
+        "0",
+        "0",
+        "0",
+        "15"
+      ],
+      "health": 50
+    },
+    "Garden": {
+      "cost": [
+        "0",
+        "4",
+        "0",
+        "0",
+        "25"
+      ],
+      "health": 75
+    },
+    "Killing pit": {
+      "cost": [
+        "4",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "Water pot": {
+      "health": 300
+    },
+    "Tower one": {
+      "cost": [
+        "0",
+        "12",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 500
+    },
+    "Tower two": {
+      "cost": [
+        "0",
+        "6",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 2000
+    },
+    "Tower three": {
+      "cost": [
+        "0",
+        "12",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 2000
+    },
+    "Tower four": {
+      "cost": [
+        "0",
+        "25",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 2000
+    },
+    "Tower five": {
+      "cost": [
+        "0",
+        "40",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 3600
+    },
+    "Catapult": {
+      "cost": [
+        "0",
+        "10",
+        "0",
+        "0",
+        "150"
+      ],
+      "health": 600
+    },
+    "Trebuchet": {
+      "cost": [
+        "0",
+        "15",
+        "0",
+        "0",
+        "250"
+      ],
+      "health": 600
+    },
+    "Siege tower": {
+      "cost": [
+        "30",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 600
+    },
+    "Battering ram": {
+      "cost": [
+        "20",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      "health": 600
+    },
+    "Portable shield": {
+      "cost": [
+        "3",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 600
+    },
+    "Mangonel": {
+      "cost": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "80"
+      ]
+    },
+    "Tower Ballista": {
+      "cost": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "80"
+      ]
+    },
+    "Cesspit": {
+      "cost": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "80"
+      ],
+      "health": 75
+    },
+    "Burning stake": {
+      "cost": [
+        "10",
+        "0",
+        "0",
+        "3",
+        "0"
+      ],
+      "health": 75
+    },
+    "Gibbet": {
+      "cost": [
+        "5",
+        "0",
+        "2",
+        "0",
+        "0"
+      ],
+      "health": 75
+    },
+    "Dungeon": {
+      "cost": [
+        "0",
+        "8",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 150
+    },
+    "Stretching rack": {
+      "cost": [
+        "0",
+        "0",
+        "2",
+        "0",
+        "10"
+      ],
+      "health": 50
+    },
+    "Chopping block": {
+      "cost": [
+        "0",
+        "4",
+        "0",
+        "0",
+        "45"
+      ]
+    },
+    "Dunking stool": {
+      "cost": [
+        "20",
+        "0",
+        "0",
+        "0",
+        "25"
+      ],
+      "health": 75
+    },
+    "Dog cage": {
+      "cost": [
+        "10",
+        "0",
+        "0",
+        "0",
+        "50"
+      ],
+      "health": 300
+    },
+    "Statue": {
+      "cost": [
+        "0",
+        "7",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 75
+    },
+    "Shrine": {
+      "cost": [
+        "0",
+        "7",
+        "0",
+        "0",
+        "0"
+      ],
+      "health": 75
+    },
+    "Dancing bear": {
+      "cost": [
+        "10",
+        "0",
+        "0",
+        "0",
+        "25"
+      ],
+      "health": 50
+    }
+  },
+  "resources": {
+    "Wood": {
+      "buy": 15
+    },
+    "Hop": {
+      "buy": 180,
+      "sell": 90
+    },
+    "Stone": {
+      "buy": 70,
+      "sell": 35,
+      "skirmishBonus": false
+    },
+    "Iron": {
+      "buy": 270,
+      "sell": 135,
+      "baseDelivery": 2,
+      "skirmishBonus": false
+    },
+    "Pitch": {
+      "buy": 200,
+      "sell": 75
+    },
+    "Wheat": {
+      "sell": 50
+    },
+    "Cheese": {
+      "buy": 55,
+      "sell": 30,
+      "baseDelivery": 4
+    },
+    "Meat": {
+      "buy": 40,
+      "sell": 15
+    },
+    "Fruit": {
+      "buy": 40,
+      "sell": 15
+    },
+    "Beer": {
+      "buy": 240,
+      "sell": 120
+    },
+    "Flour": {
+      "sell": 70
+    },
+    "Bow": {
+      "buy": 160,
+      "sell": 80
+    },
+    "Xbow": {
+      "buy": 270
+    },
+    "Spear": {
+      "buy": 90,
+      "sell": 45
+    },
+    "Mace": {
+      "buy": 300,
+      "sell": 150
+    },
+    "Sword": {
+      "buy": 350,
+      "sell": 155
+    },
+    "Leather": {
+      "buy": 160,
+      "sell": 60
+    },
+    "Armor": {
+      "buy": 400,
+      "sell": 180
+    }
+  },
+  "units": {
+    "Tunneler": {
+      "health": 20000,
+      "arrowDamage": 3000,
+      "xbowDamage": 10000,
+      "stoneDamage": 800,
+      "baseMeleeDamage": 25,
+      "meleeDamageVs": {
+        "Tunneler": 20,
+        "European archer": 20,
+        "European crossbowman": 20,
+        "European spearman": 20,
+        "European pikeman": 20,
+        "European maceman": 20,
+        "European swordsman": 10,
+        "European knight": 10,
+        "Ladderman": 20,
+        "Engineer": 20,
+        "Monk": 20,
+        "unknown1": 20,
+        "Catapult": 60,
+        "Trebuchet": 60,
+        "Mangonel": 60,
+        "Lion": 20,
+        "Rabbit": 20,
+        "Camel": 20,
+        "Lord": 20,
+        "Siege tower": 60,
+        "Battering ram": 60,
+        "Portable shield": 60,
+        "Tower ballista": 60,
+        "Dog": 20,
+        "unknown2": 20,
+        "unknown3": 20,
+        "Arabian archer": 20,
+        "Arabian slave": 40,
+        "Arabian slinger": 30,
+        "Arabian assassin": 20,
+        "Arabian horse archer": 20,
+        "Arabian swordsman": 20,
+        "Arabian firethrower": 20,
+        "Fire ballista": 60
+      },
+      "goldCost": 25,
+      "buildingDamage": 40,
+      "fortificationDamagePenalty": 0,
+      "wallDamage": 20,
+      "powerLevel": 5
+    },
+    "European archer": {
+      "health": 10000,
+      "xbowDamage": 8000,
+      "arrowDamage": 1800,
+      "meleeDamageVs": {
+        "European swordsman": 5,
+        "European knight": 5,
+        "Arabian slave": 20,
+        "Arabian slinger": 15
+      },
+      "goldCost": 10,
+      "buildingDamage": 1,
+      "fortificationDamagePenalty": 0,
+      "powerLevel": 6
+    },
+    "European crossbowman": {
+      "health": 17500,
+      "arrowDamage": 1400,
+      "stoneDamage": 800,
+      "baseMeleeDamage": 20,
+      "meleeDamageVs": {
+        "European maceman": 10,
+        "European swordsman": 10,
+        "European knight": 10,
+        "Arabian slave": 40,
+        "Arabian slinger": 30
+      },
+      "goldCost": 30,
+      "powerLevel": 15
+    },
+    "European spearman": {
+      "arrowDamage": 3000,
+      "baseMeleeDamage": 25,
+      "meleeDamageVs": {
+        "European crossbowman": 20,
+        "European swordsman": 15,
+        "European knight": 35,
+        "Arabian slave": 50,
+        "Arabian slinger": 37,
+        "Arabian horse archer": 50
+      },
+      "goldCost": 5,
+      "buildingDamage": 10,
+      "fortificationDamagePenalty": -7,
+      "wallDamage": 2,
+      "powerLevel": 4
+    },
+    "European pikeman": {
+      "health": 100000,
+      "xbowDamage": 4000,
+      "stoneDamage": 650,
+      "baseMeleeDamage": 25,
+      "meleeDamageVs": {
+        "European knight": 50,
+        "Arabian slave": 50,
+        "Arabian slinger": 37,
+        "Arabian horse archer": 60
+      },
+      "goldCost": 40,
+      "buildingDamage": 20,
+      "fortificationDamagePenalty": -15,
+      "wallDamage": 3,
+      "powerLevel": 20,
+      "ballistaBoltDamage": 20000
+    },
+    "European maceman": {
+      "health": 25000,
+      "baseMeleeDamage": 75,
+      "meleeDamageVs": {
+        "European archer": 125,
+        "European swordsman": 30,
+        "European knight": 30,
+        "Catapult": 150,
+        "Trebuchet": 150,
+        "Mangonel": 150,
+        "Siege tower": 150,
+        "Battering ram": 150,
+        "Portable shield": 150,
+        "Tower ballista": 150,
+        "Arabian archer": 125,
+        "Arabian slave": 150,
+        "Arabian slinger": 125,
+        "Arabian horse archer": 125,
+        "Fire ballista": 150
+      },
+      "goldCost": 20,
+      "buildingDamage": 80,
+      "fortificationDamagePenalty": -25,
+      "wallDamage": 5,
+      "powerLevel": 15
+    },
+    "European swordsman": {
+      "health": 40000,
+      "xbowDamage": 3000,
+      "arrowDamage": 180,
+      "baseMeleeDamage": 200,
+      "meleeDamageVs": {
+        "European archer": 250,
+        "European spearman": 250,
+        "European swordsman": 100,
+        "European knight": 100,
+        "Arabian archer": 250,
+        "Arabian slave": 400,
+        "Arabian slinger": 300,
+        "Arabian horse archer": 250
+      },
+      "goldCost": 80,
+      "speedLevel": 3,
+      "buildingDamage": 100,
+      "fortificationDamagePenalty": -90,
+      "powerLevel": 40
+    },
+    "European knight": {
+      "health": 40000,
+      "arrowDamage": 200,
+      "baseMeleeDamage": 200,
+      "meleeDamageVs": {
+        "European archer": 250,
+        "European spearman": 250,
+        "Arabian archer": 250,
+        "Arabian slave": 400,
+        "Arabian slinger": 300,
+        "Arabian horse archer": 250
+      },
+      "goldCost": 160,
+      "buildingDamage": 100,
+      "fortificationDamagePenalty": -90,
+      "powerLevel": 50,
+      "ballistaBoltDamage": 20000
+    },
+    "Ladderman": {
+      "arrowDamage": 800,
+      "stoneDamage": 800,
+      "xbowDamage": 1500,
+      "powerLevel": 2,
+      "health": 10000,
+      "goldCost": 8
+    },
+    "Engineer": {
+      "arrowDamage": 500,
+      "stoneDamage": 2500,
+      "xbowDamage": 500,
+      "health": 10000,
+      "goldCost": 100,
+      "powerLevel": 3
+    },
+    "Monk": {
+      "xbowDamage": 4000,
+      "meleeDamageVs": {
+        "Arabian slave": 100,
+        "Arabian slinger": 75
+      },
+      "goldCost": 8,
+      "wallDamage": 2,
+      "powerLevel": 5
+    },
+    "Catapult": {
+      "health": 20000,
+      "arrowDamage": 500,
+      "mangonelDamage": 10000,
+      "ballistaBoltDamage": 3600,
+      "powerLevel": 35
+    },
+    "Trebuchet": {
+      "health": 60000,
+      "arrowDamage": 50,
+      "xbowDamage": 2500,
+      "stoneDamage": 400,
+      "mangonelDamage": 15000,
+      "ballistaBoltDamage": 10000
+    },
+    "Mangonel": {
+      "health": 20000,
+      "arrowDamage": 1000,
+      "xbowDamage": 3000,
+      "stoneDamage": 500,
+      "mangonelDamage": 1000,
+      "ballistaBoltDamage": 5000
+    },
+    "Hunter dog": {
+      "health": 1000,
+      "arrowDamage": 5000,
+      "xbowDamage": 5000,
+      "baseMeleeDamage": 5
+    },
+    "Lord": {
+      "xbowDamage": 250,
+      "stoneDamage": 50,
+      "meleeDamageVs": {
+        "European crossbowman": 225,
+        "European pikeman": 300,
+        "European maceman": 225,
+        "European swordsman": 300,
+        "European knight": 300,
+        "Arabian slave": 200,
+        "Arabian slinger": 200,
+        "Arabian swordsman": 225
+      },
+      "buildingDamage": 100,
+      "fortificationDamagePenalty": -90
+    },
+    "Siege tower": {
+      "health": 500000,
+      "arrowDamage": 2000,
+      "xbowDamage": 6000,
+      "stoneDamage": 1000,
+      "mangonelDamage": 40000,
+      "ballistaBoltDamage": 30000,
+      "catapultRockDamage": 120000,
+      "trebuchetRockDamage": 150000
+    },
+    "Battering ram": {
+      "health": 500000,
+      "stoneDamage": 1200,
+      "buildingDamage": 125,
+      "mangonelDamage": 40000,
+      "ballistaBoltDamage": 30000,
+      "catapultRockDamage": 120000,
+      "trebuchetRockDamage": 150000
+    },
+    "Portable shield": {
+      "health": 8000,
+      "stoneDamage": 20,
+      "speedLevel": 4,
+      "mangonelDamage": 1000,
+      "ballistaBoltDamage": 1000
+    },
+    "Tower ballista": {
+      "health": 20000,
+      "arrowDamage": 1000,
+      "stoneDamage": 500,
+      "mangonelDamage": 5000,
+      "ballistaBoltDamage": 5000
+    },
+    "Dog": {
+      "health": 10000,
+      "arrowDamage": 5000,
+      "xbowDamage": 15000,
+      "baseMeleeDamage": 200,
+      "meleeDamageVs": {
+        "European pikeman": 150,
+        "European swordsman": 100,
+        "European knight": 100,
+        "Lord": 75,
+        "Arabian slave": 400,
+        "Arabian slinger": 300,
+        "Arabian swordsman": 150
+      }
+    },
+    "Arabian archer": {
+      "health": 15000,
+      "arrowDamage": 1800,
+      "xbowDamage": 7000,
+      "stoneDamage": 625,
+      "baseMeleeDamage": 20,
+      "meleeDamageVs": {
+        "European crossbowman": 10,
+        "European swordsman": 10,
+        "European knight": 10,
+        "Arabian archer": 10,
+        "Arabian slave": 40,
+        "Arabian slinger": 30
+      },
+      "goldCost": 60,
+      "buildingDamage": 5,
+      "fortificationDamagePenalty": -4,
+      "powerLevel": 8
+    },
+    "Arabian slave": {
+      "meleeDamageVs": {
+        "European swordsman": 5,
+        "European knight": 5,
+        "Trebuchet": 10
+      },
+      "buildingDamage": 1,
+      "powerLevel": 1
+    },
+    "Arabian slinger": {
+      "meleeDamageVs": {
+        "European crossbowman": 15,
+        "European swordsman": 10,
+        "European knight": 10,
+        "Trebuchet": 20
+      },
+      "buildingDamage": 5,
+      "fortificationDamagePenalty": -4,
+      "powerLevel": 2
+    },
+    "Arabian assassin": {
+      "arrowDamage": 1200,
+      "xbowDamage": 6000,
+      "stoneDamage": 400,
+      "baseMeleeDamage": 250,
+      "meleeDamageVs": {
+        "Tunneler": 150,
+        "European archer": 225,
+        "European crossbowman": 225,
+        "European spearman": 120,
+        "European pikeman": 120,
+        "European maceman": 120,
+        "European swordsman": 120,
+        "European knight": 120,
+        "Ladderman": 150,
+        "Engineer": 150,
+        "Monk": 150,
+        "unknown1": 150,
+        "Catapult": 150,
+        "Trebuchet": 150,
+        "Mangonel": 150,
+        "Lord": 100,
+        "Siege tower": 150,
+        "Battering ram": 150,
+        "Portable shield": 150,
+        "Tower ballista": 150,
+        "Dog": 150,
+        "unknown2": 150,
+        "unknown3": 150,
+        "Arabian archer": 225,
+        "Arabian slave": 450,
+        "Arabian slinger": 350,
+        "Arabian assassin": 150,
+        "Arabian horse archer": 225,
+        "Arabian swordsman": 120,
+        "Arabian firethrower": 225,
+        "Fire ballista": 150
+      },
+      "buildingDamage": 75,
+      "fortificationDamagePenalty": -70,
+      "wallDamage": 3,
+      "jesterUnfriendly": true,
+      "powerLevel": 16
+    },
+    "Arabian horse archer": {
+      "health": 15000,
+      "arrowDamage": 1500,
+      "xbowDamage": 7000,
+      "baseMeleeDamage": 30,
+      "meleeDamageVs": {
+        "European swordsman": 10,
+        "European knight": 10,
+        "Trebuchet": 20,
+        "Arabian slave": 40,
+        "Arabian slinger": 30
+      },
+      "goldCost": 75,
+      "buildingDamage": 5,
+      "fortificationDamagePenalty": -4,
+      "powerLevel": 15
+    },
+    "Arabian swordsman": {
+      "health": 28000,
+      "xbowDamage": 2500,
+      "stoneDamage": 140,
+      "baseMeleeDamage": 180,
+      "meleeDamageVs": {
+        "European swordsman": 120,
+        "European knight": 120,
+        "Arabian slave": 360,
+        "Arabian slinger": 270
+      },
+      "goldCost": 100,
+      "speedLevel": 2,
+      "buildingDamage": 100,
+      "fortificationDamagePenalty": -90,
+      "powerLevel": 20
+    },
+    "Arabian firethrower": {
+      "health": 10000,
+      "xbowDamage": 6500,
+      "baseMeleeDamage": 30,
+      "meleeDamageVs": {
+        "European crossbowman": 20,
+        "European swordsman": 20,
+        "European knight": 20,
+        "Arabian slave": 60,
+        "Arabian slinger": 45
+      },
+      "goldCost": 125,
+      "buildingDamage": 5,
+      "fortificationDamagePenalty": -4,
+      "powerLevel": 25
+    },
+    "Fire ballista": {
+      "health": 15000,
+      "xbowDamage": 1500,
+      "stoneDamage": 200,
+      "meleeDamageVs": {
+        "Trebuchet": 10,
+        "Arabian slave": 10
+      },
+      "mangonelDamage": 4000,
+      "ballistaBoltDamage": 5000,
+      "powerLevel": 35
+    },
+    "Woodcutter": {
+      "meleeDamageVs": {
+        "Arabian slave": 20,
+        "Arabian slinger": 20,
+        "Arabian assassin": 10
+      }
+    },
+    "Hunter": {
+      "meleeDamageVs": {
+        "Tunneler": 5,
+        "Arabian assassin": 5
+      }
+    },
+    "Priest": {
+      "speedLevel": 1
+    },
+    "Pitch worker": {
+      "speedLevel": 1
+    },
+    "Quarry mason": {
+      "meleeDamageVs": {
+        "Arabian assassin": 10
+      }
+    },
+    "Quarry grunt": {
+      "meleeDamageVs": {
+        "Tunneler": 40
+      }
+    },
+    "Blacksmith": {
+      "meleeDamageVs": {
+        "Arabian assassin": 10
+      }
+    },
+    "Drunkard": {
+      "meleeEngage": false
+    },
+    "Jester": {
+      "meleeEngage": false
+    }
+  },
+  "fear_factor": {
+    "popularity_per_good_level": 50,
+    "popularity_per_bad_level": 50,
+    "productivity": [180, 166, 151, 135, 118, 100, 92, 84, 76, 68, 60],
+    "combat_bonus": [80, 84, 88, 92, 96, 100, 108, 116, 124, 132, 140],
+    "coverage": 4
+  },
+  "taxation": {
+    "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -350, -500, -750, -1000],
+    "gold": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "4.20"]
+  },
+  "population_gathering_rate": {
+    "Skirmish": {
+      "0":  -40,
+      "5":  -20,
+      "10": -10,
+      "15": -8,
+      "20": -6,
+      "25": -5,
+      "30": -4,
+      "35": -3,
+      "40": -2,
+      "45": -1,
+      "50":  5,
+      "55":  8,
+      "60":  12,
+      "65":  16,
+      "70":  20,
+      "75":  24,
+      "80":  28,
+      "85":  32,
+      "90":  36,
+      "95":  40,
+      "100": 40
+    }
+  },
+  "beer": {
+    "thresholds": [16, 38, 66, 100]
+  },
+  "food": {
+    "ration_bonuses": [-250, -125, 125, 250],
+    "variety_bonuses": [25, 75, 125]
+  },
+  "religion": {
+    "thresholds": [23, 42, 63, 82],
+    "bonuses": [50, 100, 175, 250],
+    "cathedral_bonus": 45,
+    "church_bonus": 30
+  },
+  "siege": {
+    "enable_half_siege_ammo": true,
+    "catapultRockDamage": 60,
+    "catapultRockCollateralDamage": 15,
+    "trebuchetRockDamage": 120,
+    "trebuchetRockCollateralPenalty": -90,
+    "defaultBallistaBoltUnitDamage": 15000,
+    "siegeProjectileOneShotThreshold": 150000,
+    "defaultCatapultRockUnitDamage": 160000,
+    "defaultMangonelPebbleUnitDamage": 160000,
+    "defaultTrebuchetRockUnitDamage": 160000
+  },
+  "enable_iron_double_pickup": true,
+  "enable_ai_ascension": true
+}
+  

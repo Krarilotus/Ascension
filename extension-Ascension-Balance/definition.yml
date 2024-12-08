@@ -1,0 +1,7 @@
+name: Ascension-Balance
+author: Krarilotus
+version: 2.0.1
+dependencies:
+  rebalancer: ^1.0.0
+type: plugin
+display-name: Ascension-Balance
