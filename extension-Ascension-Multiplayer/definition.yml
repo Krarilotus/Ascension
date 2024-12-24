@@ -3,7 +3,7 @@ author: Ascension Group
 version: 1.0.1
 dependencies:
   startResources: ^1.0.0
-  graphicsApiReplacer: ^1.2.1
+  graphicsApiReplacer: ^1.2.0
   ucp2-legacy: ^2.15.1
   Ascension-Maps: ^1.0.1
   Ascension-Balance: ^1.0.1
