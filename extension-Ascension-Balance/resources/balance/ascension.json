@@ -586,7 +586,7 @@
   },
   "resources": {
     "Wood": {
-      "buy": 15
+      "sell": 10
     },
     "Hop": {
       "buy": 180,
@@ -736,8 +736,11 @@
       "powerLevel": 15
     },
     "European spearman": {
+      "health": 12500,
       "arrowDamage": 3000,
-      "baseMeleeDamage": 25,
+      "xbowDamage": 7000,
+      "stoneDamage": 1500,
+      "baseMeleeDamage": 22,
       "meleeDamageVs": {
         "European crossbowman": 20,
         "European swordsman": 15,
@@ -819,7 +822,7 @@
     },
     "European knight": {
       "health": 40000,
-      "xbowDamage": 3000,
+      "xbowDamage": 2500,
       "arrowDamage": 200,
       "baseMeleeDamage": 200,
       "meleeDamageVs": {
@@ -830,7 +833,7 @@
         "Arabian slinger": 300,
         "Arabian horse archer": 250
       },
-      "goldCost": 80,
+      "goldCost": 120,
       "buildingDamage": 100,
       "fortificationDamagePenalty": -90,
       "powerLevel": 50,
