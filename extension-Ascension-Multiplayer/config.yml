@@ -171,10 +171,6 @@ config-sparse:
           enabled:
             contents:
               required-value: true
-        u_spearmen_run:
-          enabled:
-            contents:
-              required-value: true
         o_fix_map_sending:
           enabled:
             contents:
