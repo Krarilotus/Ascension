@@ -781,7 +781,10 @@
       "powerLevel": 15
     },
     "European spearman": {
+      "health": 12500,
       "arrowDamage": 3000,
+      "xbowDamage": 7000,
+      "stoneDamage": 1500,
       "baseMeleeDamage": 25,
       "meleeDamageVs": {
         "European crossbowman": 20,
