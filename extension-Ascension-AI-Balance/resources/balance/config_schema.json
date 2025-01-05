@@ -1,0 +1,667 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "minimod_config_schema",
+  "title": "Config schema for Rebalance Module",
+  "description": "Config schema for Rebalance Module",
+  "type": "object",
+  "$defs": {
+    "unit_name": {
+      "type": "string",
+      "enum": [
+        "Peasant",
+        "Burning man",
+        "Woodcutter",
+        "Fletcher",
+        "Tunneler",
+        "Hunter",
+        "Quarry mason",
+        "Quarry grunt",
+        "Quarry ox",
+        "Pitch worker",
+        "Wheat farmer",
+        "Hops farmer",
+        "Apple farmer",
+        "Dairy farmer",
+        "Miller",
+        "Baker",
+        "Brewer",
+        "Poleturner",
+        "Blacksmith",
+        "Armourer",
+        "Tanner",
+        "European archer",
+        "European crossbowman",
+        "European spearman",
+        "European pikeman",
+        "European maceman",
+        "European swordsman",
+        "European knight",
+        "Ladderman",
+        "Engineer",
+        "Iron miner1",
+        "Iron miner2",
+        "Priest",
+        "Healer",
+        "Drunkard",
+        "Innkeeper",
+        "Monk",
+        "unknown1",
+        "Catapult",
+        "Trebuchet",
+        "Mangonel",
+        "Trader",
+        "Trader horse",
+        "Deer",
+        "Lion",
+        "Rabbit",
+        "Camel",
+        "Crow",
+        "Seagull",
+        "Siege tent",
+        "Cow",
+        "Hunter dog",
+        "Fireman",
+        "Ghost",
+        "Lord",
+        "Lady",
+        "Jester",
+        "Siege tower",
+        "Battering ram",
+        "Portable shield",
+        "Tower ballista",
+        "Chicken",
+        "Mother",
+        "Child",
+        "Juggler",
+        "Fireeater",
+        "Dog",
+        "unknown2",
+        "unknown3",
+        "Arabian archer",
+        "Arabian slave",
+        "Arabian slinger",
+        "Arabian assassin",
+        "Arabian horse archer",
+        "Arabian swordsman",
+        "Arabian firethrower",
+        "Fire ballista"
+      ]
+    },
+    "building_name": {
+      "type": "string",
+      "enum": [
+        "Hovel",
+        "House",
+        "Woodcutter hut",
+        "Ox tether",
+        "Iron mine",
+        "Pitch rig",
+        "Hunters hut",
+        "Mercenary post",
+        "Barracks",
+        "Stockpile",
+        "Armory",
+        "Fletcher",
+        "Blacksmith",
+        "Poleturner",
+        "Armourer",
+        "Tanner",
+        "Bakery",
+        "Brewery",
+        "Granary",
+        "Quarry",
+        "Quarrypile",
+        "Inn",
+        "Apothecary",
+        "Engineers guild",
+        "Tunnelers guild",
+        "Marketplace",
+        "Well",
+        "Oil smelter",
+        "Siege tent",
+        "Wheat farm",
+        "Hop farm",
+        "Apple farm",
+        "Dairy farm",
+        "Mill",
+        "Stables",
+        "Chapel",
+        "Church",
+        "Cathedral",
+        "Ruins",
+        "Keep one",
+        "Keep two",
+        "Keep three",
+        "Keep four",
+        "Keep five",
+        "Large gatehouse",
+        "Small gatehouse",
+        "Main wood",
+        "Postern gate",
+        "Drawbridge",
+        "Tunnel",
+        "Campfire",
+        "Signpost",
+        "Parade ground",
+        "Fire ballista",
+        "Campground",
+        "Parade ground1",
+        "Parade ground2",
+        "Parade ground3",
+        "Parade ground4",
+        "Gatehouse",
+        "Tower",
+        "Gallows",
+        "Stocks",
+        "Witch hoist",
+        "Maypole",
+        "Garden",
+        "Killing pit",
+        "Pitch ditch",
+        "unused",
+        "Water pot",
+        "Keepdoor left",
+        "Keepdoor right",
+        "Keepdoor",
+        "Tower one",
+        "Tower two",
+        "Tower three",
+        "Tower four",
+        "Tower five",
+        "unused2",
+        "Catapult",
+        "Trebuchet",
+        "Siege tower",
+        "Battering ram",
+        "Portable shield",
+        "unused3",
+        "Mangonel",
+        "Tower Ballista",
+        "unused4",
+        "unused5",
+        "unused6",
+        "Cesspit",
+        "Burning stake",
+        "Gibbet",
+        "Dungeon",
+        "Stretching rack",
+        "Flogging rack",
+        "Chopping block",
+        "Dunking stool",
+        "Dog cage",
+        "Statue",
+        "Shrine",
+        "Bee hive",
+        "Dancing bear",
+        "Pond",
+        "Bear cave",
+        "European Outpost",
+        "Mercenary Outpost"
+      ]
+    },
+    "resource_name": {
+      "enum": [
+        "Wood",
+        "Hop",
+        "Stone",
+        "Blank1",
+        "Iron",
+        "Pitch",
+        "Blank2",
+        "Wheat",
+        "Bread",
+        "Cheese",
+        "Meat",
+        "Fruit",
+        "Beer",
+        "Blank3",
+        "Flour",
+        "Bow",
+        "Xbow",
+        "Spear",
+        "Pike",
+        "Mace",
+        "Sword",
+        "Leather",
+        "Armor"
+      ]
+    },
+    "popularity_threshold": {
+      "enum": [
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25",
+        "30",
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100"
+      ]
+    },
+    "numeric_string": {
+      "anyOf": [
+        {
+          "type": "string",
+         "pattern": "^-?\\d+"
+        },
+        {
+          "type": "integer"
+        }
+      ]
+      
+    },
+    "4_step_coverage_threshold_or_bonus_value": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "integer"
+      }
+    }
+  },
+  "properties": {
+    "buildings": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "description": "Building Attributes",
+          "properties": {
+            "cost": {
+              "type": "array",
+              "description": "In order: Wood, Stone, Iron, Pitch, Gold",
+              "maxItems": 5,
+              "minItems": 5,
+              "items": {
+                "$ref": "#/$defs/numeric_string"
+              }
+            },
+            "health": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "housing": {
+              "description": "Housing provided by this building",
+              "$ref": "#/$defs/numeric_string"
+            }
+          }
+        }
+      },
+      "propertyNames": {
+        "$ref": "#/$defs/building_name"
+      }
+    },
+    "resources": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "properties": {
+            "buy": {
+              "description": "Buy price for 5 items",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "sell": {
+              "description": "Sell price for 5 items",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "baseDelivery": {
+              "description": "How many of the good is delivered at once. Disallowed for Flour!",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "skirmishBonus": {
+              "description": "In skirmish mode, almost all production is boosted by 50%, this can be toggled here.",
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "propertyNames": {
+        "$ref": "#/$defs/resource_name"
+      }
+    },
+    "religion": {
+      "type": "object",
+      "properties": {
+        "thresholds": {
+          "description": "Thresholds for unlocking each coverage level of religion\nVanilla is [24, 50, 75, 93] (even though ingame visuals show otherwise)",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "bonuses": {
+          "description": "Popularity bonus for each coverage level of religion\nVanilla is [50, 100, 150, 200]",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "cathedral_bonus": {
+          "description": "Popularity bonus for building cathedral.\nVanilla is 50",
+          "type": "integer"
+        },
+        "church_bonus": {
+          "description": "Popularity bonus for building church.\nVanilla is 25",
+          "type": "integer"
+        }
+      }
+    },
+    "fear_factor": {
+      "type": "object",
+      "properties": {
+        "popularity_per_good_level": {
+          "description": "Popularity effect per level of good things, vanilla is 25",
+          "type": "integer"
+        },
+        "popularity_per_bad_level":{
+          "description": "Popularity effect per level of bad things, vanilla is 25",
+          "type": "integer"
+        },
+        "productivity": {
+          "type": "array",
+          "description": "Productivity bonuses, from -5 fear factor to +5 fear factor\nVanilla is [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]",
+          "minItems": 11,
+          "maxItems": 11,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "combat_bonus": {
+          "type": "array",
+          "description": "Combat bonus percentages, from -5 fear factor to +5 fear factor\nVanilla is [75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125]",
+          "minItems": 11,
+          "maxItems": 11,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "coverage":{
+          "type": "integer",
+          "description": "2^X people per fear factor building requirement to increase. Example: 4 means 2^4=16 means by 16 population, player would require one additional fear factor building per level. Vanilla is 4"
+        },
+        "resting_factor": {
+          "type": "integer",
+          "description": "Multiplier for how much walking to gardens is required, vanilla is 1. Making this value bigger would mean less walking between good things under positive fear factor"
+        }
+      }
+    },
+    "taxation": {
+      "type": "object",
+      "properties": {
+        "popularity": {
+          "type": "array",
+          "description": "Popularity effects per taxation level\nVanilla is [175, 125, 75, 25, -50, -100, -150, -200, -300, -400]",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "gold": {
+          "type": "array",
+          "description": "List of taxation values. All taxation values must be a positive multiples of 0.01. Must contain one entry with exact value of \\\"0.00\\\", which determines the neutral tax level. \n Values to the left of 0.00 will be considered bribes. Vanilla is [1, 0.8, 0.6, 0.0, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2]",
+          "maxItems": 12,
+          "minItems": 12,
+          "items": {
+            "type": "string",
+            "pattern": "\\d\\.\\d{2}"
+          },
+          "contains": {
+            "const": "0.00"
+          }
+        }
+      }
+    },
+    "beer": {
+      "type": "object",
+      "properties": {
+        "thresholds": {
+          "description": "Thresholds for unlocking each coverage level of beer\nVanilla is [25, 50, 75, 100]",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "bonuses": {
+          "description": "Popularity bonus for each coverage level of beer\nVanilla is [50, 100, 150, 200]",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "coverage_per_inn": {
+          "description": "People covered per active Inn\nVanilla is 30",
+          "type": "integer"
+        },
+        "flagons_per_beer": {
+          "description": "How many flagons are supplied from 1 unit of beer, vanilla is 160",
+          "type": "integer"
+        }
+      }
+    },
+    "food": {
+      "type": "object",
+      "properties": {
+        "ration_bonuses": {
+          "description": "Popularity effect for: No Food / Half Rations / Extra Rations / Double Rations\nVanilla is [-200, -100, 100, 200]",
+          "$ref": "#/$defs/4_step_coverage_threshold_or_bonus_value"
+        },
+        "variety_bonuses": {
+          "description": "Popularity bonus for multiple food types: 2/3/4 in order.\nVanilla is [25, 50, 75]",
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "food_value": {
+          "type": "integer",
+          "description": "Amount of food value provided by 1 food unit. Making this number bigger would mean people need less food, and vice versa.\nVanilla is 15000"
+        }
+      }
+    },
+    "units": {
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "properties": {
+            "health": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "arrowDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from arrows."
+            },
+            "xbowDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from crossbow bolts."
+            },
+            "stoneDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from slinger stones."
+            },
+            "ballistaBoltDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from ballista bolts. (2/3 of this value is fire ballista bolt damage.)"
+            },
+            "mangonelDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from mangonel pebbles."
+            },
+            "catapultRockDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from catapult rocks."
+            },
+            "trebuchetRockDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Incoming damage from trebuchet rocks."
+            },
+            "baseMeleeDamage": {
+              "$ref": "#/$defs/numeric_string",
+              "description": "Outgoing melee damage against every unit, unless otherwise specified in MeleeDamageVs section."
+            },
+            "meleeDamageVs": {
+              "type": "object",
+              "description": "Outgoing melee damage against units",
+              "patternProperties": {
+                "": {
+                  "$ref": "#/$defs/numeric_string"
+                }
+              },
+              "propertyNames": {
+                "$ref": "#/$defs/unit_name"
+              }
+            },
+            "goldCost": {
+              "$ref": "#/$defs/numeric_string"
+            },
+            "speedLevel": {
+              "description": "How fast the unit moves, smaller value means higher speed.",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "buildingDamage": {
+              "description": "Melee damage towards buildings",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "fortificationDamagePenalty": {
+              "description": "Melee damage towards towers, is represented as penalty on buildingDamage\nCan be written as either a negative or normal number, it will be interpreted as negative either way.",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "fortificationDamage": {
+              "description": "Melee damage towards sturdy buildings.(which is only towers in vanilla) Overrides fortificationDamagePenalty!",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "wallDamage": {
+              "description": "Melee damage towards walls and gatehouses.",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "powerLevel": {
+              "description": "Represantative number for unit strength, relevant for various triggers(like dog cages) Vanilla values are as follows:\n European archer: 5\nEuropean crossbowman: 10\nEuropean spearman: 4\nEuropean pikeman: 10\nEuropean maceman: 10\nEuropean swordsman: 30\nEuropean knight: 35\nLadderman: 1\nEngineer: 5\nMonk: 8\nTunneler: 5\nArabian archer: 8\nArabian slave: 1\nArabian slinger: 2\nArabian assassin: 14\nArabian horse archer: 15\nArabian swordsman: 20\nArabian firethrower: 16\nFire ballista: 25\nCatapult: 25",
+              "$ref": "#/$defs/numeric_string"
+            },
+            "meleeEngage": {
+              "type": "boolean",
+              "description": "Whether the unit engages in melee combat or not."
+            },
+            "isBlessable": {
+              "type": "boolean",
+              "description": "Whether the unit is considered as a unit to be blessed by priest (mostly relevant for workers)."
+            },
+            "jesterUnfriendly": {
+              "type": "boolean",
+              "description": "Whether the unit does not want jester to visit him."
+            }
+          }
+        }
+      },
+      "propertyNames": {
+        "$ref": "#/$defs/unit_name"
+      }
+    },
+    "siege": {
+      "type": "object",
+      "properties": {
+        "enable_half_siege_ammo": {
+          "type": "boolean",
+          "description": "Whether to enable half siege ammo mode, where cats&trebs start with 10 rocks each and replenish 10 rocks for 10 stone."
+        },
+        "catapultRockDamage":{
+          "description": "Building&Wall damage of catapults",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "catapultRockCollateralDamage":{
+          "description": "Splash damage of catapult rocks on buildings and walls, also applies to primary target",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "trebuchetRockDamage":{
+          "description": "Building&Wall damage of trebuchets",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "trebuchetRockCollateralPenalty":{
+          "description": "Splash damage of trebuchet rocks, written as negative value (compared to primary damage).",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "mangonelPebbleDamage":{
+          "description": "Building&Wall damage of mangonels",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "defaultMangonelPebbleUnitDamage": {
+          "description": "Default damage of mangonel pebbles towards every unit except the Lord and siege equipment, vanilla is 30000",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "defaultCatapultRockUnitDamage": {
+          "description": "Default damage of catapult rocks towards every unit except the Lord, vanilla is 30000",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "defaultTrebuchetRockUnitDamage": {
+          "description": "Default damage of trebuchet rocks towards every unit except the Lord, vanilla is 30000",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "defaultBallistaBoltUnitDamage": {
+          "description": "Default damage of ballista bolts towards every unit except the Lord and siege equipment, vanilla is 10000",
+          "$ref": "#/$defs/numeric_string"
+        },
+        "siegeProjectileOneShotThreshold": {
+          "description": "Threshold for a siege projectile damage to insta-kill a unit, vanilla is 20000",
+          "$ref": "#/$defs/numeric_string"
+        }
+      }
+    },
+    "castle": {
+      "type": "object",
+      "properties": {
+        "ditch_per_pitch": {
+          "description": "How many tiles of pitch ditch can be placed using 1 pitch in stockpile (Vanilla is 4)\nCan only be a value from 1 to 4",
+          "enum": [1, 2, 3, 4]
+        },
+        "killing_pit_damage": {
+          "type": "integer",
+          "description": "How much damage a killing pit does (Vanilla is 18000)"
+        },
+        "dog_trigger_threshold": {
+          "type": "integer",
+          "description": "Total enemy unit strength nearby a dogcage for it to release the dogs, use this in combination with powerLevel attribute of units."
+        }
+      }
+    },
+    "enable_iron_double_pickup":{
+      "type": "boolean",
+      "description": "Whether to enable double iron pickup mode, where iron worker waits and collects 2 ingots at once from iron mine. Note that this does not affect iron delivery amount by itself!"
+    },
+    "leather_per_cow": {
+      "type": "integer",
+      "description": "How many leather armor deliveries can be made from one cow.\nVanilla is 3"
+    },
+    "enable_ascension": {
+      "type": "boolean",
+      "description": "Whether to enable Ascension Mod-specific changes (only works on Extreme!), reach out to Krarilotus/CIO for more details"
+    },
+    "enable_ai_ascension": {
+      "type": "boolean",
+      "description": "Whether to enable AI Ascension Mod-specific changes (only works on Extreme!), reach out to Krarilotus for more details"
+    },
+    "population_gathering_rate": {
+      "type": "object",
+      "description": "Population gathering rates, Calculation is as follows: 2000/(value*game speed) In scenarios, population hitting 100 means different peasant gathering rate.",
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "patternProperties": {
+            "": {
+              "type": "integer"
+            }
+          },
+          "propertyNames": {
+            "$ref": "#/$defs/popularity_threshold"
+          }
+        }
+      },
+      "propertyNames": {
+        "enum": ["Skirmish", "Scenario_lt_100", "Scenario_gt_100"]
+      }
+    }
+  }
+}

@@ -701,7 +701,7 @@
         "Fire ballista": 60
       },
       "buildingDamage": 50,
-      "fortificationDamagePenalty": 0,
+      "fortificationDamage": 50,
       "wallDamage": 20,
       "powerLevel": 5
     },
@@ -717,7 +717,7 @@
       },
       "goldCost": 10,
       "buildingDamage": 1,
-      "fortificationDamagePenalty": 0,
+      "fortificationDamage": 1,
       "powerLevel": 6
     },
     "European crossbowman": {
@@ -751,7 +751,7 @@
       },
       "goldCost": 5,
       "buildingDamage": 10,
-      "fortificationDamagePenalty": -7,
+      "fortificationDamage": 3,
       "wallDamage": 2,
       "powerLevel": 4
     },
@@ -768,7 +768,7 @@
       },
       "goldCost": 30,
       "buildingDamage": 20,
-      "fortificationDamagePenalty": -15,
+      "fortificationDamage": 5,
       "wallDamage": 3,
       "powerLevel": 20,
       "ballistaBoltDamage": 18000
@@ -795,7 +795,7 @@
       },
       "goldCost": 25,
       "buildingDamage": 80,
-      "fortificationDamagePenalty": -25,
+      "fortificationDamage": 50,
       "wallDamage": 5,
       "powerLevel": 15
     },
@@ -816,7 +816,7 @@
       },
       "speedLevel": 3,
       "buildingDamage": 100,
-      "fortificationDamagePenalty": -90,
+      "fortificationDamage": 10,
       "powerLevel": 40,
       "ballistaBoltDamage": 20000
     },
@@ -835,7 +835,7 @@
       },
       "goldCost": 120,
       "buildingDamage": 100,
-      "fortificationDamagePenalty": -90,
+      "fortificationDamage": 10,
       "powerLevel": 50,
       "ballistaBoltDamage": 18000
     },
@@ -904,7 +904,7 @@
         "Arabian swordsman": 225
       },
       "buildingDamage": 100,
-      "fortificationDamagePenalty": -90
+      "fortificationDamage": 10
     },
     "Siege tower": {
       "health": 500000,
@@ -971,7 +971,7 @@
       },
       "goldCost": 55,
       "buildingDamage": 5,
-      "fortificationDamagePenalty": -4,
+      "fortificationDamage": 1,
       "powerLevel": 8
     },
     "Arabian slave": {
@@ -987,7 +987,7 @@
         "Trebuchet": 20
       },
       "buildingDamage": 5,
-      "fortificationDamagePenalty": -4,
+      "fortificationDamage": 1,
       "powerLevel": 2
     },
     "Arabian assassin": {
@@ -1029,7 +1029,7 @@
         "Fire ballista": 100
       },
       "buildingDamage": 75,
-      "fortificationDamagePenalty": -70,
+      "fortificationDamage": 5,
       "wallDamage": 3,
       "jesterUnfriendly": true,
       "powerLevel": 16
@@ -1046,7 +1046,7 @@
       },
       "goldCost": 75,
       "buildingDamage": 5,
-      "fortificationDamagePenalty": -4,
+      "fortificationDamage": 1,
       "powerLevel": 15
     },
     "Arabian swordsman": {
@@ -1062,7 +1062,7 @@
       },
       "speedLevel": 2,
       "buildingDamage": 100,
-      "fortificationDamagePenalty": -90,
+      "fortificationDamage": 10,
       "powerLevel": 16
     },
     "Arabian firethrower": {
@@ -1077,7 +1077,7 @@
         "Arabian slinger": 45
       },
       "buildingDamage": 5,
-      "fortificationDamagePenalty": -4,
+      "fortificationDamage": 1,
       "powerLevel": 10
     },
     "Fire ballista": {
@@ -1138,7 +1138,8 @@
     "popularity_per_bad_level": 50,
     "productivity": [180, 166, 151, 135, 118, 100, 92, 84, 76, 68, 60],
     "combat_bonus": [80, 84, 88, 92, 96, 100, 108, 116, 124, 132, 140],
-    "coverage": 4
+    "coverage": 4,
+    "resting_factor": 2
   },
   "taxation": {
     "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -350, -500, -750, -1000],
@@ -1170,7 +1171,8 @@
     }
   },
   "beer": {
-    "thresholds": [16, 38, 66, 100]
+    "thresholds": [16, 38, 66, 100],
+    "flagons_per_beer": 120
   },
   "food": {
     "ration_bonuses": [-250, -125, 125, 250],
@@ -1193,6 +1195,10 @@
     "defaultCatapultRockUnitDamage": 160000,
     "defaultMangonelPebbleUnitDamage": 160000,
     "defaultTrebuchetRockUnitDamage": 160000
+  },
+  "castle": {
+    "ditch_per_pitch": 2,
+    "dog_trigger_threshold": 18
   },
   "enable_iron_double_pickup": true,
   "enable_ascension": true
