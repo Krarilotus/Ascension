@@ -347,10 +347,10 @@
     "Garden": {
       "cost": [
         0,
-        5,
+        4,
         0,
         0,
-        30
+        25
       ],
       "health": 75
     },
@@ -369,7 +369,7 @@
     "Tower one": {
       "cost": [
         0,
-        20,
+        12,
         0,
         0,
         0
@@ -888,7 +888,8 @@
       "health": 1000,
       "arrowDamage": 5000,
       "xbowDamage": 5000,
-      "baseMeleeDamage": 5
+      "baseMeleeDamage": 5,
+      "meleeImmunity": true
     },
     "Lord": {
       "xbowDamage": 250,
@@ -1145,42 +1146,24 @@
     "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -350, -500, -750, -1000],
     "gold": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "4.20"]
   },
-  "population_gathering_rate": {
-    "Skirmish": {
-      "0":  -40,
-      "5":  -20,
-      "10": -10,
-      "15": -8,
-      "20": -6,
-      "25": -5,
-      "30": -4,
-      "35": -3,
-      "40": -2,
-      "45": -1,
-      "50":  5,
-      "55":  8,
-      "60":  12,
-      "65":  16,
-      "70":  20,
-      "75":  24,
-      "80":  28,
-      "85":  32,
-      "90":  36,
-      "95":  40,
-      "100": 40
-    }
+  "population": {
+    "gathering_rate_skirmish": [
+      -40, -20, -10, -8, -6, -5, -4, -3, -2, -1, 5, 8, 12, 16, 20, 24, 28, 32, 36, 40, 40
+    ]
   },
   "beer": {
-    "thresholds": [16, 38, 66, 100],
-    "flagons_per_beer": 120
+    "thresholds": [20, 40, 80, 100],
+    "multipliers": [3, 2, 2, 1],
+    "flagons_per_beer": 120,
+    "flagon_cap": 400
   },
   "food": {
     "ration_bonuses": [-250, -125, 125, 250],
     "variety_bonuses": [25, 75, 125]
   },
   "religion": {
-    "thresholds": [23, 42, 63, 82],
-    "bonuses": [50, 100, 175, 250],
+    "thresholds": [20, 42, 64, 84],
+    "multipliers": [2, 3, 3, 4],
     "cathedral_bonus": 45,
     "church_bonus": 30
   },
@@ -1199,7 +1182,25 @@
   "castle": {
     "ditch_per_pitch": 2,
     "dog_trigger_threshold": 18
+  },  
+  "ranges": {
+    "archer_range": 40,
+    "xbow_range": 40,
+    "arabbow_range": 40,
+    "horse_archer_range": 40,
+    "slinger_range": 18,
+    "firethrower_range": 11,
+    "catapult_range": 57,
+    "treb_range": 68,
+    "fbal_range": 40,
+    "towerbal_range": 68,
+    "mangonel_range": 54
   },
-  "enable_iron_double_pickup": true,
-  "enable_ascension": true
+  "disable_rally_runners": true,
+  "enable_spearmen_conditional_run": true,
+  "increase_enemy_check_frequency": true,
+  "increase_minimap_unit_size": true,
+  "leather_per_cow": 4,
+  "reduce_height_advantage": true,
+  "enable_iron_double_pickup": true
 }

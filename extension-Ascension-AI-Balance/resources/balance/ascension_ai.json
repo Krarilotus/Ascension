@@ -3,99 +3,99 @@
   "buildings": {
     "Barracks": {
       "cost": [
-        "0",
-        "10",
-        "0",
-        "0",
-        "0"
+        0,
+        10,
+        0,
+        0,
+        0
       ]
     },
     "Hovel": {
       "cost": [
-        "5",
-        "0",
-        "0",
-        "0",
-        "0"
+        5,
+        0,
+        0,
+        0,
+        0
       ]
     },
     "Woodcutter hut": {
       "cost": [
-        "5",
-        "0",
-        "0",
-        "0",
-        "0"
+        5,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 60
     },
     "Ox tether": {
       "cost": [
-        "8",
-        "0",
-        "0",
-        "0",
-        "0"
+        8,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 60
     },
     "Iron mine": {
       "cost": [
-        "40",
-        "0",
-        "0",
-        "0",
-        "0"
+        40,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 350
     },
     "Quarry": {
       "cost": [
-        "25",
-        "0",
-        "0",
-        "0",
-        "0"
+        25,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 350
     },
     "Pitch rig": {
       "cost": [
-        "25",
-        "0",
-        "0",
-        "0",
-        "0"
+        25,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 200
     },
     "Hunters hut": {
       "cost": [
-        "8",
-        "0",
-        "0",
-        "0",
-        "0"
+        8,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 60
     },
     "Mercenary post": {
       "cost": [
-        "0",
-        "0",
-        "0",
-        "0",
-        "50"
+        0,
+        0,
+        0,
+        0,
+        50
       ],
       "health": 150
     },
     "Engineers guild": {
       "cost": [
-        "10",
-        "0",
-        "0",
-        "0",
-        "50"
+        10,
+        0,
+        0,
+        0,
+        50
       ]
     },
     "Armory": {
@@ -106,208 +106,209 @@
     },
     "Blacksmith": {
       "cost": [
-        "20",
-        "6",
-        "2",
-        "0",
-        "0"
+        20,
+        6,
+        2,
+        0,
+        0
       ],
       "health": 400
     },
     "Poleturner": {
       "cost": [
-        "10",
-        "3",
-        "0",
-        "0",
-        "50"
+        10,
+        3,
+        0,
+        0,
+        50
       ]
     },
     "Armourer": {
       "cost": [
-        "20",
-        "12",
-        "6",
-        "0",
-        "0"
+        20,
+        12,
+        6,
+        0,
+        0
       ],
       "health": 600
     },
     "Tanner": {
       "cost": [
-        "10",
-        "0",
-        "0",
-        "0",
-        "50"
+        10,
+        0,
+        0,
+        0,
+        50
       ],
       "health": 200
     },
     "Bakery": {
       "cost": [
-        "12",
-        "0",
-        "0",
-        "0",
-        "0"
+        12,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 200
     },
     "Brewery": {
       "cost": [
-        "16",
-        "0",
-        "0",
-        "0",
-        "0"
+        16,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 200
     },
     "Inn": {
       "cost": [
-        "16",
-        "8",
-        "0",
-        "0",
-        "50"
+        16,
+        8,
+        0,
+        0,
+        50
       ]
     },
     "Apothecary": {
       "cost": [
-        "30",
-        "0",
-        "0",
-        "0",
-        "100"
+        30,
+        0,
+        0,
+        0,
+        100
       ],
       "health": 500
     },
     "Tunnelers guild": {
       "cost": [
-        "15",
-        "0",
-        "0",
-        "0",
-        "0"
+        15,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 300
     },
     "Marketplace": {
       "cost": [
-        "0",
-        "0",
-        "0",
-        "0",
-        "0"
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 1
     },
     "Well": {
       "cost": [
-        "0",
-        "2",
-        "0",
-        "0",
-        "0"
+        0,
+        2,
+        0,
+        0,
+        0
       ],
       "health": 200
     },
     "Oil smelter": {
       "cost": [
-        "0",
-        "0",
-        "8",
-        "0",
-        "100"
+        0,
+        0,
+        8,
+        0,
+        100
       ],
       "health": 1000
     },
     "Wheat farm": {
       "cost": [
-        "18",
-        "0",
-        "0",
-        "0",
-        "0"
+        18,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 200
     },
     "Hop farm": {
       "cost": [
-        "15",
-        "0",
-        "0",
-        "0",
-        "20"
+        15,
+        0,
+        0,
+        0,
+        20
       ],
       "health": 250,
       "housing": 1
     },
     "Apple farm": {
       "cost": [
-        "8",
-        "0",
-        "0",
-        "0",
-        "0"
+        8,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 60
     },
     "Dairy farm": {
       "cost": [
-        "12",
-        "0",
-        "0",
-        "0",
-        "0"
+        12,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "Mill": {"cost": [
-        "18",
-        "0",
-        "0",
-        "0",
-        "0"
+    "Mill": {
+      "cost": [
+        18,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 400
     },
     "Stables": {
       "cost": [
-        "50",
-        "36",
-        "0",
-        "0",
-        "500"
+        50,
+        36,
+        0,
+        0,
+        500
       ],
       "health": 800
     },
     "Chapel": {
       "cost": [
-        "0",
-        "8",
-        "0",
-        "0",
-        "75"
+        0,
+        8,
+        0,
+        0,
+        75
       ],
       "health": 300
     },
     "Church": {
       "cost": [
-        "0",
-        "18",
-        "0",
-        "0",
-        "150"
+        0,
+        18,
+        0,
+        0,
+        150
       ],
       "health": 1000
     },
     "Cathedral": {
       "cost": [
-        "0",
-        "36",
-        "0",
-        "0",
-        "500"
+        0,
+        36,
+        0,
+        0,
+        500
       ],
       "health": 2000
     },
@@ -316,21 +317,21 @@
     },
     "Large gatehouse": {
       "cost": [
-        "0",
-        "18",
-        "0",
-        "0",
-        "0"
+        0,
+        18,
+        0,
+        0,
+        0
       ],
       "health": 3000
     },
     "Small gatehouse": {
       "cost": [
-        "0",
-        "10",
-        "0",
-        "0",
-        "0"
+        0,
+        10,
+        0,
+        0,
+        0
       ],
       "health": 1500
     },
@@ -339,61 +340,61 @@
     },
     "Fire ballista": {
       "cost": [
-        "0",
-        "0",
-        "0",
-        "5",
-        "120"
+        0,
+        0,
+        0,
+        5,
+        120
       ],
       "health": 600
     },
     "Gallows": {
       "cost": [
-        "35",
-        "0",
-        "0",
-        "0",
-        "0"
+        35,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 75
     },
     "Stocks": {
       "cost": [
-        "15",
-        "0",
-        "0",
-        "0",
-        "45"
+        15,
+        0,
+        0,
+        0,
+        45
       ],
       "health": 50
     },
     "Maypole": {
       "cost": [
-        "15",
-        "0",
-        "0",
-        "0",
-        "15"
+        15,
+        0,
+        0,
+        0,
+        15
       ],
       "health": 50
     },
     "Garden": {
       "cost": [
-        "0",
-        "4",
-        "0",
-        "0",
-        "25"
+        0,
+        4,
+        0,
+        0,
+        25
       ],
       "health": 75
     },
     "Killing pit": {
       "cost": [
-        "4",
-        "0",
-        "0",
-        "0",
-        "0"
+        4,
+        0,
+        0,
+        0,
+        0
       ]
     },
     "Water pot": {
@@ -401,228 +402,228 @@
     },
     "Tower one": {
       "cost": [
-        "0",
-        "12",
-        "0",
-        "0",
-        "0"
+        0,
+        12,
+        0,
+        0,
+        0
       ],
       "health": 500
     },
     "Tower two": {
       "cost": [
-        "0",
-        "6",
-        "0",
-        "0",
-        "0"
+        0,
+        6,
+        0,
+        0,
+        0
       ],
       "health": 2000
     },
     "Tower three": {
       "cost": [
-        "0",
-        "12",
-        "0",
-        "0",
-        "0"
+        0,
+        12,
+        0,
+        0,
+        0
       ],
       "health": 2000
     },
     "Tower four": {
       "cost": [
-        "0",
-        "25",
-        "0",
-        "0",
-        "0"
+        0,
+        25,
+        0,
+        0,
+        0
       ],
       "health": 2000
     },
     "Tower five": {
       "cost": [
-        "0",
-        "40",
-        "0",
-        "0",
-        "0"
+        0,
+        40,
+        0,
+        0,
+        0
       ],
       "health": 3600
     },
     "Catapult": {
       "cost": [
-        "0",
-        "10",
-        "0",
-        "0",
-        "150"
+        0,
+        10,
+        0,
+        0,
+        150
       ],
       "health": 600
     },
     "Trebuchet": {
       "cost": [
-        "0",
-        "15",
-        "0",
-        "0",
-        "250"
+        0,
+        15,
+        0,
+        0,
+        250
       ],
       "health": 600
     },
     "Siege tower": {
       "cost": [
-        "30",
-        "0",
-        "0",
-        "0",
-        "0"
+        30,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 600
     },
     "Battering ram": {
       "cost": [
-        "20",
-        "0",
-        "1",
-        "0",
-        "0"
+        20,
+        0,
+        1,
+        0,
+        0
       ],
       "health": 600
     },
     "Portable shield": {
       "cost": [
-        "3",
-        "0",
-        "0",
-        "0",
-        "0"
+        3,
+        0,
+        0,
+        0,
+        0
       ],
       "health": 600
     },
     "Mangonel": {
       "cost": [
-        "0",
-        "0",
-        "0",
-        "0",
-        "80"
+        0,
+        0,
+        0,
+        0,
+        80
       ]
     },
     "Tower Ballista": {
       "cost": [
-        "0",
-        "0",
-        "0",
-        "0",
-        "80"
+        0,
+        0,
+        0,
+        0,
+        80
       ]
     },
     "Cesspit": {
       "cost": [
-        "0",
-        "0",
-        "0",
-        "0",
-        "80"
+        0,
+        0,
+        0,
+        0,
+        80
       ],
       "health": 75
     },
     "Burning stake": {
       "cost": [
-        "10",
-        "0",
-        "0",
-        "3",
-        "0"
+        10,
+        0,
+        0,
+        3,
+        0
       ],
       "health": 75
     },
     "Gibbet": {
       "cost": [
-        "5",
-        "0",
-        "2",
-        "0",
-        "0"
+        5,
+        0,
+        2,
+        0,
+        0
       ],
       "health": 75
     },
     "Dungeon": {
       "cost": [
-        "0",
-        "8",
-        "0",
-        "0",
-        "0"
+        0,
+        8,
+        0,
+        0,
+        0
       ],
       "health": 150
     },
     "Stretching rack": {
       "cost": [
-        "0",
-        "0",
-        "2",
-        "0",
-        "10"
+        0,
+        0,
+        2,
+        0,
+        10
       ],
       "health": 50
     },
     "Chopping block": {
       "cost": [
-        "0",
-        "4",
-        "0",
-        "0",
-        "45"
+        0,
+        4,
+        0,
+        0,
+        45
       ]
     },
     "Dunking stool": {
       "cost": [
-        "20",
-        "0",
-        "0",
-        "0",
-        "25"
+        20,
+        0,
+        0,
+        0,
+        25
       ],
       "health": 75
     },
     "Dog cage": {
       "cost": [
-        "10",
-        "0",
-        "0",
-        "0",
-        "50"
+        10,
+        0,
+        0,
+        0,
+        50
       ],
       "health": 300
     },
     "Statue": {
       "cost": [
-        "0",
-        "7",
-        "0",
-        "0",
-        "0"
+        0,
+        7,
+        0,
+        0,
+        0
       ],
       "health": 75
     },
     "Shrine": {
       "cost": [
-        "0",
-        "7",
-        "0",
-        "0",
-        "0"
+        0,
+        7,
+        0,
+        0,
+        0
       ],
       "health": 75
     },
     "Dancing bear": {
       "cost": [
-        "10",
-        "0",
-        "0",
-        "0",
-        "25"
+        10,
+        0,
+        0,
+        0,
+        25
       ],
       "health": 50
     }
@@ -936,7 +937,8 @@
       "health": 1000,
       "arrowDamage": 5000,
       "xbowDamage": 5000,
-      "baseMeleeDamage": 5
+      "baseMeleeDamage": 5,
+      "meleeImmunity": true
     },
     "Lord": {
       "xbowDamage": 250,
@@ -1046,6 +1048,7 @@
       "xbowDamage": 6000,
       "stoneDamage": 400,
       "baseMeleeDamage": 250,
+      "health": 12500,
       "meleeDamageVs": {
         "Tunneler": 150,
         "European archer": 225,
@@ -1083,7 +1086,8 @@
       "fortificationDamage": 5,
       "wallDamage": 3,
       "jesterUnfriendly": true,
-      "powerLevel": 16
+      "powerLevel": 20,
+      "goldCost": 70
     },
     "Arabian horse archer": {
       "health": 15000,
@@ -1117,7 +1121,7 @@
       "speedLevel": 2,
       "buildingDamage": 100,
       "fortificationDamage": 10,
-      "powerLevel": 20
+      "powerLevel": 16
     },
     "Arabian firethrower": {
       "health": 10000,
@@ -1200,42 +1204,24 @@
     "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -350, -500, -750, -1000],
     "gold": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "4.20"]
   },
-  "population_gathering_rate": {
-    "Skirmish": {
-      "0":  -40,
-      "5":  -20,
-      "10": -10,
-      "15": -8,
-      "20": -6,
-      "25": -5,
-      "30": -4,
-      "35": -3,
-      "40": -2,
-      "45": -1,
-      "50":  5,
-      "55":  8,
-      "60":  12,
-      "65":  16,
-      "70":  20,
-      "75":  24,
-      "80":  28,
-      "85":  32,
-      "90":  36,
-      "95":  40,
-      "100": 40
-    }
+  "population": {
+    "gathering_rate_skirmish": [
+      -40, -20, -10, -8, -6, -5, -4, -3, -2, -1, 5, 8, 12, 16, 20, 24, 28, 32, 36, 40, 40
+    ]
   },
   "beer": {
-    "thresholds": [16, 38, 66, 100],
-    "flagons_per_beer": 120
+    "thresholds": [20, 40, 80, 100],
+    "multipliers": [3, 2, 2, 1],
+    "flagons_per_beer": 120,
+    "flagon_cap": 400
   },
   "food": {
     "ration_bonuses": [-250, -125, 125, 250],
     "variety_bonuses": [25, 75, 125]
   },
   "religion": {
-    "thresholds": [23, 42, 63, 82],
-    "bonuses": [50, 100, 175, 250],
+    "thresholds": [20, 42, 64, 84],
+    "multipliers": [2, 3, 3, 4],
     "cathedral_bonus": 45,
     "church_bonus": 30
   },
@@ -1253,9 +1239,25 @@
   },
   "castle": {
     "ditch_per_pitch": 2,
-    "dog_trigger_threshold": 18
+    "dog_trigger_threshold": 16,
+    "fire_damage": 75
   },
-  "enable_iron_double_pickup": true,
-  "enable_ai_ascension": true
+  "ranges": {
+    "archer_range": 40,
+    "xbow_range": 40,
+    "arabbow_range": 40,
+    "horse_archer_range": 40,
+    "slinger_range": 18,
+    "firethrower_range": 11,
+    "catapult_range": 57,
+    "treb_range": 68,
+    "fbal_range": 40,
+    "towerbal_range": 68,
+    "mangonel_range": 54
+  },
+  "increase_minimap_unit_size": true,
+  "reduce_height_advantage": true,
+  "disable_rally_runners": true,
+  "enable_iron_double_pickup": true
 }
   

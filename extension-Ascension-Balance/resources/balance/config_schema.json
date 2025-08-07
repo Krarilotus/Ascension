@@ -600,9 +600,9 @@
               "type": "boolean",
               "description": "Whether the unit does not want jester to visit him."
             },
-            "meleeImmunity": {
+            "canAvoidPits": {
               "type": "boolean",
-              "description": "Whether the unit can walk over killing pits without triggering them, gets engaged in melee combat. It also disables the unit to be able to fight at all in melee combat."
+              "description": "Whether the unit can walk over killing pits without triggering them."
             }
           }
         }

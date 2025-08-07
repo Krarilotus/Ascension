@@ -1,7 +1,7 @@
 name: Ascension-AI-Balance
 author: Krarilotus
-version: 1.0.6
+version: 1.1.1
 dependencies:
-  rebalancer: ^1.0.6
+  rebalancer: ^1.1.1
 type: plugin
 display-name: Ascension-AI-Balance
