@@ -5,7 +5,7 @@ dependencies:
   startResources: ^1.0.0
   graphicsApiReplacer: ^1.2.0
   ucp2-legacy: ^2.15.1
-  Ascension-Maps: ^1.0.1
+  Ascension-Maps: ^1.0.2
   Ascension-Balance: ^1.1.2
   Ascension-AI: ^1.0.0
   framework: ">=3.0.5"
