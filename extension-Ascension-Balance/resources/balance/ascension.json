@@ -1135,9 +1135,8 @@
     }
   },
   "fear_factor": {
-    "popularity_per_good_level": 35,
-    "popularity_per_bad_level": 35,
-    "productivity": [180, 166, 151, 135, 118, 100, 92, 84, 76, 68, 60],
+    "popularity_table": [-175, -125, -75, -50, -25, 0, 50, 100, 125, 150, 175],
+    "productivity": [180, 164, 148, 132, 116, 100, 92, 84, 76, 68, 60],
     "combat_bonus": [80, 84, 88, 92, 96, 100, 108, 116, 124, 132, 140],
     "coverage": 4,
     "resting_factor": 2

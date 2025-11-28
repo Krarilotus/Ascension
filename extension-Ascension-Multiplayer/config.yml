@@ -150,23 +150,6 @@ config-sparse:
           enabled:
             contents:
               required-value: true
-        o_shfy:
-          o_shfy_beer:
-            enabled:
-              contents:
-                required-value: false
-          o_shfy_religion:
-            enabled:
-              contents:
-                required-value: false
-          o_shfy_peasantspawnrate:
-            enabled:
-              contents:
-                required-value: false
-          o_shfy_resourcequantity:
-            enabled:
-              contents:
-                required-value: false
         u_arabwall:
           enabled:
             contents:
@@ -335,65 +318,99 @@ config-sparse:
                     lord: true
                     startTroops: true
               frederick:
-                - name: Ascension Frederick
-                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                - name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               phillip:
-                - name: Ascension Phillip
-                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                - name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               wazir:
-                - name: Ascension Wazir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                - name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               emir:
-                - name: Ascension Emir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                - name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               nizar:
-                - name: Ascension Nizar
-                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                - name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               sheriff:
-                - name: Ascension Sheriff
-                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                - name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               marshal:
-                - name: Ascension Marshal
-                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                - name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
                     startTroops: true
               abbot:
-                - name: Ascension-Abbot
-                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                - name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
                   control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
@@ -606,201 +623,409 @@ config-sparse:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Frederick
-                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Frederick
-                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Frederick
-                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Frederick
-                  root: ucp/plugins/Ascension-AI/resources/ai/Frederick/
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Bodo, die Korrupte Wache
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Bodo/
                   active: true
           phillip:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Phillip
-                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Phillip
-                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Phillip
-                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Phillip
-                  root: ucp/plugins/Ascension-AI/resources/ai/Phillip/
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Bürgermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Buergermeister/
                   active: true
           wazir:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Wazir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Wazir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Wazir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Wazir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Wazir/
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Ecoente
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
+                    Ecoerente/
                   active: true
           emir:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Emir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Emir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Emir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Emir
-                  root: ucp/plugins/Ascension-AI/resources/ai/Emir/
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Henry
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal
+                    (Henry)/
                   active: true
           nizar:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Nizar
-                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Nizar
-                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Nizar
-                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Nizar
-                  root: ucp/plugins/Ascension-AI/resources/ai/Nizar/
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Klostermeister
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Klostermeister/
                   active: true
           sheriff:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Sheriff
-                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Sheriff
-                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Sheriff
-                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Sheriff
-                  root: ucp/plugins/Ascension-AI/resources/ai/Sheriff/
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Meuchler/
                   active: true
           marshal:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension Marshal
-                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension Marshal
-                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension Marshal
-                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension Marshal
-                  root: ucp/plugins/Ascension-AI/resources/ai/Marshal/
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Schwert Meuchler
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/SchwertMeuchler/
                   active: true
           abbot:
             aic:
               contents:
                 suggested-value:
-                  name: Ascension-Abbot
-                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ascension-Abbot
-                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ascension-Abbot
-                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ascension-Abbot
-                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
+                  active: true
+            binks:
+              contents:
+                suggested-value:
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: William Marshal
+                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/WilliamMarshal/
                   active: true
     startResources:
       config:
@@ -1412,12 +1637,48 @@ config-sparse:
               FireBallista:
                 contents:
                   required-value: 0
+    automarket:
+      config:
+        logic:
+          marketFee:
+            contents:
+              suggested-value:
+                enabled: true
+                sliderValue: 5
+    running-units:
+      config:
+        macemen:
+          running:
+            general:
+              contents:
+                suggested-value: true
+        slingers:
+          running:
+            general:
+              contents:
+                suggested-value: true
+        slaves:
+          running:
+            general:
+              contents:
+                suggested-value: true
+        spearmen:
+          running:
+            general:
+              contents:
+                suggested-value: true
+    ai-ox-tethers:
+      config: {}
+    steam-multiplayer:
+      config: {}
   plugins:
+    Schlossgespenst-Ascension-PvE-Pressure-AI:
+      config: {}
+    Ascension-AI:
+      config: {}
     Ascension-Maps:
       config: {}
     Ascension-Balance:
-      config: {}
-    Ascension-AI:
       config: {}
 meta:
   version: 1.0.0

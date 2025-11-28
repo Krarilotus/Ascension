@@ -6,7 +6,12 @@ dependencies:
   graphicsApiReplacer: ^1.2.0
   ucp2-legacy: ^2.15.1
   Ascension-Maps: ^1.0.2
-  Ascension-Balance: ^1.1.2
+  Ascension-Balance: ^1.1.3
   Ascension-AI: ^1.0.0
-  framework: ">=3.0.5"
-  frontend: ">=1.0.9"
+  running-units: ^1.0.2
+  ai-ox-tethers: ^1.0.3
+  automarket: ^1.0.0
+  steam-multiplayer: ^1.0.0
+  Schlossgespenst-Ascension-PvE-Pressure-AI: ^1.0.0
+type: plugin
+display-name: Ascension-Multiplayer
