@@ -50,7 +50,7 @@ config-sparse:
         ai_tethers:
           enabled:
             contents:
-              required-value: true
+              required-value: false
         ai_towerengines:
           enabled:
             contents:
@@ -342,14 +342,9 @@ config-sparse:
                     lord: true
                     startTroops: true
               wazir:
-                - name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
+                - name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
                   control:
-                    binks: true
-                    speech: true
-                    lines: true
-                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
@@ -721,58 +716,26 @@ config-sparse:
             aic:
               contents:
                 suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
-                  active: true
-            binks:
-              contents:
-                suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
-                  active: true
-            speech:
-              contents:
-                suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
-                  active: true
-            lines:
-              contents:
-                suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
-                  active: true
-            portrait:
-              contents:
-                suggested-value:
-                  name: Ecoente
-                  root: ucp/plugins/Schlossgespenst-Ascension-PvE-Pressure-AI/resources/ai/Die
-                    Ecoerente/
+                  name: Ascension-Abbot
+                  root: ucp/plugins/Ascension-AI/resources/ai/Abbot/
                   active: true
           emir:
             aic:
@@ -1663,7 +1626,11 @@ config-sparse:
               contents:
                 suggested-value: true
     ai-ox-tethers:
-      config: {}
+      config:
+        oxtethers:
+          enabled:
+            contents:
+              suggested-value: true
     steam-multiplayer:
       config: {}
   plugins:
