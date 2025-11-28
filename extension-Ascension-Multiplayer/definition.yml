@@ -1,6 +1,6 @@
 name: Ascension-Multiplayer
 author: Ascension Group
-version: 1.0.6
+version: 1.0.7
 dependencies:
   startResources: ^1.0.0
   graphicsApiReplacer: ^1.2.0
