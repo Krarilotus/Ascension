@@ -17,7 +17,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "health": 200
     },
     "Woodcutter hut": {
       "cost": [
@@ -31,13 +32,13 @@
     },
     "Ox tether": {
       "cost": [
-        8,
+        5,
         0,
         0,
         0,
         0
       ],
-      "health": 60
+      "health": 100
     },
     "Iron mine": {
       "cost": [
@@ -71,11 +72,11 @@
     },
     "Hunters hut": {
       "cost": [
-        8,
+        3,
         0,
         0,
         0,
-        0
+        20
       ],
       "health": 60
     },
@@ -102,6 +103,13 @@
       "health": 300
     },
     "Fletcher": {
+      "cost": [
+        18,
+        0,
+        0,
+        0,
+        100
+      ],
       "health": 400
     },
     "Blacksmith": {
@@ -135,18 +143,18 @@
     },
     "Tanner": {
       "cost": [
-        10,
+        15,
+        3,
         0,
         0,
-        0,
-        50
+        75
       ],
       "health": 200
     },
     "Bakery": {
       "cost": [
-        12,
-        0,
+        10,
+        2,
         0,
         0,
         0
@@ -184,11 +192,11 @@
     },
     "Tunnelers guild": {
       "cost": [
-        15,
+        10,
         0,
         0,
         0,
-        0
+        30
       ],
       "health": 300
     },
@@ -224,43 +232,44 @@
     },
     "Wheat farm": {
       "cost": [
-        18,
+        13,
         0,
         0,
         0,
-        0
+        15
       ],
       "health": 200
     },
     "Hop farm": {
       "cost": [
-        15,
+        10,
         0,
         0,
         0,
-        20
+        35
       ],
       "health": 250,
       "housing": 1
     },
     "Apple farm": {
       "cost": [
-        8,
+        3,
         0,
         0,
         0,
-        0
+        15
       ],
-      "health": 60
+      "health": 100
     },
     "Dairy farm": {
       "cost": [
-        12,
+        7,
         0,
         0,
         0,
-        0
-      ]
+        15
+      ],
+      "health": 150
     },
     "Mill": {
       "cost": [
@@ -285,7 +294,7 @@
     "Chapel": {
       "cost": [
         0,
-        8,
+        10,
         0,
         0,
         75
@@ -350,7 +359,7 @@
     },
     "Gallows": {
       "cost": [
-        35,
+        30,
         0,
         0,
         0,
@@ -364,13 +373,13 @@
         0,
         0,
         0,
-        45
+        32
       ],
       "health": 50
     },
     "Maypole": {
       "cost": [
-        15,
+        10,
         0,
         0,
         0,
@@ -384,7 +393,7 @@
         4,
         0,
         0,
-        25
+        12
       ],
       "health": 75
     },
@@ -524,13 +533,13 @@
         0,
         0,
         0,
-        80
+        65
       ],
       "health": 75
     },
     "Burning stake": {
       "cost": [
-        10,
+        5,
         0,
         0,
         3,
@@ -540,9 +549,9 @@
     },
     "Gibbet": {
       "cost": [
-        5,
+        15,
         0,
-        2,
+        1,
         0,
         0
       ],
@@ -551,7 +560,7 @@
     "Dungeon": {
       "cost": [
         0,
-        8,
+        7,
         0,
         0,
         0
@@ -564,7 +573,7 @@
         0,
         2,
         0,
-        10
+        0
       ],
       "health": 50
     },
@@ -574,33 +583,33 @@
         4,
         0,
         0,
-        45
+        32
       ]
     },
     "Dunking stool": {
       "cost": [
-        20,
+        15,
         0,
         0,
         0,
-        25
+        20
       ],
       "health": 75
     },
     "Dog cage": {
       "cost": [
-        10,
+        5,
         0,
         0,
         0,
-        50
+        75
       ],
       "health": 300
     },
     "Statue": {
       "cost": [
         0,
-        7,
+        5,
         0,
         0,
         0
@@ -610,7 +619,7 @@
     "Shrine": {
       "cost": [
         0,
-        7,
+        5,
         0,
         0,
         0
@@ -619,11 +628,11 @@
     },
     "Dancing bear": {
       "cost": [
-        10,
+        6,
         0,
         0,
         0,
-        25
+        20
       ],
       "health": 50
     }
@@ -672,11 +681,12 @@
       "sell": 120
     },
     "Flour": {
-      "sell": 70
+      "buy": 145,
+      "sell": 75
     },
     "Bow": {
-      "buy": 160,
-      "sell": 80
+      "buy": 180,
+      "sell": 90
     },
     "Xbow": {
       "buy": 270
@@ -695,7 +705,7 @@
     },
     "Leather": {
       "buy": 160,
-      "sell": 60
+      "baseDelivery": 2
     },
     "Armor": {
       "buy": 400,
@@ -705,8 +715,8 @@
   "units": {
     "Tunneler": {
       "health": 20000,
-      "arrowDamage": 3000,
-      "xbowDamage": 10000,
+      "arrowDamage": 2400,
+      "xbowDamage": 6500,
       "stoneDamage": 800,
       "baseMeleeDamage": 25,
       "meleeDamageVs": {
@@ -714,7 +724,7 @@
         "European archer": 20,
         "European crossbowman": 20,
         "European spearman": 20,
-        "European pikeman": 20,
+        "European pikeman": 15,
         "European maceman": 20,
         "European swordsman": 10,
         "European knight": 10,
@@ -728,7 +738,7 @@
         "Lion": 20,
         "Rabbit": 20,
         "Camel": 20,
-        "Lord": 20,
+        "Lord": 15,
         "Siege tower": 60,
         "Battering ram": 60,
         "Portable shield": 60,
@@ -741,7 +751,7 @@
         "Arabian slinger": 30,
         "Arabian assassin": 20,
         "Arabian horse archer": 20,
-        "Arabian swordsman": 20,
+        "Arabian swordsman": 15,
         "Arabian firethrower": 20,
         "Fire ballista": 60
       },
@@ -753,7 +763,7 @@
     },
     "European archer": {
       "health": 10000,
-      "xbowDamage": 8000,
+      "xbowDamage": 5600,
       "arrowDamage": 1800,
       "meleeDamageVs": {
         "European swordsman": 5,
@@ -792,8 +802,7 @@
         "European swordsman": 15,
         "European knight": 35,
         "Arabian slave": 50,
-        "Arabian slinger": 37,
-        "Arabian horse archer": 50
+        "Arabian slinger": 37
       },
       "goldCost": 5,
       "buildingDamage": 10,
@@ -804,7 +813,7 @@
     "European pikeman": {
       "health": 100000,
       "xbowDamage": 4000,
-      "stoneDamage": 650,
+      "stoneDamage": 500,
       "baseMeleeDamage": 25,
       "meleeDamageVs": {
         "European knight": 50,
@@ -821,6 +830,7 @@
     },
     "European maceman": {
       "health": 25000,
+      "xbowDamage": 4000,
       "baseMeleeDamage": 75,
       "meleeDamageVs": {
         "European archer": 125,
@@ -888,9 +898,9 @@
       "arrowDamage": 800,
       "stoneDamage": 800,
       "xbowDamage": 1500,
-      "powerLevel": 2,
-      "health": 10000,
-      "goldCost": 8
+      "powerLevel": 3,
+      "health": 20000,
+      "goldCost": 20
     },
     "Engineer": {
       "arrowDamage": 500,
@@ -906,7 +916,7 @@
         "Arabian slave": 100,
         "Arabian slinger": 75
       },
-      "goldCost": 8,
+      "goldCost": 10,
       "wallDamage": 2,
       "powerLevel": 5
     },
@@ -914,8 +924,8 @@
       "health": 20000,
       "arrowDamage": 500,
       "mangonelDamage": 10000,
-      "ballistaBoltDamage": 3600,
-      "powerLevel": 35
+      "ballistaBoltDamage": 3200,
+      "powerLevel": 50
     },
     "Trebuchet": {
       "health": 60000,
@@ -923,7 +933,8 @@
       "xbowDamage": 2500,
       "stoneDamage": 400,
       "mangonelDamage": 15000,
-      "ballistaBoltDamage": 10000
+      "ballistaBoltDamage": 7500,
+      "powerLevel": 50
     },
     "Mangonel": {
       "health": 20000,
@@ -931,7 +942,8 @@
       "xbowDamage": 3000,
       "stoneDamage": 500,
       "mangonelDamage": 1000,
-      "ballistaBoltDamage": 5000
+      "ballistaBoltDamage": 5000,
+      "powerLevel": 35
     },
     "Hunter dog": {
       "health": 1000,
@@ -990,18 +1002,19 @@
       "ballistaBoltDamage": 5000
     },
     "Dog": {
-      "health": 10000,
-      "arrowDamage": 5000,
+      "health": 20000,
+      "arrowDamage": 10000,
       "xbowDamage": 15000,
-      "baseMeleeDamage": 200,
+      "stoneDamage": 4000,
+      "baseMeleeDamage": 80,
       "meleeDamageVs": {
-        "European pikeman": 150,
-        "European swordsman": 100,
-        "European knight": 100,
-        "Lord": 75,
-        "Arabian slave": 400,
-        "Arabian slinger": 300,
-        "Arabian swordsman": 150
+        "European pikeman": 60,
+        "European swordsman": 40,
+        "European knight": 40,
+        "Lord": 30,
+        "Arabian slave": 160,
+        "Arabian slinger": 120,
+        "Arabian swordsman": 60
       }
     },
     "Arabian archer": {
@@ -1024,15 +1037,21 @@
       "powerLevel": 8
     },
     "Arabian slave": {
+      "health": 15000,
+      "xbowDamage": 8000,
       "meleeDamageVs": {
         "European swordsman": 5,
         "European knight": 5,
         "Trebuchet": 10
       },
       "buildingDamage": 1,
-      "powerLevel": 1
+      "powerLevel": 1,
+      "goldCost": 12
     },
     "Arabian slinger": {
+      "arrowDamage": 2800,
+      "xbowDamage": 4000,
+      "stoneDamage": 2500,
       "meleeDamageVs": {
         "European crossbowman": 15,
         "European swordsman": 10,
@@ -1107,21 +1126,22 @@
       "powerLevel": 15
     },
     "Arabian swordsman": {
-      "health": 28000,
-      "xbowDamage": 2500,
-      "stoneDamage": 140,
-      "baseMeleeDamage": 180,
+      "health": 42000,
+      "xbowDamage": 3200,
+      "stoneDamage": 210,
+      "arrowDamage": 400,
+      "baseMeleeDamage": 140,
       "meleeDamageVs": {
-        "European swordsman": 120,
-        "European knight": 120,
-        "Arabian slave": 360,
-        "Arabian slinger": 270
+        "European swordsman": 100,
+        "European knight": 100,
+        "Arabian slave": 280,
+        "Arabian slinger": 210
       },
-      "goldCost": 100,
+      "goldCost": 140,
       "speedLevel": 2,
       "buildingDamage": 100,
       "fortificationDamage": 10,
-      "powerLevel": 16
+      "powerLevel": 21
     },
     "Arabian firethrower": {
       "health": 10000,
@@ -1193,16 +1213,15 @@
     }
   },
   "fear_factor": {
-    "popularity_per_good_level": 50,
-    "popularity_per_bad_level": 50,
-    "productivity": [180, 166, 151, 135, 118, 100, 92, 84, 76, 68, 60],
+    "popularity_table": [-175, -125, -75, -50, -25, 0, 50, 100, 125, 150, 175],
+    "productivity": [180, 164, 148, 132, 116, 100, 92, 84, 76, 68, 60],
     "combat_bonus": [80, 84, 88, 92, 96, 100, 108, 116, 124, 132, 140],
     "coverage": 4,
     "resting_factor": 2
   },
   "taxation": {
-    "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -350, -500, -750, -1000],
-    "gold": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.75", "1.10", "1.45", "1.80", "2.40", "3.20", "4.20"]
+    "popularity": [225, 125, 25, -25, -75, -125, -200, -275, -375, -500, -750, -1000],
+    "gold": ["1.50", "0.50", "0.00", "0.25", "0.50", "0.70", "1.00", "1.30", "1.65", "2.00", "2.75", "4.00"]
   },
   "population": {
     "gathering_rate_skirmish": [
@@ -1220,14 +1239,14 @@
     "variety_bonuses": [25, 75, 125]
   },
   "religion": {
-    "thresholds": [20, 42, 64, 84],
-    "multipliers": [2, 3, 3, 4],
+    "thresholds": [20, 56, 61, 92],
+    "multipliers": [2, 2, 3, 4],
     "cathedral_bonus": 45,
     "church_bonus": 30
   },
   "siege": {
     "enable_half_siege_ammo": true,
-    "catapultRockDamage": 60,
+    "catapultRockDamage": 40,
     "catapultRockCollateralDamage": 15,
     "trebuchetRockDamage": 120,
     "trebuchetRockCollateralPenalty": -90,
@@ -1251,7 +1270,7 @@
     "firethrower_range": 11,
     "catapult_range": 57,
     "treb_range": 68,
-    "fbal_range": 40,
+    "fbal_range": 39,
     "towerbal_range": 68,
     "mangonel_range": 54
   },
