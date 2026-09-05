@@ -1,6 +1,6 @@
 name: Ascension-Multiplayer
 author: Ascension Group
-version: 1.0.9
+version: 1.0.10
 dependencies:
   startResources: ^1.0.0
   graphicsApiReplacer: ^1.2.0
@@ -10,7 +10,7 @@ dependencies:
   Ascension-AI: ^1.0.0
   running-units: ^1.0.2
   ai-ox-tethers: ^1.0.3
-  automarket: ^1.0.0
+  automarket: ^1.1.0
   steam-multiplayer: ^1.0.0
   Schlossgespenst-Ascension-PvE-Pressure-AI: ^1.0.0
 type: plugin
