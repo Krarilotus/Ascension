@@ -2,6 +2,10 @@
 
 **Ascension Multiplayer Balance Mod** redefines the multiplayer experience of Stronghold Crusader, transforming it into a competitive, fast-paced RTS-style game. Built on the **Unofficial Crusader Patch**, it introduces enhanced gameplay mechanics, balanced starting conditions, bug fixes, and a finely-tuned economy system for dynamic multiplayer action.  
 
+## Automarket update (1.0.10)
+
+Requires Automarket **1.1.0 or newer within 1.x**, including multiplayer synchronization and trading fee fixes. All participants must use the same Automarket version. For saves made with Automarket 1.0.0, each player must confirm **Save & Close** in Automarket before automated trading resumes.
+
 ---
 
 ## **Core Features**  
