@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.11
+
+- Require Ascension-Balance 1.1.4 or a compatible newer 1.x release for the wood economy changes from issue #32: 3-wood woodcutters, 10 base / 15 skirmish wood delivery, and focused building wood-cost reductions.
+- Set iron mines to 15 wood, 4 stone and 900 HP (previously 20 wood and 300 HP).
+- Preserve existing starting resources, stockpiles and other dependency requirements.
+
 ## 1.0.10
 
 - Require Automarket 1.1.0 or a compatible newer 1.x release, bringing the multiplayer settings-packet fix, synchronized per-player fees, and corrected trade accounting into the preset.
