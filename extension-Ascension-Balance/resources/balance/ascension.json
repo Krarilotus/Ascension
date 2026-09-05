@@ -40,13 +40,13 @@
     },
     "Iron mine": {
       "cost": [
-        30,
-        0,
+        15,
+        4,
         0,
         0,
         0
       ],
-      "health": 450
+      "health": 900
     },
     "Pitch rig": {
       "cost": [
