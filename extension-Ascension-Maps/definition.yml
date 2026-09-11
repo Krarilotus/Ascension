@@ -1,8 +1,12 @@
 name: Ascension-Maps
 author: Ascension Group inlcuding Altaruss'28, CIO61, Lord Hühnerfutter, F2erni8, Krarilotus, Crusader Pilaw, Heroesflorian and more
-version: 1.0.2
+version: 1.0.3
 dependencies:
   files: ^1.2.0
   maploader: ^1.0.0
 type: plugin
 display-name: Ascension-Maps
+tags:
+- maps
+family:
+- name: ascension

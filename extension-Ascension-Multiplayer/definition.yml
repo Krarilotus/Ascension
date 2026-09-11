@@ -1,6 +1,6 @@
 name: Ascension-Multiplayer
 author: Ascension Group
-version: 1.0.11
+version: 1.0.12
 dependencies:
   startResources: ^1.0.0
   graphicsApiReplacer: ^1.2.0
@@ -15,3 +15,10 @@ dependencies:
   Schlossgespenst-Ascension-PvE-Pressure-AI: ^1.0.0
 type: plugin
 display-name: Ascension-Multiplayer
+tags:
+- modpack
+- balance
+- multiplayer
+family:
+- name: ascension
+  root: true
