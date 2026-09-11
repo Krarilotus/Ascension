@@ -22,8 +22,3 @@ tags:
 family:
 - name: ascension
   root: true
-capabilities:
-  files: false
-  code: false
-  configuration: true
-  options: false

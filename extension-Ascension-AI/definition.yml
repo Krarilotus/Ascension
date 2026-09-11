@@ -12,8 +12,3 @@ tags:
 - aiv
 family:
 - name: ascension
-capabilities:
-  files: true
-  code: false
-  configuration: false
-  options: false

@@ -11,8 +11,3 @@ tags:
 - multiplayer
 family:
 - name: ascension
-capabilities:
-  files: true
-  code: false
-  configuration: true
-  options: false
