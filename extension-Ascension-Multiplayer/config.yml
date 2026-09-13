@@ -1357,7 +1357,7 @@ config-sparse:
                   required-value: 0
               Knight:
                 contents:
-                  required-value: .nan
+                  required-value: 0
               Swordsman:
                 contents:
                   required-value: 10
