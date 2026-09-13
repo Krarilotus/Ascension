@@ -1,8 +1,14 @@
 name: Ascension-AI
 display-name: "Ascension AI"
 author: Ascension Group
-version: 1.0.0
+version: 1.0.1
 dependencies: 
   aiSwapper: ^1.0.1
   framework: ^3.0.5
   frontend: ^1.0.0
+tags:
+- ai
+- aic
+- aiv
+family:
+- name: ascension
