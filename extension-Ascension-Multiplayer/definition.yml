@@ -1,13 +1,13 @@
 name: Ascension-Multiplayer
 author: Ascension Group
-version: 1.0.12
+version: 1.0.13
 dependencies:
   startResources: ^1.0.0
   graphicsApiReplacer: ^1.2.0
   ucp2-legacy: ^2.15.1
-  Ascension-Maps: ^1.0.2
-  Ascension-Balance: ^1.1.4
-  Ascension-AI: ^1.0.0
+  Ascension-Maps: ^1.0.3
+  Ascension-Balance: ^1.1.5
+  Ascension-AI: ^1.0.1
   running-units: ^1.0.2
   ai-ox-tethers: ^1.0.3
   automarket: ^1.1.0
