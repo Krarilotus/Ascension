@@ -1,0 +1,22 @@
+# Ascension Balance
+
+这是一个旨在改善游戏体验的插件，尤其适合竞技多人游戏或与朋友对战。这套著名的 Ascension 多人平衡遵循以下核心原则：
+
+- **克制防守型远程部队**：提供更多战略手段来对抗占据高地的防守型远程部队。
+- **增强地图规模感**：通过缩短远程单位的射程，让地图显得更加广阔。
+- **降低远程伤害**：减少远程攻击、火焰和范围伤害对部队造成的伤害。
+- **重制攻城器械**：让攻城器械成本更高、威力更强，并突出其专业用途。
+- **通过武器选择推进游戏**：利用有意义的武器升级提供平衡的成长过程。
+- **重制声望系统**：让每个声望因素都具有实际作用和影响力。
+- **调整建筑成本**：精细调整高级建筑的石材和铁资源消耗，使游戏进程更加顺畅。
+- **平衡商品价格**：根据商品的用途和价值调整价格。
+- **强化城墙**：使城墙更能抵抗普通攻击。
+- **明确单位定位**：为各单位赋予清晰角色，例如长枪兵负责承受伤害、骑士负责突袭、隧道兵负责摧毁建筑和城墙。
+- **竞技多人游戏**：0 初始黄金且没有和平时间，适合流畅推进和高强度对战。
+
+[SHC 原版数据](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
+
+已过时！
+[SHC Ascension 数据](https://docs.google.com/spreadsheets/d/1T1fL5BTnvbZoO3EIIa-uT5fa8t21MAED6bT9jbcGGaw/edit?usp=sharing)
+
+[v1.9.9d 更新日志](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionChangelog-1.9.9d.md)
