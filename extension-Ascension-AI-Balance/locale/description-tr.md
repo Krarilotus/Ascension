@@ -1,14 +1,14 @@
 # Ascension AI Balance
 
-Bu denge, yapay zekâ savaşlarını ve yapay zekâya karşı oyunları geliştirmek için hazırlanmıştır. Tanınmış Ascension çok oyunculu dengesinden esinlenir ve şu ilkelere dayanır:
+Özellikle yapay zekâ rakiplerine karşı yapılan savaşlarda oyun deneyimini geliştirmek için tasarlanmış bir eklentidir. Bu denge, tanınmış Ascension çok oyunculu dengesinden esinlenir ve şu temel ilkeleri izler:
 
-- Savunmadaki menzilli birliklere karşılık: yüksek zemindeki atıcılara daha fazla taktik seçenek.
-- Daha büyük hissedilen haritalar: azaltılmış menzil, oyun alanını geniş hissettirir.
-- Daha az menzilli hasar: birliklere yönelik atış, ateş ve alan hasarı azaltılır.
-- Kuşatma araçlarının yenilenmesi: daha pahalı ve güçlü araçlarla güç ve yoğunlaşma öne çıkar.
-- Silah seçenekleriyle ilerleme: anlamlı silah geliştirmeleriyle dengeli gelişim.
-- Popülerliğin yenilenmesi: her etken önemli ve etkili olur.
-- Bina maliyetleri: gelişmiş binaların taş ve demir maliyetleri akıcı ilerleme için ayarlanır.
-- Mal fiyatları: yararlarına ve oyundaki rollerine göre düzenlenir.
-- Daha güçlü surlar: normal saldırılara daha fazla direnç.
-- Belirgin birlik rolleri: darbe karşılayan mızraklılar, baskıncı şövalyeler, yapı ve sur yıkan tünelciler.
+- **Savunmacı menzilli birliklere karşı seçenekler**: Yüksek konumlara yerleştirilen menzilli birliklere karşı daha fazla stratejik seçenek sağlar.
+- **Harita boyutu hissi**: Menzilli birliklerin menzilini azaltarak haritaların daha büyük hissedilmesini sağlar.
+- **Azaltılmış menzilli hasar**: Menzilli saldırıların, ateşin ve alan etkili saldırıların birliklere verdiği hasarı azaltır.
+- **Kuşatma makinelerinin yenilenmesi**: Kuşatma makinelerini daha pahalı, güçlü ve uzmanlaşmış hâle getirir.
+- **Silah seçenekleriyle ilerleme**: Anlamlı silah yükseltmeleriyle dengeli bir gelişim sunar.
+- **Popülerlik sisteminin yenilenmesi**: Her popülerlik etkenini önemli ve etkili hâle getirir.
+- **Bina maliyetlerinin ayarlanması**: İleri düzey binaların taş ve demir maliyetlerini akıcı bir gelişim için düzenler.
+- **Dengeli ürün fiyatları**: Ürün fiyatlarını yararlarına ve rollerine göre ayarlar.
+- **Güçlendirilmiş duvarlar**: Duvarları normal saldırılara karşı daha dayanıklı yapar.
+- **Belirgin birlik rolleri**: Her birliğe açık bir rol verir; örneğin mızraklılar savunmacı, şövalyeler baskıncı, tünelciler ise bina ve duvar yıkıcıdır.

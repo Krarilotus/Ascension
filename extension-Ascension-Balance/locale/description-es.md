@@ -1,21 +1,22 @@
 # Ascension Balance
 
-Este conocido equilibrio multijugador Ascension mejora las partidas competitivas y con amigos. Sus principios son:
+Un complemento diseñado para mejorar la experiencia de juego, especialmente en partidas multijugador competitivas o con amigos. Este reconocido equilibrio multijugador de Ascension sigue estos principios fundamentales:
 
-- Respuestas a los tiradores defensivos: más opciones tácticas contra tropas a distancia en terreno elevado.
-- Mapas que parecen mayores: reducir el alcance amplía el espacio de juego percibido.
-- Menos daño a distancia: se reduce el daño de proyectiles, fuego y área contra las tropas.
-- Asedio renovado: máquinas más caras y potentes que destacan por su fuerza y concentración.
-- Progresión mediante armas: avances equilibrados con mejoras de armamento significativas.
-- Popularidad revisada: todos los factores son relevantes y tienen impacto.
-- Costes de edificios: ajustes de piedra y hierro en edificios avanzados para una progresión fluida.
-- Precios de bienes: según su utilidad y función.
-- Murallas reforzadas: más resistencia a ataques normales.
-- Funciones claras: piqueros para absorber daño, caballeros para incursiones y tuneladores para destruir estructuras y muros.
-- Multijugador competitivo: con 0 de oro inicial y sin tregua, favorece una buena progresión y mucha acción.
+- **Respuesta contra tropas defensivas a distancia**: Crea más opciones estratégicas contra tropas a distancia situadas en terreno elevado.
+- **Mayor sensación de tamaño del mapa**: Hace que los mapas parezcan más grandes al reducir el alcance de las unidades a distancia.
+- **Menor daño a distancia**: Reduce el daño a las tropas causado por ataques a distancia, fuego y efectos de área.
+- **Renovación de las máquinas de asedio**: Hace que sean más costosas y poderosas, con una función más especializada.
+- **Progresión mediante opciones de armas**: Ofrece una progresión equilibrada con mejoras de armas significativas.
+- **Renovación del sistema de popularidad**: Hace que cada factor de popularidad sea relevante e influyente.
+- **Ajuste del coste de los edificios**: Ajusta los costes de piedra y hierro de edificios avanzados para lograr una progresión fluida.
+- **Equilibrio de precios de mercancías**: Adapta los precios a la utilidad y función de cada mercancía.
+- **Refuerzo de murallas**: Hace que las murallas resistan mejor los ataques normales.
+- **Funciones de unidad definidas**: Asigna una función clara a cada unidad, como piqueros resistentes, caballeros para incursiones y excavadores contra edificios y murallas.
+- **Multijugador competitivo**: Con 0 de oro inicial y sin tiempo de paz, el equilibrio favorece una progresión óptima y partidas llenas de acción.
 
-[SHC Vanilla](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
+[Estadísticas originales de SHC](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
 
-**¡Desactualizado!** [SHC Ascension](https://docs.google.com/spreadsheets/d/1T1fL5BTnvbZoO3EIIa-uT5fa8t21MAED6bT9jbcGGaw/edit?usp=sharing)
+¡Desactualizado!
+[Estadísticas de SHC Ascension](https://docs.google.com/spreadsheets/d/1T1fL5BTnvbZoO3EIIa-uT5fa8t21MAED6bT9jbcGGaw/edit?usp=sharing)
 
-[v1.9.9d](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionChangelog-1.9.9d.md)
+[Registro de cambios de v1.9.9d](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionChangelog-1.9.9d.md)

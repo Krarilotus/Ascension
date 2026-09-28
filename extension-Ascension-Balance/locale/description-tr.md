@@ -1,21 +1,22 @@
 # Ascension Balance
 
-Bu tanınmış Ascension çok oyunculu dengesi, rekabetçi oyunları ve arkadaşlarla oynanan maçları geliştirir. İlkeleri şunlardır:
+Özellikle rekabetçi çok oyunculu maçlarda veya arkadaşlarla oynarken oyun deneyimini geliştirmek için tasarlanmış bir eklentidir. Tanınmış Ascension çok oyunculu dengesi şu temel ilkeleri izler:
 
-- Savunmadaki menzilli birliklere karşılık: yüksek zemindeki atıcılara daha fazla taktik seçenek.
-- Daha büyük hissedilen haritalar: azaltılmış menzil, oyun alanını geniş hissettirir.
-- Daha az menzilli hasar: birliklere yönelik atış, ateş ve alan hasarı azaltılır.
-- Kuşatma araçlarının yenilenmesi: daha pahalı ve güçlü araçlarla güç ve yoğunlaşma öne çıkar.
-- Silah seçenekleriyle ilerleme: anlamlı silah geliştirmeleriyle dengeli gelişim.
-- Popülerliğin yenilenmesi: her etken önemli ve etkili olur.
-- Bina maliyetleri: gelişmiş binaların taş ve demir maliyetleri akıcı ilerleme için ayarlanır.
-- Mal fiyatları: yararlarına ve oyundaki rollerine göre düzenlenir.
-- Daha güçlü surlar: normal saldırılara daha fazla direnç.
-- Belirgin birlik rolleri: darbe karşılayan mızraklılar, baskıncı şövalyeler, yapı ve sur yıkan tünelciler.
-- Rekabetçi çok oyunculu: 0 başlangıç altını ve barış süresi olmadan uygun gelişim ve bol aksiyon sağlar.
+- **Savunmacı menzilli birliklere karşı seçenekler**: Yüksek konumlara yerleştirilen menzilli birliklere karşı daha fazla stratejik seçenek sağlar.
+- **Harita boyutu hissi**: Menzilli birliklerin menzilini azaltarak haritaların daha büyük hissedilmesini sağlar.
+- **Azaltılmış menzilli hasar**: Menzilli saldırıların, ateşin ve alan etkili saldırıların birliklere verdiği hasarı azaltır.
+- **Kuşatma makinelerinin yenilenmesi**: Kuşatma makinelerini daha pahalı, güçlü ve uzmanlaşmış hâle getirir.
+- **Silah seçenekleriyle ilerleme**: Anlamlı silah yükseltmeleriyle dengeli bir gelişim sunar.
+- **Popülerlik sisteminin yenilenmesi**: Her popülerlik etkenini önemli ve etkili hâle getirir.
+- **Bina maliyetlerinin ayarlanması**: İleri düzey binaların taş ve demir maliyetlerini akıcı bir gelişim için düzenler.
+- **Dengeli ürün fiyatları**: Ürün fiyatlarını yararlarına ve rollerine göre ayarlar.
+- **Güçlendirilmiş duvarlar**: Duvarları normal saldırılara karşı daha dayanıklı yapar.
+- **Belirgin birlik rolleri**: Her birliğe açık bir rol verir; örneğin mızraklılar savunmacı, şövalyeler baskıncı, tünelciler ise bina ve duvar yıkıcıdır.
+- **Rekabetçi çok oyunculu**: 0 başlangıç altını ve barış süresi olmaması, dengeli gelişim ve yüksek tempolu oyun sağlar.
 
-[SHC Vanilla](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
+[SHC Vanilla İstatistikleri](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?usp=sharing)
 
-**Güncel değil!** [SHC Ascension](https://docs.google.com/spreadsheets/d/1T1fL5BTnvbZoO3EIIa-uT5fa8t21MAED6bT9jbcGGaw/edit?usp=sharing)
+Güncel değil!
+[SHC Ascension İstatistikleri](https://docs.google.com/spreadsheets/d/1T1fL5BTnvbZoO3EIIa-uT5fa8t21MAED6bT9jbcGGaw/edit?usp=sharing)
 
-[v1.9.9d](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionChangelog-1.9.9d.md)
+[v1.9.9d Değişiklik Günlüğü](https://github.com/Krarilotus/Ascension/blob/main/Documentation/AscensionChangelog-1.9.9d.md)

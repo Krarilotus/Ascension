@@ -1,28 +1,34 @@
-# Ascension Multiplayer Balance Mod — Stronghold Crusader
+# **Ascension Multiplayer Balance Mod - Stronghold Crusader**
 
-Ascension Multiplayer Balance Mod macht Stronghold Crusader zu einem wettbewerbsorientierten, schnellen Echtzeitstrategiespiel. Auf Basis des Unofficial Crusader Patch bietet es verbesserte Spielmechaniken, ausgeglichene Startbedingungen, Fehlerkorrekturen und eine fein abgestimmte Wirtschaft für dynamische Mehrspielerpartien.
+![](https://raw.githubusercontent.com/Krarilotus/Ascension/ucp3-ascension/extension-Ascension-Multiplayer/locale/ascension-multiplayer-match.png)
 
-## Automarket-Aktualisierung (1.0.10)
+Die **Ascension Multiplayer Balance Mod** gestaltet das Mehrspieler-Erlebnis von Stronghold Crusader neu und macht daraus ein kompetitives, schnelles Echtzeitstrategiespiel. Aufbauend auf dem **Unofficial Crusader Patch** bietet sie erweiterte Spielmechaniken, ausgeglichene Startbedingungen, Fehlerbehebungen und ein fein abgestimmtes Wirtschaftssystem für dynamische Mehrspielerpartien.
 
-Benötigt Automarket **ab 1.1.0 innerhalb von 1.x**, einschließlich Mehrspieler-Synchronisierung und korrigierter Handelsgebühren. Alle Teilnehmer müssen dieselbe Automarket-Version verwenden. Bei Spielständen aus Automarket 1.0.0 muss jeder Spieler im Automarket **Save & Close** bestätigen, bevor der automatische Handel weitergeht.
+---
 
-## Angepasste Startbedingungen
+## **Kernfunktionen**
 
-- Startressourcen: 100 Holz, 10 Stein, 30 Brot und je 10 der anderen Nahrungssorten.
-- Starttruppen: 2 arabische Bogenschützen, 2 Schleuderer und 1 arabischer Schwertkämpfer.
-- Ausgeglichener Wirtschaftsstart: Kein kostenloses Gold; Wirtschaft und taktische Entscheidungen sind ab der ersten Minute wichtig.
+### **1. Angepasste Startbedingungen**
+- **Startressourcen**: 100 Holz, 10 Stein, 30 Brot sowie je 10 Einheiten der übrigen Nahrungssorten.
+- **Startarmee**: 2 arabische Bogenschützen, 2 Schleuderer und 1 arabischer Schwertkämpfer.
+- **Ausgeglichener Wirtschaftsstart**: Kein kostenloses Gold – dadurch sind sofortiger Wirtschaftsaufbau und taktische Entscheidungen von der ersten Minute an erforderlich.
 
-## Dynamische Wirtschaft und Kämpfe
+---
 
-- Wachsende Wirtschaft: Landwirtschaft, Bergbau und Industrie zwischen Angriff und Verteidigung ausbalancieren.
-- Taktische Kämpfe: Angepasste Einheitenwerte und Kampfregeln machen Truppenmix, Stellung und Kartenkontrolle wichtiger.
-- Flexible Spielweisen: Früh angreifen, verteidigen oder langfristig expandieren.
+### **2. Dynamische Wirtschaft und Kämpfe**
+- **Fortschreitende Wirtschaft**: Verwalte Bauernhöfe, Minen und Produktionsketten und finde dabei das Gleichgewicht zwischen Offensive und Defensive.
+- **Taktische Kämpfe**: Überarbeitete Einheitenwerte und Kampfmechaniken sorgen dafür, dass Armeezusammenstellung, Positionierung und Kartenkontrolle wichtiger sind denn je.
+- **Flexible Spielstile**: Entwickle deine eigene Strategie – ob früher Angriff, Verteidigung oder langfristige Expansion.
 
-## Wettbewerbskarten und KI-Unterstützung
+---
 
-- Über 50 eigene Mehrspielerkarten: Für faires, taktisches Spiel in unterschiedlichen Umgebungen.
-- Ascension-KIs: Auf hohe Effizienz abgestimmt. Achtung: Die Ratten-KI ist ausschließlich als AFK-Kopfgeld-KI für Crossroads ausgelegt.
+### **3. Kompetitives Kartenpaket und KI-Unterstützung**
+- **Über 100 eigene Mehrspielerkarten**: Für faire Partien und taktische Tiefe ausbalanciert, mit abwechslungsreichen Umgebungen für unterschiedliche Spielstile.
+- **Ascension-KIs**: Enthält das [**Ascension-KI-Paket von Krarilotus**](https://github.com/Krarilotus/Vanilla-Retraced) und das separate [**Ascension PvE Pressure-KI-Paket von Schlossgespenst**](https://github.com/Schlossgespensty/Schlossgespenst-Ascension-PvE-Pressure-AI), die beide auf Ascension abgestimmt sind. Die **Ratten-KI** bleibt auf der Karte Crossroads absichtlich untätig und dient als Kopfgeldziel, für dessen Besiegen es eine Belohnung gibt.
 
-## Tritt der Community bei
+---
 
-Finde Mitspieler und Partien und besprich Strategien auf dem offiziellen Ascension-Discord-Server: [Discord](https://www.discord.gg/VhYtb6mBgV)
+### **Tritt der Community bei**
+Finde Mitspieler, verabrede Partien und diskutiere Strategien auf dem **offiziellen Ascension-Discord-Server**:
+
+**[Der Discord-Community beitreten](https://www.discord.gg/VhYtb6mBgV)**

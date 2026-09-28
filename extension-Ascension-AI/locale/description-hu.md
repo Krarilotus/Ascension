@@ -1,10 +1,15 @@
-# Ascension AI — Stronghold Crusader
+# **Ascension AI - Stronghold Crusader**
 
-Az Ascension AI az Ascension Multiplayer Balance Packhez készült kemény ellenfél. Agresszív terjeszkedéssel és szüntelen támadásokkal uralja a csatateret.
+Az **Ascension AI** kíméletlen ellenfél az **Ascension Multiplayer Balance Packhez**. Gyors terjeszkedéssel és szüntelen támadásokkal igyekszik uralni a csatateret.
 
-- Kíméletlen agresszió: ha hagyod, állandó rohamokkal áraszt el.
-- Okos terjeszkedés: gyorsan biztosítja az erőforrásokat és erős gazdaságot épít.
-- Alkalmazkodó hadviselés: kihasználja a gyengeségeket és fenntartja a nyomást.
-- Különleges térkép: a Patkány helyét Pilaw Crossroads térképéhez készült, jutalmat adó MI veszi át.
+### **Főbb jellemzők**
+- **Könyörtelen nyomás**: Ha szabadon hagyod fejlődni, folyamatos rohamaival hamar maga alá gyűr.
+- **Gyors terjeszkedés**: Korán biztosítja az erőforrásokat, és erős gazdaságot épít.
+- **Alkalmazkodó hadviselés**: Kihasználja az ellenfél gyenge pontjait, és állandó nyomás alatt tartja.
+- **Crossroads-specialista**: Crusader Pilaw Crossroads pályáján a Patkány helyét egy szándékosan tétlen MI veszi át, amelynek legyőzéséért jutalom jár.
 
-**Túléled a rohamát? Harcolj vagy bukj el.**
+**Túléled a rohamát? Harcolj, vagy bukj el.**
+
+## **Készítők**
+
+A csomag MI-it [**Krarilotus**](https://github.com/Krarilotus) készítette és bocsátotta rendelkezésre.

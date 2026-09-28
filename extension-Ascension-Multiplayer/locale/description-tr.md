@@ -1,28 +1,34 @@
-# Ascension Multiplayer Balance Mod — Stronghold Crusader
+# **Ascension Multiplayer Balance Mod - Stronghold Crusader**
 
-Ascension Multiplayer Balance Mod, Stronghold Crusader’ı hızlı ve rekabetçi bir gerçek zamanlı strateji oyununa dönüştürür. Unofficial Crusader Patch üzerine kuruludur; dinamik çok oyunculu mücadele için geliştirilmiş mekanikler, dengeli başlangıç, hata düzeltmeleri ve hassas ayarlanmış ekonomi sunar.
+![](https://raw.githubusercontent.com/Krarilotus/Ascension/ucp3-ascension/extension-Ascension-Multiplayer/locale/ascension-multiplayer-match.png)
 
-## Automarket güncellemesi (1.0.10)
+**Ascension Multiplayer Balance Mod**, Stronghold Crusader'ın çok oyunculu deneyimini rekabetçi ve hızlı tempolu bir gerçek zamanlı strateji oyununa dönüştürür. **Unofficial Crusader Patch** üzerine kurulan mod; geliştirilmiş oyun mekanikleri, dengeli başlangıç koşulları, hata düzeltmeleri ve dinamik çok oyunculu karşılaşmalar için özenle ayarlanmış bir ekonomi sistemi sunar.
 
-Çok oyunculu eşitleme ve ticaret ücreti düzeltmeleri içeren **1.x serisinde Automarket 1.1.0 veya üstü** gerekir. Tüm katılımcılar aynı sürümü kullanmalıdır. Automarket 1.0.0 ile oluşturulan kayıtlarda otomatik ticaretin sürmesi için her oyuncu Automarket’te **Save & Close** işlemini onaylamalıdır.
+---
 
-## Özel başlangıç koşulları
+## **Temel özellikler**
 
-- Kaynaklar: 100 odun, 10 taş, 30 ekmek ve diğer her yiyecekten 10.
-- Ordu: 2 Arap okçusu, 2 sapancı ve 1 Arap kılıçlısı.
-- Dengeli ekonomi başlangıcı: bedava altın yok; ilk dakikadan ekonomi geliştirme ve taktik kararlar gerekir.
+### **1. Özelleştirilmiş başlangıç koşulları**
+- **Başlangıç kaynakları**: 100 odun, 10 taş, 30 ekmek ve diğer her yiyecek türünden 10 birim.
+- **Başlangıç ordusu**: 2 Arap okçu, 2 sapancı ve 1 Arap kılıçlı asker.
+- **Dengeli ekonomik başlangıç**: Ücretsiz altın yoktur; böylece ilk dakikadan itibaren ekonomik gelişim ve taktik kararlar önem kazanır.
 
-## Dinamik ekonomi ve savaş
+---
 
-- Gelişen ekonomi: saldırı ve savunmayı dengeleyerek çiftlikleri, madenleri ve sanayiyi yönetin.
-- Taktik savaş: ayarlanmış birlik değerleri ve mekanikler, ordu bileşimini, konumlanmayı ve harita kontrolünü önemli kılar.
-- Esnek tarzlar: erken hücum, savunma veya uzun vadeli genişleme.
+### **2. Dinamik ekonomi ve savaş**
+- **Aşamalı ekonomi**: Saldırı ve savunma ihtiyaçlarını dengelerken çiftlikleri, madenleri ve üretim tesislerini yönetin.
+- **Taktiksel savaş**: Yeniden düzenlenen birim değerleri ve savaş mekanikleri; ordu kompozisyonunu, konumlandırmayı ve harita kontrolünü her zamankinden daha önemli hâle getirir.
+- **Esnek oyun tarzları**: Hızlı saldırı, savunma veya uzun vadeli büyüme odaklı kendi stratejinizi geliştirin.
 
-## Rekabetçi haritalar ve yapay zekâ
+---
 
-- 50’den fazla özel çok oyunculu harita: farklı ortamlarda adil ve taktik oyun için dengelenmiştir.
-- Ascension yapay zekâları: yüksek verimlilik için ayarlanmıştır. Dikkat: Fare, Crossroads için özel bir AFK ödül yapay zekâsıdır.
+### **3. Rekabetçi harita paketi ve yapay zekâ desteği**
+- **100'den fazla özel çok oyunculu harita**: Adil oyun ve taktiksel derinlik için dengelenmiş, farklı oyun tarzlarına uygun çeşitli ortamlar sunar.
+- **Ascension yapay zekâları**: [**Krarilotus'un Ascension yapay zekâ paketini**](https://github.com/Krarilotus/Vanilla-Retraced) ve [**Schlossgespenst'in ayrı Ascension PvE Pressure yapay zekâ paketini**](https://github.com/Schlossgespensty/Schlossgespenst-Ascension-PvE-Pressure-AI) içerir; iki paket de Ascension için ayarlanmıştır. **Rat yapay zekâsı**, Crossroads haritasında bilerek hareketsiz kalır ve onu yenmek oyuncuya ödül kazandırır.
 
-## Topluluğa katılın
+---
 
-Resmî Ascension Discord sunucusunda oyuncular ve maçlar bulun, stratejileri tartışın: [Discord](https://www.discord.gg/VhYtb6mBgV)
+### **Topluluğa katılın**
+Oyuncularla tanışın, karşılaşmalar bulun ve stratejileri **resmî Ascension Discord sunucusunda** tartışın:
+
+**[Discord topluluğuna katılın](https://www.discord.gg/VhYtb6mBgV)**

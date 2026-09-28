@@ -6,6 +6,10 @@
 - **Brutal Aggression**: Leave it unchecked, and it will overwhelm you with constant assaults.  
 - **Smart Expansion**: Secures resources fast and builds an unstoppable economy.  
 - **Adaptive Warfare**: Adjusts tactics to exploit weaknesses and ensure maximum pressure.  
-- **Special Map fit**: Rat is repalced with a bounty AI for Pilaws map - Crossroads
+- **Crossroads Specialist**: The Rat is replaced by an AFK bounty AI designed for Crusader Pilaw's Crossroads map.
 
 **Can you survive its onslaught?** **Fight or fall.**  
+
+## **Credits**
+
+The AIs in this package were created and provided by [**Krarilotus**](https://github.com/Krarilotus).

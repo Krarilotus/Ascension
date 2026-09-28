@@ -1,14 +1,14 @@
 # Ascension AI Balance
 
-Diese Balance verbessert KI-Schlachten und Partien gegen KI-Gegner. Sie ist von der bekannten Ascension-Mehrspielerbalance inspiriert und folgt diesen Grundsätzen:
+Ein Plugin zur Verbesserung des Spielerlebnisses, insbesondere für Schlachten gegen KI-Gegner. Diese Balance ist von der bekannten Ascension-Mehrspielerbalance inspiriert und folgt den folgenden Grundprinzipien:
 
-- Gegen defensiven Fernkampf: Mehr taktische Antworten auf Fernkämpfer in erhöhter Stellung.
-- Größere gefühlte Karten: Kürzere Fernkampfreichweiten lassen Karten größer wirken.
-- Weniger Fernkampfschaden: Fernkampf, Feuer und Flächenschaden gegen Truppen werden reduziert.
-- Überarbeitete Belagerungsgeräte: Teurere, stärkere Geräte betonen Schlagkraft und Konzentration.
-- Fortschritt durch Waffen: Ein ausgewogener Fortschritt mit sinnvollen Waffenverbesserungen.
-- Überarbeitete Beliebtheit: Jeder Einflussfaktor soll relevant und wirksam sein.
-- Gebäudekosten: Abgestimmte Stein- und Eisenkosten fortgeschrittener Gebäude fördern den Spielfortschritt.
-- Warenpreise: Preise richten sich nach Nutzen und Rolle der Waren.
-- Stärkere Mauern: Mauern widerstehen normalen Angriffen besser.
-- Klare Einheitenrollen: Pikeniere als robuste Front, Ritter für Überfälle, Tunnelgräber zum Zerstören von Bauwerken und Mauern.
+- **Gegenmaßnahmen gegen defensive Fernkämpfer**: Mehr strategische Möglichkeiten gegen defensive Fernkämpfer auf erhöhten Positionen schaffen.
+- **Gefühlte Kartengröße**: Die Karte durch geringere Reichweiten der Fernkampfeinheiten größer wirken lassen.
+- **Weniger Fernkampfschaden**: Den Schaden von Fernkampfangriffen, Feuer und Flächenschaden gegen Truppen reduzieren.
+- **Überarbeitung der Belagerungsgeräte**: Belagerungsgeräte teurer und mächtiger machen und ihre Stärke gezielter konzentrieren.
+- **Spielfortschritt durch Waffenoptionen**: Eine ausgewogene Entwicklung mit sinnvollen Waffenverbesserungen ermöglichen.
+- **Überarbeitung des Beliebtheitssystems**: Das Beliebtheitssystem so anpassen, dass jeder Faktor relevant und wirkungsvoll ist.
+- **Anpassung der Gebäudekosten**: Stein- und Eisenkosten fortgeschrittener Gebäude für einen gleichmäßigen Spielfortschritt fein abstimmen.
+- **Ausgewogene Warenpreise**: Warenpreise entsprechend ihrem Nutzen ausbalancieren.
+- **Stärkere Mauern**: Mauern widerstandsfähiger gegen normale Angriffe machen.
+- **Klar definierte Einheitenrollen**: Jeder Einheit eine klare Rolle geben, etwa Pikeniere als Tanks, Ritter für Überfälle und Tunnelgräber gegen Gebäude und Mauern.

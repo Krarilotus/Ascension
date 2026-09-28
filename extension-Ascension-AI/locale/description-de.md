@@ -1,10 +1,15 @@
-# Ascension AI — Stronghold Crusader
+# **Ascension AI - Stronghold Crusader**
 
-Ascension AI ist ein harter Gegner für das Ascension Multiplayer Balance Pack. Sie setzt auf aggressive Expansion, unablässige Angriffe und die Kontrolle des Schlachtfelds.
+**Ascension AI** ist ein erbarmungsloser Gegner für das **Ascension Multiplayer Balance Pack**. Die KI setzt auf schnelle Expansion und ununterbrochene Angriffe, um das Schlachtfeld zu beherrschen.
 
-- Brutale Aggression: Ohne Gegenwehr überwältigt sie dich mit ständigen Angriffen.
-- Kluge Expansion: Sie sichert schnell Ressourcen und baut eine starke Wirtschaft auf.
-- Anpassungsfähige Kriegsführung: Sie nutzt Schwächen aus und hält den Druck aufrecht.
-- Besondere Kartenanpassung: Die Ratte wird durch eine Kopfgeld-KI für Pilaws Karte Crossroads ersetzt.
+### **Hauptmerkmale**
+- **Brutaler Angriffsdruck**: Wer sie ungestört lässt, wird von ständig neuen Angriffswellen überrollt.
+- **Schnelle Expansion**: Sichert früh Ressourcen und baut eine starke Wirtschaft auf.
+- **Anpassungsfähige Kriegsführung**: Nutzt Schwachstellen aus und hält den Druck aufrecht.
+- **Crossroads-Spezialist**: Auf Crusader Pilaws Karte Crossroads wird die Ratte durch eine absichtlich untätige KI ersetzt, für deren Besiegen es eine Belohnung gibt.
 
-**Überstehst du den Ansturm? Kämpfe oder falle.**
+**Überstehst du ihren Ansturm? Kämpfe oder falle.**
+
+## **Mitwirkende**
+
+Die KIs dieses Pakets wurden von [**Krarilotus**](https://github.com/Krarilotus) erstellt und bereitgestellt.
